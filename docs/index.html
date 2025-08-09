@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<!-- Built with spec-md https://spec-md.com -->
+<html>
+<head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><title>Welcome!</title>
+<style>@media (prefers-color-scheme: light){:root{--color-foreground: #333333;--color-background: #ffffff;--color-light-grey: #ccc;--color-grey: #666666;--color-white: #fff;--color-link: #3b5998;--color-subsection-link: var(--color-foreground);--color-toc-link: var(--color-foreground);--color-toc-id: var(--color-link);--color-toggle-border: #bbc;--color-sidebar-background: #f0f0f0;--color-sidebar-viewing-link: #8b9;--color-sidebar-toggle-button: rgba(0, 0, 0, .7);--color-sidebar-shadow-inset: rgba(0, 0, 0, .05);--color-sidebar-shadow: rgba(0, 0, 0, .04);--color-sidebar-large-shadow: rgba(0, 0, 0, .08);--color-pre-background: #fafafa;--color-pre-border: #e9e9e9;--color-code-background: rgba(0, 0, 0, .03);--color-spec-todo: var(--color-grey);--color-spec-example: #fafaff;--color-spec-example-border: #bbbbff;--color-spec-counter-example: #fffafa;--color-spec-counter-border: #ffbbbb;--color-spec-counter-example-link: #98593b;--color-spec-added-border: #396;--color-spec-removed-border: #933;--color-spec-prose: var(--color-grey);--color-spec-quantifier-list: var(--color-link);--color-spec-quantifier-optional: #83238e;--color-spec-condition: #1c7758;--color-spec-param: var(--color-grey);--color-spec-rx: var(--color-foreground);--color-spec-note-border: #f4e925;--color-spec-note-background: #fefef3;--color-spec-note-first-link: #6c6613;--color-source-link: var(--color-light-grey);--color-table-header: #f9f9f9;--color-table-header-border: #d0d0d0;--color-token-inserted: hsla(241, 71%, 34%, .69);--color-token-deleted: hsla(324, 92%, 33%, .74);--color-inserts-background: rgba(0, 200, 30, .08);--color-deletions-background: rgba(200, 0, 0, .08);--selection-background-color: #cacee0;--selection-background-color-link: #f0babe}.selection-link:hover{--selection-background-color: #3b5998}}@media (prefers-color-scheme: dark){:root{--color-foreground: #b6b6b6;--color-background: #262626;--color-light-grey: #373737;--color-grey: #828282;--color-white: rgb(29, 29, 29);--color-link: #89b7da;--color-subsection-link: var(--color-foreground);--color-toc-link: var(--color-foreground);--color-toc-id: var(--color-link);--color-toggle-border: #bbc;--color-sidebar-background: #323232;--color-sidebar-viewing-link: #8b9;--color-sidebar-toggle-button: rgba(220, 220, 220, .7);--color-sidebar-shadow-inset: rgba(0, 0, 0, .05);--color-sidebar-shadow: rgba(0, 0, 0, .04);--color-sidebar-large-shadow: rgba(0, 0, 0, .08);--color-pre-background: #2e2e2e;--color-pre-border: #3a3a3a;--color-code-background: rgba(41, 41, 41, .03);--color-spec-todo: var(--color-grey);--color-spec-example: #2b2b35;--color-spec-example-border: #4d4d6d;--color-spec-counter-example: #322828;--color-spec-counter-border: #664040;--color-spec-counter-example-link: #ff702d;--color-spec-added-border: #396;--color-spec-removed-border: #933;--color-spec-prose: var(--color-grey);--color-spec-quantifier-list: var(--color-link);--color-spec-quantifier-optional: #c689ce;--color-spec-condition: #6fa889;--color-spec-param: var(--color-grey);--color-spec-rx: var(--color-foreground);--color-spec-note-border: #605e39;--color-spec-note-background: #303028;--color-spec-note-first-link: #f0e330;--color-source-link: var(--color-grey);--color-table-header: #373737;--color-table-header-border: #525252;--color-token-inserted: hsla(241, 63%, 70%, .69);--color-token-deleted: hsla(325, 64%, 67%, .74);--color-inserts-background: rgba(0, 200, 30, .08);--color-deletions-background: rgba(200, 0, 0, .08);--selection-background-color: #656565;--selection-background-color-link: #f0babe}.selection-link:hover{--selection-background-color: #829edb}}:root{color:var(--color-foreground);background-color:var(--color-background);font-family:var(--font-family);font-size:15px;line-height:1.5;--mono-font-size: 13px;--indent: 1rem;--list-indent: 1.5rem;--dfn-indent: 0rem;--font-family: Cambria, "Palatino Linotype", Palatino, "Liberation Serif", serif;--font-family-monospace: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace}@media (min-width: 720px){:root{font-size:17px;--mono-font-size: 15px;--indent: 2rem;--list-indent: 2rem;--dfn-indent: 2rem}}body{margin:3rem 0 3rem}article{margin:0 1rem}@media (min-width: 720px){body{margin:6rem auto 3rem;max-width:800px;padding-left:75px;padding-right:clamp(0px,calc((100vw - 800px) * .25),75px)}}.source-link{display:none}@media screen and (min-width: 720px){.source-link{display:block;position:absolute;width:18px;fill:var(--color-source-link);opacity:.3}.source-link:hover{opacity:1}}.outdated-selection-link,.selection-link{position:absolute;display:block;color:var(--color-white);background:var(--selection-background-color);border-radius:4px;font-size:36px;height:23px;line-height:48px;text-align:center;text-decoration:none;width:25px;user-select:none;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none}.outdated-selection-link:hover,.selection-link:hover{text-decoration:none}.outdated-selection-link:before,.selection-link:before{border:5px solid transparent;content:"";height:0;margin-top:-5px;margin-right:-5px;position:absolute;right:1px;top:50%;width:0}@media (max-width: 719px){.outdated-selection-link:before,.selection-link:before{border-bottom-color:var(--selection-background-color);border-top:0;right:50%;top:1px}}@media (min-width: 720px){.outdated-selection-link:before,.selection-link:before{border-left-color:var(--selection-background-color);border-right:0;right:1px;top:50%}}.outdated-selection-link{background:var(--selection-background-color-link);font-size:21px;font-weight:800;line-height:27px}.outdated-selection-link:hover:after{content:"This selection content has changed since this link was created.";font:9pt/11pt var(--font-family);position:absolute;display:block;white-space:nowrap;padding:2px 5px 1px;top:-20px;background:black;color:var(--color-white)}a{color:var(--color-link);text-decoration:none}a:hover{text-decoration:underline}img{max-width:100%}dl{margin:1rem 0 1rem var(--dfn-indent)}dd{margin:.25em 0 .5em var(--indent)}dd+dd{margin-top:1rem}dfn,.spec-ref{font-style:italic}dfn>a,.spec-ref>a{color:inherit}h1,h2,h3,h4,h5,h6{font-weight:bold;margin:3em 0 1em;position:relative}@media (min-width: 720px){header>h1{margin:6em 0 3em}}h1{font-size:1.5em;margin-top:5em}h2,h3{font-size:1.25em}h4,h5,h6{font-size:1em}section{padding-top:1rem;margin-top:-1rem}section.subsec>h6{margin-top:2em}section.subsec>h6>a{color:var(--color-subsection-link)}section .spec-secid{margin-right:1ex}@media (min-width: 720px){section .spec-secid{position:absolute;right:100%;text-align:right;white-space:nowrap}}footer{font-size:75%;opacity:.5;text-align:center;margin-top:12rem}.spec-toc{margin:1rem 0 3rem}.spec-toc .title{content:"Contents";display:block;font-weight:bold;margin:5em 0 1em}.spec-toc .spec-secid{margin-right:1ex}.spec-toc ol{list-style:none;padding-left:0;margin-top:0;margin-bottom:0}.spec-toc ol ol{list-style:none;padding-left:2ex;margin-bottom:.25em}.spec-toc li{position:relative;padding:5px 0 0 30px;margin:-5px 0 0 -30px}.spec-toc a{color:var(--color-toc-link)}.spec-toc a:hover{text-decoration:none}.spec-toc a .spec-secid{color:var(--color-toc-id)}.spec-toc a:hover .spec-secid{text-decoration:underline}.spec-toc .toggle{display:none}.spec-toc .toggle+label{cursor:pointer;left:6px;opacity:1;padding:5px 6px 5px 7px;position:absolute;top:6px;transform:rotate(0deg);transition:all .18s ease-in-out}.spec-toc .toggle+label:after{border-color:transparent transparent transparent var(--color-toggle-border);border-style:solid;border-width:6px 0 6px 7px;content:" ";display:block;height:0;width:0}@media (pointer: fine){.spec-toc .toggle+label{left:10px;padding:3px 5px 3px 6px;top:8px}}.spec-toc .toggle:checked+label{transform:rotate(90deg)}@media (hover: hover){.spec-toc li:not(:hover)>.toggle:checked+label{opacity:0}}.spec-toc .toggle:not(:checked)~ol{max-height:0;overflow:hidden;margin:0}.spec-sidebar-toggle{display:none}.spec-sidebar-toggle+label>.spec-sidebar-button{position:fixed;right:0;top:0;padding:10px 15px;font-size:30px;color:var(--color-sidebar-toggle-button);z-index:2;cursor:pointer;user-select:none;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none}.spec-sidebar-toggle:checked+label:after{content:"";position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:0}.spec-sidebar{display:none;position:fixed;right:0;top:0;width:min(320px,calc(100vw - 48px));font-size:14px;line-height:1.75;overflow-y:scroll;height:100%;padding:0 0 5rem 30px;box-sizing:border-box;background:var(--color-sidebar-background);box-shadow:inset 1px 0 var(--color-sidebar-shadow-inset),-4px 0 8px -2px var(--color-sidebar-shadow);overscroll-behavior:contain}.spec-sidebar{user-select:none;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none}.spec-sidebar-toggle:checked~.spec-sidebar{display:block}.spec-sidebar .viewing>a:after{color:var(--color-sidebar-viewing-link);content:"\2022";margin-left:1ex}@media (min-width: 1220px){.spec-sidebar-toggle+label{display:none}.spec-sidebar{display:block;box-shadow:inset 1px 0 var(--color-sidebar-shadow-inset),inset 4px 0 8px -2px var(--color-sidebar-large-shadow)!important}body{padding-right:345px}}.spec-note{background:var(--color-spec-note-background);border-left:solid 4px var(--color-spec-note-border);margin:1rem -1rem;min-width:70vw;padding:8px 1rem 12px calc(1rem - 4px);width:-moz-fit-content;width:-webkit-fit-content;width:fit-content}@media (min-width: 720px){.spec-note{min-width:416px}}.spec-note>a:first-child{color:var(--color-spec-note-first-link);display:block;font:italic 11pt/18pt var(--font-family);opacity:.6;user-select:none}.spec-todo{color:var(--color-spec-todo);margin:1em 0 1em 5em;min-height:1em}.spec-todo::before{content:"todo";display:block;float:left;margin-left:-5em;text-transform:uppercase}.spec-index ol{list-style-type:none;margin:0 0 0 var(--indent);padding:0;column-width:210px;column-gap:var(--indent)}.spec-index ol li{width:min-content;white-space:nowrap}pre,code{font-family:var(--font-family-monospace);font-size:var(--mono-font-size);font-weight:inherit}code{background:var(--color-code-background);margin:-2px -1px;padding:3px 3px;white-space:pre-wrap}pre>code{background:none;font-weight:inherit;margin:0;padding:0;white-space:pre}pre{background:var(--color-pre-background);border-left:solid 4px var(--color-pre-border);margin:1rem -1rem;min-width:70vw;padding:12px 1rem 12px calc(1rem - 4px);width:-moz-fit-content;width:-webkit-fit-content;width:fit-content;max-width:calc(100vw - 2rem);overflow-y:auto}@media (min-width: 720px){pre{min-width:40ch}}.spec-example{background:var(--color-spec-example);border-left:solid 4px var(--color-spec-example-border);padding-top:8px}.spec-counter-example{background:var(--color-spec-counter-example);border-left:solid 4px var(--color-spec-counter-border);padding-top:8px}.spec-example>a,.spec-counter-example>a{display:block;font:italic 11pt/18pt var(--font-family);opacity:.6;user-select:none}.spec-counter-example>a{color:var(--color-spec-counter-example-link)}table{border-collapse:collapse}th{background-color:var(--color-table-header)}td,th{border:1px solid var(--color-table-header-border);padding:.4em;vertical-align:baseline}ol,ul{padding-left:var(--list-indent)}li>ol,li>ul{margin-top:.25em;margin-bottom:.5em}li+li{margin-top:.25em}li.task{list-style-type:none;position:relative}li.task>input:first-child{margin-left:0;position:absolute;transform:translateX(calc(-100% - 1ch))}ins{background-color:var(--color-inserts-background);text-decoration:none}del{background-color:var(--color-deletions-background)}.spec-added,.spec-removed{border-left:4px solid;margin-left:-18px;padding-left:14px}.spec-added{border-color:var(--color-spec-added-border)}.spec-removed{border-color:var(--color-spec-removed-border);text-decoration:line-through}.spec-keyword{font-weight:bold}.spec-string{font-family:var(--font-family-monospace);font-size:85%;white-space:pre}var{font-style:italic}*[data-name]{transition:.15s background ease-out;border-radius:2px;padding:0 3px;margin:0 -3px}.spec-semantic,.spec-algo{margin:1rem 0 1rem var(--dfn-indent)}.spec-semantic>.spec-nt::after,.spec-algo>.spec-call:first-child::after{content:":";font-style:normal;font-weight:bold;margin-left:1ex}.spec-semantic ol,.spec-semantic ol ol ol ol,.spec-algo ol,.spec-algo ol ol ol ol{list-style-type:decimal}.spec-semantic ol ol,.spec-semantic ol ol ol ol ol,.spec-algo ol ol,.spec-algo ol ol ol ol ol{list-style-type:lower-alpha}.spec-semantic ol ol ol,.spec-semantic ol ol ol ol ol ol,.spec-algo ol ol ol,.spec-algo ol ol ol ol ol ol{list-style-type:lower-roman}.spec-call>a{color:inherit}.spec-production{margin:1rem 0 1rem var(--dfn-indent)}.spec-production>.spec-nt::after{content:":";font-style:normal;font-weight:bold;margin:0 1ex}.spec-semantic.d2>.spec-nt::after,.spec-production.d2>.spec-nt::after{content:"::"}.spec-semantic.d3>.spec-nt::after,.spec-production.d3>.spec-nt::after{content:":::"}.spec-production>.spec-rhs{line-height:1.1;margin:.25em 0 .5em calc(2 * var(--indent));text-indent:calc(-1 * var(--indent))}.spec-semantic>.spec-rhs{display:inline-block;text-indent:calc(-1 * var(--indent));margin-left:calc(1ex + var(--indent))}.spec-rhs>*{text-indent:0}.spec-oneof{display:inline}.spec-oneof::before{content:"one of";font-style:normal;font-weight:bold}.spec-oneof-grid{max-width:calc(100vw - 2rem);overflow:auto;margin:-1ex -1rem;padding:1ex 1rem}.spec-oneof-grid>table{margin-left:var(--indent)}.spec-oneof .spec-rhs{border:none;margin:0;padding:0 0 0 1rem;vertical-align:baseline;white-space:pre}.spec-oneof .spec-rhs:first-child{padding:0}.spec-rhs .spec-constrained:not(:first-child),.spec-rhs .spec-quantified:not(:first-child),.spec-rhs .spec-nt:not(:first-child),.spec-rhs .spec-t:not(:first-child),.spec-rhs .spec-rx:not(:first-child),.spec-rhs .spec-prose:not(:first-child),.spec-rhs .spec-empty:not(:first-child),.spec-rhs .spec-lookahead:not(:first-child){margin-left:1ex;display:inline-block}.spec-condition{font-size:85%}.spec-condition::before{content:"[if "}.spec-condition.not::before{content:"[if not "}.spec-condition::after{content:"]"}.spec-empty,.spec-prose{color:var(--color-spec-prose)}.spec-nt{font-style:italic}.spec-nt>a{color:inherit}.spec-quantifiers,.spec-params{font-size:65%;font-style:normal;vertical-align:sub}.spec-quantifier.list{color:var(--color-spec-quantifier-list)}.spec-quantifier.optional{color:var(--color-spec-quantifier-optional)}.spec-params,.spec-condition{color:var(--color-spec-condition)}.spec-params::before{content:"["}.spec-params::after{content:"]"}.spec-quantifier:not(:last-child)::after,.spec-param:not(:last-child)::after{color:var(--color-spec-param);content:", "}.spec-param.conditional::before{content:"?"}.spec-param.negated::before{content:"!"}.spec-t,.spec-rx{color:var(--color-spec-rx);font-family:var(--font-family-monospace);font-weight:bold}.spec-butnot::before{color:var(--color-grey);content:"but not";font-family:var(--font-family);font-weight:normal;margin-right:1ex}.spec-butnot>*:not(:first-child)::before{color:var(--color-grey);content:"or";font-family:var(--font-family);font-weight:normal;margin-right:1ex}.spec-rhs .spec-oneof::before,.spec-rhs .spec-butnot::before{margin-left:1ex}.spec-lookahead>*{margin:0!important}.spec-lookahead>*:not(:first-child)::before{color:var(--color-grey);content:", ";font-family:var(--font-family);font-style:normal;font-weight:normal}.spec-lookahead::before{color:var(--color-grey);content:"[lookahead = ";font-family:var(--font-family);font-style:normal;font-weight:normal}.spec-lookahead.not::before{content:"[lookahead \2260  "}.spec-lookahead.set::before{content:"[lookahead \2208  {";margin-right:0}.spec-lookahead.set.not::before{content:"[lookahead \2209  {"}.spec-lookahead.ntset::before{content:"[lookahead \2208  ";margin-right:0}.spec-lookahead.ntset.not::before{content:"[lookahead \2209  "}.spec-lookahead::after{color:var(--color-grey);content:"]"}.spec-lookahead.set::after{content:"}]"}code[class*=language-],pre[class*=language-]{color:var(--color-prism-foreground);background:none;text-shadow:0 1px var(--color-prism-text-shadow);font-family:var(--font-family-monospace);font-size:1em;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]::-moz-selection,pre[class*=language-] ::-moz-selection,code[class*=language-]::-moz-selection,code[class*=language-] ::-moz-selection{text-shadow:none;background:var(--color-prism-background)}pre[class*=language-]::selection,pre[class*=language-] ::selection,code[class*=language-]::selection,code[class*=language-] ::selection{text-shadow:none;background:var(--color-prism-background)}@media print{code[class*=language-],pre[class*=language-]{text-shadow:none}}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto}:not(pre)>code[class*=language-],pre[class*=language-]{background:var(--color-prism-block-background)}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal}.token.atrule,.token.attr-value,.token.keyword,.token.property,.token.selector,.token.attr-name,.token.builtin,.token.entity,.token.url,.token.inserted{color:var(--color-token-inserted);background:none}.token.tag,.token.boolean,.token.number,.token.string,.token.char,.token.constant,.token.symbol,.token.regex,.token.important,.token.variable,.token.function,.token.class-name,.token.deleted{color:var(--color-token-deleted)}.token.comment,.token.prolog,.token.doctype,.token.cdata,.token.description{color:inherit;opacity:.3}.token.punctuation{color:inherit;opacity:.5}.token.operator,.token.namespace{color:inherit;opacity:.7}</style>
+<script>(function(){var r,a=[];document.addEventListener("readystatechange",function(){document.readyState==="interactive"&&u()});function u(){var n=document.querySelector('label[for="spec-sidebar-toggle"]');n.addEventListener("scroll",o),n.addEventListener("touchmove",o);function o(d){d.preventDefault()}for(var t=document.getElementsByTagName("section"),e=0;e<t.length;e++)t[e].getAttribute("secid")&&a.push(t[e]);var i=window.scrollY,c=!1;window.addEventListener("scroll",function(d){i=window.scrollY,c||(c=!0,window.requestAnimationFrame(function(){s(i),c=!1}))})}function s(n){for(var o=n+document.documentElement.clientHeight/4,t,e=a.length-1;e>=0;e--)if(a[e].offsetTop<o){t=a[e];break}var i=t&&t.getAttribute("secid");i!==r&&(r&&l(r,!1),i&&l(i,!0),r=i)}function l(n,o){document.getElementById("_sidebar_"+n).className=o?"viewing":"";for(var t=n.split(".");t.length;){var e=document.getElementById("_toggle_"+t.join("."));e&&(e.checked=o),t.pop()}}s(window.scrollY);})();</script>
+<script>(function(){var n=document.getElementsByTagName("style")[0].sheet,e;function u(){e&&(n.deleteRule(e),e=void 0)}function d(t){u(),e=n.insertRule('*[data-name="'+t+'"] { background: rgba(230,215,0,0.12); }',n.cssRules.length)}document.documentElement.addEventListener("mouseover",function(t){var a=t.target.attributes["data-name"];a&&d(a.value)});document.documentElement.addEventListener("mouseout",u);})();</script>
+<script>(function(){var R="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_",o,p,r,g;document.addEventListener("selectionchange",E);window.addEventListener("resize",C);window.addEventListener("hashchange",x);window.addEventListener("load",x);function S(n){y(new URL(n.target.href))}function x(){y(window.location)}function y(n){var e=n.hash.match(/^#sel-([A-Za-z0-9-_]+)$/);if(!!e){g=e[1],r=k(g);var t=r.getBoundingClientRect(),d=Math.max(20,Math.floor((window.innerHeight-t.height)*.4));window.scrollTo(0,window.scrollY+t.y-d);var c=document.getSelection();c.empty(),c.addRange(r),C()}}function E(n){var e=document.getSelection();if(e.isCollapsed)o&&(o.parentNode.removeChild(o),o=null);else{var t=e.getRangeAt(0);(!r||t.compareBoundaryPoints(Range.START_TO_START,r)!==0||t.compareBoundaryPoints(Range.END_TO_END,r)!==0)&&(r=t,g=B(r),C())}}function C(){if(!!r){p||(p=document.getElementsByTagName("article")[0]),o||(o=document.createElement("a"),document.body.appendChild(o)),o.href="#sel-"+g,o.onclick=S,o.className=r.isOutdated?"outdated-selection-link":"selection-link",o.innerText=r.isOutdated?"!":"\u201F";var n=window.innerWidth<720,e=r.getBoundingClientRect();if(n)o.style.left=Math.floor(e.x+e.width/2+window.scrollX-13)+"px",o.style.top=Math.floor(e.bottom+window.scrollY+10)+"px";else{var t=p.getBoundingClientRect().x;o.style.left=Math.floor(t+window.scrollX-37)+"px",o.style.top=Math.floor(e.y+window.scrollY-3)+"px"}}}function B(n){var e="",t=N(n.startContainer),d=N(n.endContainer),c=M(t,d);return l(c),l(t.slice(c.length).concat(n.startOffset)),l(d.slice(c.length).concat(n.endOffset)),i(L(n.toString())),e;function i(a){do e+=R[a&31|(a>31?32:0)],a>>=5;while(a>0)}function l(a){i(a.length);for(var h=0;h<a.length;h++)i(a[h])}}function k(n){for(var e=new Array(64),t=0;t<64;t++)e[R.charCodeAt(t)]=t;var d=0,c=m(),i=m(),l=m(),a=w(),h=i.pop(),P=O(c.concat(i)),T=l.pop(),A=O(c.concat(l)),u=document.createRange();return u.setStart(P,h),u.setEnd(A,T),u.isOutdated=a!==void 0&&a!==L(u.toString()),u;function w(){for(var s=0,v=0;d<n.length;){var f=e[n.charCodeAt(d++)];if(s|=(f&31)<<v,v+=5,f<32)return s}}function m(){var s=w();if(s!=null){for(var v=new Array(s),f=0;f<s;f++)v[f]=w();return v}}}function N(n){for(var e=[];n!=document.body;){var t=n.parentNode;e.push(Array.prototype.indexOf.call(t.childNodes,n)),n=t}return e.reverse()}function O(n){for(var e=document.body,t=0;t<n.length&&e;t++)e=e.childNodes[n[t]];return e}function M(n,e){for(var t=0;t<n.length&&t<e.length&&n[t]===e[t];)t++;return n.slice(0,t)}function L(n){for(var e=2166136261,t=0;t<n.length;++t)e^=n.charCodeAt(t),e+=(e<<1)+(e<<4)+(e<<7)+(e<<8)+(e<<24);return(e>>15^e)&32767}})();</script>
+<link href="./css/custom.css" rel="stylesheet"></head>
+<body><article>
+<header>
+<h1>Welcome!</h1>
+<section id="intro">
+<p><img src="./img/profile.jpg" alt="Claude" title="Claude" style="float: right; margin: 0 0 1rem 1rem; max-width: 220px; border-radius: 8px;" /></p>
+<p>Welcome to my digital <a href="./files/CV.pdf">CV</a>, my name is Claude Houle, I am a Montreal-based software developer with 20+ years&rsquo; experience.</p>
+<p>I started in enterprise Java back end (Mediagrif, Compuware/Morgan Stanley, Accovia) building distributed systems and core platforms, and eventually transitioned to iOS in 2010, then served as mobile architect and lead at Spiria and Appcom, creating shared frameworks, establishing CI/CD, and mentoring high-performing teams. </p>
+<p>Currently Lead iOS at Poka, elevating quality and productivity, pioneering visionOS with an Apple-recognized prototype (Vision Pro Dev Kit; day-one launch), and championing testing, tooling, and continuous learning.</p>
+</section>
+<nav class="spec-toc">
+<div class="title">Contents</div>
+<ol>
+<li><a href="#sec-Goals"><span class="spec-secid">1</span>Goals</a></li>
+<li><a href="#sec-undefined.Technologies"><span class="spec-secid">2</span>Technologies</a><ol>
+<li><a href="#sec-Programming-Languages"><span class="spec-secid">2.1</span>Programming Languages</a><ol>
+<li><a href="#sec-Secondary-Languages"><span class="spec-secid">2.1.1</span>Secondary Languages</a></li>
+</ol>
+</li>
+<li><a href="#sec-Operating-Systems"><span class="spec-secid">2.2</span>Operating Systems</a></li>
+<li><a href="#sec-Libraries-Frameworks"><span class="spec-secid">2.3</span>Libraries &amp; Frameworks</a><ol>
+<li><a href="#sec-Apple-Ecosystem"><span class="spec-secid">2.3.1</span>Apple Ecosystem</a></li>
+<li><a href="#sec-Java-Ecosystem"><span class="spec-secid">2.3.2</span>Java Ecosystem</a></li>
+<li><a href="#sec-RDBMS"><span class="spec-secid">2.3.3</span>RDBMS</a></li>
+</ol>
+</li>
+<li><a href="#sec-Testing"><span class="spec-secid">2.4</span>Testing</a><ol>
+<li><a href="#sec-Snapshot-Tests-vs-Xcode-Previews"><span class="spec-secid">2.4.1</span>Snapshot Tests vs. Xcode Previews</a></li>
+<li><a href="#sec-XCUITest"><span class="spec-secid">2.4.2</span>XCUITest</a></li>
+<li><a href="#sec-Code-Coverage"><span class="spec-secid">2.4.3</span>Code Coverage</a></li>
+</ol>
+</li>
+<li><a href="#sec-Patterns-Principles"><span class="spec-secid">2.5</span>Patterns &amp; Principles</a></li>
+<li><a href="#sec-Tools"><span class="spec-secid">2.6</span>Tools</a></li>
+<li><a href="#sec-AI"><span class="spec-secid">2.7</span>AI</a><ol>
+<li><a href="#sec-AlexCode"><span class="spec-secid">2.7.1</span>AlexCode</a></li>
+<li><a href="#sec-Claude-Code"><span class="spec-secid">2.7.2</span>Claude Code</a></li>
+</ol>
+</li>
+</ol>
+</li>
+<li><a href="#sec-Experience"><span class="spec-secid">3</span>Experience</a><ol>
+<li><a href="#sec-Poka-io"><span class="spec-secid">3.1</span>Poka.io</a><ol>
+<li><a href="#sec-Poka-io.Key-Achievements"><span class="spec-secid">3.1.1</span>Key Achievements</a><ol>
+<li><a href="#sec-Team-Productivity"><span class="spec-secid">3.1.1.1</span>Team Productivity</a></li>
+<li><a href="#sec-visionOS-Prototype"><span class="spec-secid">3.1.1.2</span>visionOS Prototype</a></li>
+<li><a href="#sec-Sri-Lankan-Team-Onboarding"><span class="spec-secid">3.1.1.3</span>Sri Lankan Team Onboarding</a></li>
+</ol>
+</li>
+<li><a href="#sec-Poka-io.Responsibilities"><span class="spec-secid">3.1.2</span>Responsibilities</a></li>
+<li><a href="#sec-Poka-io.Technologies-Frameworks"><span class="spec-secid">3.1.3</span>Technologies &amp; Frameworks</a></li>
+</ol>
+</li>
+<li><a href="#sec-Appcom"><span class="spec-secid">3.2</span>Appcom</a><ol>
+<li><a href="#sec-Appcom.Key-Achievements"><span class="spec-secid">3.2.1</span>Key Achievements</a><ol>
+<li><a href="#sec-Shared-Development-Framework"><span class="spec-secid">3.2.1.1</span>Shared Development Framework</a></li>
+</ol>
+</li>
+<li><a href="#sec-Appcom.Responsibilities"><span class="spec-secid">3.2.2</span>Responsibilities</a></li>
+<li><a href="#sec-Appcom.Technologies-Frameworks"><span class="spec-secid">3.2.3</span>Technologies &amp; Frameworks</a></li>
+<li><a href="#sec-Appcom.Projects"><span class="spec-secid">3.2.4</span>Projects</a></li>
+</ol>
+</li>
+<li><a href="#sec-Spiria-Digital"><span class="spec-secid">3.3</span>Spiria Digital</a><ol>
+<li><a href="#sec-Spiria-Digital.Responsibilities"><span class="spec-secid">3.3.1</span>Responsibilities</a></li>
+<li><a href="#sec-Spiria-Digital.Technologies-Frameworks"><span class="spec-secid">3.3.2</span>Technologies &amp; Frameworks</a></li>
+<li><a href="#sec-Spiria-Digital.Projects"><span class="spec-secid">3.3.3</span>Projects</a></li>
+</ol>
+</li>
+<li><a href="#sec-8D-Technologies"><span class="spec-secid">3.4</span>8D Technologies</a><ol>
+<li><a href="#sec-8D-Technologies.Responsibilities"><span class="spec-secid">3.4.1</span>Responsibilities</a></li>
+<li><a href="#sec-8D-Technologies.Technologies-Frameworks"><span class="spec-secid">3.4.2</span>Technologies &amp; Frameworks</a></li>
+</ol>
+</li>
+<li><a href="#sec-Accovia"><span class="spec-secid">3.5</span>Accovia</a><ol>
+<li><a href="#sec-Accovia.Responsibilities"><span class="spec-secid">3.5.1</span>Responsibilities</a></li>
+<li><a href="#sec-Accovia.Key-Challenges"><span class="spec-secid">3.5.2</span>Key Challenges</a></li>
+<li><a href="#sec-Accovia.Technologies"><span class="spec-secid">3.5.3</span>Technologies</a></li>
+</ol>
+</li>
+<li><a href="#sec-Compuware-Montr-al"><span class="spec-secid">3.6</span>Compuware Montréal</a><ol>
+<li><a href="#sec-Compuware-Montr-al.Responsibilities"><span class="spec-secid">3.6.1</span>Responsibilities</a></li>
+<li><a href="#sec-Compuware-Montr-al.Key-Challenges"><span class="spec-secid">3.6.2</span>Key Challenges</a></li>
+<li><a href="#sec-Compuware-Montr-al.Technologies"><span class="spec-secid">3.6.3</span>Technologies</a></li>
+</ol>
+</li>
+<li><a href="#sec-Mediagrif"><span class="spec-secid">3.7</span>Mediagrif</a><ol>
+<li><a href="#sec-Mediagrif.Responsibilities"><span class="spec-secid">3.7.1</span>Responsibilities</a></li>
+<li><a href="#sec-Mediagrif.Key-Challenges"><span class="spec-secid">3.7.2</span>Key Challenges</a></li>
+<li><a href="#sec-Mediagrif.Technologies"><span class="spec-secid">3.7.3</span>Technologies</a></li>
+</ol>
+</li>
+</ol>
+</li>
+<li><a href="#sec-Education"><span class="spec-secid">4</span>Education</a></li>
+<li><a href="#sec-My-Journey"><span class="spec-secid">5</span>My Journey</a><ol>
+<li><a href="#sec-Early-Years"><span class="spec-secid">5.1</span>Early Years</a></li>
+<li><a href="#sec-Meeting-the-Internet"><span class="spec-secid">5.2</span>Meeting the Internet</a></li>
+<li><a href="#sec-Catching-the-Programming-Bug"><span class="spec-secid">5.3</span>Catching the Programming Bug</a></li>
+<li><a href="#sec-College"><span class="spec-secid">5.4</span>College</a></li>
+<li><a href="#sec-Internship-First-CS-Job"><span class="spec-secid">5.5</span>Internship / First CS Job</a></li>
+<li><a href="#sec-From-Java-Developer-to-iOS-Developer"><span class="spec-secid">5.6</span>From Java Developer to iOS Developer</a></li>
+</ol>
+</li>
+</ol>
+</nav>
+</header>
+<section id="sec-Goals" secid="1">
+<h1><span class="spec-secid" title="link to this section"><a href="#sec-Goals">1</a></span>Goals</h1>
+<p>I consider myself a technology enthusiast, and my goal is to develop software solutions that enhance the lives of end users through meticulously designed applications. I believe that mobile phones and tablets, particularly Apple&rsquo;s devices, serve as the ideal platforms for delivering such software.</p>
+<p>I am committed to continuously refining my skills by exploring new patterns, paradigms, and technologies. My goal is to consistently enhance my capabilities as a developer, striving to improve upon my performance from the previous week or month.</p>
+<p>I believe in engaging early with product discovery and design to translate user needs and business goals into clear, testable requirements. I enjoy partnering with product managers and designers to shape scope, validate assumptions with data and prototypes, and propose pragmatic, high‑impact solutions that balance technical feasibility, UX quality, and time‑to‑value. This product‑minded approach aligns engineering work with measurable outcomes and reduces risk through iterative delivery.</p>
+<p>Additionally, I have been fortunate to receive mentorship from exceptional software developers early in my career. In the past 5 to 7 years, I have taken on the role of mentor myself, guiding the next generation of software engineers to enhance their skills and professionalism.</p>
+</section>
+<section id="sec-undefined.Technologies" secid="2">
+<h1><span class="spec-secid" title="link to this section"><a href="#sec-undefined.Technologies">2</a></span>Technologies</h1>
+<p>Here&rsquo;s a curated overview of the technologies I use to ship production software. It highlights deep expertise across Apple platforms (iOS, visionOS, macOS) with Swift/Objective‑C, grounded by prior Java/Kotlin experience and supporting infrastructure. To keep the terminology digestible, each section includes short, high‑level descriptions and notes on where my practical depth lies.</p>
+<section id="sec-Programming-Languages" secid="2.1">
+<h2><span class="spec-secid" title="link to this section"><a href="#sec-Programming-Languages">2.1</a></span>Programming Languages</h2>
+<ul>
+<li>Swift &mdash; Apple&rsquo;s modern, safe, and performant language for iOS, macOS, watchOS, tvOS, and visionOS.</li>
+<li>Objective-C &mdash; Apple&rsquo;s Legacy language for developing on Apple&rsquo;s platforms.</li>
+<li>Java</li>
+<li>Kotlin &mdash; A concise, modern JVM language used primarily for Android and server-side development.</li>
+</ul>
+<section id="sec-Secondary-Languages" secid="2.1.1">
+<h3><span class="spec-secid" title="link to this section"><a href="#sec-Secondary-Languages">2.1.1</a></span>Secondary Languages</h3>
+<p>Other languages &amp; technologies that I have worked with over the years:</p>
+<ul>
+<li>C/C++</li>
+<li>Python</li>
+<li>JavaScript / TypeScript</li>
+<li>SQL</li>
+</ul>
+<div id="note-2082b" class="spec-note">
+<a href="#note-2082b">Note</a>
+Although I list these technologies, I do not position myself as an expert in them today.</div>
+</section>
+</section>
+<section id="sec-Operating-Systems" secid="2.2">
+<h2><span class="spec-secid" title="link to this section"><a href="#sec-Operating-Systems">2.2</a></span>Operating Systems</h2>
+<ul>
+<li>iOS</li>
+<li>visionOS</li>
+<li>watchOS</li>
+<li>tvOS</li>
+<li>macOS</li>
+<li>Linux (Debian and derivatives, like Ubuntu and Mint)</li>
+<li>Android</li>
+</ul>
+<div id="note-4f079" class="spec-note">
+<a href="#note-4f079">Note</a>
+I have used Windows professionally as a desktop OS when required, but I prefer Unix-based systems&mdash;ideally macOS&mdash;for productivity and workflow familiarity.</div>
+<div id="note-3e6f5" class="spec-note">
+<a href="#note-3e6f5">Note</a>
+I have developed for Android in the past, but my knowledge predates Jetpack Compose. While I can regain proficiency, my current focus is the Apple ecosystem.</div>
+</section>
+<section id="sec-Libraries-Frameworks" secid="2.3">
+<h2><span class="spec-secid" title="link to this section"><a href="#sec-Libraries-Frameworks">2.3</a></span>Libraries &amp; Frameworks</h2>
+<p>A non-exhaustive list of frameworks I&rsquo;m proficient with and that remains relevant.</p>
+<section id="sec-Apple-Ecosystem" secid="2.3.1">
+<h3><span class="spec-secid" title="link to this section"><a href="#sec-Apple-Ecosystem">2.3.1</a></span>Apple Ecosystem</h3>
+<ul>
+<li>SwiftUI &mdash; Declarative UI framework for building interfaces across Apple platforms.</li>
+<li>UIKit &mdash; Imperative UI framework for iOS; extensive experience with programmatic Auto Layout.</li>
+<li>Combine &mdash; Reactive framework for handling asynchronous events and data streams.</li>
+<li>RxSwift / RxCocoa &mdash; Reactive programming library for composing asynchronous and event-based code.</li>
+<li>Core Data &mdash; Object graph and persistence framework for data modelling and storage.</li>
+<li>SwiftData &mdash; Modern, Swift-first persistence layers built on Core Data concepts.</li>
+<li>Core Location &mdash; Location and geofencing services for device positioning.</li>
+<li>MapKit &mdash; Native mapping and annotations for location-aware apps.</li>
+<li>AVKit &mdash; High-level media playback UI components.</li>
+<li>AVFoundation &mdash; Low-level audio/video processing, capture, and composition.</li>
+<li>Core Image &mdash; GPU-accelerated image processing and filters.</li>
+<li>Core Animation &mdash; High-performance animations and compositing.</li>
+</ul>
+</section>
+<section id="sec-Java-Ecosystem" secid="2.3.2">
+<h3><span class="spec-secid" title="link to this section"><a href="#sec-Java-Ecosystem">2.3.2</a></span>Java Ecosystem</h3>
+<ul>
+<li>Spring Framework / Spring Boot &mdash; Enterprise application framework and opinionated bootstrapping for microservices.</li>
+<li>Hibernate &mdash; ORM for mapping Java objects to relational databases.</li>
+<li>Apache Tomcat &mdash; Lightweight servlet container for Java web applications.</li>
+<li>Apache Lucene &mdash; Full-text search library for indexing and retrieval.</li>
+<li>JBoss (WildFly) &mdash; Java EE application server for enterprise deployments.</li>
+<li>Liquibase &mdash; Database schema change management and versioning.</li>
+<li>Log4j &mdash; Logging framework for configurable, granular application logs.</li>
+<li>Apache Maven &mdash; Build automation and dependency management.</li>
+<li>Apache Ant &mdash; Scriptable build tool for Java projects.</li>
+<li>Apache ActiveMQ &mdash; Message broker for asynchronous messaging patterns.</li>
+<li>J2EE (JDBC, JTA, EJBs) &mdash; Enterprise standards for persistence, transactions, and components.</li>
+<li>JUnit &mdash; Unit testing framework for Java.</li>
+<li>Mockito &mdash; Mocking framework for isolated unit tests.</li>
+</ul>
+<div id="note-e9254" class="spec-note">
+<a href="#note-e9254">Note</a>
+While I can regain deeper proficiency in the Java ecosystem as needed, my current investment is primarily in iOS and Apple-platform development.</div>
+</section>
+<section id="sec-RDBMS" secid="2.3.3">
+<h3><span class="spec-secid" title="link to this section"><a href="#sec-RDBMS">2.3.3</a></span>RDBMS</h3>
+<p>Foundational database administration and usage:</p>
+<ul>
+<li>PostgreSQL &mdash; Advanced open-source relational database with strong SQL and extensions.</li>
+<li>MySQL &mdash; Widely used open-source relational database for web and application workloads.</li>
+<li>MariaDB &mdash; Community-driven fork of MySQL with performance and compatibility focus.</li>
+</ul>
+</section>
+</section>
+<section id="sec-Testing" secid="2.4">
+<h2><span class="spec-secid" title="link to this section"><a href="#sec-Testing">2.4</a></span>Testing</h2>
+<p>I&rsquo;m a firm believer that unit tests are an integral part of a healthy codebase.</p>
+<ul>
+<li>XCTest &mdash; Native unit testing framework for Swift and Objective-C.</li>
+<li>XCUITest &mdash; UI testing for end-to-end user flows in Apple-platform apps.</li>
+<li>Swift Testing &mdash; Modern, Swift-first testing framework for improved ergonomics and structure.</li>
+<li>SwiftyMocky &mdash; Code generation for protocol-based mocks in Swift.</li>
+<li>Snapshot Testing &mdash; Visual regression testing by comparing rendered UI snapshots.</li>
+<li>Nimble &mdash; Expressive matcher framework for readable test assertions.</li>
+</ul>
+<section id="sec-Snapshot-Tests-vs-Xcode-Previews" secid="2.4.1">
+<h3><span class="spec-secid" title="link to this section"><a href="#sec-Snapshot-Tests-vs-Xcode-Previews">2.4.1</a></span>Snapshot Tests vs. Xcode Previews</h3>
+<p>Xcode Previews provide immediate, design-time feedback, allowing developers to see changes in real time and minimize the feedback loop. Snapshot tests operate on a longer cycle but are essential for catching visual regressions as the product evolves. I leverage both by using a lightweight approach to convert SwiftUI previews into snapshot tests with minimal code, combining rapid iterations with robust regression protection.</p>
+</section>
+<section id="sec-XCUITest" secid="2.4.2">
+<h3><span class="spec-secid" title="link to this section"><a href="#sec-XCUITest">2.4.2</a></span>XCUITest</h3>
+<p>Valuable for validating end-to-end behaviour before App Store releases, but inherently more fragile than unit tests. With careful isolation and robust selectors, they help reduce production defects.</p>
+</section>
+<section id="sec-Code-Coverage" secid="2.4.3">
+<h3><span class="spec-secid" title="link to this section"><a href="#sec-Code-Coverage">2.4.3</a></span>Code Coverage</h3>
+<p>Coverage is a useful signal&mdash;not a goal in itself. Pursuing 100% often has diminishing returns. In my experience, ~75% coverage correlates with strong stability and infrequent severe defects reaching users.</p>
+</section>
+</section>
+<section id="sec-Patterns-Principles" secid="2.5">
+<h2><span class="spec-secid" title="link to this section"><a href="#sec-Patterns-Principles">2.5</a></span>Patterns &amp; Principles</h2>
+<ul>
+<li>MVVM (Model&ndash;View&ndash;ViewModel) &mdash; Separates presentation logic from views for testability and clarity.</li>
+<li>MVC (Model&ndash;View&ndash;Controller) &mdash; Traditional separation of concerns for UI applications.</li>
+<li>KISS (Keep It Simple, Stupid) &mdash; Favour simplicity to reduce complexity and defects.</li>
+<li>Single Responsibility Principle &mdash; Each module should have one reason to change.</li>
+<li>Law of Demeter &mdash; Promote low coupling by minimizing knowledge of internal object structures.</li>
+</ul>
+</section>
+<section id="sec-Tools" secid="2.6">
+<h2><span class="spec-secid" title="link to this section"><a href="#sec-Tools">2.6</a></span>Tools</h2>
+<ul>
+<li>Git &mdash; Distributed version control and collaboration.</li>
+<li>Apple Xcode &mdash; Primary IDE for Apple-platform development.</li>
+<li>Apple Instruments &mdash; Performance profiling, memory analysis, and energy diagnostics.</li>
+<li>Swift Package Manager &mdash; Dependency management and modularization for Swift.</li>
+<li>CocoaPods &mdash; Dependency manager for iOS/macOS projects.</li>
+<li>Java/Kotlin Ecosystem</li>
+<li>IntelliJ IDEA (and Android Studio) &mdash; IDEs for JVM and Android development.</li>
+<li>Maven &mdash; Declarative build and dependency management.</li>
+<li>Gradle &mdash; Flexible build automation with Groovy/Kotlin DSLs.</li>
+<li>Docker &mdash; A popular containerization tool for creating and deploying software in a scalable and standardized way.</li>
+</ul>
+<div id="note-d62b7" class="spec-note">
+<a href="#note-d62b7">Note</a>
+I&rsquo;ve used many other tools over the years; only the most relevant are listed here.</div>
+</section>
+<section id="sec-AI" secid="2.7">
+<h2><span class="spec-secid" title="link to this section"><a href="#sec-AI">2.7</a></span>AI</h2>
+<p>I&rsquo;m excited by AI&rsquo;s potential to transform software engineering. Developers won&rsquo;t disappear&mdash;we&rsquo;ll be even more essential to steer AI toward robust, ethical, and maintainable solutions. The discipline is changing rapidly, enabling greater productivity and new kinds of creativity that weren&rsquo;t feasible before.</p>
+<section id="sec-AlexCode" secid="2.7.1">
+<h3><span class="spec-secid" title="link to this section"><a href="#sec-AlexCode">2.7.1</a></span>AlexCode</h3>
+<p>AlexCode is a companion for Xcode that brings agentic, cursor-like workflows into the IDE. It&rsquo;s been especially helpful for:</p>
+<ul>
+<li>Translating legacy Objective-C to modern Swift.</li>
+<li>Migrating XIBs/Storyboards to programmatic Auto Layout or SwiftUI.</li>
+<li>Maintaining comprehensive DocC documentation across modules.</li>
+<li>Generating unit tests for previously untested code paths.</li>
+<li>Refactoring tightly coupled code into smaller, testable components.</li>
+</ul>
+<p>These tasks were historically costly to justify; with AI assistance, they can often be completed in a day.</p>
+</section>
+<section id="sec-Claude-Code" secid="2.7.2">
+<h3><span class="spec-secid" title="link to this section"><a href="#sec-Claude-Code">2.7.2</a></span>Claude Code</h3>
+<p>Claude Code is my current choice for agentic workflows, with flexible custom commands, MCPs, and sub-agents that enable flows not easily replicated in other IDE integrations. It excels at structured, multi-step problem solving with strong reasoning and code-editing capabilities. </p>
+</section>
+</section>
+</section>
+<section id="sec-Experience" secid="3">
+<h1><span class="spec-secid" title="link to this section"><a href="#sec-Experience">3</a></span>Experience</h1>
+<p>A brief summary of every position I had in my career (from current to the oldest)</p>
+<section id="sec-Poka-io" secid="3.1">
+<h2><span class="spec-secid" title="link to this section"><a href="#sec-Poka-io">3.1</a></span>Poka.io</h2>
+<p>Poka.io is a web and mobile platform designed for frontline manufacturing teams. It enables workers to capture, consume, and share critical information in real time on the production floor, building a standardized multimedia knowledge base of procedures, training content, and solutions for workstations and machines.</p>
+<ul>
+<li>Title: Lead iOS Developer</li>
+<li>Dates: September 2021 &ndash; Present</li>
+</ul>
+<section id="sec-Poka-io.Key-Achievements" secid="3.1.1">
+<h3><span class="spec-secid" title="link to this section"><a href="#sec-Poka-io.Key-Achievements">3.1.1</a></span>Key Achievements</h3>
+<section id="sec-Team-Productivity" secid="3.1.1.1">
+<h4><span class="spec-secid" title="link to this section"><a href="#sec-Team-Productivity">3.1.1.1</a></span>Team Productivity</h4>
+<p>Transformed the iOS team into a high-performing unit by building internal tools and reusable libraries that reduced development time, improved code quality, and enabled engineers to focus on feature delivery. These initiatives standardized best practices, accelerated onboarding, and significantly increased throughput.</p>
+</section>
+<section id="sec-visionOS-Prototype" secid="3.1.1.2">
+<h4><span class="spec-secid" title="link to this section"><a href="#sec-visionOS-Prototype">3.1.1.2</a></span>visionOS Prototype</h4>
+<p>Initially tasked with porting the existing iOS app to visionOS for an Apple Partner Relations review to obtain a Vision Pro Developer Kit. While the port functioned (with notable SDK limitations), it did not meet the desired product experience. In parallel, independently designed and built a new visionOS-native prototype to push the boundaries of the SDK. The prototype received strong feedback from Apple&mdash;standing out among teams that had only performed minimal ports&mdash;resulting in Poka being awarded a Vision Pro Dev Kit. The app launched on day one of the visionOS App Store.</p>
+</section>
+<section id="sec-Sri-Lankan-Team-Onboarding" secid="3.1.1.3">
+<h4><span class="spec-secid" title="link to this section"><a href="#sec-Sri-Lankan-Team-Onboarding">3.1.1.3</a></span>Sri Lankan Team Onboarding</h4>
+<p>Led the hiring, onboarding, and integration of a Sri Lankan iOS team:</p>
+<ul>
+<li>Designed a rigorous onboarding and training program with real-world examples and hands-on exercises.</li>
+<li>Supervised the onboarding process through code reviews, technical guidance, and Q&amp;A.</li>
+<li>Provided targeted coaching to the local lead to align practices and standards. The team is now a productive, ongoing contributor to the iOS codebase and broader engineering initiatives.</li>
+</ul>
+</section>
+</section>
+<section id="sec-Poka-io.Responsibilities" secid="3.1.2">
+<h3><span class="spec-secid" title="link to this section"><a href="#sec-Poka-io.Responsibilities">3.1.2</a></span>Responsibilities</h3>
+<p>Led the iOS team across multiple applications and initiatives throughout the SDLC:</p>
+<ul>
+<li>Conducted R&amp;D on iOS and visionOS capabilities, architectures, and patterns.</li>
+<li>Established clear collaboration workflows and tools with Product Management and UX Design.</li>
+<li>Provided 1:1 mentorship, code reviews, and career-development guidance.</li>
+<li>Organized recurring lunch-and-learn sessions to foster continuous learning and knowledge sharing.</li>
+<li>Built internal developer tools and templates to boost productivity and consistency.</li>
+<li>Managed CI/CD pipelines and release automation.</li>
+<li>Oversaw automated App Store deployments and release processes.</li>
+</ul>
+</section>
+<section id="sec-Poka-io.Technologies-Frameworks" secid="3.1.3">
+<h3><span class="spec-secid" title="link to this section"><a href="#sec-Poka-io.Technologies-Frameworks">3.1.3</a></span>Technologies &amp; Frameworks</h3>
+<ul>
+<li>Apple:<ul>
+<li>SwiftUI</li>
+<li>UIKit</li>
+<li>Mac Catalyst</li>
+<li>Foundation</li>
+<li>AVKit</li>
+<li>Core Image</li>
+<li>Core Animation</li>
+<li>Core Data</li>
+<li>Combine</li>
+<li>CryptoKit</li>
+</ul>
+</li>
+<li>Third-party<ul>
+<li>Amplitude (Behavior Analytics)</li>
+<li>Sentry (Crash Reporting)</li>
+<li>Intercom (In-App Support)</li>
+<li>Kronos (NTP)</li>
+<li>Pusher (WebSockets)</li>
+<li>Datadog (centralized logging and diagnostics)</li>
+</ul>
+</li>
+<li>CI/CD:<ul>
+<li>GitHub Actions</li>
+<li>MacStadium </li>
+</ul>
+</li>
+</ul>
+</section>
+</section>
+<section id="sec-Appcom" secid="3.2">
+<h2><span class="spec-secid" title="link to this section"><a href="#sec-Appcom">3.2</a></span>Appcom</h2>
+<p>Appcom is a development studio based in Longueuil, Québec, specializing in mobile and web applications. Founded over a decade ago, the company is a key player in the regional digital ecosystem, connecting businesses with their users through innovation and design.</p>
+<ul>
+<li>Title: Lead iOS Developer</li>
+<li>Dates: September 2019 &ndash; September 2021</li>
+</ul>
+<section id="sec-Appcom.Key-Achievements" secid="3.2.1">
+<h3><span class="spec-secid" title="link to this section"><a href="#sec-Appcom.Key-Achievements">3.2.1</a></span>Key Achievements</h3>
+<section id="sec-Shared-Development-Framework" secid="3.2.1.1">
+<h4><span class="spec-secid" title="link to this section"><a href="#sec-Shared-Development-Framework">3.2.1.1</a></span>Shared Development Framework</h4>
+<p>Inspired by practices at larger mobile studios, I designed and implemented a shared iOS library of rigorously documented and unit-tested components to accelerate feature delivery across multiple projects. This framework standardized patterns, reduced duplication, lowered development costs, and improved time-to-market while maintaining quality.</p>
+</section>
+</section>
+<section id="sec-Appcom.Responsibilities" secid="3.2.2">
+<h3><span class="spec-secid" title="link to this section"><a href="#sec-Appcom.Responsibilities">3.2.2</a></span>Responsibilities</h3>
+<p>Led the iOS team across multiple client engagements, spanning planning, development, code review, documentation, and release management throughout the SDLC:</p>
+<ul>
+<li>Conducted R&amp;D on emerging iOS capabilities and architectural patterns.</li>
+<li>Established team processes and collaboration tools to improve communication with product management and UX design.</li>
+<li>Provided 1:1 mentorship, code reviews, and feedback to support growth and performance.</li>
+<li>Organized recurring lunch-and-learn sessions to promote knowledge sharing and continuous learning.</li>
+<li>Built internal developer tools and templates to increase productivity and consistency.</li>
+<li>Managed CI/CD pipelines hosted on MacStadium.</li>
+<li>Owned automated App Store deployments and release processes.</li>
+</ul>
+</section>
+<section id="sec-Appcom.Technologies-Frameworks" secid="3.2.3">
+<h3><span class="spec-secid" title="link to this section"><a href="#sec-Appcom.Technologies-Frameworks">3.2.3</a></span>Technologies &amp; Frameworks</h3>
+<ul>
+<li>Apple:<ul>
+<li>UIKit</li>
+<li>Foundation</li>
+<li>Core Image</li>
+<li>Combine</li>
+<li>CryptoKit</li>
+<li>Core Location (iBeacon)</li>
+<li>MapKit</li>
+</ul>
+</li>
+<li>Third-party:<ul>
+<li>Firebase (Crash Reporting, Analytics)</li>
+<li>Airship (Push Notifications)</li>
+</ul>
+</li>
+<li>CI/CD and tooling:<ul>
+<li>Jenkins</li>
+<li>Fastlane</li>
+<li>MacStadium</li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="sec-Appcom.Projects" secid="3.2.4">
+<h3><span class="spec-secid" title="link to this section"><a href="#sec-Appcom.Projects">3.2.4</a></span>Projects</h3>
+<p>As a mobile development studio, I contributed to numerous client projects, including:</p>
+<ul>
+<li>Metro &amp; Moi</li>
+<li>Super C</li>
+<li>Food Basics</li>
+<li>AbbVie Maviret</li>
+<li>WKND / BLVD Radio</li>
+<li>Le Devoir</li>
+<li>Biodome de Montréal</li>
+<li>Christies Luxury Art</li>
+<li>BeautéStar</li>
+<li>MPN Genie</li>
+<li>Amigo Express</li>
+<li>TaxiCoop</li>
+<li>Technic</li>
+<li>iQuad</li>
+<li>Etc. </li>
+</ul>
+</section>
+</section>
+<section id="sec-Spiria-Digital" secid="3.3">
+<h2><span class="spec-secid" title="link to this section"><a href="#sec-Spiria-Digital">3.3</a></span>Spiria Digital</h2>
+<p>Spiria Digital is a Canadian custom software development agency specializing in tailored digital solutions across industries. Founded in 2003, Spiria delivers high-quality software products and services, including mobile and web applications, application modernization, and digital transformation initiatives.</p>
+<ul>
+<li>Title: Software Architect; Senior iOS Developer</li>
+<li>Dates: October 2013 &ndash; September 2019</li>
+</ul>
+<section id="sec-Spiria-Digital.Responsibilities" secid="3.3.1">
+<h3><span class="spec-secid" title="link to this section"><a href="#sec-Spiria-Digital.Responsibilities">3.3.1</a></span>Responsibilities</h3>
+<ul>
+<li>Led solution architecture for multiple client engagements: requirements analysis, technical discovery, and definition of system architecture, API contracts, data models, and integration strategies.</li>
+<li>Produced architecture artifacts and documentation to guide delivery teams, including security considerations, scalability approaches, and deployment topologies.</li>
+<li>Acted as a hands-on architect when needed, contributing to implementation, code reviews, and technical troubleshooting.</li>
+<li>Defined engineering standards and best practices; mentored developers and collaborated closely with product and UX to align technical solutions with business goals.</li>
+<li>Supported performance tuning, reliability improvements, and DevOps practices to improve delivery speed and quality.</li>
+</ul>
+</section>
+<section id="sec-Spiria-Digital.Technologies-Frameworks" secid="3.3.2">
+<h3><span class="spec-secid" title="link to this section"><a href="#sec-Spiria-Digital.Technologies-Frameworks">3.3.2</a></span>Technologies &amp; Frameworks</h3>
+<p>Specialized in the Apple ecosystem, including</p>
+<ul>
+<li>UIKit (storyboards, XIBs, Auto Layout)</li>
+<li>Foundation</li>
+<li>Core Image</li>
+<li>RxSwift</li>
+<li>CryptoKit</li>
+<li>Core Location</li>
+</ul>
+</section>
+<section id="sec-Spiria-Digital.Projects" secid="3.3.3">
+<h3><span class="spec-secid" title="link to this section"><a href="#sec-Spiria-Digital.Projects">3.3.3</a></span>Projects</h3>
+<p>Representative projects include:</p>
+<ul>
+<li>CAE PreStudy Pilot Training Application &mdash; Architecture and development across back end, front end, and iOS components.</li>
+<li>Acosta SLTouch &mdash; Hybrid mobile application frameworks and feature delivery.</li>
+<li>Skillable App &mdash; Progressive Web App architecture and implementation support.</li>
+<li>Payfare (DiDi / Lyft) &mdash; iOS and Android contributions for fintech-related functionality.</li>
+<li>BookJane &mdash; Mobile development for workforce management features. </li>
+</ul>
+</section>
+</section>
+<section id="sec-8D-Technologies" secid="3.4">
+<h2><span class="spec-secid" title="link to this section"><a href="#sec-8D-Technologies">3.4</a></span>8D Technologies</h2>
+<p>8D Technologies Inc., founded in 1996 and based in Montréal, Québec, is a provider of intelligent transportation systems, specializing in bicycle-sharing and automated parking solutions that enhance urban mobility and user experience.</p>
+<ul>
+<li>Title: Back-End Java Developer (2009); iOS Developer (2010&ndash;2013)</li>
+<li>Dates: October 2009 &ndash; October 2013</li>
+</ul>
+<section id="sec-8D-Technologies.Responsibilities" secid="3.4.1">
+<h3><span class="spec-secid" title="link to this section"><a href="#sec-8D-Technologies.Responsibilities">3.4.1</a></span>Responsibilities</h3>
+<ul>
+<li>Began as a back-end Java developer on the Solstice bike-sharing application suite.</li>
+<li>Transitioned to the iOS team when a position opened, driven by a desire to learn new technologies, adopt modern development paradigms, and contribute to the emerging mobile ecosystem.</li>
+<li>As an iOS developer, I maintained the Spotcycle application (a generic bike-sharing app) and developed the Solstice iOS application, a white-label product within the Solstice suite.</li>
+</ul>
+</section>
+<section id="sec-8D-Technologies.Technologies-Frameworks" secid="3.4.2">
+<h3><span class="spec-secid" title="link to this section"><a href="#sec-8D-Technologies.Technologies-Frameworks">3.4.2</a></span>Technologies &amp; Frameworks</h3>
+<ul>
+<li>UIKit (storyboards, XIBs, Auto Layout)</li>
+<li>Foundation</li>
+<li>Core Image</li>
+<li>Core Location</li>
+<li>MapKit</li>
+<li>CocoaLumberjack</li>
+<li>Crashlytics (pre-Firebase acquisition)</li>
+<li>CocoaPods </li>
+</ul>
+</section>
+</section>
+<section id="sec-Accovia" secid="3.5">
+<h2><span class="spec-secid" title="link to this section"><a href="#sec-Accovia">3.5</a></span>Accovia</h2>
+<p>Accovia was a Montréal-based company specializing in information technology solutions for the travel and tourism industry. Founded in 1985, it became a leader in travel packaging technology, providing software that enabled efficient management of travel packages across supply, design, and distribution.</p>
+<ul>
+<li>Title: Back-End Java Developer</li>
+<li>Dates: September 2007 &ndash; September 2009</li>
+</ul>
+<section id="sec-Accovia.Responsibilities" secid="3.5.1">
+<h3><span class="spec-secid" title="link to this section"><a href="#sec-Accovia.Responsibilities">3.5.1</a></span>Responsibilities</h3>
+<ul>
+<li>Assigned to the Architecture Team to contribute to the core platform that became the Lexo Dynamic Packaging software (internally known as the Ibiza Project).</li>
+<li>Designed and implemented back-end services and integration components using Java, Spring, and Hibernate.</li>
+<li>Collaborated on performance optimization, reliability improvements, and service orchestration within a distributed system.</li>
+<li>Supported build automation and continuous integration practices to improve delivery speed and quality.</li>
+</ul>
+</section>
+<section id="sec-Accovia.Key-Challenges" secid="3.5.2">
+<h3><span class="spec-secid" title="link to this section"><a href="#sec-Accovia.Key-Challenges">3.5.2</a></span>Key Challenges</h3>
+<p>The Ibiza Project emerged from a critical situation in which a major client, having commissioned a modernized version of Accovia&rsquo;s flagship Logitours product, initiated legal action due to performance and reliability issues in the delivered software. Under new leadership, Accovia resolved the dispute and committed to delivering a replacement platform that was fast, reliable, and did not require additional investment from the client.</p>
+<p>The mandate was ambitious: rebuild the platform on a modern technology stack under tight time, budget, and staffing constraints. Through disciplined architecture, focused scope, and rigorous engineering practices, the team delivered the project on time and on budget, I consider myself fortunate to have been part of that team.</p>
+</section>
+<section id="sec-Accovia.Technologies" secid="3.5.3">
+<h3><span class="spec-secid" title="link to this section"><a href="#sec-Accovia.Technologies">3.5.3</a></span>Technologies</h3>
+<ul>
+<li>Java</li>
+<li>Spring Framework</li>
+<li>Hibernate</li>
+<li>JBoss</li>
+<li>Apache ActiveMQ</li>
+<li>Apache Lucene</li>
+<li>JRules (now IBM Operational Decision Manager)</li>
+<li>Apache Maven</li>
+<li>Jenkins </li>
+</ul>
+</section>
+</section>
+<section id="sec-Compuware-Montr-al" secid="3.6">
+<h2><span class="spec-secid" title="link to this section"><a href="#sec-Compuware-Montr-al">3.6</a></span>Compuware Montréal</h2>
+<p>Compuware Montréal was a consultancy division of Compuware Canada serving large-scale software development needs in the banking sector, most notably Morgan Stanley.</p>
+<ul>
+<li>Title: Java Consultant</li>
+<li>Dates: September 2005 &ndash; September 2007</li>
+</ul>
+<section id="sec-Compuware-Montr-al.Responsibilities" secid="3.6.1">
+<h3><span class="spec-secid" title="link to this section"><a href="#sec-Compuware-Montr-al.Responsibilities">3.6.1</a></span>Responsibilities</h3>
+<ul>
+<li>Assigned to the Morgan Stanley account, contributing to the Libra project.</li>
+<li>Migrated business logic from COBOL on z/OS to Java services running on Linux with IBM Db2.</li>
+<li>Implemented and optimized integration patterns for high-throughput, reliable processing.</li>
+<li>Collaborated with cross-functional teams to ensure adherence to enterprise security and compliance standards.</li>
+</ul>
+</section>
+<section id="sec-Compuware-Montr-al.Key-Challenges" secid="3.6.2">
+<h3><span class="spec-secid" title="link to this section"><a href="#sec-Compuware-Montr-al.Key-Challenges">3.6.2</a></span>Key Challenges</h3>
+<p>As a financial institution, Morgan Stanley enforced stringent security, reliability, and compliance requirements. All technology selections required approval from the Enterprise Architecture group based in New York. The project was executed by a globally distributed team&mdash;New York, Budapest, Tokyo, and Vancouver&mdash;demanding careful coordination across time zones and cultures, particularly notable given the tooling and practices of the mid-2000s.</p>
+</section>
+<section id="sec-Compuware-Montr-al.Technologies" secid="3.6.3">
+<h3><span class="spec-secid" title="link to this section"><a href="#sec-Compuware-Montr-al.Technologies">3.6.3</a></span>Technologies</h3>
+<ul>
+<li>Java</li>
+<li>IBM MQSeries</li>
+<li>IBM Db2</li>
+<li>Red Hat Enterprise Linux</li>
+<li>SQL</li>
+<li>Apache Tomcat </li>
+</ul>
+</section>
+</section>
+<section id="sec-Mediagrif" secid="3.7">
+<h2><span class="spec-secid" title="link to this section"><a href="#sec-Mediagrif">3.7</a></span>Mediagrif</h2>
+<p>Mediagrif Interactive Technologies is a Canadian company specializing in SaaS solutions that optimize and accelerate commercial interactions between buyers and sellers. The company operates multiple platforms that support e-commerce, strategic sourcing, and related business processes.</p>
+<ul>
+<li>Title: Java Developer</li>
+<li>Dates: March 2003 &ndash; September 2005</li>
+</ul>
+<section id="sec-Mediagrif.Responsibilities" secid="3.7.1">
+<h3><span class="spec-secid" title="link to this section"><a href="#sec-Mediagrif.Responsibilities">3.7.1</a></span>Responsibilities</h3>
+<ul>
+<li>As a member of the Software Infrastructure team, contributing to the core services, libraries, and tooling used by multiple e-commerce product teams.</li>
+<li>Developed reusable components and data access layers to streamline delivery and improve code quality across projects.</li>
+<li>Supported platform stability, deployment processes, and development standards adopted by various application teams.</li>
+</ul>
+</section>
+<section id="sec-Mediagrif.Key-Challenges" secid="3.7.2">
+<h3><span class="spec-secid" title="link to this section"><a href="#sec-Mediagrif.Key-Challenges">3.7.2</a></span>Key Challenges</h3>
+<p>This was my first full-time professional role, where I focused on building strong engineering fundamentals&mdash;adopting professional practices, learning from mentorship, and developing production-grade software in a collaborative environment.</p>
+</section>
+<section id="sec-Mediagrif.Technologies" secid="3.7.3">
+<h3><span class="spec-secid" title="link to this section"><a href="#sec-Mediagrif.Technologies">3.7.3</a></span>Technologies</h3>
+<ul>
+<li>Java</li>
+<li>Hibernate</li>
+<li>Apache Tomcat</li>
+<li>JBoss</li>
+<li>SQL</li>
+<li>Oracle 8/9</li>
+<li>Apache Ant</li>
+<li>Proprietary internal frameworks and tools </li>
+</ul>
+</section>
+</section>
+</section>
+<section id="sec-Education" secid="4">
+<h1><span class="spec-secid" title="link to this section"><a href="#sec-Education">4</a></span>Education</h1>
+<p>From September 2000 to May 2003, I completed the Computer Science Technology program at Cégep Édouard-Montpetit in Longueuil, Québec, Canada. The curriculum emphasized practical software development and systems fundamentals, covering C, C++, JavaScript, SQL, Linux, and Oracle Database, among other technologies relevant at the time.</p>
+<p>For context, Québec&rsquo;s Computer Science Technology program is a three-year, practice-oriented college diploma focused on programming and applied computing. It is broadly comparable to an associate degree in the United States.</p>
+<p>I initially planned to pursue a bachelor&rsquo;s degree after completing Cégep. However, during my 10-week internship, I learned so much more in practical situations than in the preceding three years, leading me to shift my mindset: I would pursue a bachelor&rsquo;s degree if it ever became necessary for my career. To date, it has not been a limiting factor. </p>
+</section>
+<section id="sec-My-Journey" secid="5">
+<h1><span class="spec-secid" title="link to this section"><a href="#sec-My-Journey">5</a></span>My Journey</h1>
+<p>This is a brief summary of how I became a software developer, how I caught the programming bug, and how that path led me to iOS development.</p>
+<section id="sec-Early-Years" secid="5.1">
+<h2><span class="spec-secid" title="link to this section"><a href="#sec-Early-Years">5.1</a></span>Early Years</h2>
+<p>Like many kids of the &rsquo;80s, my journey with computers began with games. I was fortunate to grow up in a family where technology was part of everyday life, so I had access to game consoles and computers from an early age.</p>
+<p>I have vivid memories of playing on the ColecoVision, Atari 2600, NES, and SNES, and later discovering computer adventures like King&rsquo;s Quest and Space Quest. My father tried to introduce me to programming back then, but I was more interested in playing than coding&mdash;and at seven or eight years old, I was probably a bit too young to fully appreciate it.</p>
+</section>
+<section id="sec-Meeting-the-Internet" secid="5.2">
+<h2><span class="spec-secid" title="link to this section"><a href="#sec-Meeting-the-Internet">5.2</a></span>Meeting the Internet</h2>
+<p>I had early access to the internet thanks to my mother&rsquo;s university account, which meant learning the ropes over a very slow dial-up connection. I wasn&rsquo;t yet focused on programming, but the internet opened the door to something I didn&rsquo;t realize I needed: online gaming.</p>
+<p>I spent countless hours playing cutting-edge titles of the time, eventually diving deep into games like Doom, Quake, Diablo, StarCraft, and Baldur&rsquo;s Gate (And many others)</p>
+</section>
+<section id="sec-Catching-the-Programming-Bug" secid="5.3">
+<h2><span class="spec-secid" title="link to this section"><a href="#sec-Catching-the-Programming-Bug">5.3</a></span>Catching the Programming Bug</h2>
+<p>In high school, I switched from music to a computing course. While I enjoyed guitar, I&rsquo;d hit a plateau and was eager for a new challenge. Given my talent with computers, I thought the class would be easy; instead, it became transformative.</p>
+<p>A teacher recognized my potential and gave me more ambitious assignments&mdash;often game-related&mdash;which lit a spark. I became a fixture in the computer lab: writing code, testing games, helping classmates, and trading tips with other motivated students. I was a total nerd, and I loved it.</p>
+</section>
+<section id="sec-College" secid="5.4">
+<h2><span class="spec-secid" title="link to this section"><a href="#sec-College">5.4</a></span>College</h2>
+<p>From there, the choice was obvious: I wanted to be a software developer. I enrolled in the Computer Science Technology program at Cégep Édouard-Montpetit and never looked back.</p>
+<p>Yes, I trained in C/C++, SQL, and other tools (some now obsolete), but the most valuable takeaways were:</p>
+<ul>
+<li>Humility: even when you know a lot, there&rsquo;s always more to learn.</li>
+<li>Lifelong learning: growth is a journey that requires constant curiosity, practice and effort.</li>
+</ul>
+</section>
+<section id="sec-Internship-First-CS-Job" secid="5.5">
+<h2><span class="spec-secid" title="link to this section"><a href="#sec-Internship-First-CS-Job">5.5</a></span>Internship / First CS Job</h2>
+<p>I graduated in mid-2003 during a difficult job market following the dot-com bust. Many talented graduates struggled to find roles. I was one of the fortunate few hired after my internship, joining Médiagrif (now known as mdfcommerce) as a Java developer for a suite of e-commerce sites across multiple business domains.</p>
+<p>That first role was a crash course in becoming a professional engineer. School provided foundations, but the workplace taught me how to deliver production-grade software, collaborate effectively, and build good engineering habits. I was especially lucky to have mentors who shaped my early career:</p>
+<ul>
+<li><a href="https://www.linkedin.com/in/martin-mailloux1/">Martin Mailloux</a></li>
+<li><a href="https://www.linkedin.com/in/normand-mass%C3%A9-4568641/">Normand Massé</a></li>
+<li><a href="https://www.linkedin.com/in/kristofer-fudalewski-4a449b3/">Kristofer Fudalewski</a></li>
+<li><a href="https://www.linkedin.com/in/j%C3%A9r%C3%B4me-bois-15a339a/">Jérôme Bois</a></li>
+<li><a href="https://www.linkedin.com/in/marc-lg/">Marc-Lavigne Gagnon</a></li>
+<li><a href="https://www.linkedin.com/in/richard-lefrancois/">Richard Lefrançois</a></li>
+<li><a href="https://www.linkedin.com/in/timvoet/">Tim Voet</a></li>
+<li>And many others through conversations, code reviews, brainstorming sessions, and workshops</li>
+</ul>
+<p>Their guidance made me a better developer, and I remain grateful for their mentorship.</p>
+</section>
+<section id="sec-From-Java-Developer-to-iOS-Developer" secid="5.6">
+<h2><span class="spec-secid" title="link to this section"><a href="#sec-From-Java-Developer-to-iOS-Developer">5.6</a></span>From Java Developer to iOS Developer</h2>
+<p>For the first six years of my career, I worked as a back-end Java developer, using technologies like J2EE, Spring, Hibernate, ActiveMQ, Maven, Ant, Gradle, Log4j, JBoss, and Tomcat. I learned a great deal, but eventually my growth plateaued. When Apple released the iPhone and opened up the iOS SDK, I embraced the opportunity to explore something new.</p>
+<p>I had already switched to a Mac at home, so installing Xcode and learning Objective-C was an accessible next step&mdash;though it required a major mindset shift. After years of Java&rsquo;s garbage collection, returning to manual memory management felt like a cold shower.</p>
+<p>Developing for iOS 2/3 came with real constraints:</p>
+<ul>
+<li>No ARC; manual memory management</li>
+<li>No storyboards</li>
+<li>No Auto Layout&mdash;just plain x/y positioning</li>
+<li>No blocks (what we now call closures)</li>
+<li>Extensive use of pointers</li>
+<li>Limited device performance, where inefficiencies could make or break an app</li>
+<li>No readily available crash reporting (Crashlytics, Firebase, Sentry came later)</li>
+</ul>
+<p>It truly felt like a new frontier. I learned a tremendous amount and still do: Apple&rsquo;s annual SDK releases build on prior foundations, demanding continuous adaptation and growth. Compared to ecosystems that evolved more gradually at the time, iOS moved quickly&mdash;and that pace kept the work exciting and rewarding. </p>
+</section>
+</section>
+</article>
+<footer>
+Written in <a href="https://spec-md.com" target="_blank">Spec Markdown</a>.</footer>
+<input hidden class="spec-sidebar-toggle" type="checkbox" id="spec-sidebar-toggle" aria-hidden /><label for="spec-sidebar-toggle" aria-hidden><div class="spec-sidebar-button">&#x2630;</div></label>
+<div class="spec-sidebar" aria-hidden>
+<div class="spec-toc">
+<div class="title"><a href="#">Welcome!</a></div>
+<ol><li id="_sidebar_1"><a href="#sec-Goals"><span class="spec-secid">1</span>Goals</a></li>
+<li id="_sidebar_2"><a href="#sec-undefined.Technologies"><span class="spec-secid">2</span>Technologies</a>
+<input hidden class="toggle" type="checkbox" id="_toggle_2" /><label for="_toggle_2"></label>
+<ol>
+<li id="_sidebar_2.1"><a href="#sec-Programming-Languages"><span class="spec-secid">2.1</span>Programming Languages</a>
+<input hidden class="toggle" type="checkbox" id="_toggle_2.1" /><label for="_toggle_2.1"></label>
+<ol>
+<li id="_sidebar_2.1.1"><a href="#sec-Secondary-Languages"><span class="spec-secid">2.1.1</span>Secondary Languages</a></li>
+</ol>
+</li>
+<li id="_sidebar_2.2"><a href="#sec-Operating-Systems"><span class="spec-secid">2.2</span>Operating Systems</a></li>
+<li id="_sidebar_2.3"><a href="#sec-Libraries-Frameworks"><span class="spec-secid">2.3</span>Libraries &amp; Frameworks</a>
+<input hidden class="toggle" type="checkbox" id="_toggle_2.3" /><label for="_toggle_2.3"></label>
+<ol>
+<li id="_sidebar_2.3.1"><a href="#sec-Apple-Ecosystem"><span class="spec-secid">2.3.1</span>Apple Ecosystem</a></li>
+<li id="_sidebar_2.3.2"><a href="#sec-Java-Ecosystem"><span class="spec-secid">2.3.2</span>Java Ecosystem</a></li>
+<li id="_sidebar_2.3.3"><a href="#sec-RDBMS"><span class="spec-secid">2.3.3</span>RDBMS</a></li>
+</ol>
+</li>
+<li id="_sidebar_2.4"><a href="#sec-Testing"><span class="spec-secid">2.4</span>Testing</a>
+<input hidden class="toggle" type="checkbox" id="_toggle_2.4" /><label for="_toggle_2.4"></label>
+<ol>
+<li id="_sidebar_2.4.1"><a href="#sec-Snapshot-Tests-vs-Xcode-Previews"><span class="spec-secid">2.4.1</span>Snapshot Tests vs. Xcode Previews</a></li>
+<li id="_sidebar_2.4.2"><a href="#sec-XCUITest"><span class="spec-secid">2.4.2</span>XCUITest</a></li>
+<li id="_sidebar_2.4.3"><a href="#sec-Code-Coverage"><span class="spec-secid">2.4.3</span>Code Coverage</a></li>
+</ol>
+</li>
+<li id="_sidebar_2.5"><a href="#sec-Patterns-Principles"><span class="spec-secid">2.5</span>Patterns &amp; Principles</a></li>
+<li id="_sidebar_2.6"><a href="#sec-Tools"><span class="spec-secid">2.6</span>Tools</a></li>
+<li id="_sidebar_2.7"><a href="#sec-AI"><span class="spec-secid">2.7</span>AI</a>
+<input hidden class="toggle" type="checkbox" id="_toggle_2.7" /><label for="_toggle_2.7"></label>
+<ol>
+<li id="_sidebar_2.7.1"><a href="#sec-AlexCode"><span class="spec-secid">2.7.1</span>AlexCode</a></li>
+<li id="_sidebar_2.7.2"><a href="#sec-Claude-Code"><span class="spec-secid">2.7.2</span>Claude Code</a></li>
+</ol>
+</li>
+</ol>
+</li>
+<li id="_sidebar_3"><a href="#sec-Experience"><span class="spec-secid">3</span>Experience</a>
+<input hidden class="toggle" type="checkbox" id="_toggle_3" /><label for="_toggle_3"></label>
+<ol>
+<li id="_sidebar_3.1"><a href="#sec-Poka-io"><span class="spec-secid">3.1</span>Poka.io</a>
+<input hidden class="toggle" type="checkbox" id="_toggle_3.1" /><label for="_toggle_3.1"></label>
+<ol>
+<li id="_sidebar_3.1.1"><a href="#sec-Poka-io.Key-Achievements"><span class="spec-secid">3.1.1</span>Key Achievements</a>
+<input hidden class="toggle" type="checkbox" id="_toggle_3.1.1" /><label for="_toggle_3.1.1"></label>
+<ol>
+<li id="_sidebar_3.1.1.1"><a href="#sec-Team-Productivity"><span class="spec-secid">3.1.1.1</span>Team Productivity</a></li>
+<li id="_sidebar_3.1.1.2"><a href="#sec-visionOS-Prototype"><span class="spec-secid">3.1.1.2</span>visionOS Prototype</a></li>
+<li id="_sidebar_3.1.1.3"><a href="#sec-Sri-Lankan-Team-Onboarding"><span class="spec-secid">3.1.1.3</span>Sri Lankan Team Onboarding</a></li>
+</ol>
+</li>
+<li id="_sidebar_3.1.2"><a href="#sec-Poka-io.Responsibilities"><span class="spec-secid">3.1.2</span>Responsibilities</a></li>
+<li id="_sidebar_3.1.3"><a href="#sec-Poka-io.Technologies-Frameworks"><span class="spec-secid">3.1.3</span>Technologies &amp; Frameworks</a></li>
+</ol>
+</li>
+<li id="_sidebar_3.2"><a href="#sec-Appcom"><span class="spec-secid">3.2</span>Appcom</a>
+<input hidden class="toggle" type="checkbox" id="_toggle_3.2" /><label for="_toggle_3.2"></label>
+<ol>
+<li id="_sidebar_3.2.1"><a href="#sec-Appcom.Key-Achievements"><span class="spec-secid">3.2.1</span>Key Achievements</a>
+<input hidden class="toggle" type="checkbox" id="_toggle_3.2.1" /><label for="_toggle_3.2.1"></label>
+<ol>
+<li id="_sidebar_3.2.1.1"><a href="#sec-Shared-Development-Framework"><span class="spec-secid">3.2.1.1</span>Shared Development Framework</a></li>
+</ol>
+</li>
+<li id="_sidebar_3.2.2"><a href="#sec-Appcom.Responsibilities"><span class="spec-secid">3.2.2</span>Responsibilities</a></li>
+<li id="_sidebar_3.2.3"><a href="#sec-Appcom.Technologies-Frameworks"><span class="spec-secid">3.2.3</span>Technologies &amp; Frameworks</a></li>
+<li id="_sidebar_3.2.4"><a href="#sec-Appcom.Projects"><span class="spec-secid">3.2.4</span>Projects</a></li>
+</ol>
+</li>
+<li id="_sidebar_3.3"><a href="#sec-Spiria-Digital"><span class="spec-secid">3.3</span>Spiria Digital</a>
+<input hidden class="toggle" type="checkbox" id="_toggle_3.3" /><label for="_toggle_3.3"></label>
+<ol>
+<li id="_sidebar_3.3.1"><a href="#sec-Spiria-Digital.Responsibilities"><span class="spec-secid">3.3.1</span>Responsibilities</a></li>
+<li id="_sidebar_3.3.2"><a href="#sec-Spiria-Digital.Technologies-Frameworks"><span class="spec-secid">3.3.2</span>Technologies &amp; Frameworks</a></li>
+<li id="_sidebar_3.3.3"><a href="#sec-Spiria-Digital.Projects"><span class="spec-secid">3.3.3</span>Projects</a></li>
+</ol>
+</li>
+<li id="_sidebar_3.4"><a href="#sec-8D-Technologies"><span class="spec-secid">3.4</span>8D Technologies</a>
+<input hidden class="toggle" type="checkbox" id="_toggle_3.4" /><label for="_toggle_3.4"></label>
+<ol>
+<li id="_sidebar_3.4.1"><a href="#sec-8D-Technologies.Responsibilities"><span class="spec-secid">3.4.1</span>Responsibilities</a></li>
+<li id="_sidebar_3.4.2"><a href="#sec-8D-Technologies.Technologies-Frameworks"><span class="spec-secid">3.4.2</span>Technologies &amp; Frameworks</a></li>
+</ol>
+</li>
+<li id="_sidebar_3.5"><a href="#sec-Accovia"><span class="spec-secid">3.5</span>Accovia</a>
+<input hidden class="toggle" type="checkbox" id="_toggle_3.5" /><label for="_toggle_3.5"></label>
+<ol>
+<li id="_sidebar_3.5.1"><a href="#sec-Accovia.Responsibilities"><span class="spec-secid">3.5.1</span>Responsibilities</a></li>
+<li id="_sidebar_3.5.2"><a href="#sec-Accovia.Key-Challenges"><span class="spec-secid">3.5.2</span>Key Challenges</a></li>
+<li id="_sidebar_3.5.3"><a href="#sec-Accovia.Technologies"><span class="spec-secid">3.5.3</span>Technologies</a></li>
+</ol>
+</li>
+<li id="_sidebar_3.6"><a href="#sec-Compuware-Montr-al"><span class="spec-secid">3.6</span>Compuware Montréal</a>
+<input hidden class="toggle" type="checkbox" id="_toggle_3.6" /><label for="_toggle_3.6"></label>
+<ol>
+<li id="_sidebar_3.6.1"><a href="#sec-Compuware-Montr-al.Responsibilities"><span class="spec-secid">3.6.1</span>Responsibilities</a></li>
+<li id="_sidebar_3.6.2"><a href="#sec-Compuware-Montr-al.Key-Challenges"><span class="spec-secid">3.6.2</span>Key Challenges</a></li>
+<li id="_sidebar_3.6.3"><a href="#sec-Compuware-Montr-al.Technologies"><span class="spec-secid">3.6.3</span>Technologies</a></li>
+</ol>
+</li>
+<li id="_sidebar_3.7"><a href="#sec-Mediagrif"><span class="spec-secid">3.7</span>Mediagrif</a>
+<input hidden class="toggle" type="checkbox" id="_toggle_3.7" /><label for="_toggle_3.7"></label>
+<ol>
+<li id="_sidebar_3.7.1"><a href="#sec-Mediagrif.Responsibilities"><span class="spec-secid">3.7.1</span>Responsibilities</a></li>
+<li id="_sidebar_3.7.2"><a href="#sec-Mediagrif.Key-Challenges"><span class="spec-secid">3.7.2</span>Key Challenges</a></li>
+<li id="_sidebar_3.7.3"><a href="#sec-Mediagrif.Technologies"><span class="spec-secid">3.7.3</span>Technologies</a></li>
+</ol>
+</li>
+</ol>
+</li>
+<li id="_sidebar_4"><a href="#sec-Education"><span class="spec-secid">4</span>Education</a></li>
+<li id="_sidebar_5"><a href="#sec-My-Journey"><span class="spec-secid">5</span>My Journey</a>
+<input hidden class="toggle" type="checkbox" id="_toggle_5" /><label for="_toggle_5"></label>
+<ol>
+<li id="_sidebar_5.1"><a href="#sec-Early-Years"><span class="spec-secid">5.1</span>Early Years</a></li>
+<li id="_sidebar_5.2"><a href="#sec-Meeting-the-Internet"><span class="spec-secid">5.2</span>Meeting the Internet</a></li>
+<li id="_sidebar_5.3"><a href="#sec-Catching-the-Programming-Bug"><span class="spec-secid">5.3</span>Catching the Programming Bug</a></li>
+<li id="_sidebar_5.4"><a href="#sec-College"><span class="spec-secid">5.4</span>College</a></li>
+<li id="_sidebar_5.5"><a href="#sec-Internship-First-CS-Job"><span class="spec-secid">5.5</span>Internship / First CS Job</a></li>
+<li id="_sidebar_5.6"><a href="#sec-From-Java-Developer-to-iOS-Developer"><span class="spec-secid">5.6</span>From Java Developer to iOS Developer</a></li>
+</ol>
+</li>
+</ol>
+</div>
+</div>
+</body>
+</html>
