@@ -1,5 +1,5 @@
 
-I'd like to express gratitude toward a few select individuals who I had the impossibly great honor of working with, I probably told 
+I'd like to express gratitude toward a few select individuals who I had the impossibly great honor of working with. 
 
 ## Médiagrif
 
