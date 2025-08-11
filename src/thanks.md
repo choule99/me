@@ -35,9 +35,9 @@ I'd like to express gratitude toward a few select individuals who I had the impo
 
 ## Spiria Digital
 
-- (Patrick Bergeron)[https://www.linkedin.com/in/patrick-bergeron-0b33b62/]
-- (Stéphane Rouleau)[https://www.linkedin.com/in/srouleau/]
-- (Stéphane Beaudry)[https://www.linkedin.com/in/stephane-beaudry-654a026/]
+- [Patrick Bergeron](https://www.linkedin.com/in/patrick-bergeron-0b33b62/)
+- [Stéphane Rouleau](https://www.linkedin.com/in/srouleau/)
+- [Stéphane Beaudry](https://www.linkedin.com/in/stephane-beaudry-654a026/)
 
 ## Appcom
 
@@ -46,8 +46,8 @@ I'd like to express gratitude toward a few select individuals who I had the impo
 
 ## Poka
 
-- (Marc-Alexandre Bérubé)[https://www.linkedin.com/in/malexberube/]
-- (Jean-François Lintean Labonté)[https://www.linkedin.com/in/brightonlabs-jean-francois-labonte/]
-- (Olivier Mirandette)[https://www.linkedin.com/in/mirandette/]
-- (Antoine Bisson)[https://www.linkedin.com/in/antnbisson/]
+- [Marc-Alexandre Bérubé](https://www.linkedin.com/in/malexberube/)
+- [Jean-François Lintean Labonté](https://www.linkedin.com/in/brightonlabs-jean-francois-labonte/)
+- [Olivier Mirandette](https://www.linkedin.com/in/mirandette/)
+- [Antoine Bisson](https://www.linkedin.com/in/antnbisson/)
 
