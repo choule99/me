@@ -18,6 +18,8 @@ Other languages & technologies that I have worked with over the years:
 
 Note: Although I list these technologies, I do not position myself as an expert in them today.
 
+Note: I could add many more to the list, they are just laughingly obsolete by modern standards.
+
 ## Operating Systems
 
 - iOS
