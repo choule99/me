@@ -1,15 +1,13 @@
 
-## Special Thanks
-
 I'd like to express gratitude toward a few select individuals who I had the impossibly great honor of working with, I probably told 
 
-### Médiagrif
+## Médiagrif
 
 - [Martin Mailloux](https://www.linkedin.com/in/martin-mailloux1/)
 - [Normand Massé](https://www.linkedin.com/in/normand-massé-4568641/)
 - [Richard Lefrançois](https://www.linkedin.com/in/richard-lefrancois/)
 
-### Compuware Montréal
+## Compuware Montréal
 
 - [Maude Ducharme](https://www.linkedin.com/in/maudeducharme/)
 - [Mathieu Gervais](https://www.linkedin.com/in/mathieu-gervais-3814361/)
@@ -17,7 +15,7 @@ I'd like to express gratitude toward a few select individuals who I had the impo
 - [Simon Riopel](https://www.linkedin.com/in/sriopel/)
 - [Anthony John](https://www.linkedin.com/in/anthonymjohn/)
 
-### Accovia
+## Accovia
 
 - [Joan Roch](https://www.linkedin.com/in/j0anr0ch/)
 - [David Lafrance](https://www.linkedin.com/in/davidlafrance/)
@@ -27,7 +25,7 @@ I'd like to express gratitude toward a few select individuals who I had the impo
 - [Christophe Dupré](https://www.linkedin.com/in/cdupre/)
 - [Marc Gagnon](https://www.linkedin.com/in/marcgagnon/)
 
-### 8D Technologies
+## 8D Technologies
 
 - [Manuel Darveau](https://www.linkedin.com/in/manueldarveau/)
 - [Eric Poitras](https://www.linkedin.com/in/eric-poitras/)
@@ -35,18 +33,18 @@ I'd like to express gratitude toward a few select individuals who I had the impo
 - [Sid Ahmed Kaddouri](https://www.linkedin.com/in/sid-ahmed-kaddouri-1717124/)
 - [François Lamarre](https://www.linkedin.com/in/francois-lamarre-5255593/)
 
-### Spiria Digital
+## Spiria Digital
 
 - (Patrick Bergeron)[https://www.linkedin.com/in/patrick-bergeron-0b33b62/]
 - (Stéphane Rouleau)[https://www.linkedin.com/in/srouleau/]
 - (Stéphane Beaudry)[https://www.linkedin.com/in/stephane-beaudry-654a026/]
 
-### Appcom
+## Appcom
 
 - [Jean-Christophe Duchaine](https://www.linkedin.com/in/jcduchaine/)
 - Laurent Boileau
 
-### Poka
+## Poka
 
 - (Marc-Alexandre Bérubé)[https://www.linkedin.com/in/malexberube/]
 - (Jean-François Lintean Labonté)[https://www.linkedin.com/in/brightonlabs-jean-francois-labonte/]
