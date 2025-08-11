@@ -61,3 +61,9 @@ Developing for iOS 2/3 came with real constraints:
 - No readily available crash reporting (Crashlytics, Firebase, Sentry came later)
 
 It truly felt like a new frontier. I learned a tremendous amount and still do: Apple’s annual SDK releases build on prior foundations, demanding continuous adaptation and growth. Compared to ecosystems that evolved more gradually at the time, iOS moved quickly—and that pace kept the work exciting and rewarding.
+
+## The story since then... 
+
+Since then, I have primarily focused on iOS development. While I have explored other technology stacks and adapted to project requirements outside of iOS, my core expertise and passion consistently lead me back to iOS due to my strong preference for the platform.
+
+Note: Regarding cross-platform mobile app frameworks (e.g., React Native, Flutter, Ionic, PhoneGap, Cordova), while I have not directly worked with these frameworks, I have observed that applications built with them often lack the native feel and optimal user experience of truly platform-native solutions. My preference remains with platform-native tools, as they enable the delivery of the most robust and performant experiences for end-users.

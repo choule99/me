@@ -17,12 +17,12 @@ Spiria Digital is a Canadian custom software development agency specializing in 
 
 Specialized in the Apple ecosystem, including
 
-- UIKit (storyboards, XIBs, Auto Layout)
-- Foundation
-- Core Image
-- RxSwift
-- CryptoKit
-- Core Location
+- UIKit (storyboards, XIBs, Auto Layout) – UI framework for iOS and tvOS
+- Foundation – Basic services framework for macOS, iOS, tvOS, and watchOS
+- Core Image – Image processing framework
+- RxSwift – Reactive programming framework for Swift
+- CryptoKit – Cryptographic operations framework
+- Core Location – Location and heading information framework
 
 ### Projects
 

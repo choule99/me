@@ -19,8 +19,8 @@ As a financial institution, Morgan Stanley enforced stringent security, reliabil
 ### Technologies
 
 - Java
-- IBM MQSeries
-- IBM Db2
+- IBM MQSeries: A robust messaging middleware used for reliable asynchronous communication between applications.
+- IBM DB2: A relational database management system, commonly used in enterprise environments for storing and managing large volumes of structured data.
+- Apache Tomcat: An open-source web server and servlet container for Java applications, commonly used to host web services.
 - Red Hat Enterprise Linux
 - SQL
-- Apache Tomcat

@@ -25,20 +25,19 @@ Led the iOS team across multiple client engagements, spanning planning, developm
 ### Technologies & Frameworks
 
 - Apple:
-  - UIKit
-  - Foundation
-  - Core Image
-  - Combine
-  - CryptoKit
-  - Core Location (iBeacon)
-  - MapKit
+  - UIKit: User interface framework for iOS apps.
+  - Foundation: Core services layer providing data types and system services.
+  - Core Image: Image processing and analysis framework.
+  - Combine: Reactive framework for handling asynchronous events.
+  - CryptoKit: Framework for cryptographic operations.
+  - Core Location (iBeacon): Location services, including iBeacon proximity sensing.
+  - MapKit: Framework for displaying maps and location data.
 - Third-party:
-  - Firebase (Crash Reporting, Analytics)
-  - Airship (Push Notifications)
+  - Firebase (Crash Reporting, Analytics): Google's mobile development platform for analytics and crash reporting.
+  - Airship (Push Notifications): Platform for sending personalized push notifications.
 - CI/CD and tooling:
-  - Jenkins
-  - Fastlane
-  - MacStadium
+  - Jenkins: Open-source automation server for continuous integration and delivery.
+  - Fastlane: Toolchain to automate mobile app development and deployment workflows.
 
 ### Projects
 

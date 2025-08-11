@@ -18,10 +18,10 @@ This was my first full-time professional role, where I focused on building stron
 ### Technologies
 
 - Java
-- Hibernate
-- Apache Tomcat
-- JBoss
-- SQL
-- Oracle 8/9
-- Apache Ant
+- Hibernate: An object-relational mapping (ORM) framework for Java, used to simplify data persistence and access to databases like Oracle.
+- Apache Tomcat: An open-source implementation of the Java Servlet and JavaServer Pages (JSP) technologies, commonly used as a web server and servlet container for Java web applications.
+- JBoss: An application server that provides a robust platform for deploying and running enterprise Java applications, often used alongside Tomcat for larger deployments.
+- SQL: A standard language for managing and manipulating relational databases, crucial for interacting with databases like Oracle for data access layers.
+- Oracle 8/9: Specific versions of the Oracle Database, a powerful relational database management system (RDBMS) used for storing and managing critical application data.
+- Apache Ant: A Java-based build tool, used for automating software build processes such as compilation, testing, and deployment of applications.
 - Proprietary internal frameworks and tools

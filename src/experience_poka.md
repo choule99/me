@@ -36,23 +36,23 @@ Led the iOS team across multiple applications and initiatives throughout the SDL
 ### Technologies & Frameworks
 
 - Apple:
-  - SwiftUI
-  - UIKit
-  - Mac Catalyst
-  - Foundation
-  - AVKit
-  - Core Image
-  - Core Animation
-  - Core Data
-  - Combine
-  - CryptoKit
+  - SwiftUI: Declarative UI framework for all Apple platforms.
+  - UIKit: Object-oriented UI framework for iOS and tvOS.
+  - Mac Catalyst: Tools to bring iPad apps to macOS.
+  - Foundation: Core services framework for data management and basic utilities.
+  - AVKit: Framework for media playback and recording.
+  - Core Image: Image processing and manipulation framework.
+  - Core Animation: Framework for powerful animation and visual effects.
+  - Core Data: Framework for managing and persisting application data.
+  - Combine: Reactive framework for handling asynchronous events.
+  - CryptoKit: Framework for cryptographic operations.
 - Third-party
-  - Amplitude (Behavior Analytics)
-  - Sentry (Crash Reporting)
-  - Intercom (In-App Support)
-  - Kronos (NTP)
-  - Pusher (WebSockets)
-  - Datadog (centralized logging and diagnostics)
+  - Amplitude: User behavior analytics platform.
+  - Sentry: Real-time error monitoring and crash reporting.
+  - Intercom: In-app messaging and customer support platform.
+  - Kronos: NTP (Network Time Protocol) client for accurate time synchronization.
+  - Pusher: Real-time communication API for WebSockets.
+  - Datadog: Centralized logging, monitoring, and diagnostics platform.
 - CI/CD:
-  - GitHub Actions
-  - MacStadium
+  - GitHub Actions: Workflow automation for continuous integration and delivery.
+  - MacStadium: Cloud infrastructure providing macOS for build and test environments.

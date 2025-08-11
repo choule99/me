@@ -69,6 +69,14 @@ A non-exhaustive list of frameworks I’m proficient with and that remains relev
 
 Note: While I can regain deeper proficiency in the Java ecosystem as needed, my current investment is primarily in iOS and Apple-platform development.
 
+### Android Ecosystem
+
+- Google Play SDK — SDK for integrating Google Play Services (APIs, authentication, maps, messaging).
+- Timber — Lightweight Android logging framework with simplified tag generation and configurable output.
+- RxJava / RxKotlin / RxAndroid — Reactive programming libraries for asynchronous and event-based code (Android/JVM).
+- Dagger — Compile-time dependency injection framework for Android/Java, improving testability and maintainability.
+
+
 ### RDBMS
 
 Foundational database administration and usage:

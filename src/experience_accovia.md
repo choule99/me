@@ -21,11 +21,11 @@ The mandate was ambitious: rebuild the platform on a modern technology stack und
 ### Technologies
 
 - Java
-- Spring Framework
-- Hibernate
-- JBoss
-- Apache ActiveMQ
-- Apache Lucene
-- JRules (now IBM Operational Decision Manager)
-- Apache Maven
-- Jenkins
+- Spring Framework: A comprehensive framework for building enterprise-level Java applications, emphasizing dependency injection and aspect-oriented programming.
+- Hibernate: An Object-Relational Mapping (ORM) framework for Java, used to map Java objects to relational database tables, simplifying data persistence.
+- JBoss: An open-source application server (now WildFly/Red Hat JBoss EAP) for deploying and running Java EE applications.
+- Apache ActiveMQ: An open-source message broker that supports various messaging protocols, used for asynchronous communication between applications.
+- Apache Lucene: A powerful, open-source Java library for full-text search, used for building search functionality into applications.
+- JRules (now IBM Operational Decision Manager): A Business Rules Management System (BRMS) used for defining, managing, and executing business rules external to application code.
+- Apache Maven: A build automation and project management tool for Java projects, used for dependency management, compilation, and packaging.
+- Jenkins: An open-source automation server widely used to implement continuous integration and continuous delivery (CI/CD) pipelines.

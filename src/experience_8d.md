@@ -13,11 +13,11 @@
 
 ### Technologies & Frameworks
 
-- UIKit (storyboards, XIBs, Auto Layout)
-- Foundation
-- Core Image
-- Core Location
-- MapKit
-- CocoaLumberjack
-- Crashlytics (pre-Firebase acquisition)
-- CocoaPods
+- UIKit (storyboards, XIBs, Auto Layout): Apple's framework for building and managing iOS app user interfaces.
+- Foundation: Apple's foundational framework providing core data types, collections, and services.
+- Core Image: Apple's framework for processing images and applying filters.
+- Core Location: Apple's framework for integrating location services, such as GPS, into iOS applications.
+- MapKit: Apple's framework for embedding interactive maps and location-based features into iOS apps.
+- CocoaLumberjack: A fast, flexible, and feature-rich logging framework for Mac and iOS.
+- Crashlytics (pre-Firebase acquisition): A crash reporting and analytics service for mobile apps.
+- CocoaPods: A dependency manager for Swift and Objective-C Cocoa projects.
