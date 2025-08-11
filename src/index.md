@@ -1,11 +1,10 @@
-# Welcome!
+# Digital Curriculum Vitae
 
 [](../src/welcome.md)
 
 # Goals
 
 [](../src/goal.md)
-
 
 # Technologies
 
@@ -22,4 +21,8 @@
 # My Journey
 
 [](../src/story.md)
+
+# Special Thanks
+
+[](../src/thanks.md)
 

@@ -25,3 +25,4 @@ This was my first full-time professional role, where I focused on building stron
 - Oracle 8/9: Specific versions of the Oracle Database, a powerful relational database management system (RDBMS) used for storing and managing critical application data.
 - Apache Ant: A Java-based build tool, used for automating software build processes such as compilation, testing, and deployment of applications.
 - Proprietary internal frameworks and tools
+

@@ -31,18 +31,7 @@ Yes, I trained in C/C++, SQL, and other tools (some now obsolete), but the most 
 
 I graduated in mid-2003 during a difficult job market following the dot-com bust. Many talented graduates struggled to find roles. I was one of the fortunate few hired after my internship, joining Médiagrif (now known as mdfcommerce) as a Java developer for a suite of e-commerce sites across multiple business domains.
 
-That first role was a crash course in becoming a professional engineer. School provided foundations, but the workplace taught me how to deliver production-grade software, collaborate effectively, and build good engineering habits. I was especially lucky to have mentors who shaped my early career:
-
-- [Martin Mailloux](https://www.linkedin.com/in/martin-mailloux1/)
-- [Normand Massé](https://www.linkedin.com/in/normand-massé-4568641/)
-- [Kristofer Fudalewski](https://www.linkedin.com/in/kristofer-fudalewski-4a449b3/)
-- [Jérôme Bois](https://www.linkedin.com/in/jérôme-bois-15a339a/)
-- [Marc-Lavigne Gagnon](https://www.linkedin.com/in/marc-lg/)
-- [Richard Lefrançois](https://www.linkedin.com/in/richard-lefrancois/)
-- [Tim Voet](https://www.linkedin.com/in/timvoet/)
-- And many others through conversations, code reviews, brainstorming sessions, and workshops
-
-Their guidance made me a better developer, and I remain grateful for their mentorship.
+That first role was a crash course in becoming a professional engineer. School provided foundations, but the workplace taught me how to deliver production-grade software, collaborate effectively, and build good engineering habits. I was especially lucky to have mentors who shaped my early career, their guidance made me a better developer, and I remain grateful for their mentorship.
 
 ## From Java Developer to iOS Developer
 
