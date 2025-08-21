@@ -4,54 +4,58 @@
 
 <hr />
 
-
-# Goals
+# 🥅 Goals
 
 [](../src/goal.md)
 
 <hr />
 
 
-# Technologies
+# 🎯 Notable Projects
+
+[](../src/projects.md)
+
+<hr />
+
+
+# 🤖 Technologies
 
 [](../src/tech.md)
 
 <hr />
 
 
-# Experience
+# 📅 Experience
 
 [](../src/experience.md)
 
 <hr />
 
 
-# Education
+# 📚 Education
 
 [](../src/education.md)
 
 <hr />
 
 
-# My Journey
+# ✈️ My Journey
 
 [](../src/story.md)
 
 <hr />
 
 
-# Special Thanks
+# 🙏 Special Thanks
 
 [](../src/thanks.md)
 
 <hr />
 
 
-# Miscellaneous
+# ⚖️ Miscellaneous
 
 [](../src/other.md)
-
-<hr />
 
 ## Glossary
 

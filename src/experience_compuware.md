@@ -2,13 +2,13 @@
 
 Compuware Montréal was a consultancy division of Compuware Canada serving large-scale software development needs in the banking sector, most notably Morgan Stanley.
 
-- Title: Java Consultant
+- Title: *Java* Consultant
 - Dates: September 2005 – September 2007
 
 ### Responsibilities
 
 - Assigned to the Morgan Stanley account, contributing to the Libra project.
-- Migrated business logic from COBOL on z/OS to Java services running on Linux with IBM Db2.
+- Migrated business logic from COBOL on z/OS to *Java* services running on Linux with IBM Db2.
 - Implemented and optimized integration patterns for high-throughput, reliable processing.
 - Collaborated with cross-functional teams to ensure adherence to enterprise security and compliance standards.
 

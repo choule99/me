@@ -2,7 +2,7 @@
 
 Spiria Digital is a Canadian custom software development agency specializing in tailored digital solutions across industries. Founded in 2003, Spiria delivers high-quality software products and services, including mobile and web applications, application modernization, and digital transformation initiatives.
 
-- Title: Software Architect; Senior iOS Developer
+- Title: Software Architect; Senior *iOS* Developer
 - Dates: October 2013 – September 2019
 
 ### Responsibilities
@@ -28,8 +28,8 @@ Specialized in the Apple ecosystem, including:
 
 Representative projects include:
 
-- CAE PreStudy Pilot Training Application — Architecture and development across back end, front end, and iOS application.
+- CAE PreStudy Pilot Training Application — Architecture and development across back end, front end, and *iOS* application.
 - Acosta SLTouch — Hybrid mobile application & frameworks targeted for Retail Analytics.
 - Skillable App — Progressive Web App for a micro-learning platform.
-- Payfare (DiDi / Lyft) — iOS and Android contributions for the early payment platform for DiDi & Lyft drivers.
-- BookJane — iOS application development for healthcare workforce management application.
+- Payfare (DiDi / Lyft) — *iOS* and Android contributions for the early payment platform for DiDi & Lyft drivers.
+- BookJane — *iOS* application development for healthcare workforce management application.

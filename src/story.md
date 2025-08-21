@@ -1,4 +1,4 @@
-This is a brief summary of how I became a software developer, how I caught the programming bug, and how that path led me to iOS development.
+This is a brief summary of how I became a software developer, how I caught the programming bug, and how that path led me to *iOS* development.
 
 ## Early Years
 
@@ -24,7 +24,7 @@ A teacher recognized my potential and gave me more ambitious assignments. Since 
 
 From there, the choice was obvious: I wanted to be a software developer. I enrolled in the Computer Science Technology program at Cégep Édouard-Montpetit and never looked back.
 
-Yes, I trained in *C/C++*, *SQL*, and other technologies (many of which are now completely obsolete), but the most valuable takeaway was:
+Yes, I trained in *C/C++*, *SQL*, and other technologies (many of which are now obsolete), but the most valuable takeaway was:
 
 _There is always something to learn, always something to discover, and to maintain that edge, you need to practice constantly._
 
@@ -34,15 +34,15 @@ I graduated in mid-2003 during a difficult job market following the dot-com bubb
 
 That first role was a crash course in becoming a professional engineer. School provided foundations, but the workplace taught me how to deliver production-grade software, collaborate effectively, and build good engineering habits. I was especially lucky to have mentors who shaped my early career; their guidance made me a better developer, and I remain grateful for their mentorship.
 
-## From Java Developer to iOS Developer
+## From *Java* Developer to iOS Developer
 
-For the first six years of my career, I worked as a back-end Java developer, using technologies like *J2EE*, *Spring Framework*, *Hibernate*, *Apache ActiveMQ*, *Apache Maven*, *Apache Ant*, *Gradle*, *Log4j*, *JBoss*, and *Apache Tomcat*. I learned a great deal, but eventually the challenges became less challenging, less interesting; I kind of outgrew the pure technical side of back-end development.
+For the first six years of my career, I worked as a back-end *Java* developer, using technologies like *J2EE*, *Spring Framework*, *Hibernate*, *Apache ActiveMQ*, *Apache Maven*, *Apache Ant*, *Gradle*, *Log4j*, *JBoss*, and *Apache Tomcat*. I learned a great deal, but eventually the challenges became less challenging, less interesting; I kind of outgrew the pure technical side of back-end development.
 
-When Apple released the iPhone and opened up the iOS SDK, I embraced the opportunity to explore something new.
+When Apple released the iPhone and opened up the *iOS* *SDK*, I embraced the opportunity to explore something new.
 
 I had already switched to a Mac at home, so installing Xcode and learning Objective-C was an accessible next step—though it required a major mindset shift. After years of Java's garbage collection, returning to manual memory management felt like a step backward.
 
-Developing for iOS 2 / 3 came with real constraints:
+Developing for *iOS* 2 / 3 came with real constraints:
 
 - No *ARC*; manual memory management
 - No *storyboards*
@@ -52,12 +52,10 @@ Developing for iOS 2 / 3 came with real constraints:
 - Limited device performance, where inefficiencies could make or break an app
 - No readily available crash reporting (Crashlytics, Firebase, Sentry came later)
 
-It truly felt like a new frontier. I learned a tremendous amount and still do: Apple's annual SDK releases build on prior foundations, demanding continuous adaptation and growth. iOS moved quickly—and that pace kept the work exciting and rewarding.
+It truly felt like a new frontier. I learned a tremendous amount and still do: Apple's annual *SDK* releases build on prior foundations, demanding continuous adaptation and growth. *iOS* moved quickly—and that pace kept the work exciting and rewarding.
 
-Note: You have to put Java into its historical context. After Java 8, Sun Microsystems barely changed the Java Stack for literally years. Oracle's stewardship did not help at first. Nowadays, it does look like the Java Ecosystem has bounced back, but back in those years, Java had been stagnating for years.
+Note: You have to put *Java* into its historical context. After *Java* 8, Sun Microsystems barely changed the *Java* Stack for literally years. Oracle's stewardship did not help at first. Nowadays, it does look like the *Java* Ecosystem has bounced back, but back in those years, *Java* had been stagnating for years.
 
 ## The story since then... 
 
-Since then, I have primarily focused on iOS development. While I have worked with other technology stacks over the years, my core expertise and passion consistently lead me back to iOS due to my strong preference for the platform.
-
-Note: Regarding cross-platform mobile app frameworks (e.g., React Native, Flutter, Ionic, PhoneGap, Cordova), while I have not directly worked with these frameworks, I have observed that applications built with them often lack the native feel and optimal user experience of truly platform-native solutions. My preference remains with platform-native tools, as they enable the delivery of the most robust and performant experiences for end-users.
+Since then, I have primarily focused on *iOS* development. While I have worked with other technology stacks over the years, my core expertise and passion consistently lead me back to *iOS* due to my strong preference for the platform.

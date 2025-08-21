@@ -2,7 +2,7 @@
 
 Accovia was a Montréal-based company specializing in information technology solutions for the travel and tourism industry. Founded in 1985, it became a leader in travel packaging technology, providing software that enabled efficient management of travel packages across supply, design, and distribution.
 
-- Title: Back-End Java Developer
+- Title: Back-End *Java* Developer
 - Dates: September 2007 – September 2009
 
 ### Responsibilities

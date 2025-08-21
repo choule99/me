@@ -2,7 +2,7 @@
 
 Mediagrif Interactive Technologies is a Canadian company specializing in E-Commerce solutions that optimize and accelerate commercial interactions between buyers and sellers. The company operates multiple platforms that support e-commerce, strategic sourcing, and related business processes.
 
-- Title: Java Developer
+- Title: *Java* Developer
 - Dates: March 2003 – September 2005
 
 ### Responsibilities

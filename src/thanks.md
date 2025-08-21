@@ -1,4 +1,7 @@
-I'd like to express gratitude toward a few select individuals who I had the impossibly great honor of working with. 
+
+After two decades in the industry, I’ve learned that software development is a team endeavor—one that thrives on working alongside outstanding professionals, communicating effectively, collaborating closely, and building great software every day.
+
+I would like to extend my sincere gratitude to a select group of colleagues with whom I had the privilege of working; their talent, support, and camaraderie made the long hours both meaningful and rewarding.
 
 ## Médiagrif
 
@@ -49,7 +52,7 @@ I'd like to express gratitude toward a few select individuals who I had the impo
 ## Appcom
 
 - [Jean-Christophe Duchaine](https://www.linkedin.com/in/jcduchaine/), Co-Founder & CEO
-- Laurent Boileau, Senior iOS Developer
+- Laurent Boileau, Senior *iOS* Developer
 
 ## Poka
 
