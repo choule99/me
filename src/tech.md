@@ -48,10 +48,10 @@ These tasks were historically costly to justify; with AI assistance, they can of
 
 - [iOS](https://en.wikipedia.org/wiki/IOS)
 - [visionOS](https://en.wikipedia.org/wiki/visionOS)
-- [watchOS](https://en.wikipedia.org/wikiwatchOS)
+- [watchOS](https://en.wikipedia.org/wiki/watchOS)
 - [tvOS](https://en.wikipedia.org/wiki/tvOS)
 - [macOS](https://en.wikipedia.org/wiki/MacOS)
-- [Linux](https://en.wikipedia.org/wiki/Linux) ([Debian](https://www.debian.org) and derivatives, like [Ubuntu](https://ubuntu.com/download) and [Mint](https://www.linuxmint.com))
+- [Linux](https://en.wikipedia.org/wiki/Linux) ([Debian](https://www.debian.org) and derivatives, like [Ubuntu](https://ubuntu.com/) and [Mint](https://www.linuxmint.com))
 - [Android](https://source.android.com)
 
 ### Windows

@@ -1,6 +1,6 @@
 <img src="./img/profile.jpg" alt="Claude" title="Claude" style="float: right; margin: 0 0 1rem 1rem; max-width: 220px; border-radius: 8px;" />
 
-Welcome to my digital [CV](./files/CV.pdf)! 
+Welcome to my digital resumé! 
 
 My name is [Claude Houle](mailto:claude.houle@gmail.com), I am a Montreal-based software developer with 20+ years of experience.
 
@@ -10,6 +10,6 @@ Currently Lead *iOS* at Poka, elevating quality and productivity, pioneering *vi
 
 <hr />
 
-I personally find very difficult to go over 20+ years worth of experience only equiped with a 2-page [CV](./files/CV.pdf) and 30 minutes phone screen. This is my humble solution to the problem, I sincerely hope this page will give you better insights into who I am, and what motivates me.
+I personally find very difficult to go over 20+ years worth of experience only equiped with a 2-page resumé (You can download it [here](./files/CV.pdf)) and 30 minutes phone screen. This is my humble solution to the problem, I sincerely hope this page will give you better insights into who I am, and what motivates me.
 
 If by some random miracle you have arrived from somewhere else than LinkedIn, here is my [LinkedIn Profile](https://www.linkedin.com/in/choule99/)

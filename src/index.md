@@ -1,4 +1,4 @@
-# Digital Curriculum Vitae
+# Digital Resumé
 
 [](../src/welcome.md)
 
