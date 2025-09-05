@@ -34,7 +34,7 @@ I graduated in mid-2003 during a difficult job market following the dot-com bubb
 
 That first role was a crash course in becoming a professional engineer. School provided foundations, but the workplace taught me how to deliver production-grade software, collaborate effectively, and build good engineering habits. I was especially lucky to have mentors who shaped my early career; their guidance made me a better developer, and I remain grateful for their mentorship.
 
-## From *Java* Developer to iOS Developer
+## From Java Developer to iOS Developer
 
 For the first six years of my career, I worked as a back-end *Java* developer, using technologies like *J2EE*, *Spring Framework*, *Hibernate*, *Apache ActiveMQ*, *Apache Maven*, *Apache Ant*, *Gradle*, *Log4j*, *JBoss*, and *Apache Tomcat*. I learned a great deal, but eventually the challenges became less challenging, less interesting; I kind of outgrew the pure technical side of back-end development.
 
