@@ -30,7 +30,7 @@ I'm excited by AI's potential to transform software engineering. Developers won'
 
 ### AlexCode for Xcode
 
-[AlexCode](https://www.alexcodes.app) is a companion for Xcode that brings agentic, cursor-like workflows into the IDE. It's been especially helpful for:
+[AlexCode](https://www.alexcodes.app) was a companion App for Xcode that brings agentic, cursor-like workflows into the IDE. It's was especially helpful for:
 
 - Translating legacy *Objective-C* to modern *Swift*.
 - Migrating *XIBs*/*Storyboards* to programmatic Auto Layout or *SwiftUI*.
@@ -38,7 +38,7 @@ I'm excited by AI's potential to transform software engineering. Developers won'
 - Generating unit tests for previously untested code paths.
 - Refactoring tightly coupled code into smaller, testable components.
 
-These tasks were historically costly to justify; with AI assistance, they can often be completed in a day.
+These tasks were historically difficult to justify due to their low ROI; But with AI assistance, they can often be completed within in a single day with very little difficulty.
 
 ### Claude Code
 
