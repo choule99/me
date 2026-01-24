@@ -1,0 +1,19 @@
+---
+interface Props {
+  name: string;
+  primary?: boolean;
+}
+
+const { name, primary = false } = Astro.props;
+---
+
+<span
+  class:list={[
+    'inline-block px-3 py-1.5 text-sm font-medium rounded-full transition-colors',
+    primary
+      ? 'bg-indigo-100 text-indigo-700 hover:bg-indigo-200'
+      : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+  ]}
+>
+  {name}
+</span>

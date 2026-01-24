@@ -1,0 +1,647 @@
+---
+import '../styles/global.css';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Navigation from '../components/Navigation.astro';
+import Hero from '../components/Hero.astro';
+import SectionCard from '../components/SectionCard.astro';
+import SectionBadge from '../components/SectionBadge.astro';
+import ProjectCard from '../components/ProjectCard.astro';
+import ExperienceCard from '../components/ExperienceCard.astro';
+import TechBadge from '../components/TechBadge.astro';
+import Footer from '../components/Footer.astro';
+import { getCollection } from 'astro:content';
+
+const experiences = await getCollection('experience');
+const sortedExperiences = experiences.sort((a, b) => a.data.order - b.data.order);
+
+const primaryLangs = [
+  { name: "Swift", years: "2015 - present" },
+  { name: "Objective-C", years: "2010 - present" },
+  { name: "Kotlin", years: "2017 - present" },
+  { name: "Java", years: "2003 - present" },
+];
+
+const secondaryLangs = [
+  { name: "C/C++", years: "1999 - present" },
+  { name: "Python", years: "2014 - 2017" },
+  { name: "JavaScript", years: "1999 - present" },
+  { name: "TypeScript", years: "2018 - 2022" },
+  { name: "SQL", years: "1999 - present" },
+  { name: "C#", years: "2014 - 2016" },
+];
+
+const operatingSystems = ["iOS", "visionOS", "watchOS", "tvOS", "macOS", "Linux", "Android"];
+
+const appleFrameworks = [
+  "iOS SDK", "macOS SDK", "watchOS SDK", "visionOS SDK", "SwiftUI", "UIKit",
+  "Combine", "RxSwift", "RxCocoa", "Core Data", "SwiftData", "Core Location",
+  "MapKit", "AVKit", "AVFoundation", "Core Image", "Core Animation"
+];
+
+const javaFrameworks = [
+  "Spring Framework", "Spring Boot", "Hibernate", "Apache Tomcat", "Apache Lucene",
+  "Apache Solr", "JBoss", "Liquibase", "Log4j", "Apache Maven", "Apache ActiveMQ",
+  "J2EE", "JUnit", "Mockito"
+];
+
+const androidFrameworks = [
+  "Google Play SDK", "Timber", "RxJava", "RxKotlin", "RxAndroid", "Dagger", "Gradle"
+];
+
+const databases = ["PostgreSQL", "MySQL", "MariaDB", "SQLite"];
+
+const testingTools = [
+  "XCTest", "XCUITest", "Swift Testing", "SwiftyMocky", "Snapshot Testing", "Nimble", "JUnit"
+];
+
+const patterns = ["MVVM", "MVC", "KISS", "SRP", "Law of Demeter"];
+
+const tools = [
+  "Git", "Apple Xcode", "Apple Instruments", "Apple TestFlight", "Swift Package Manager",
+  "CocoaPods", "IntelliJ IDEA", "Android Studio", "Docker", "JIRA", "Trello",
+  "Zeplin.io", "Miro", "Excalidraw", "Figma"
+];
+
+const projects = [
+  {
+    title: "Poka for visionOS",
+    description: "Independently designed and delivered a visionOS-native application that pushed the SDK limits. The work earned Poka a Vision Pro Dev Kit and launched on day one of the visionOS App Store."
+  },
+  {
+    title: "Poka API Generator",
+    description: "Designed an in-house framework that auto-generates the network layer for iOS apps. Reduced boilerplate, improved consistency, and integrated with Poka's security requirements."
+  },
+  {
+    title: "Sri Lankan Team Expansion",
+    description: "Led onboarding and integration of a development team in Sri Lanka. Designed training programs, supervised through code reviews, and built collaborative culture across time zones."
+  }
+];
+
+const thanks = [
+  {
+    company: "Poka",
+    people: [
+      "Marc-Alexandre Berube",
+      "Olivier Mirandette",
+      "Jean-Francois Linteau Labonte"
+    ]
+  },
+  {
+    company: "Appcom",
+    people: [
+      "Jean-Christophe Duchaine",
+      "Laurent Boileau"
+    ]
+  },
+  {
+    company: "Spiria Digital",
+    people: [
+      "Stephane Rouleau",
+      "Patrick Bergeron",
+      "Stephane Beaudry",
+      "Alexandre Allard",
+      "Alain Chaput",
+      "Michel Emond"
+    ]
+  },
+  {
+    company: "8D Technologies",
+    people: [
+      "Eric Poitras",
+      "Sid Ahmed Kaddouri",
+      "Etienne Caron",
+      "Manuel Darveau",
+      "Francois Lamarre",
+      "Derek Kashl"
+    ]
+  },
+  {
+    company: "Accovia",
+    people: [
+      "Marc Gagnon",
+      "Guillaume Dupuis",
+      "David Lafrance",
+      "Joan Roch",
+      "Patrick Sansoucy",
+      "Christophe Dupre",
+      "Carl Alain"
+    ]
+  },
+  {
+    company: "Compuware Montreal",
+    people: [
+      "Maude Ducharme",
+      "Mathieu Gervais",
+      "Anthony John",
+      "Jimmy Royer",
+      "Simon Riopel"
+    ]
+  },
+  {
+    company: "Mediagrif",
+    people: [
+      "Martin Mailloux",
+      "Richard Lefrancois",
+      "Normand Masse",
+      "Kristofer Fudalewski",
+      "Jerome Bois",
+      "Marc-Lavigne Gagnon",
+      "Tim Voet"
+    ]
+  },
+];
+---
+
+<BaseLayout>
+  <Navigation />
+
+  <!-- Hero Section -->
+  <Hero
+    name="Claude Houle"
+    title="iOS Developer & Mobile Architect"
+    email="claude.houle@gmail.com"
+    cvUrl={`${import.meta.env.BASE_URL}/files/CV.pdf`}
+  >
+    Montreal-based software developer with 20+ years of experience. Started in enterprise Java,
+    transitioned to iOS in 2010, and currently serve as Lead iOS Developer at Poka,
+    pioneering visionOS development and championing testing, tooling, and continuous learning.
+  </Hero>
+
+  <!-- Welcome/Intro Section -->
+  <SectionCard>
+    <div class="prose prose-lg max-w-none text-center">
+      <p class="text-gray-600 leading-relaxed">
+        I personally find it very difficult to convey 20+ years of experience with only a 2-page resume
+        and a 30-minute phone screen. This digital resume is my solution to that problem. I sincerely hope
+        this page will give you better insights into who I am and what motivates me.
+      </p>
+    </div>
+  </SectionCard>
+
+  <!-- Goals Section -->
+  <SectionCard id="goals" gradient>
+    <SectionBadge label="Goals" />
+    <div class="prose prose-lg max-w-none">
+      <p class="text-gray-700 leading-relaxed mb-6">
+        I consider myself a technology enthusiast, and my goal is to develop software solutions that enhance
+        the lives of end users through meticulously designed applications. While I have deep expertise in mobile
+        development, I love building software of any kind.
+      </p>
+      <p class="text-gray-700 leading-relaxed mb-6">
+        I am committed to continuously refining my skills by exploring new patterns, paradigms, and technologies.
+        My goal is to consistently enhance my capabilities as a developer, striving to improve upon my performance
+        from the previous week or month.
+      </p>
+      <p class="text-gray-700 leading-relaxed mb-6">
+        I believe in engaging early with product discovery and design to translate user needs and business goals
+        into clear, testable requirements. I enjoy partnering with product managers and designers to shape scope,
+        validate assumptions with data and prototypes, and propose pragmatic, high-impact solutions that balance
+        technical feasibility, UX quality, and time-to-value. This product-minded approach aligns engineering work
+        with measurable outcomes and reduces risk through iterative delivery.
+      </p>
+      <p class="text-gray-700 leading-relaxed mb-6">
+        Additionally, I have been fortunate to receive mentorship from exceptional software developers early in my
+        career. In the past 5 to 7 years, I have taken on the role of mentor myself, guiding the next generation
+        of software engineers to enhance their skills and professionalism.
+      </p>
+
+      <h3 class="text-xl font-semibold text-gray-900 mt-8 mb-4">What I'm Looking For</h3>
+      <p class="text-gray-700 leading-relaxed mb-4">
+        I am seeking a company, team, or product to which I can make a long-term commitment. After many years
+        in consulting (prior to Poka), I had the opportunity to work continuously on a single product, which
+        enabled me to make durable technical decisions that would be impractical in short engagements.
+      </p>
+      <p class="text-gray-700 leading-relaxed">
+        The mindset required by an architect for a multi-year project is entirely different than a project that
+        lasts only for a couple of months, the types of decisions whose impact becomes evident over months or even years.
+      </p>
+    </div>
+  </SectionCard>
+
+  <!-- Projects Section -->
+  <SectionCard id="projects">
+    <SectionBadge label="Notable Projects" />
+    <div class="grid md:grid-cols-3 gap-6">
+      {projects.map(project => (
+        <ProjectCard title={project.title} description={project.description} />
+      ))}
+    </div>
+  </SectionCard>
+
+  <!-- Tech Section -->
+  <SectionCard id="tech" gradient>
+    <SectionBadge label="Technologies" />
+    <p class="text-center text-gray-600 mb-10 max-w-2xl mx-auto">
+      A curated overview of the technologies I use to ship production software.
+    </p>
+
+    <div class="space-y-10">
+      <!-- Programming Languages -->
+      <div>
+        <h3 class="text-xl font-semibold text-gray-900 mb-4">Programming Languages</h3>
+        <div class="grid md:grid-cols-2 gap-4">
+          <div class="bg-white rounded-2xl p-6 border border-gray-100">
+            <h4 class="text-sm font-semibold text-indigo-600 uppercase tracking-wider mb-3">Primary</h4>
+            <div class="space-y-2">
+              {primaryLangs.map(lang => (
+                <div class="flex justify-between items-center">
+                  <span class="font-medium text-gray-900">{lang.name}</span>
+                  <span class="text-sm text-gray-500">{lang.years}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+          <div class="bg-white rounded-2xl p-6 border border-gray-100">
+            <h4 class="text-sm font-semibold text-indigo-600 uppercase tracking-wider mb-3">Secondary</h4>
+            <div class="space-y-2">
+              {secondaryLangs.map(lang => (
+                <div class="flex justify-between items-center">
+                  <span class="text-gray-700">{lang.name}</span>
+                  <span class="text-sm text-gray-500">{lang.years}</span>
+                </div>
+              ))}
+            </div>
+            <p class="text-sm text-gray-500 mt-4 italic">
+              Note: Although I list these technologies, I do not position myself as an expert in them today.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Operating Systems -->
+      <div>
+        <h3 class="text-xl font-semibold text-gray-900 mb-4">Operating Systems</h3>
+        <div class="bg-white rounded-2xl p-6 border border-gray-100">
+          <div class="flex flex-wrap gap-2 mb-4">
+            {operatingSystems.map(os => <TechBadge name={os} />)}
+          </div>
+          <p class="text-sm text-gray-500">
+            I prefer Unix-based systems, ideally macOS where I have optimized my workflows.
+            I can develop for Android but my current focus is the Apple ecosystem.
+          </p>
+        </div>
+      </div>
+
+      <!-- Libraries & Frameworks -->
+      <div>
+        <h3 class="text-xl font-semibold text-gray-900 mb-4">Libraries & Frameworks</h3>
+
+        <div class="space-y-4">
+          <div class="bg-white rounded-2xl p-6 border border-gray-100">
+            <h4 class="text-sm font-semibold text-indigo-600 uppercase tracking-wider mb-3">Apple Ecosystem</h4>
+            <div class="flex flex-wrap gap-2">
+              {appleFrameworks.map(fw => <TechBadge name={fw} />)}
+            </div>
+            <p class="text-sm text-gray-500 mt-4 italic">
+              I prioritize platform-native tools to deliver robust, high-performance experiences and do not work
+              with cross-platform frameworks such as React Native or Flutter.
+            </p>
+          </div>
+
+          <div class="bg-white rounded-2xl p-6 border border-gray-100">
+            <h4 class="text-sm font-semibold text-indigo-600 uppercase tracking-wider mb-3">Java Ecosystem</h4>
+            <div class="flex flex-wrap gap-2">
+              {javaFrameworks.map(fw => <TechBadge name={fw} />)}
+            </div>
+            <p class="text-sm text-gray-500 mt-4 italic">
+              While I can regain deeper proficiency as needed, my current investment is primarily in iOS.
+            </p>
+          </div>
+
+          <div class="bg-white rounded-2xl p-6 border border-gray-100">
+            <h4 class="text-sm font-semibold text-indigo-600 uppercase tracking-wider mb-3">Android Ecosystem</h4>
+            <div class="flex flex-wrap gap-2">
+              {androidFrameworks.map(fw => <TechBadge name={fw} />)}
+            </div>
+          </div>
+
+          <div class="bg-white rounded-2xl p-6 border border-gray-100">
+            <h4 class="text-sm font-semibold text-indigo-600 uppercase tracking-wider mb-3">RDBMS</h4>
+            <div class="flex flex-wrap gap-2">
+              {databases.map(db => <TechBadge name={db} />)}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testing -->
+      <div>
+        <h3 class="text-xl font-semibold text-gray-900 mb-4">Testing</h3>
+        <div class="bg-white rounded-2xl p-6 border border-gray-100 space-y-4">
+          <p class="text-gray-600">
+            I'm a firm believer that unit tests are an integral part of a healthy codebase.
+          </p>
+          <div class="flex flex-wrap gap-2">
+            {testingTools.map(tool => <TechBadge name={tool} />)}
+          </div>
+          <div class="border-t border-gray-100 pt-4 space-y-3">
+            <div>
+              <h4 class="font-semibold text-gray-900 text-sm">Snapshot Tests vs. Xcode Previews</h4>
+              <p class="text-gray-600 text-sm">
+                Xcode Previews provide immediate, design-time feedback. Snapshot tests operate on a longer cycle
+                but are essential for catching visual regressions. I leverage both by converting SwiftUI previews
+                into snapshot tests with minimal code.
+              </p>
+            </div>
+            <div>
+              <h4 class="font-semibold text-gray-900 text-sm">Code Coverage</h4>
+              <p class="text-gray-600 text-sm">
+                There's no one-size-fits-all answer. Generally, pursuing 100% has diminishing returns. In my
+                experience, ~75% test coverage usually provides strong stability at a balanced cost.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Patterns & Tools -->
+      <div class="grid md:grid-cols-2 gap-6">
+        <div>
+          <h3 class="text-xl font-semibold text-gray-900 mb-4">Patterns & Principles</h3>
+          <div class="bg-white rounded-2xl p-6 border border-gray-100">
+            <div class="flex flex-wrap gap-2">
+              {patterns.map(p => <TechBadge name={p} />)}
+            </div>
+          </div>
+        </div>
+        <div>
+          <h3 class="text-xl font-semibold text-gray-900 mb-4">Tools</h3>
+          <div class="bg-white rounded-2xl p-6 border border-gray-100">
+            <div class="flex flex-wrap gap-2">
+              {tools.map(t => <TechBadge name={t} />)}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Methodology -->
+      <div>
+        <h3 class="text-xl font-semibold text-gray-900 mb-4">Methodology</h3>
+        <div class="bg-white rounded-2xl p-6 border border-gray-100">
+          <p class="text-gray-600 leading-relaxed">
+            I have worked with a wide range of delivery methodologies, including Scrum, Kanban, and Waterfall.
+            My key takeaway is that the choice of methodology is a weak predictor of project success.
+          </p>
+          <p class="text-gray-600 leading-relaxed mt-4">
+            What consistently correlates with success is a team's ability to continuously inspect its processes
+            and adapt as challenges arise. It takes leadership and courage to grant teams the autonomy to do this,
+            but when they have it, the result is typically faster delivery, higher quality, and stronger outcomes.
+          </p>
+        </div>
+      </div>
+
+      <!-- AI -->
+      <div>
+        <h3 class="text-xl font-semibold text-gray-900 mb-4">AI</h3>
+        <div class="bg-white rounded-2xl p-6 border border-gray-100 space-y-4">
+          <p class="text-gray-600 leading-relaxed">
+            I'm excited by AI's potential to transform software engineering. Developers won't disappear - we'll be
+            even more essential to steer AI toward robust, ethical, and maintainable solutions. The discipline is
+            changing rapidly, enabling greater productivity and new kinds of creativity that weren't feasible before.
+          </p>
+          <div class="border-t border-gray-100 pt-4">
+            <h4 class="font-semibold text-gray-900 mb-2">Claude Code</h4>
+            <p class="text-gray-600 text-sm">
+              Claude Code is my current choice for agentic workflows, with flexible custom commands, MCPs, and
+              sub-agents that enable flows not easily replicated in other IDE integrations.
+            </p>
+          </div>
+          <div class="border-t border-gray-100 pt-4">
+            <h4 class="font-semibold text-gray-900 mb-2">AI-Assisted Tasks</h4>
+            <p class="text-gray-600 text-sm">
+              Tasks historically difficult to justify due to low ROI can now be completed efficiently:
+              translating legacy Objective-C to modern Swift, migrating XIBs/Storyboards to SwiftUI,
+              maintaining DocC documentation, generating unit tests, and refactoring tightly coupled code.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </SectionCard>
+
+  <!-- Experience Section -->
+  <SectionCard id="experience">
+    <SectionBadge label="Experience" />
+    <p class="text-center text-gray-600 mb-10 max-w-2xl mx-auto">
+      A brief summary of every position I had in my career (from current to oldest)
+    </p>
+
+    <div class="relative">
+      {sortedExperiences.map(async (exp) => {
+        const { Content } = await exp.render();
+        return (
+          <ExperienceCard
+            company={exp.data.company}
+            title={exp.data.title}
+            dates={exp.data.dates}
+            description={exp.data.description}
+          >
+            <div class="mt-4 text-gray-600 text-sm prose prose-sm max-w-none">
+              <Content />
+            </div>
+          </ExperienceCard>
+        );
+      })}
+    </div>
+  </SectionCard>
+
+  <!-- Education Section -->
+  <SectionCard id="education" gradient>
+    <SectionBadge label="Education" />
+    <div class="bg-white rounded-2xl p-8 shadow-card border border-gray-100">
+      <div class="text-center mb-6">
+        <h3 class="text-2xl font-semibold text-gray-900 mb-2">Computer Science Technology</h3>
+        <p class="text-indigo-600 font-medium mb-2">Cegep Edouard-Montpetit</p>
+        <p class="text-gray-500">Longueuil, Quebec | September 2000 - May 2003</p>
+      </div>
+      <div class="prose prose-sm max-w-none text-gray-600">
+        <p>
+          The curriculum emphasized practical software development and systems fundamentals, covering C, C++,
+          JavaScript, SQL, Linux, and Oracle Database, among other technologies relevant at the time.
+        </p>
+        <p>
+          For context, Quebec's Computer Science Technology program is a three-year, practice-oriented college
+          diploma focused on programming and applied computing. It is broadly comparable to an associate degree
+          in the United States.
+        </p>
+        <p>
+          I initially planned to pursue a bachelor's degree after completing Cegep. However, during my 10-week
+          internship, I learned so much more in practical situations than in the preceding three years, leading
+          me to shift my mindset: I would pursue a bachelor's degree if it ever became necessary for my career.
+          To date, it has not been a limiting factor.
+        </p>
+      </div>
+    </div>
+  </SectionCard>
+
+  <!-- Story Section -->
+  <SectionCard id="story">
+    <SectionBadge label="My Journey" />
+    <div class="prose prose-lg max-w-none text-gray-700">
+      <p class="text-lg text-gray-600 italic mb-8">
+        This is a brief summary of how I became a software developer, how I caught the programming bug,
+        and how that path led me to iOS development.
+      </p>
+
+      <h3 class="text-xl font-semibold text-gray-900 mt-8 mb-4">Early Years</h3>
+      <p class="mb-6">
+        Like many kids of the '80s, my journey with computers began with games. I was fortunate to grow up
+        in a family where technology was part of everyday life, so I had access to game consoles and computers
+        from an early age.
+      </p>
+      <p class="mb-6">
+        I have vivid memories of playing on the ColecoVision, Atari 2600, NES, and SNES, and later discovering
+        adventures like King's Quest and Space Quest on my dad's computer. My father tried to introduce me to
+        programming back then, but I was more interested in playing than coding - and at seven or eight years old,
+        I was probably a bit too young to fully appreciate it.
+      </p>
+
+      <h3 class="text-xl font-semibold text-gray-900 mt-8 mb-4">Meeting the Internet</h3>
+      <p class="mb-6">
+        I had early access to the internet thanks to my mother's university account, which meant learning the
+        ropes over a very slow dial-up connection. I wasn't yet focused on programming, but the internet opened
+        the door to something I didn't realize I needed: online gaming.
+      </p>
+      <p class="mb-6">
+        I spent countless hours playing cutting-edge titles of the time, eventually diving deep into games like
+        Doom, Quake, Diablo, StarCraft, and Baldur's Gate.
+      </p>
+
+      <h3 class="text-xl font-semibold text-gray-900 mt-8 mb-4">Catching the Programming Bug</h3>
+      <p class="mb-6">
+        In high school, I switched from music to a computing course. While I enjoyed guitar, I'd hit a plateau
+        and was eager for a new challenge. Given my talent with computers, I thought the class would be easy;
+        instead, it became transformative.
+      </p>
+      <p class="mb-6">
+        A teacher recognized my potential and gave me more ambitious assignments. Since I loved computer games,
+        my assignments usually gravitated toward making my own rudimentary games. I became a fixture in the
+        computer lab: writing code, testing my games, helping classmates, and trading tips with other motivated
+        students. I was a total computer nerd, and I loved it.
+      </p>
+
+      <h3 class="text-xl font-semibold text-gray-900 mt-8 mb-4">College</h3>
+      <p class="mb-6">
+        From there, the choice was obvious: I wanted to be a software developer. I enrolled in the Computer
+        Science Technology program at Cegep Edouard-Montpetit and never looked back.
+      </p>
+      <p class="mb-6">
+        Yes, I trained in C/C++, SQL, and other technologies (many of which are now obsolete), but the most
+        valuable takeaway was:
+      </p>
+      <blockquote class="border-l-4 border-indigo-500 pl-4 italic text-gray-600 my-6">
+        "There is always something to learn, always something to discover, and to maintain that edge,
+        you need to practice constantly."
+      </blockquote>
+
+      <h3 class="text-xl font-semibold text-gray-900 mt-8 mb-4">Internship / First Job</h3>
+      <p class="mb-6">
+        I graduated in mid-2003 during a difficult job market following the dot-com bubble burst. Many talented
+        graduates struggled to find roles. I was one of the fortunate few hired after my internship, joining
+        Mediagrif as a Java developer for a suite of e-commerce sites.
+      </p>
+      <p class="mb-6">
+        That first role was a crash course in becoming a professional engineer. School provided foundations,
+        but the workplace taught me how to deliver production-grade software, collaborate effectively, and
+        build good engineering habits. I was especially lucky to have mentors who shaped my early career;
+        their guidance made me a better developer, and I remain grateful for their mentorship.
+      </p>
+
+      <h3 class="text-xl font-semibold text-gray-900 mt-8 mb-4">From Java to iOS</h3>
+      <p class="mb-6">
+        For the first six years of my career, I worked as a back-end Java developer, using technologies like
+        J2EE, Spring Framework, Hibernate, Apache ActiveMQ, and more. I learned a great deal, but eventually
+        the challenges became less challenging, less interesting; I kind of outgrew the pure technical side
+        of back-end development.
+      </p>
+      <p class="mb-6">
+        When Apple released the iPhone and opened up the iOS SDK, I embraced the opportunity to explore
+        something new. I had already switched to a Mac at home, so installing Xcode and learning Objective-C
+        was an accessible next step - though it required a major mindset shift. After years of Java's garbage
+        collection, returning to manual memory management felt like a step backward.
+      </p>
+      <p class="mb-6">
+        Developing for iOS 2/3 came with real constraints: no ARC, no storyboards, no Auto Layout - just plain
+        x/y positioning, no blocks (closures), extensive use of pointers, limited device performance, and no
+        readily available crash reporting. It truly felt like a new frontier.
+      </p>
+
+      <h3 class="text-xl font-semibold text-gray-900 mt-8 mb-4">The Story Since Then</h3>
+      <p class="mb-6">
+        Since then, I have primarily focused on iOS development. While I have worked with other technology
+        stacks over the years, my core expertise and passion consistently lead me back to iOS due to my
+        strong preference for the platform.
+      </p>
+    </div>
+  </SectionCard>
+
+  <!-- Thanks Section -->
+  <SectionCard id="thanks" gradient>
+    <SectionBadge label="Special Thanks" />
+    <div class="prose prose-lg max-w-none text-center mb-10">
+      <p class="text-gray-600">
+        After two decades in the industry, I've learned that software development is a team endeavor - one
+        that thrives on working alongside outstanding professionals, communicating effectively, collaborating
+        closely, and building great software every day.
+      </p>
+      <p class="text-gray-600">
+        I extend my sincere gratitude to colleagues whose talent, support, and camaraderie made the long
+        hours both meaningful and rewarding.
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+      {thanks.map(group => (
+        <div class="bg-white rounded-2xl p-6 shadow-card border border-gray-100">
+          <h4 class="text-lg font-semibold text-indigo-600 mb-3">{group.company}</h4>
+          <ul class="space-y-1 text-gray-600 text-sm">
+            {group.people.map(person => <li>{person}</li>)}
+          </ul>
+        </div>
+      ))}
+    </div>
+  </SectionCard>
+
+  <!-- Miscellaneous Section -->
+  <SectionCard id="misc">
+    <SectionBadge label="Miscellaneous" />
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="bg-gray-50 rounded-2xl p-6">
+        <h3 class="text-lg font-semibold text-gray-900 mb-4">Spoken & Written Languages</h3>
+        <p class="text-gray-600">English & French (Native)</p>
+      </div>
+
+      <div class="bg-gray-50 rounded-2xl p-6">
+        <h3 class="text-lg font-semibold text-gray-900 mb-4">Hobbies</h3>
+        <p class="text-gray-600">Coding, Computer Gaming, Biking, Karate, Board Games, Role Playing Games, Chess, LLMs</p>
+      </div>
+
+      <div class="bg-gray-50 rounded-2xl p-6">
+        <h3 class="text-lg font-semibold text-gray-900 mb-4">Work Location</h3>
+        <p class="text-gray-600 mb-4">
+          I prefer remote roles as they offer greater flexibility and eliminate commuting time. I am open to
+          hybrid positions in downtown Montreal or on the South Shore of Montreal.
+        </p>
+        <p class="text-gray-600">
+          <strong>Moving:</strong> I will not consider any position which requires me to move. I have aging
+          parents that will need my support for their golden years.
+        </p>
+      </div>
+
+      <div class="bg-gray-50 rounded-2xl p-6">
+        <h3 class="text-lg font-semibold text-gray-900 mb-4">Open-Source vs Copyrighted Work</h3>
+        <p class="text-gray-600">
+          I am favorable to open-source software in general. I just did not have many opportunities to contribute
+          in a meaningful way to such projects in my career beyond a bug report or a random patch file. I'd say
+          that 99.99% of the code I did in my career is covered by some kind of copyright that prevents me from
+          showcasing it.
+        </p>
+      </div>
+    </div>
+  </SectionCard>
+
+  <Footer
+    cvUrl={`${import.meta.env.BASE_URL}/files/CV.pdf`}
+    email="claude.houle@gmail.com"
+  />
+</BaseLayout>

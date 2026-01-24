@@ -1,0 +1,22 @@
+---
+interface Props {
+  id?: string;
+  gradient?: boolean;
+  class?: string;
+}
+
+const { id, gradient = false, class: className = '' } = Astro.props;
+---
+
+<section
+  id={id}
+  class:list={[
+    'py-16 md:py-24 px-4',
+    gradient ? 'gradient-card' : 'bg-white',
+    className
+  ]}
+>
+  <div class="max-w-4xl mx-auto animate-on-scroll">
+    <slot />
+  </div>
+</section>
