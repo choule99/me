@@ -1,12 +1,25 @@
 ---
+import type { Locale } from '../i18n/translations';
+import { t, getCvUrl } from '../i18n/utils';
+
+interface Props {
+  lang?: Locale;
+}
+
+const { lang = 'en' } = Astro.props;
+
 const navItems = [
-  { href: "#goals", label: "Goals" },
-  { href: "#projects", label: "Projects" },
-  { href: "#tech", label: "Tech" },
-  { href: "#experience", label: "Experience" },
-  { href: "#education", label: "Education" },
-  { href: "#story", label: "Story" },
+  { href: "#goals", label: t(lang, "nav.goals") },
+  { href: "#projects", label: t(lang, "nav.projects") },
+  { href: "#tech", label: t(lang, "nav.tech") },
+  { href: "#experience", label: t(lang, "nav.experience") },
+  { href: "#education", label: t(lang, "nav.education") },
+  { href: "#story", label: t(lang, "nav.story") },
 ];
+
+const toggleLang = lang === 'en' ? 'fr' : 'en';
+const toggleLabel = lang === 'en' ? 'FR' : 'EN';
+const toggleHref = lang === 'en' ? `${import.meta.env.BASE_URL}/fr/` : `${import.meta.env.BASE_URL}/`;
 ---
 
 <nav id="navbar" class="fixed top-4 left-1/2 -translate-x-1/2 z-50 opacity-0 transition-all duration-300 translate-y-[-20px]">
@@ -24,11 +37,19 @@ const navItems = [
       ))}
       <li class="ml-2">
         <a
-          href={`${import.meta.env.BASE_URL}/files/CV-Architect.pdf`}
+          href={getCvUrl(lang)}
           class="px-4 py-2 text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 rounded-full transition-colors"
           target="_blank"
         >
           CV
+        </a>
+      </li>
+      <li class="ml-1">
+        <a
+          href={toggleHref}
+          class="px-3 py-2 text-sm font-medium text-indigo-600 hover:text-indigo-800 rounded-full hover:bg-indigo-50 transition-colors border border-indigo-200"
+        >
+          {toggleLabel}
         </a>
       </li>
     </ul>

@@ -1,0 +1,580 @@
+---
+import '../../styles/global.css';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Navigation from '../../components/Navigation.astro';
+import Hero from '../../components/Hero.astro';
+import SectionCard from '../../components/SectionCard.astro';
+import SectionBadge from '../../components/SectionBadge.astro';
+import ProjectCard from '../../components/ProjectCard.astro';
+import ExperienceCard from '../../components/ExperienceCard.astro';
+import TechBadge from '../../components/TechBadge.astro';
+import Footer from '../../components/Footer.astro';
+import { getCollection } from 'astro:content';
+import type { Locale } from '../../i18n/translations';
+import { t, getCvUrl } from '../../i18n/utils';
+
+export function getStaticPaths() {
+  return [
+    { params: { lang: undefined } },
+    { params: { lang: 'fr' } },
+  ];
+}
+
+const lang: Locale = (Astro.params.lang as Locale) || 'en';
+const cvUrl = getCvUrl(lang);
+
+const experiences = await getCollection('experience');
+const sortedExperiences = experiences
+  .filter(exp => (exp.data.lang || 'en') === lang)
+  .sort((a, b) => a.data.order - b.data.order);
+
+const primaryLangs = [
+  { name: "Java", years: "2003 - present" },
+  { name: "Swift", years: "2015 - present" },
+  { name: "Kotlin", years: "2017 - present" },
+  { name: "Objective-C", years: "2010 - present" },
+];
+
+const secondaryLangs = [
+  { name: "C/C++", years: "1999 - present" },
+  { name: "Python", years: "2014 - 2017" },
+  { name: "JavaScript", years: "1999 - present" },
+  { name: "TypeScript", years: "2018 - present" },
+  { name: "SQL", years: "1999 - present" },
+  { name: "C#", years: "2014 - 2017" },
+  { name: "Node.js", years: "2014 - 2017" },
+];
+
+const operatingSystems = ["iOS", "visionOS", "watchOS", "tvOS", "macOS", "Linux", "Android"];
+
+const appleFrameworks = [
+  "iOS SDK", "macOS SDK", "watchOS SDK", "visionOS SDK", "SwiftUI", "UIKit",
+  "Combine", "RxSwift", "RxCocoa", "Core Data", "SwiftData", "Core Location",
+  "MapKit", "AVKit", "AVFoundation", "Core Image", "Core Animation"
+];
+
+const javaFrameworks = [
+  "Spring Framework", "Spring Boot", "Hibernate", "Apache Tomcat", "Apache Lucene",
+  "Apache Solr", "JBoss", "Liquibase", "Log4j", "Apache Maven", "Apache ActiveMQ",
+  "J2EE", "JUnit", "Mockito"
+];
+
+const androidFrameworks = [
+  "Google Play SDK", "Timber", "RxJava", "RxKotlin", "RxAndroid", "Dagger", "Gradle"
+];
+
+const webFrameworks = [
+  "BackboneJS", "MarionetteJS", "AngularJS", "Angular", "Bootstrap CSS", "Sass", "GruntJS", "WebPack"
+];
+
+const devopsTools = [
+  "Docker", "Vagrant", "CI/CD Pipelines", "GitHub Actions", "Fastlane"
+];
+
+const databases = ["PostgreSQL", "MySQL", "MariaDB", "SQLite", "Oracle", "DB2"];
+
+const testingTools = [
+  "XCTest", "XCUITest", "Swift Testing", "SwiftyMocky", "Snapshot Testing", "Nimble", "JUnit", "Mockito", "Jasmine", "Mocha", "Jest"
+];
+
+const patterns = ["MVVM", "MVC", "KISS", "SOLID", "SRP", "Law of Demeter"];
+
+const tools = [
+  "Git", "Apple Xcode", "Apple Instruments", "Apple TestFlight", "Swift Package Manager",
+  "CocoaPods", "IntelliJ IDEA", "VS Code", "Android Studio", "Docker", "Vagrant", "JIRA", "Trello",
+  "Zeplin.io", "Miro", "Excalidraw", "Figma"
+];
+
+const projects = [
+  {
+    title: t(lang, "projects.poka.title"),
+    description: t(lang, "projects.poka.description"),
+  },
+  {
+    title: t(lang, "projects.cae.title"),
+    description: t(lang, "projects.cae.description"),
+  },
+  {
+    title: t(lang, "projects.srilanka.title"),
+    description: t(lang, "projects.srilanka.description"),
+  },
+];
+
+const thanks = [
+  {
+    company: "Poka",
+    people: [
+      "Marc-Alexandre Berube",
+      "Olivier Mirandette",
+      "Jean-Francois Linteau Labonte",
+      "Jeff Léveillée"
+    ]
+  },
+  {
+    company: "Appcom",
+    people: [
+      "Jean-Christophe Duchaine",
+      "Laurent Boileau"
+    ]
+  },
+  {
+    company: "Spiria Digital",
+    people: [
+      "Stephane Rouleau",
+      "Patrick Bergeron",
+      "Stephane Beaudry",
+      "Alexandre Allard",
+      "Alain Chaput",
+      "Michel Emond"
+    ]
+  },
+  {
+    company: "8D Technologies",
+    people: [
+      "Eric Poitras",
+      "Sid Ahmed Kaddouri",
+      "Etienne Caron",
+      "Manuel Darveau",
+      "Francois Lamarre",
+      "Derek Kashl"
+    ]
+  },
+  {
+    company: "Accovia",
+    people: [
+      "Marc Gagnon",
+      "Guillaume Dupuis",
+      "David Lafrance",
+      "Joan Roch",
+      "Patrick Sansoucy",
+      "Christophe Dupre",
+      "Carl Alain"
+    ]
+  },
+  {
+    company: "Compuware Montreal",
+    people: [
+      "Maude Ducharme",
+      "Mathieu Gervais",
+      "Anthony John",
+      "Jimmy Royer",
+      "Simon Riopel"
+    ]
+  },
+  {
+    company: "Mediagrif",
+    people: [
+      "Martin Mailloux",
+      "Richard Lefrancois",
+      "Normand Masse",
+      "Kristofer Fudalewski",
+      "Jerome Bois",
+      "Marc-Lavigne Gagnon",
+      "Tim Voet"
+    ]
+  },
+];
+---
+
+<BaseLayout lang={lang}>
+  <Navigation lang={lang} />
+
+  <!-- Hero Section -->
+  <Hero
+    name="Claude Houle"
+    title={t(lang, "hero.title")}
+    email="claude.houle@gmail.com"
+    cvUrl={cvUrl}
+    lang={lang}
+  >
+    {t(lang, "hero.bio")}
+  </Hero>
+
+  <!-- Welcome/Intro Section -->
+  <SectionCard>
+    <div class="prose prose-lg max-w-none text-center">
+      <p class="text-gray-600 leading-relaxed">
+        {t(lang, "welcome.text")}
+      </p>
+    </div>
+  </SectionCard>
+
+  <!-- Goals Section -->
+  <SectionCard id="goals" gradient>
+    <SectionBadge label={t(lang, "goals.badge")} />
+    <div class="prose prose-lg max-w-none">
+      <p class="text-gray-700 leading-relaxed mb-6">
+        {t(lang, "goals.p1")}
+      </p>
+      <p class="text-gray-700 leading-relaxed mb-6">
+        {t(lang, "goals.p2")}
+      </p>
+      <p class="text-gray-700 leading-relaxed mb-6">
+        {t(lang, "goals.p3")}
+      </p>
+      <p class="text-gray-700 leading-relaxed mb-6">
+        {t(lang, "goals.p4")}
+      </p>
+
+      <h3 class="text-xl font-semibold text-gray-900 mt-8 mb-4">{t(lang, "goals.lookingFor")}</h3>
+      <p class="text-gray-700 leading-relaxed mb-4">
+        {t(lang, "goals.lookingFor.p1")}
+      </p>
+      <p class="text-gray-700 leading-relaxed">
+        {t(lang, "goals.lookingFor.p2")}
+      </p>
+    </div>
+  </SectionCard>
+
+  <!-- Projects Section -->
+  <SectionCard id="projects">
+    <SectionBadge label={t(lang, "projects.badge")} />
+    <div class="grid md:grid-cols-3 gap-6">
+      {projects.map(project => (
+        <ProjectCard title={project.title} description={project.description} />
+      ))}
+    </div>
+  </SectionCard>
+
+  <!-- Tech Section -->
+  <SectionCard id="tech" gradient>
+    <SectionBadge label={t(lang, "tech.badge")} />
+    <p class="text-center text-gray-600 mb-10 max-w-2xl mx-auto">
+      {t(lang, "tech.subtitle")}
+    </p>
+
+    <div class="space-y-10">
+      <!-- Programming Languages -->
+      <div>
+        <h3 class="text-xl font-semibold text-gray-900 mb-4">{t(lang, "tech.languages")}</h3>
+        <div class="grid md:grid-cols-2 gap-4">
+          <div class="bg-white rounded-2xl p-6 border border-gray-100">
+            <h4 class="text-sm font-semibold text-indigo-600 uppercase tracking-wider mb-3">{t(lang, "tech.primary")}</h4>
+            <div class="space-y-2">
+              {primaryLangs.map(lang => (
+                <div class="flex justify-between items-center">
+                  <span class="font-medium text-gray-900">{lang.name}</span>
+                  <span class="text-sm text-gray-500">{lang.years}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+          <div class="bg-white rounded-2xl p-6 border border-gray-100">
+            <h4 class="text-sm font-semibold text-indigo-600 uppercase tracking-wider mb-3">{t(lang, "tech.secondary")}</h4>
+            <div class="space-y-2">
+              {secondaryLangs.map(lang => (
+                <div class="flex justify-between items-center">
+                  <span class="text-gray-700">{lang.name}</span>
+                  <span class="text-sm text-gray-500">{lang.years}</span>
+                </div>
+              ))}
+            </div>
+            <p class="text-sm text-gray-500 mt-4 italic">
+              {t(lang, "tech.secondaryNote")}
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Operating Systems -->
+      <div>
+        <h3 class="text-xl font-semibold text-gray-900 mb-4">{t(lang, "tech.os")}</h3>
+        <div class="bg-white rounded-2xl p-6 border border-gray-100">
+          <div class="flex flex-wrap gap-2 mb-4">
+            {operatingSystems.map(os => <TechBadge name={os} />)}
+          </div>
+          <p class="text-sm text-gray-500">
+            {t(lang, "tech.osNote")}
+          </p>
+        </div>
+      </div>
+
+      <!-- Libraries & Frameworks -->
+      <div>
+        <h3 class="text-xl font-semibold text-gray-900 mb-4">{t(lang, "tech.frameworks")}</h3>
+
+        <div class="space-y-4">
+          <div class="bg-white rounded-2xl p-6 border border-gray-100">
+            <h4 class="text-sm font-semibold text-indigo-600 uppercase tracking-wider mb-3">{t(lang, "tech.apple")}</h4>
+            <div class="flex flex-wrap gap-2">
+              {appleFrameworks.map(fw => <TechBadge name={fw} />)}
+            </div>
+            <p class="text-sm text-gray-500 mt-4 italic">
+              {t(lang, "tech.appleNote")}
+            </p>
+          </div>
+
+          <div class="bg-white rounded-2xl p-6 border border-gray-100">
+            <h4 class="text-sm font-semibold text-indigo-600 uppercase tracking-wider mb-3">{t(lang, "tech.java")}</h4>
+            <div class="flex flex-wrap gap-2">
+              {javaFrameworks.map(fw => <TechBadge name={fw} />)}
+            </div>
+            <p class="text-sm text-gray-500 mt-4 italic">
+              {t(lang, "tech.javaNote")}
+            </p>
+          </div>
+
+          <div class="bg-white rounded-2xl p-6 border border-gray-100">
+            <h4 class="text-sm font-semibold text-indigo-600 uppercase tracking-wider mb-3">{t(lang, "tech.android")}</h4>
+            <div class="flex flex-wrap gap-2">
+              {androidFrameworks.map(fw => <TechBadge name={fw} />)}
+            </div>
+          </div>
+
+          <div class="bg-white rounded-2xl p-6 border border-gray-100">
+            <h4 class="text-sm font-semibold text-indigo-600 uppercase tracking-wider mb-3">{t(lang, "tech.web")}</h4>
+            <div class="flex flex-wrap gap-2">
+              {webFrameworks.map(fw => <TechBadge name={fw} />)}
+            </div>
+            <p class="text-sm text-gray-500 mt-4 italic">
+              {t(lang, "tech.webNote")}
+            </p>
+          </div>
+
+          <div class="bg-white rounded-2xl p-6 border border-gray-100">
+            <h4 class="text-sm font-semibold text-indigo-600 uppercase tracking-wider mb-3">{t(lang, "tech.devops")}</h4>
+            <div class="flex flex-wrap gap-2">
+              {devopsTools.map(tool => <TechBadge name={tool} />)}
+            </div>
+          </div>
+
+          <div class="bg-white rounded-2xl p-6 border border-gray-100">
+            <h4 class="text-sm font-semibold text-indigo-600 uppercase tracking-wider mb-3">{t(lang, "tech.rdbms")}</h4>
+            <div class="flex flex-wrap gap-2">
+              {databases.map(db => <TechBadge name={db} />)}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testing -->
+      <div>
+        <h3 class="text-xl font-semibold text-gray-900 mb-4">{t(lang, "tech.testing")}</h3>
+        <div class="bg-white rounded-2xl p-6 border border-gray-100 space-y-4">
+          <p class="text-gray-600">
+            {t(lang, "tech.testingIntro")}
+          </p>
+          <div class="flex flex-wrap gap-2">
+            {testingTools.map(tool => <TechBadge name={tool} />)}
+          </div>
+          <div class="border-t border-gray-100 pt-4 space-y-3">
+            <div>
+              <h4 class="font-semibold text-gray-900 text-sm">{t(lang, "tech.testingStack")}</h4>
+              <p class="text-gray-600 text-sm">
+                {t(lang, "tech.testingStackDesc")}
+              </p>
+            </div>
+            <div>
+              <h4 class="font-semibold text-gray-900 text-sm">{t(lang, "tech.codeCoverage")}</h4>
+              <p class="text-gray-600 text-sm">
+                {t(lang, "tech.codeCoverageDesc")}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Patterns & Tools -->
+      <div class="grid md:grid-cols-2 gap-6">
+        <div>
+          <h3 class="text-xl font-semibold text-gray-900 mb-4">{t(lang, "tech.patterns")}</h3>
+          <div class="bg-white rounded-2xl p-6 border border-gray-100">
+            <div class="flex flex-wrap gap-2">
+              {patterns.map(p => <TechBadge name={p} />)}
+            </div>
+          </div>
+        </div>
+        <div>
+          <h3 class="text-xl font-semibold text-gray-900 mb-4">{t(lang, "tech.tools")}</h3>
+          <div class="bg-white rounded-2xl p-6 border border-gray-100">
+            <div class="flex flex-wrap gap-2">
+              {tools.map(t => <TechBadge name={t} />)}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Methodology -->
+      <div>
+        <h3 class="text-xl font-semibold text-gray-900 mb-4">{t(lang, "tech.methodology")}</h3>
+        <div class="bg-white rounded-2xl p-6 border border-gray-100">
+          <p class="text-gray-600 leading-relaxed">
+            {t(lang, "tech.methodologyP1")}
+          </p>
+          <p class="text-gray-600 leading-relaxed mt-4">
+            {t(lang, "tech.methodologyP2")}
+          </p>
+        </div>
+      </div>
+
+      <!-- AI -->
+      <div>
+        <h3 class="text-xl font-semibold text-gray-900 mb-4">{t(lang, "tech.ai")}</h3>
+        <div class="bg-white rounded-2xl p-6 border border-gray-100 space-y-4">
+          <p class="text-gray-600 leading-relaxed">
+            {t(lang, "tech.aiP1")}
+          </p>
+          <div class="border-t border-gray-100 pt-4">
+            <h4 class="font-semibold text-gray-900 mb-2">{t(lang, "tech.claudeCode")}</h4>
+            <p class="text-gray-600 text-sm">
+              {t(lang, "tech.claudeCodeDesc")}
+            </p>
+          </div>
+          <div class="border-t border-gray-100 pt-4">
+            <h4 class="font-semibold text-gray-900 mb-2">{t(lang, "tech.aiTasks")}</h4>
+            <p class="text-gray-600 text-sm">
+              {t(lang, "tech.aiTasksDesc")}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </SectionCard>
+
+  <!-- Experience Section -->
+  <SectionCard id="experience">
+    <SectionBadge label={t(lang, "experience.badge")} />
+    <p class="text-center text-gray-600 mb-10 max-w-2xl mx-auto">
+      {t(lang, "experience.subtitle")}
+    </p>
+
+    <div class="relative">
+      {sortedExperiences.map(async (exp) => {
+        const { Content } = await exp.render();
+        return (
+          <ExperienceCard
+            company={exp.data.company}
+            title={exp.data.title}
+            dates={exp.data.dates}
+            description={exp.data.description}
+          >
+            <div class="mt-4 text-gray-600 text-sm prose prose-sm max-w-none">
+              <Content />
+            </div>
+          </ExperienceCard>
+        );
+      })}
+    </div>
+  </SectionCard>
+
+  <!-- Education Section -->
+  <SectionCard id="education" gradient>
+    <SectionBadge label={t(lang, "education.badge")} />
+    <div class="bg-white rounded-2xl p-8 shadow-card border border-gray-100">
+      <div class="text-center mb-6">
+        <h3 class="text-2xl font-semibold text-gray-900 mb-2">{t(lang, "education.degree")}</h3>
+        <p class="text-indigo-600 font-medium mb-2">{t(lang, "education.school")}</p>
+        <p class="text-gray-500">{t(lang, "education.location")}</p>
+      </div>
+      <div class="prose prose-sm max-w-none text-gray-600">
+        <p>{t(lang, "education.p1")}</p>
+        <p>{t(lang, "education.p2")}</p>
+        <p>{t(lang, "education.p3")}</p>
+      </div>
+    </div>
+  </SectionCard>
+
+  <!-- Story Section -->
+  <SectionCard id="story">
+    <SectionBadge label={t(lang, "story.badge")} />
+    <div class="prose prose-lg max-w-none text-gray-700">
+      <p class="text-lg text-gray-600 italic mb-8">
+        {t(lang, "story.intro")}
+      </p>
+
+      <h3 class="text-xl font-semibold text-gray-900 mt-8 mb-4">{t(lang, "story.earlyYears")}</h3>
+      <p class="mb-6">{t(lang, "story.earlyYearsP1")}</p>
+      <p class="mb-6">{t(lang, "story.earlyYearsP2")}</p>
+
+      <h3 class="text-xl font-semibold text-gray-900 mt-8 mb-4">{t(lang, "story.internet")}</h3>
+      <p class="mb-6">{t(lang, "story.internetP1")}</p>
+      <p class="mb-6">{t(lang, "story.internetP2")}</p>
+
+      <h3 class="text-xl font-semibold text-gray-900 mt-8 mb-4">{t(lang, "story.bug")}</h3>
+      <p class="mb-6">{t(lang, "story.bugP1")}</p>
+      <p class="mb-6">{t(lang, "story.bugP2")}</p>
+
+      <h3 class="text-xl font-semibold text-gray-900 mt-8 mb-4">{t(lang, "story.college")}</h3>
+      <p class="mb-6">{t(lang, "story.collegeP1")}</p>
+      <p class="mb-6">{t(lang, "story.collegeP2")}</p>
+      <blockquote class="border-l-4 border-indigo-500 pl-4 italic text-gray-600 my-6">
+        {t(lang, "story.collegeQuote")}
+      </blockquote>
+
+      <h3 class="text-xl font-semibold text-gray-900 mt-8 mb-4">{t(lang, "story.internship")}</h3>
+      <p class="mb-6">{t(lang, "story.internshipP1")}</p>
+      <p class="mb-6">{t(lang, "story.internshipP2")}</p>
+
+      <h3 class="text-xl font-semibold text-gray-900 mt-8 mb-4">{t(lang, "story.expanding")}</h3>
+      <p class="mb-6">{t(lang, "story.expandingP1")}</p>
+      <p class="mb-6">{t(lang, "story.expandingP2")}</p>
+      <p class="mb-6">{t(lang, "story.expandingP3")}</p>
+
+      <h3 class="text-xl font-semibold text-gray-900 mt-8 mb-4">{t(lang, "story.since")}</h3>
+      <p class="mb-6">{t(lang, "story.sinceP1")}</p>
+    </div>
+  </SectionCard>
+
+  <!-- Thanks Section -->
+  <SectionCard id="thanks" gradient>
+    <SectionBadge label={t(lang, "thanks.badge")} />
+    <div class="prose prose-lg max-w-none text-center mb-10">
+      <p class="text-gray-600">
+        {t(lang, "thanks.p1")}
+      </p>
+      <p class="text-gray-600">
+        {t(lang, "thanks.p2")}
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+      {thanks.map(group => (
+        <div class="bg-white rounded-2xl p-6 shadow-card border border-gray-100">
+          <h4 class="text-lg font-semibold text-indigo-600 mb-3">{group.company}</h4>
+          <ul class="space-y-1 text-gray-600 text-sm">
+            {group.people.map(person => <li>{person}</li>)}
+          </ul>
+        </div>
+      ))}
+    </div>
+  </SectionCard>
+
+  <!-- Miscellaneous Section -->
+  <SectionCard id="misc">
+    <SectionBadge label={t(lang, "misc.badge")} />
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="bg-gray-50 rounded-2xl p-6">
+        <h3 class="text-lg font-semibold text-gray-900 mb-4">{t(lang, "misc.languages")}</h3>
+        <p class="text-gray-600">{t(lang, "misc.languagesValue")}</p>
+      </div>
+
+      <div class="bg-gray-50 rounded-2xl p-6">
+        <h3 class="text-lg font-semibold text-gray-900 mb-4">{t(lang, "misc.hobbies")}</h3>
+        <p class="text-gray-600">{t(lang, "misc.hobbiesValue")}</p>
+      </div>
+
+      <div class="bg-gray-50 rounded-2xl p-6">
+        <h3 class="text-lg font-semibold text-gray-900 mb-4">{t(lang, "misc.location")}</h3>
+        <p class="text-gray-600 mb-4">
+          {t(lang, "misc.locationP1")}
+        </p>
+        <p class="text-gray-600">
+          <strong>{t(lang, "misc.locationP2Moving")}</strong> {t(lang, "misc.locationP2")}
+        </p>
+      </div>
+
+      <div class="bg-gray-50 rounded-2xl p-6">
+        <h3 class="text-lg font-semibold text-gray-900 mb-4">{t(lang, "misc.openSource")}</h3>
+        <p class="text-gray-600">
+          {t(lang, "misc.openSourceValue")}
+        </p>
+      </div>
+    </div>
+  </SectionCard>
+
+  <Footer
+    cvUrl={cvUrl}
+    email="claude.houle@gmail.com"
+    lang={lang}
+  />
+</BaseLayout>

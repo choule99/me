@@ -1,17 +1,21 @@
 ---
+import type { Locale } from '../i18n/translations';
+import { t } from '../i18n/utils';
+
 interface Props {
   cvUrl: string;
   email: string;
+  lang?: Locale;
 }
 
-const { cvUrl, email } = Astro.props;
+const { cvUrl, email, lang = 'en' } = Astro.props;
 ---
 
 <footer class="bg-gray-900 text-white py-16 px-4">
   <div class="max-w-4xl mx-auto text-center">
-    <h2 class="text-2xl font-bold mb-4">Let's Connect</h2>
+    <h2 class="text-2xl font-bold mb-4">{t(lang, "footer.title")}</h2>
     <p class="text-gray-400 mb-8 max-w-lg mx-auto">
-      Interested in working together? Feel free to reach out via email.
+      {t(lang, "footer.subtitle")}
     </p>
 
     <div class="flex flex-wrap gap-4 justify-center mb-12">
@@ -23,7 +27,7 @@ const { cvUrl, email } = Astro.props;
         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
         </svg>
-        Download CV
+        {t(lang, "hero.downloadCv")}
       </a>
       <a
         href={`mailto:${email}`}
@@ -32,13 +36,13 @@ const { cvUrl, email } = Astro.props;
         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
         </svg>
-        Email
+        {t(lang, "hero.email")}
       </a>
     </div>
 
     <div class="border-t border-gray-800 pt-8">
       <p class="text-gray-500 text-sm">
-        &copy; {new Date().getFullYear()} Claude Houle. Built with Astro.
+        &copy; {new Date().getFullYear()} {t(lang, "footer.copyright")}
       </p>
     </div>
   </div>

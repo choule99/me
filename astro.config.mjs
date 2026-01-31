@@ -8,5 +8,12 @@ export default defineConfig({
   outDir: './docs',
   build: {
     assets: '_assets'
+  },
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'fr'],
+    routing: {
+      prefixDefaultLocale: false
+    }
   }
 });

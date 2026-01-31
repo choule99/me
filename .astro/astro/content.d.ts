@@ -141,9 +141,23 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"experience": {
+"8d.fr.md": {
+	id: "8d.fr.md";
+  slug: "8dfr";
+  body: string;
+  collection: "experience";
+  data: InferEntrySchema<"experience">
+} & { render(): Render[".md"] };
 "8d.md": {
 	id: "8d.md";
   slug: "8d";
+  body: string;
+  collection: "experience";
+  data: InferEntrySchema<"experience">
+} & { render(): Render[".md"] };
+"accovia.fr.md": {
+	id: "accovia.fr.md";
+  slug: "accoviafr";
   body: string;
   collection: "experience";
   data: InferEntrySchema<"experience">
@@ -155,9 +169,23 @@ declare module 'astro:content' {
   collection: "experience";
   data: InferEntrySchema<"experience">
 } & { render(): Render[".md"] };
+"appcom.fr.md": {
+	id: "appcom.fr.md";
+  slug: "appcomfr";
+  body: string;
+  collection: "experience";
+  data: InferEntrySchema<"experience">
+} & { render(): Render[".md"] };
 "appcom.md": {
 	id: "appcom.md";
   slug: "appcom";
+  body: string;
+  collection: "experience";
+  data: InferEntrySchema<"experience">
+} & { render(): Render[".md"] };
+"compuware.fr.md": {
+	id: "compuware.fr.md";
+  slug: "compuwarefr";
   body: string;
   collection: "experience";
   data: InferEntrySchema<"experience">
@@ -169,6 +197,13 @@ declare module 'astro:content' {
   collection: "experience";
   data: InferEntrySchema<"experience">
 } & { render(): Render[".md"] };
+"mdf.fr.md": {
+	id: "mdf.fr.md";
+  slug: "mdffr";
+  body: string;
+  collection: "experience";
+  data: InferEntrySchema<"experience">
+} & { render(): Render[".md"] };
 "mdf.md": {
 	id: "mdf.md";
   slug: "mdf";
@@ -176,9 +211,23 @@ declare module 'astro:content' {
   collection: "experience";
   data: InferEntrySchema<"experience">
 } & { render(): Render[".md"] };
+"poka.fr.md": {
+	id: "poka.fr.md";
+  slug: "pokafr";
+  body: string;
+  collection: "experience";
+  data: InferEntrySchema<"experience">
+} & { render(): Render[".md"] };
 "poka.md": {
 	id: "poka.md";
   slug: "poka";
+  body: string;
+  collection: "experience";
+  data: InferEntrySchema<"experience">
+} & { render(): Render[".md"] };
+"spiria.fr.md": {
+	id: "spiria.fr.md";
+  slug: "spiriafr";
   body: string;
   collection: "experience";
   data: InferEntrySchema<"experience">

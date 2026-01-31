@@ -8,6 +8,7 @@ const experienceCollection = defineCollection({
     dates: z.string(),
     order: z.number(),
     description: z.string(),
+    lang: z.string().default('en'),
   }),
 });
 
