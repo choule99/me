@@ -1,0 +1,158 @@
+{
+  "name": "Claude Houle",
+  "title": "Lead iOS Developer & Mobile Architect",
+  "email": "claude.houle@gmail.com",
+  "web": "choule99.github.io/me",
+  "location": "Montreal, QC",
+  "summary": "iOS developer with 15+ years on Apple platforms and 21+ years total in software development. Passionate about making great mobile applications that make a difference in end users' daily lives through exceptional user experience. From visionOS pioneer (day-one App Store launch) to leading teams on a 450,000-line Swift codebase serving 200,000+ daily users with 99.999% crash-free sessions.",
+  "accomplishments": [
+    "Maintained a 450,000-line Swift codebase serving 200,000+ DAU with a sustained 99.999% crash-free session rate",
+    "Designed and shipped a visionOS-native app that impressed Apple and earned Poka a Vision Pro Dev Kit — launched as the 1st Connected Worker Solution on the visionOS App Store",
+    "Automated App Store deployments end-to-end, increasing release cadence from 1/week to 4/day and CI build speeds by 50%",
+    "Onboarded 20 Sri Lankan developers with a custom training curriculum — team productive within 3 months",
+    "Built a shared iOS component library at Appcom that standardized patterns across 15+ client projects and accelerated delivery"
+  ],
+  "skills": [
+    {
+      "label": "Languages",
+      "items": [
+        "Swift",
+        "Kotlin",
+        "Java",
+        "TypeScript",
+        "SQL"
+      ]
+    },
+    {
+      "label": "Apple",
+      "items": [
+        "iOS SDK",
+        "visionOS SDK",
+        "SwiftUI",
+        "UIKit",
+        "Combine",
+        "Core Data",
+        "SwiftData",
+        "Core Location",
+        "AVFoundation"
+      ]
+    },
+    {
+      "label": "Testing",
+      "items": [
+        "XCTest",
+        "XCUITest",
+        "Swift Testing",
+        "Snapshot Testing"
+      ]
+    },
+    {
+      "label": "DevOps",
+      "items": [
+        "Fastlane",
+        "GitHub Actions",
+        "Swift Package Manager",
+        "TestFlight",
+        "Sentry",
+        "LaunchDarkly"
+      ]
+    },
+    {
+      "label": "Practices",
+      "items": [
+        "MVVM",
+        "SOLID",
+        "REST API Design",
+        "Mobile UX Design",
+        "Software Architecture",
+        "Claude Code"
+      ]
+    },
+    {
+      "label": "Also",
+      "items": [
+        "Objective-C",
+        "RxSwift",
+        "watchOS SDK",
+        "macOS SDK",
+        "CocoaPods",
+        "Instruments"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Poka Inc.",
+      "title": "Architect, Lead iOS, Lead VisionOS",
+      "dates": "Oct 2021 — Present",
+      "description": "Connected worker platform — 200,000+ DAU, 450,000 lines of Swift + 55,000 lines legacy Obj-C, 99.999% crash-free.",
+      "bullets": [
+        "Saw an opportunity in Apple's new platform; independently designed and built a visionOS-native app, presented it directly to Apple, earned a Vision Pro Dev Kit, and launched the 1st Connected Worker Solution on the visionOS App Store",
+        "Inherited a fragile codebase with frequent crashes; implemented refactoring practices and quality processes that raised the crash-free rate to 99.999%",
+        "Faced slow, manual releases; built a CI/CD pipeline on MacStadium that improved build speeds by 50% and increased deployments from 1/week to 4/day",
+        "Tackled low test coverage (30%); led an incremental testing initiative alongside refactors to SwiftUI, Combine, and modern architectures, reaching 60% over four years",
+        "Needed to scale the team fast; onboarded 20 Sri Lankan developers with a custom training curriculum, making them productive within 3 months",
+        "Adopted AI-assisted tools (Claude, Warp.dev) into the iOS team workflow, reducing coding time by 10%"
+      ]
+    },
+    {
+      "company": "Appcom",
+      "title": "Lead Mobile Developer",
+      "dates": "Nov 2019 — Oct 2021",
+      "description": "Mobile development studio — led iOS team across 15+ client projects in retail, healthcare, media, and mobility.",
+      "bullets": [
+        "Found duplicated effort across 15+ client projects; designed a shared iOS framework of documented, unit-tested components that standardized patterns and accelerated delivery",
+        "Led the mobile team through full project lifecycles for Metro & Moi, Super C, FoodBasics, AbbVie, Le Devoir, Biodome de Montreal, Christies, TaxiCoop, and others",
+        "Owned CI/CD pipelines on MacStadium; automated App Store deployments and release processes across all client apps",
+        "Mentored junior developers through 1:1 sessions and organized lunch-and-learns to foster continuous learning"
+      ]
+    },
+    {
+      "company": "Spiria Digital",
+      "title": "Senior iOS Developer, Architect",
+      "dates": "Nov 2013 — Nov 2019",
+      "description": "Custom software agency — responsible for creating initial architecture and evolving it with client requirements.",
+      "bullets": [
+        "CAE PreStudy: took the project from requirements through delivery, building a native iOS app for aviation pilot training end-to-end",
+        "Payfare (DiDi/Lyft): developed iOS and Android clients for an early payment platform serving gig economy drivers",
+        "BookJane: built an iOS app for healthcare workforce management",
+        "Acosta SLTouch, Skillable: delivered hybrid and PWA solutions across the full stack for retail analytics and micro-learning"
+      ]
+    },
+    {
+      "company": "8D Technologies",
+      "title": "iOS Developer",
+      "dates": "Oct 2009 — Oct 2013",
+      "description": "Software and hardware for bike-sharing systems — pioneering mobile development for urban mobility.",
+      "bullets": [
+        "Developed the Spotcycle and Solstice iOS apps for bike-sharing, supporting city-wide deployments in London and New York City",
+        "Pioneered the first-ever Augmented Reality bike-sharing finder by combining live camera feed with Core Location data",
+        "Solved for unreliable connectivity across entire cities — early mobile engineering under real-world constraints"
+      ]
+    },
+    {
+      "company": "Accovia",
+      "title": "Back-End Java Developer",
+      "dates": "Oct 2007 — Oct 2009",
+      "bullets": [
+        "Joined the Architecture Team on the Ibiza Project after a critical client recovery; helped rebuild the platform from the ground up with Java, Spring, and Hibernate, delivering on time and on budget"
+      ]
+    },
+    {
+      "company": "Compuware Montreal",
+      "title": "Java Consultant",
+      "dates": "Oct 2005 — Oct 2007",
+      "bullets": [
+        "Assigned to Morgan Stanley's Libra project to migrate mainframe COBOL to Java services; worked within a globally distributed team across New York, Budapest, Tokyo, and Vancouver"
+      ]
+    },
+    {
+      "company": "Mediagrif",
+      "title": "Java Developer",
+      "dates": "May 2003 — Oct 2005",
+      "bullets": [
+        "Joined the Software Infrastructure team; built core services and reusable components adopted by multiple e-commerce product teams"
+      ]
+    }
+  ]
+}

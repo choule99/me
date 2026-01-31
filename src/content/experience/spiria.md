@@ -1,6 +1,6 @@
 ---
 company: "Spiria Digital"
-title: "Software Architect, Senior iOS Developer"
+title: "Software Architect, Senior Developer"
 dates: "October 2013 - September 2019"
 order: 3
 description: "Spiria Digital is a Canadian custom software development agency specializing in tailored digital solutions, including mobile and web applications, application modernization, and digital transformation initiatives."
@@ -18,8 +18,12 @@ description: "Spiria Digital is a Canadian custom software development agency sp
 
 Representative projects across my tenure:
 
-- **CAE PreStudy Pilot Training Application** — End-to-end architecture and development spanning back end, front end, and iOS application for aviation training solutions
-- **Acosta SLTouch** — Hybrid mobile application and frameworks for retail analytics
-- **Skillable App** — Progressive Web App for a micro-learning platform
+- **CAE PreStudy Pilot Training Application** — End-to-end architecture and development spanning Spring backend, Angular frontend, and native iOS application for aviation training solutions
+- **Acosta SLTouch** — Hybrid mobile application and frameworks for retail analytics, built with BackboneJS/MarionetteJS and Node.js
+- **Skillable App** — Progressive Web App for a micro-learning platform using Angular and TypeScript
 - **Payfare (DiDi / Lyft)** — iOS and Android contributions for the early payment platform serving gig economy drivers
 - **BookJane** — iOS application development for healthcare workforce management
+
+### Technologies
+
+Swift, Objective-C, Java, C#, Python, C/C++, Node.js, TypeScript, JavaScript, Spring Framework, Angular, AngularJS, BackboneJS, MarionetteJS, Jasmine, GruntJS, WebPack, Bootstrap CSS, Sass, Docker, Vagrant

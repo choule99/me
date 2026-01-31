@@ -1,0 +1,181 @@
+{
+  "name": "Claude Houle",
+  "title": "Développeur Full-Stack & Architecte logiciel",
+  "email": "claude.houle@gmail.com",
+  "web": "choule99.github.io/me",
+  "location": "Montréal, QC",
+  "sections": {
+    "profile": "Profil",
+    "accomplishments": "Réalisations clés",
+    "skills": "Compétences techniques",
+    "experience": "Expérience professionnelle",
+    "education": "Formation"
+  },
+  "education": {
+    "degree": "Techniques de l'informatique",
+    "school": "Cégep Édouard-Montpetit, Longueuil, QC",
+    "dates": "Sept 2000 — Mai 2003",
+    "description": "Diplôme d'études collégiales (DEC) de trois ans couvrant le C, C++, Java, SQL, Linux et l'informatique appliquée."
+  },
+  "summary": "Développeur logiciel avec plus de 21 ans d'expérience en systèmes backend, plateformes mobiles et applications web. Capacité éprouvée à concevoir et livrer des logiciels de production couvrant l'ensemble de la pile technologique — des backends Spring Boot et frontends Angular aux clients natifs iOS et Android — avec un accent sur la qualité, le mentorat et l'amélioration continue.",
+  "accomplishments": [
+    "Dirigé une application iOS en production servant plus de 200 000 utilisateurs actifs quotidiens avec un taux sans plantage de 99,999 % sur une base de code Swift de 450K lignes",
+    "Conçu des solutions full-stack chez Spiria couvrant des backends Spring, des frontends Angular et du iOS natif — incluant la plateforme de formation des pilotes d'aviation de CAE",
+    "Intégré un pipeline CI/CD améliorant la vitesse de compilation de 50 % et augmentant les déploiements de 1/semaine à 4/jour grâce à l'automatisation complète de l'App Store",
+    "Doublé la couverture de tests (30 % → 60 %) sur quatre ans grâce à une croissance disciplinée et incrémentale parallèlement à la modernisation de la base de code"
+  ],
+  "skills": [
+    {
+      "label": "Langages",
+      "items": [
+        "Java",
+        "Swift",
+        "Kotlin",
+        "TypeScript",
+        "SQL",
+        "Python"
+      ]
+    },
+    {
+      "label": "Backend",
+      "items": [
+        "Spring Boot",
+        "Hibernate",
+        "Node.js",
+        "PostgreSQL",
+        "MySQL",
+        "Docker"
+      ]
+    },
+    {
+      "label": "Frontend",
+      "items": [
+        "Angular",
+        "SwiftUI",
+        "UIKit"
+      ]
+    },
+    {
+      "label": "Mobile",
+      "items": [
+        "iOS SDK",
+        "visionOS SDK",
+        "Android SDK",
+        "Combine"
+      ]
+    },
+    {
+      "label": "DevOps",
+      "items": [
+        "CI/CD Pipelines",
+        "GitHub Actions",
+        "Fastlane",
+        "Sentry",
+        "LaunchDarkly"
+      ]
+    },
+    {
+      "label": "Tests",
+      "items": [
+        "JUnit",
+        "Mockito",
+        "XCTest",
+        "Swift Testing",
+        "Jest"
+      ]
+    },
+    {
+      "label": "Pratiques",
+      "items": [
+        "REST API Design",
+        "MVVM",
+        "SOLID",
+        "Software Architecture",
+        "Claude Code"
+      ]
+    },
+    {
+      "label": "Aussi",
+      "items": [
+        "Objective-C",
+        "JavaScript",
+        "AngularJS",
+        "Oracle",
+        "DB2",
+        "Vagrant"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Poka Inc.",
+      "title": "Architecte, Lead iOS, Lead VisionOS",
+      "dates": "Oct 2021 — Présent",
+      "description": "Plateforme pour travailleurs connectés avec plus de 200 000 utilisateurs actifs quotidiens aidant les manufacturiers à améliorer la productivité et le partage des connaissances en usine.",
+      "bullets": [
+        "Hérité d'une base de code fragile de 450K lignes avec des plantages fréquents ; introduit des outils internes, des bibliothèques réutilisables et des pratiques standardisées qui ont porté le taux sans plantage à 99,999 %",
+        "Face à des mises en production lentes et manuelles ; construit un pipeline CI/CD sur MacStadium qui a amélioré la vitesse de compilation de 50 % et augmenté les déploiements de 1/semaine à 4/jour",
+        "Besoin de faire croître l'équipe rapidement ; intégré 20 développeurs sri-lankais avec un programme de formation sur mesure, les rendant productifs en 3 mois",
+        "Confronté à une faible couverture de tests (30 %) ; mené une initiative de tests incrémentale parallèlement aux refactorisations, atteignant 60 % en quatre ans",
+        "Adopté des outils assistés par IA (Claude, Warp.dev) dans le flux de travail de l'équipe iOS, réduisant le temps de développement de 10 %"
+      ]
+    },
+    {
+      "company": "Appcom",
+      "title": "Lead développeur mobile",
+      "dates": "Nov 2019 — Oct 2021",
+      "description": "Studio de développement mobile développant et maintenant des applications pour des clients dans le commerce de détail, la santé, les médias et la mobilité.",
+      "bullets": [
+        "Géré plus de 15 projets clients simultanés avec des efforts dupliqués entre les équipes ; conçu un framework iOS partagé de composants documentés et testés qui a réduit la duplication et amélioré le délai de mise en marché",
+        "Dirigé l'équipe iOS à travers des cycles de vie complets — planification, développement, revue de code et mise en production — pour Metro & Moi, Super C, FoodBasics, AbbVie, Le Devoir, Biodôme de Montréal, Christies, TaxiCoop et autres"
+      ]
+    },
+    {
+      "company": "Spiria Digital",
+      "title": "Architecte logiciel, Développeur sénior",
+      "dates": "Nov 2013 — Nov 2019",
+      "description": "Agence de logiciels sur mesure — direction de l'architecture de solutions pour des engagements clients multi-plateformes.",
+      "bullets": [
+        "Responsable de l'architecture de solutions pour les engagements clients ; traduit les exigences d'affaires en contrats d'API, modèles de données et stratégies d'intégration guidant les équipes de développement",
+        "CAE PreStudy : conçu l'architecture de bout en bout couvrant un backend Spring, un frontend Angular et une application iOS native pour une plateforme de formation des pilotes d'aviation",
+        "Acosta SLTouch : construit une application mobile hybride et un framework pour l'analytique de vente au détail avec BackboneJS/MarionetteJS et Node.js",
+        "Skillable : livré une Progressive Web App pour le micro-apprentissage avec Angular et TypeScript"
+      ]
+    },
+    {
+      "company": "8D Technologies",
+      "title": "Développeur Java back-end → Développeur iOS",
+      "dates": "Oct 2009 — Oct 2013",
+      "description": "Logiciels et matériel pour le vélo-partage et les systèmes de stationnement automatisés, incluant des stations de point de vente solaires et des plateformes backend.",
+      "bullets": [
+        "Commencé dans l'équipe backend Java pour la suite de vélo-partage Solstice ; transitionné vers iOS, apportant une expertise backend qui a fait le pont entre les couches du système",
+        "Développé les applications iOS Spotcycle et Solstice, supportant des déploiements à l'échelle de la ville à Londres et New York",
+        "Pionnier du tout premier système de réalité augmentée pour trouver des vélos en libre-service en combinant le flux caméra en direct avec les données Core Location"
+      ]
+    },
+    {
+      "company": "Accovia",
+      "title": "Développeur Java back-end",
+      "dates": "Oct 2007 — Oct 2009",
+      "bullets": [
+        "Intégré l'équipe d'architecture du projet Ibiza après un redressement client critique ; contribué à reconstruire la plateforme de zéro avec Java, Spring et Hibernate, livrant dans les délais et le budget"
+      ]
+    },
+    {
+      "company": "Compuware Montréal",
+      "title": "Consultant Java — Morgan Stanley",
+      "dates": "Oct 2005 — Oct 2007",
+      "bullets": [
+        "Affecté au projet Libra de Morgan Stanley pour migrer du COBOL sur z/OS vers des services Java sur Linux avec DB2 ; travaillé au sein d'une équipe distribuée à travers New York, Budapest, Tokyo et Vancouver"
+      ]
+    },
+    {
+      "company": "Mediagrif",
+      "title": "Développeur Java",
+      "dates": "Mai 2003 — Oct 2005",
+      "bullets": [
+        "Intégré l'équipe d'infrastructure logicielle ; construit des services de base, des composants réutilisables et des couches d'accès aux données adoptés par plusieurs équipes de produits e-commerce"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "name": "Claude Houle",
+  "title": "Full-Stack Developer & Software Architect",
+  "email": "claude.houle@gmail.com",
+  "web": "choule99.github.io/me",
+  "location": "Montreal, QC",
+  "summary": "Software developer with 21+ years of experience across backend systems, mobile platforms, and web applications. Proven ability to architect and deliver production software spanning the full stack — from Spring Boot backends and Angular frontends to native iOS and Android clients — with a focus on quality, mentorship, and continuous improvement.",
+  "accomplishments": [
+    "Led a production iOS app serving 200,000+ DAU with 99.999% crash-free rate across a 450K-line Swift codebase",
+    "Architected full-stack solutions at Spiria spanning Spring backends, Angular frontends, and native iOS — including CAE's aviation pilot training platform",
+    "Integrated CI/CD pipeline improving build speeds by 50% and increasing deployments from 1/week to 4/day through full App Store automation",
+    "Doubled test coverage (30% → 60%) over four years through disciplined, incremental growth alongside codebase modernization"
+  ],
+  "skills": [
+    {
+      "label": "Languages",
+      "items": [
+        "Java",
+        "Swift",
+        "Kotlin",
+        "TypeScript",
+        "SQL",
+        "Python"
+      ]
+    },
+    {
+      "label": "Backend",
+      "items": [
+        "Spring Boot",
+        "Hibernate",
+        "Node.js",
+        "PostgreSQL",
+        "MySQL",
+        "Docker"
+      ]
+    },
+    {
+      "label": "Frontend",
+      "items": [
+        "Angular",
+        "SwiftUI",
+        "UIKit"
+      ]
+    },
+    {
+      "label": "Mobile",
+      "items": [
+        "iOS SDK",
+        "visionOS SDK",
+        "Android SDK",
+        "Combine"
+      ]
+    },
+    {
+      "label": "DevOps",
+      "items": [
+        "CI/CD Pipelines",
+        "GitHub Actions",
+        "Fastlane",
+        "Sentry",
+        "LaunchDarkly"
+      ]
+    },
+    {
+      "label": "Testing",
+      "items": [
+        "JUnit",
+        "Mockito",
+        "XCTest",
+        "Swift Testing",
+        "Jest"
+      ]
+    },
+    {
+      "label": "Practices",
+      "items": [
+        "REST API Design",
+        "MVVM",
+        "SOLID",
+        "Software Architecture",
+        "Claude Code"
+      ]
+    },
+    {
+      "label": "Also",
+      "items": [
+        "Objective-C",
+        "JavaScript",
+        "AngularJS",
+        "Oracle",
+        "DB2",
+        "Vagrant"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Poka Inc.",
+      "title": "Architect, Lead iOS, Lead VisionOS",
+      "dates": "Oct 2021 — Present",
+      "description": "Connected worker platform with 200,000+ DAU helping manufacturers improve productivity and knowledge sharing on the factory floor.",
+      "bullets": [
+        "Inherited a fragile 450K-line codebase with frequent crashes; introduced internal tools, reusable libraries, and standardized practices that raised the crash-free rate to 99.999%",
+        "Faced slow, manual releases; built a CI/CD pipeline on MacStadium that improved build speeds by 50% and increased deployments from 1/week to 4/day",
+        "Needed to scale the team fast; onboarded 20 Sri Lankan developers with a custom training curriculum, making them productive within 3 months",
+        "Tackled low test coverage (30%); drove incremental testing alongside refactors, reaching 60% coverage over four years",
+        "Adopted AI-assisted tools (Claude, Warp.dev) into the iOS team workflow, reducing coding time by 10%"
+      ]
+    },
+    {
+      "company": "Appcom",
+      "title": "Lead Mobile Developer",
+      "dates": "Nov 2019 — Oct 2021",
+      "description": "Mobile development studio developing and maintaining applications for clients across retail, healthcare, media, and mobility.",
+      "bullets": [
+        "Managed 15+ concurrent client projects with duplicated effort across teams; designed a shared iOS framework of documented, unit-tested components that reduced duplication and improved time-to-market",
+        "Led the iOS team through full project lifecycles — planning, development, code review, and release — for Metro & Moi, Super C, FoodBasics, AbbVie, Le Devoir, Biodome de Montreal, Christies, TaxiCoop, and others"
+      ]
+    },
+    {
+      "company": "Spiria Digital",
+      "title": "Software Architect, Senior Developer",
+      "dates": "Nov 2013 — Nov 2019",
+      "description": "Custom software agency — led solution architecture across multi-platform client engagements.",
+      "bullets": [
+        "Owned solution architecture for client engagements; translated business requirements into API contracts, data models, and integration strategies that guided development teams",
+        "CAE PreStudy: designed end-to-end architecture spanning Spring backend, Angular frontend, and native iOS for an aviation pilot training platform",
+        "Acosta SLTouch: built a hybrid mobile app and framework for retail analytics using BackboneJS/MarionetteJS and Node.js",
+        "Skillable: delivered a Progressive Web App for micro-learning using Angular and TypeScript"
+      ]
+    },
+    {
+      "company": "8D Technologies",
+      "title": "Back-End Java Developer → iOS Developer",
+      "dates": "Oct 2009 — Oct 2013",
+      "description": "Software and hardware for bike-sharing and automated parking systems, including solar-powered POS stations and backend platforms.",
+      "bullets": [
+        "Started on the backend Java team for the Solstice bike-sharing suite; transitioned to iOS, bringing backend expertise that bridged system layers",
+        "Developed the Spotcycle and Solstice iOS apps, supporting city-wide deployments in London and New York City",
+        "Pioneered the first-ever Augmented Reality bike-sharing finder by combining live camera feed with Core Location data"
+      ]
+    },
+    {
+      "company": "Accovia",
+      "title": "Back-End Java Developer",
+      "dates": "Oct 2007 — Oct 2009",
+      "bullets": [
+        "Joined the core Architecture Team on the Ibiza Project after a critical client recovery; helped rebuild the platform from the ground up with Java, Spring, and Hibernate, delivering on time and on budget"
+      ]
+    },
+    {
+      "company": "Compuware Montreal",
+      "title": "Java Consultant — Morgan Stanley",
+      "dates": "Oct 2005 — Oct 2007",
+      "bullets": [
+        "Assigned to Morgan Stanley's Libra project to migrate COBOL on z/OS to Java services on Linux with DB2; worked within a globally distributed team across New York, Budapest, Tokyo, and Vancouver"
+      ]
+    },
+    {
+      "company": "Mediagrif",
+      "title": "Java Developer",
+      "dates": "May 2003 — Oct 2005",
+      "bullets": [
+        "Joined the Software Infrastructure team; built core services, reusable components, and data access layers adopted by multiple e-commerce product teams"
+      ]
+    }
+  ]
+}

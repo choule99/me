@@ -15,19 +15,20 @@ const experiences = await getCollection('experience');
 const sortedExperiences = experiences.sort((a, b) => a.data.order - b.data.order);
 
 const primaryLangs = [
-  { name: "Swift", years: "2015 - present" },
-  { name: "Objective-C", years: "2010 - present" },
-  { name: "Kotlin", years: "2017 - present" },
   { name: "Java", years: "2003 - present" },
+  { name: "Swift", years: "2015 - present" },
+  { name: "Kotlin", years: "2017 - present" },
+  { name: "Objective-C", years: "2010 - present" },
 ];
 
 const secondaryLangs = [
   { name: "C/C++", years: "1999 - present" },
   { name: "Python", years: "2014 - 2017" },
   { name: "JavaScript", years: "1999 - present" },
-  { name: "TypeScript", years: "2018 - 2022" },
+  { name: "TypeScript", years: "2018 - present" },
   { name: "SQL", years: "1999 - present" },
-  { name: "C#", years: "2014 - 2016" },
+  { name: "C#", years: "2014 - 2017" },
+  { name: "Node.js", years: "2014 - 2017" },
 ];
 
 const operatingSystems = ["iOS", "visionOS", "watchOS", "tvOS", "macOS", "Linux", "Android"];
@@ -48,17 +49,25 @@ const androidFrameworks = [
   "Google Play SDK", "Timber", "RxJava", "RxKotlin", "RxAndroid", "Dagger", "Gradle"
 ];
 
-const databases = ["PostgreSQL", "MySQL", "MariaDB", "SQLite"];
-
-const testingTools = [
-  "XCTest", "XCUITest", "Swift Testing", "SwiftyMocky", "Snapshot Testing", "Nimble", "JUnit"
+const webFrameworks = [
+  "BackboneJS", "MarionetteJS", "AngularJS", "Angular", "Bootstrap CSS", "Sass", "GruntJS", "WebPack"
 ];
 
-const patterns = ["MVVM", "MVC", "KISS", "SRP", "Law of Demeter"];
+const devopsTools = [
+  "Docker", "Vagrant", "CI/CD Pipelines", "GitHub Actions", "Fastlane"
+];
+
+const databases = ["PostgreSQL", "MySQL", "MariaDB", "SQLite", "Oracle", "DB2"];
+
+const testingTools = [
+  "XCTest", "XCUITest", "Swift Testing", "SwiftyMocky", "Snapshot Testing", "Nimble", "JUnit", "Mockito", "Jasmine", "Mocha", "Jest"
+];
+
+const patterns = ["MVVM", "MVC", "KISS", "SOLID", "SRP", "Law of Demeter"];
 
 const tools = [
   "Git", "Apple Xcode", "Apple Instruments", "Apple TestFlight", "Swift Package Manager",
-  "CocoaPods", "IntelliJ IDEA", "Android Studio", "Docker", "JIRA", "Trello",
+  "CocoaPods", "IntelliJ IDEA", "VS Code", "Android Studio", "Docker", "Vagrant", "JIRA", "Trello",
   "Zeplin.io", "Miro", "Excalidraw", "Figma"
 ];
 
@@ -68,8 +77,8 @@ const projects = [
     description: "Independently designed and delivered a visionOS-native application that pushed the SDK limits. The work earned Poka a Vision Pro Dev Kit and launched on day one of the visionOS App Store."
   },
   {
-    title: "Poka API Generator",
-    description: "Designed an in-house framework that auto-generates the network layer for iOS apps. Reduced boilerplate, improved consistency, and integrated with Poka's security requirements."
+    title: "CAE PreStudy",
+    description: "End-to-end architecture and development of a pilot training application at Spiria, spanning backend services, web frontend, and iOS client — a full-stack engagement from requirements through delivery."
   },
   {
     title: "Sri Lankan Team Expansion",
@@ -83,7 +92,8 @@ const thanks = [
     people: [
       "Marc-Alexandre Berube",
       "Olivier Mirandette",
-      "Jean-Francois Linteau Labonte"
+      "Jean-Francois Linteau Labonte",
+      "Jeff Léveillée"
     ]
   },
   {
@@ -158,13 +168,13 @@ const thanks = [
   <!-- Hero Section -->
   <Hero
     name="Claude Houle"
-    title="iOS Developer & Mobile Architect"
+    title="Full-Stack Developer & Software Architect"
     email="claude.houle@gmail.com"
-    cvUrl={`${import.meta.env.BASE_URL}/files/CV.pdf`}
+    cvUrl={`${import.meta.env.BASE_URL}/files/CV-Architect.pdf`}
   >
-    Montreal-based software developer with 20+ years of experience. Started in enterprise Java,
-    transitioned to iOS in 2010, and currently serve as Lead iOS Developer at Poka,
-    pioneering visionOS development and championing testing, tooling, and continuous learning.
+    Montreal-based software developer with 20+ years of experience across backend systems, mobile platforms,
+    and software architecture. From enterprise Java to iOS, Android, and web — I design and deliver
+    production software across the full stack, with a focus on quality, tooling, and continuous learning.
   </Hero>
 
   <!-- Welcome/Intro Section -->
@@ -184,8 +194,8 @@ const thanks = [
     <div class="prose prose-lg max-w-none">
       <p class="text-gray-700 leading-relaxed mb-6">
         I consider myself a technology enthusiast, and my goal is to develop software solutions that enhance
-        the lives of end users through meticulously designed applications. While I have deep expertise in mobile
-        development, I love building software of any kind.
+        the lives of end users through meticulously designed applications. With deep expertise spanning backend
+        systems and mobile platforms, I love building software of any kind.
       </p>
       <p class="text-gray-700 leading-relaxed mb-6">
         I am committed to continuously refining my skills by exploring new patterns, paradigms, and technologies.
@@ -232,7 +242,7 @@ const thanks = [
   <SectionCard id="tech" gradient>
     <SectionBadge label="Technologies" />
     <p class="text-center text-gray-600 mb-10 max-w-2xl mx-auto">
-      A curated overview of the technologies I use to ship production software.
+      Technologies I use across the full stack to ship production software.
     </p>
 
     <div class="space-y-10">
@@ -276,8 +286,8 @@ const thanks = [
             {operatingSystems.map(os => <TechBadge name={os} />)}
           </div>
           <p class="text-sm text-gray-500">
-            I prefer Unix-based systems, ideally macOS where I have optimized my workflows.
-            I can develop for Android but my current focus is the Apple ecosystem.
+            I work primarily on Unix-based systems, with macOS as my main development environment
+            and Linux for backend and infrastructure work.
           </p>
         </div>
       </div>
@@ -293,8 +303,8 @@ const thanks = [
               {appleFrameworks.map(fw => <TechBadge name={fw} />)}
             </div>
             <p class="text-sm text-gray-500 mt-4 italic">
-              I prioritize platform-native tools to deliver robust, high-performance experiences and do not work
-              with cross-platform frameworks such as React Native or Flutter.
+              Deep platform-native expertise that delivers robust, high-performance experiences
+              leveraging each platform's full capabilities.
             </p>
           </div>
 
@@ -304,7 +314,7 @@ const thanks = [
               {javaFrameworks.map(fw => <TechBadge name={fw} />)}
             </div>
             <p class="text-sm text-gray-500 mt-4 italic">
-              While I can regain deeper proficiency as needed, my current investment is primarily in iOS.
+              Proven track record delivering enterprise-grade backend systems in the Spring ecosystem.
             </p>
           </div>
 
@@ -312,6 +322,23 @@ const thanks = [
             <h4 class="text-sm font-semibold text-indigo-600 uppercase tracking-wider mb-3">Android Ecosystem</h4>
             <div class="flex flex-wrap gap-2">
               {androidFrameworks.map(fw => <TechBadge name={fw} />)}
+            </div>
+          </div>
+
+          <div class="bg-white rounded-2xl p-6 border border-gray-100">
+            <h4 class="text-sm font-semibold text-indigo-600 uppercase tracking-wider mb-3">Web / Node.js</h4>
+            <div class="flex flex-wrap gap-2">
+              {webFrameworks.map(fw => <TechBadge name={fw} />)}
+            </div>
+            <p class="text-sm text-gray-500 mt-4 italic">
+              Past expertise from full-stack consulting engagements at Spiria Digital.
+            </p>
+          </div>
+
+          <div class="bg-white rounded-2xl p-6 border border-gray-100">
+            <h4 class="text-sm font-semibold text-indigo-600 uppercase tracking-wider mb-3">DevOps / Infrastructure</h4>
+            <div class="flex flex-wrap gap-2">
+              {devopsTools.map(tool => <TechBadge name={tool} />)}
             </div>
           </div>
 
@@ -336,11 +363,11 @@ const thanks = [
           </div>
           <div class="border-t border-gray-100 pt-4 space-y-3">
             <div>
-              <h4 class="font-semibold text-gray-900 text-sm">Snapshot Tests vs. Xcode Previews</h4>
+              <h4 class="font-semibold text-gray-900 text-sm">Testing Across the Stack</h4>
               <p class="text-gray-600 text-sm">
-                Xcode Previews provide immediate, design-time feedback. Snapshot tests operate on a longer cycle
-                but are essential for catching visual regressions. I leverage both by converting SwiftUI previews
-                into snapshot tests with minimal code.
+                On the backend, I rely on JUnit and Mockito for service-layer testing. On iOS, I leverage
+                XCTest, Swift Testing, and snapshot tests to catch visual regressions. I convert SwiftUI
+                previews into snapshot tests with minimal code for efficient UI coverage.
               </p>
             </div>
             <div>
@@ -410,8 +437,8 @@ const thanks = [
             <h4 class="font-semibold text-gray-900 mb-2">AI-Assisted Tasks</h4>
             <p class="text-gray-600 text-sm">
               Tasks historically difficult to justify due to low ROI can now be completed efficiently:
-              translating legacy Objective-C to modern Swift, migrating XIBs/Storyboards to SwiftUI,
-              maintaining DocC documentation, generating unit tests, and refactoring tightly coupled code.
+              modernizing legacy codebases, generating API layers, maintaining documentation,
+              generating unit tests, and refactoring tightly coupled code.
             </p>
           </div>
         </div>
@@ -480,7 +507,7 @@ const thanks = [
     <div class="prose prose-lg max-w-none text-gray-700">
       <p class="text-lg text-gray-600 italic mb-8">
         This is a brief summary of how I became a software developer, how I caught the programming bug,
-        and how that path led me to iOS development.
+        and how that path shaped me into a full-stack developer.
       </p>
 
       <h3 class="text-xl font-semibold text-gray-900 mt-8 mb-4">Early Years</h3>
@@ -547,12 +574,11 @@ const thanks = [
         their guidance made me a better developer, and I remain grateful for their mentorship.
       </p>
 
-      <h3 class="text-xl font-semibold text-gray-900 mt-8 mb-4">From Java to iOS</h3>
+      <h3 class="text-xl font-semibold text-gray-900 mt-8 mb-4">Expanding Beyond Backend</h3>
       <p class="mb-6">
         For the first six years of my career, I worked as a back-end Java developer, using technologies like
-        J2EE, Spring Framework, Hibernate, Apache ActiveMQ, and more. I learned a great deal, but eventually
-        the challenges became less challenging, less interesting; I kind of outgrew the pure technical side
-        of back-end development.
+        J2EE, Spring Framework, Hibernate, Apache ActiveMQ, and more. I built strong foundations in enterprise
+        architecture, but I was eager to expand my capabilities into new domains.
       </p>
       <p class="mb-6">
         When Apple released the iPhone and opened up the iOS SDK, I embraced the opportunity to explore
@@ -568,9 +594,11 @@ const thanks = [
 
       <h3 class="text-xl font-semibold text-gray-900 mt-8 mb-4">The Story Since Then</h3>
       <p class="mb-6">
-        Since then, I have primarily focused on iOS development. While I have worked with other technology
-        stacks over the years, my core expertise and passion consistently lead me back to iOS due to my
-        strong preference for the platform.
+        Since then, I have built full-stack expertise across backend services, web applications, and mobile
+        platforms. As a software architect at Spiria, I led engagements spanning the entire stack — from
+        Spring-based backends and Angular frontends to native iOS and Android clients. This breadth has
+        given me the architectural perspective to design systems end-to-end and the hands-on skills to
+        contribute at every layer.
       </p>
     </div>
   </SectionCard>
@@ -619,8 +647,8 @@ const thanks = [
       <div class="bg-gray-50 rounded-2xl p-6">
         <h3 class="text-lg font-semibold text-gray-900 mb-4">Work Location</h3>
         <p class="text-gray-600 mb-4">
-          I prefer remote roles as they offer greater flexibility and eliminate commuting time. I am open to
-          hybrid positions in downtown Montreal or on the South Shore of Montreal.
+          I am looking for hybrid roles in downtown Montreal or on the South Shore of Montreal, and am also
+          open to fully remote positions.
         </p>
         <p class="text-gray-600">
           <strong>Moving:</strong> I will not consider any position which requires me to move. I have aging
@@ -641,7 +669,7 @@ const thanks = [
   </SectionCard>
 
   <Footer
-    cvUrl={`${import.meta.env.BASE_URL}/files/CV.pdf`}
+    cvUrl={`${import.meta.env.BASE_URL}/files/CV-Architect.pdf`}
     email="claude.houle@gmail.com"
   />
 </BaseLayout>

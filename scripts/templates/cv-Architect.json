@@ -1,0 +1,165 @@
+{
+  "name": "Claude Houle",
+  "title": "Software Architect & Technical Leader",
+  "email": "claude.houle@gmail.com",
+  "web": "choule99.github.io/me",
+  "location": "Montreal, QC",
+  "summary": "Software architect with 21+ years of hands-on experience designing and delivering systems across backend, mobile, and web. Proven leadership in solution architecture, team transformation, mentorship, and cross-functional collaboration. Combines deep technical breadth with a product-minded approach to align engineering with business outcomes.",
+  "accomplishments": [
+    "Transformed an 8-person iOS team into a high-performing unit — crash-free rate to 99.999%, deployments from 1/week to 4/day, build speeds improved 50%",
+    "Onboarded and integrated 20 Sri Lankan developers — designed training curriculum and built collaborative culture across time zones, productive within 3 months",
+    "Architected CAE's pilot training platform end-to-end: Spring backend, Angular frontend, and native iOS client",
+    "Delivered the Accovia Ibiza platform rebuild on time and on budget after a critical client recovery — as a member of the core Architecture Team"
+  ],
+  "skills": [
+    {
+      "label": "Architecture",
+      "items": [
+        "Solution Architecture",
+        "API Design",
+        "System Integration",
+        "Data Modeling",
+        "Distributed Systems"
+      ]
+    },
+    {
+      "label": "Leadership",
+      "items": [
+        "Team Mentorship",
+        "Code Reviews",
+        "Technical Discovery",
+        "Cross-functional Collaboration",
+        "Onboarding"
+      ]
+    },
+    {
+      "label": "Languages",
+      "items": [
+        "Java",
+        "Swift",
+        "Kotlin",
+        "TypeScript",
+        "SQL",
+        "Python"
+      ]
+    },
+    {
+      "label": "Backend",
+      "items": [
+        "Spring Boot",
+        "Hibernate",
+        "Node.js",
+        "PostgreSQL",
+        "MySQL",
+        "Docker"
+      ]
+    },
+    {
+      "label": "Mobile/Web",
+      "items": [
+        "iOS SDK",
+        "visionOS SDK",
+        "SwiftUI",
+        "UIKit",
+        "Android SDK",
+        "Angular"
+      ]
+    },
+    {
+      "label": "DevOps",
+      "items": [
+        "CI/CD Pipelines",
+        "GitHub Actions",
+        "Fastlane",
+        "Sentry",
+        "LaunchDarkly",
+        "Claude Code"
+      ]
+    },
+    {
+      "label": "Also",
+      "items": [
+        "Objective-C",
+        "Oracle",
+        "DB2",
+        "Vagrant",
+        "J2EE"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Poka Inc.",
+      "title": "Architect, Lead iOS, Lead VisionOS",
+      "dates": "Oct 2021 — Present",
+      "description": "Connected worker platform — 200,000+ DAU, 450,000-line Swift codebase, 99.999% crash-free.",
+      "bullets": [
+        "Inherited a fragile codebase with frequent crashes; introduced internal tools, reusable libraries, and standardized practices that raised the crash-free rate to 99.999%",
+        "Needed to scale the team fast; onboarded 20 Sri Lankan developers with a custom training curriculum and cross-timezone code reviews, making them productive within 3 months",
+        "Bridged gaps between engineering, Product Management, and UX Design; established collaboration workflows that aligned technical solutions with business goals",
+        "Faced slow, manual releases; automated App Store deployments end-to-end, increasing cadence from 1/week to 4/day and improving CI build speeds by 50%",
+        "Tackled low test coverage (30%); drove incremental testing alongside architectural modernization, reaching 60% over four years"
+      ]
+    },
+    {
+      "company": "Appcom",
+      "title": "Lead Mobile Developer",
+      "dates": "Nov 2019 — Oct 2021",
+      "description": "Mobile development studio — led iOS team across 15+ client projects.",
+      "bullets": [
+        "Found duplicated effort across 15+ client projects; designed a shared iOS framework that standardized patterns, reduced duplication, and improved time-to-market",
+        "Identified communication gaps between teams; established processes and collaboration tools that improved alignment with product management and UX design",
+        "Invested in team growth through mentorship and knowledge-sharing sessions, developing junior engineers into independent contributors"
+      ]
+    },
+    {
+      "company": "Spiria Digital",
+      "title": "Software Architect, Senior Developer",
+      "dates": "Nov 2013 — Nov 2019",
+      "description": "Custom software agency — responsible for initial architecture and evolving it with client requirements.",
+      "bullets": [
+        "Owned solution architecture for client engagements; led requirements analysis, technical discovery, and produced API contracts, data models, and integration strategies that guided development teams",
+        "CAE PreStudy: designed end-to-end architecture spanning Spring backend, Angular frontend, and iOS client for an aviation pilot training platform",
+        "Produced architecture artifacts covering security considerations, scalability approaches, and deployment topologies for each engagement",
+        "Defined engineering standards and mentored developers across multiple project teams, raising overall code quality",
+        "Acosta SLTouch: architected a hybrid mobile framework for retail analytics using BackboneJS and Node.js"
+      ]
+    },
+    {
+      "company": "8D Technologies",
+      "title": "Back-End Java Developer → iOS Developer",
+      "dates": "Oct 2009 — Oct 2013",
+      "description": "Software and hardware for bike-sharing and automated parking — pioneering urban mobility solutions.",
+      "bullets": [
+        "Started on the backend Java team for the Solstice bike-sharing suite; transitioned to iOS, bringing backend expertise that bridged system architecture across layers",
+        "Faced challenging connectivity and performance constraints; engineered solutions for city-wide deployments in London and New York City",
+        "Pioneered the first-ever Augmented Reality bike-sharing finder by combining live camera feed with Core Location data"
+      ]
+    },
+    {
+      "company": "Accovia",
+      "title": "Back-End Java Developer — Architecture Team",
+      "dates": "Oct 2007 — Oct 2009",
+      "bullets": [
+        "Joined the core Architecture Team on the Ibiza Project after a critical client recovery; helped rebuild the platform from the ground up with Java, Spring, and Hibernate, delivering on time and on budget",
+        "Contributed to performance optimization and service orchestration across the backend layer"
+      ]
+    },
+    {
+      "company": "Compuware Montreal",
+      "title": "Java Consultant — Morgan Stanley",
+      "dates": "Oct 2005 — Oct 2007",
+      "bullets": [
+        "Assigned to the Libra project to migrate COBOL on z/OS to Java services on Linux within stringent financial compliance requirements; coordinated within a globally distributed team across New York, Budapest, Tokyo, and Vancouver"
+      ]
+    },
+    {
+      "company": "Mediagrif",
+      "title": "Java Developer",
+      "dates": "May 2003 — Oct 2005",
+      "bullets": [
+        "Joined the Software Infrastructure team; built core services and reusable components adopted by multiple e-commerce product teams"
+      ]
+    }
+  ]
+}

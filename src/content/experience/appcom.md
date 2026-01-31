@@ -1,6 +1,6 @@
 ---
 company: "Appcom"
-title: "Lead iOS Developer"
+title: "Lead Mobile Developer"
 dates: "September 2019 - September 2021"
 order: 2
 description: "Appcom is a development studio based in Longueuil, Quebec, specializing in mobile and web applications for businesses across the regional digital ecosystem."
@@ -12,7 +12,7 @@ description: "Appcom is a development studio based in Longueuil, Quebec, special
 
 ### Responsibilities
 
-- Led the iOS team across multiple client engagements, spanning planning, development, code review, documentation, and release management
+- Led the mobile team across multiple client engagements, spanning planning, development, code review, documentation, and release management
 - Conducted R&D on emerging iOS capabilities and architectural patterns
 - Established team processes and collaboration tools to improve communication with product management and UX design
 - Provided 1:1 mentorship, code reviews, and feedback to support growth and performance
