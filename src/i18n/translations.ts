@@ -34,7 +34,7 @@ export const translations = {
     // Projects
     "projects.badge": "Notable Projects",
     "projects.poka.title": "Poka for visionOS",
-    "projects.poka.description": "Independently designed and delivered a visionOS-native application that pushed the SDK limits. The work earned Poka a Vision Pro Dev Kit and launched on day one of the visionOS App Store.",
+    "projects.poka.description": "Built and shipped a visionOS-native application that pushed the SDK limits. Secured a Vision Pro Dev Kit for Poka following an Apple review and launched on day one of the visionOS App Store.",
     "projects.cae.title": "CAE PreStudy",
     "projects.cae.description": "End-to-end architecture and development of a pilot training application at Spiria, spanning backend services, web frontend, and iOS client — a full-stack engagement from requirements through delivery.",
     "projects.srilanka.title": "Sri Lankan Team Expansion",
@@ -175,7 +175,7 @@ export const translations = {
     // Projects
     "projects.badge": "Projets notables",
     "projects.poka.title": "Poka pour visionOS",
-    "projects.poka.description": "Conception et livraison indépendante d'une application native visionOS repoussant les limites du SDK. Ce travail a valu à Poka un Vision Pro Dev Kit et un lancement dès le premier jour de l'App Store visionOS.",
+    "projects.poka.description": "Construit et livré une application native visionOS repoussant les limites du SDK. Obtenu un Vision Pro Dev Kit pour Poka suite à une revue Apple, avec lancement dès le premier jour de l'App Store visionOS.",
     "projects.cae.title": "CAE PreStudy",
     "projects.cae.description": "Architecture et développement de bout en bout d'une application de formation de pilotes chez Spiria, couvrant les services backend, le frontend web et le client iOS — un mandat full-stack des exigences jusqu'à la livraison.",
     "projects.srilanka.title": "Expansion de l'équipe au Sri Lanka",

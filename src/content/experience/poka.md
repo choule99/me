@@ -12,7 +12,7 @@ Poka is a connected worker platform with over 200,000 daily active users that he
 
 **Team Productivity** — Transformed the iOS team (8 developers) into a high-performing unit by building internal tools and reusable libraries that reduced development time, improved code quality, and enabled engineers to focus on feature delivery. These initiatives standardized best practices, accelerated onboarding, and significantly increased throughput. As a result, the application's crash-free session rate increased to 99.999%.
 
-**visionOS Application** — Initially tasked with porting the existing iOS app to visionOS for an Apple Partner Relations review. While the port functioned, it did not meet the desired product experience. In parallel, independently designed and built a new visionOS-native application that pushed the boundaries of the SDK. This work received strong feedback from Apple, standing out among teams that had only performed minimal ports, resulting in Poka being awarded a Vision Pro Dev Kit. The app launched on day one of the visionOS App Store.
+**visionOS Application** — Initially tasked with porting the existing iOS app to visionOS for an Apple Partner Relations review. While the port functioned, it did not meet the desired product experience. In parallel, independently designed and built a new visionOS-native application that pushed the boundaries of the SDK. Following a demo to Apple, Poka secured a Vision Pro Dev Kit. The app launched on day one of the visionOS App Store.
 
 **Test Coverage Initiative** — Led an initiative that increased code coverage from approximately 30% to 60% over four years by adding tests alongside refactors to modern technologies and enforcing steady, incremental growth in coverage.
 

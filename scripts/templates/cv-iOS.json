@@ -4,10 +4,10 @@
   "email": "claude.houle@gmail.com",
   "web": "choule99.github.io/me",
   "location": "Montreal, QC",
-  "summary": "iOS developer with 15+ years on Apple platforms and 21+ years total in software development. Passionate about making great mobile applications that make a difference in end users' daily lives through exceptional user experience. From visionOS pioneer (day-one App Store launch) to leading teams on a 450,000-line Swift codebase serving 200,000+ daily users with 99.999% crash-free sessions.",
+  "summary": "iOS developer with 15+ years on Apple platforms and 21+ years total in software development. From stabilizing a 450,000-line Swift codebase at 99.999% crash-free to shipping a day-one visionOS App Store launch, I build mobile products that deliver measurable gains in reliability, release cadence, and user adoption.",
   "accomplishments": [
-    "Maintained a 450,000-line Swift codebase serving 200,000+ DAU with a sustained 99.999% crash-free session rate",
-    "Designed and shipped a visionOS-native app that impressed Apple and earned Poka a Vision Pro Dev Kit — launched as the 1st Connected Worker Solution on the visionOS App Store",
+    "Stabilized a 450,000-line Swift codebase serving 200,000+ DAU — drove crash-free rate to 99.999% and release cadence from 1/week to 4/day",
+    "Built and shipped a visionOS-native app; secured a Vision Pro Dev Kit for Poka following an Apple review — launched as the 1st Connected Worker Solution on the visionOS App Store",
     "Automated App Store deployments end-to-end, increasing release cadence from 1/week to 4/day and CI build speeds by 50%",
     "Onboarded 20 Sri Lankan developers with a custom training curriculum — team productive within 3 months",
     "Built a shared iOS component library at Appcom that standardized patterns across 15+ client projects and accelerated delivery"
@@ -69,7 +69,7 @@
       ]
     },
     {
-      "label": "Also",
+      "label": "Additional",
       "items": [
         "Objective-C",
         "RxSwift",
@@ -87,7 +87,7 @@
       "dates": "Oct 2021 — Present",
       "description": "Connected worker platform — 200,000+ DAU, 450,000 lines of Swift + 55,000 lines legacy Obj-C, 99.999% crash-free.",
       "bullets": [
-        "Saw an opportunity in Apple's new platform; independently designed and built a visionOS-native app, presented it directly to Apple, earned a Vision Pro Dev Kit, and launched the 1st Connected Worker Solution on the visionOS App Store",
+        "Built and shipped a visionOS-native app; presented it to Apple, secured a Vision Pro Dev Kit for Poka, and launched the 1st Connected Worker Solution on the visionOS App Store",
         "Inherited a fragile codebase with frequent crashes; implemented refactoring practices and quality processes that raised the crash-free rate to 99.999%",
         "Faced slow, manual releases; built a CI/CD pipeline on MacStadium that improved build speeds by 50% and increased deployments from 1/week to 4/day",
         "Tackled low test coverage (30%); led an incremental testing initiative alongside refactors to SwiftUI, Combine, and modern architectures, reaching 60% over four years",

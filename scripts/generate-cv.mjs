@@ -31,7 +31,7 @@ const variants = [
       { label: "DevOps", items: ["CI/CD Pipelines", "GitHub Actions", "Fastlane", "Sentry", "LaunchDarkly"] },
       { label: "Testing", items: ["JUnit", "Mockito", "XCTest", "Swift Testing", "Jest"] },
       { label: "Practices", items: ["REST API Design", "MVVM", "SOLID", "Software Architecture", "Claude Code"] },
-      { label: "Also", items: ["Objective-C", "JavaScript", "AngularJS", "Oracle", "DB2", "Vagrant"] },
+      { label: "Additional", items: ["Objective-C", "JavaScript", "AngularJS", "Oracle", "DB2", "Vagrant"] },
     ],
     experience: [
       {
@@ -114,10 +114,10 @@ const variants = [
     web: "choule99.github.io/me",
 
     location: "Montreal, QC",
-    summary: "iOS developer with 15+ years on Apple platforms and 21+ years total in software development. Passionate about making great mobile applications that make a difference in end users' daily lives through exceptional user experience. From visionOS pioneer (day-one App Store launch) to leading teams on a 450,000-line Swift codebase serving 200,000+ daily users with 99.999% crash-free sessions.",
+    summary: "iOS developer with 15+ years on Apple platforms and 21+ years total in software development. From stabilizing a 450,000-line Swift codebase at 99.999% crash-free to shipping a day-one visionOS App Store launch, I build mobile products that deliver measurable gains in reliability, release cadence, and user adoption.",
     accomplishments: [
-      "Maintained a 450,000-line Swift codebase serving 200,000+ DAU with a sustained 99.999% crash-free session rate",
-      "Designed and shipped a visionOS-native app that impressed Apple and earned Poka a Vision Pro Dev Kit — launched as the 1st Connected Worker Solution on the visionOS App Store",
+      "Stabilized a 450,000-line Swift codebase serving 200,000+ DAU — drove crash-free rate to 99.999% and release cadence from 1/week to 4/day",
+      "Built and shipped a visionOS-native app; secured a Vision Pro Dev Kit for Poka following an Apple review — launched as the 1st Connected Worker Solution on the visionOS App Store",
       "Automated App Store deployments end-to-end, increasing release cadence from 1/week to 4/day and CI build speeds by 50%",
       "Onboarded 20 Sri Lankan developers with a custom training curriculum — team productive within 3 months",
       "Built a shared iOS component library at Appcom that standardized patterns across 15+ client projects and accelerated delivery",
@@ -128,7 +128,7 @@ const variants = [
       { label: "Testing", items: ["XCTest", "XCUITest", "Swift Testing", "Snapshot Testing"] },
       { label: "DevOps", items: ["Fastlane", "GitHub Actions", "Swift Package Manager", "TestFlight", "Sentry", "LaunchDarkly"] },
       { label: "Practices", items: ["MVVM", "SOLID", "REST API Design", "Mobile UX Design", "Software Architecture", "Claude Code"] },
-      { label: "Also", items: ["Objective-C", "RxSwift", "watchOS SDK", "macOS SDK", "CocoaPods", "Instruments"] },
+      { label: "Additional", items: ["Objective-C", "RxSwift", "watchOS SDK", "macOS SDK", "CocoaPods", "Instruments"] },
     ],
     experience: [
       {
@@ -137,7 +137,7 @@ const variants = [
         dates: "Oct 2021 — Present",
         description: "Connected worker platform — 200,000+ DAU, 450,000 lines of Swift + 55,000 lines legacy Obj-C, 99.999% crash-free.",
         bullets: [
-          "Saw an opportunity in Apple's new platform; independently designed and built a visionOS-native app, presented it directly to Apple, earned a Vision Pro Dev Kit, and launched the 1st Connected Worker Solution on the visionOS App Store",
+          "Built and shipped a visionOS-native app; presented it to Apple, secured a Vision Pro Dev Kit for Poka, and launched the 1st Connected Worker Solution on the visionOS App Store",
           "Inherited a fragile codebase with frequent crashes; implemented refactoring practices and quality processes that raised the crash-free rate to 99.999%",
           "Faced slow, manual releases; built a CI/CD pipeline on MacStadium that improved build speeds by 50% and increased deployments from 1/week to 4/day",
           "Tackled low test coverage (30%); led an incremental testing initiative alongside refactors to SwiftUI, Combine, and modern architectures, reaching 60% over four years",
@@ -228,7 +228,7 @@ const variants = [
       { label: "Backend", items: ["Spring Boot", "Hibernate", "Node.js", "PostgreSQL", "MySQL", "Docker"] },
       { label: "Mobile/Web", items: ["iOS SDK", "visionOS SDK", "SwiftUI", "UIKit", "Android SDK", "Angular"] },
       { label: "DevOps", items: ["CI/CD Pipelines", "GitHub Actions", "Fastlane", "Sentry", "LaunchDarkly", "Claude Code"] },
-      { label: "Also", items: ["Objective-C", "Oracle", "DB2", "Vagrant", "J2EE"] },
+      { label: "Additional", items: ["Objective-C", "Oracle", "DB2", "Vagrant", "J2EE"] },
     ],
     experience: [
       {
@@ -344,7 +344,7 @@ const variants = [
       { label: "DevOps", items: ["CI/CD Pipelines", "GitHub Actions", "Fastlane", "Sentry", "LaunchDarkly"] },
       { label: "Tests", items: ["JUnit", "Mockito", "XCTest", "Swift Testing", "Jest"] },
       { label: "Pratiques", items: ["REST API Design", "MVVM", "SOLID", "Software Architecture", "Claude Code"] },
-      { label: "Aussi", items: ["Objective-C", "JavaScript", "AngularJS", "Oracle", "DB2", "Vagrant"] },
+      { label: "Additionnel", items: ["Objective-C", "JavaScript", "AngularJS", "Oracle", "DB2", "Vagrant"] },
     ],
     experience: [
       {
@@ -439,10 +439,10 @@ const variants = [
       dates: "Sept 2000 — Mai 2003",
       description: "Diplôme d'études collégiales (DEC) de trois ans couvrant le C, C++, Java, SQL, Linux et l'informatique appliquée.",
     },
-    summary: "Développeur iOS avec plus de 15 ans sur les plateformes Apple et plus de 21 ans d'expérience totale en développement logiciel. Passionné par la création d'applications mobiles exceptionnelles qui font une différence dans le quotidien des utilisateurs grâce à une expérience utilisateur remarquable. Du pionnier visionOS (lancement jour un sur l'App Store) à la direction d'équipes sur une base de code Swift de 450 000 lignes servant plus de 200 000 utilisateurs quotidiens avec 99,999 % de sessions sans plantage.",
+    summary: "Développeur iOS avec plus de 15 ans sur les plateformes Apple et plus de 21 ans d'expérience totale en développement logiciel. De la stabilisation d'une base de code Swift de 450 000 lignes à 99,999 % sans plantage au lancement dès le jour un sur l'App Store visionOS, je construis des produits mobiles qui livrent des gains mesurables en fiabilité, cadence de publication et adoption utilisateur.",
     accomplishments: [
-      "Maintenu une base de code Swift de 450 000 lignes servant plus de 200 000 utilisateurs actifs quotidiens avec un taux soutenu de 99,999 % de sessions sans plantage",
-      "Conçu et livré une application native visionOS qui a impressionné Apple et valu à Poka un Vision Pro Dev Kit — lancée comme la 1re solution pour travailleurs connectés sur l'App Store visionOS",
+      "Stabilisé une base de code Swift de 450 000 lignes servant plus de 200 000 utilisateurs actifs quotidiens — porté le taux sans plantage à 99,999 % et la cadence de publication de 1/semaine à 4/jour",
+      "Construit et livré une application native visionOS ; obtenu un Vision Pro Dev Kit pour Poka suite à une revue Apple — lancée comme la 1re solution pour travailleurs connectés sur l'App Store visionOS",
       "Automatisé les déploiements App Store de bout en bout, augmentant la cadence de publication de 1/semaine à 4/jour et la vitesse de compilation CI de 50 %",
       "Intégré 20 développeurs sri-lankais avec un programme de formation sur mesure — équipe productive en 3 mois",
       "Construit une bibliothèque de composants iOS partagée chez Appcom qui a standardisé les pratiques sur plus de 15 projets clients et accéléré les livraisons",
@@ -453,7 +453,7 @@ const variants = [
       { label: "Tests", items: ["XCTest", "XCUITest", "Swift Testing", "Snapshot Testing"] },
       { label: "DevOps", items: ["Fastlane", "GitHub Actions", "Swift Package Manager", "TestFlight", "Sentry", "LaunchDarkly"] },
       { label: "Pratiques", items: ["MVVM", "SOLID", "REST API Design", "Mobile UX Design", "Software Architecture", "Claude Code"] },
-      { label: "Aussi", items: ["Objective-C", "RxSwift", "watchOS SDK", "macOS SDK", "CocoaPods", "Instruments"] },
+      { label: "Additionnel", items: ["Objective-C", "RxSwift", "watchOS SDK", "macOS SDK", "CocoaPods", "Instruments"] },
     ],
     experience: [
       {
@@ -462,7 +462,7 @@ const variants = [
         dates: "Oct 2021 — Présent",
         description: "Plateforme pour travailleurs connectés — plus de 200 000 utilisateurs actifs quotidiens, 450 000 lignes de Swift + 55 000 lignes legacy Obj-C, 99,999 % sans plantage.",
         bullets: [
-          "Identifié une opportunité sur la nouvelle plateforme d'Apple ; conçu et développé de façon autonome une application native visionOS, présentée directement à Apple, obtenu un Vision Pro Dev Kit, et lancé la 1re solution pour travailleurs connectés sur l'App Store visionOS",
+          "Construit et livré une application native visionOS ; présentée à Apple, obtenu un Vision Pro Dev Kit pour Poka, et lancé la 1re solution pour travailleurs connectés sur l'App Store visionOS",
           "Hérité d'une base de code fragile avec des plantages fréquents ; mis en place des pratiques de refactorisation et des processus qualité qui ont porté le taux sans plantage à 99,999 %",
           "Face à des mises en production lentes et manuelles ; construit un pipeline CI/CD sur MacStadium qui a amélioré la vitesse de compilation de 50 % et augmenté les déploiements de 1/semaine à 4/jour",
           "Confronté à une faible couverture de tests (30 %) ; mené une initiative de tests incrémentale parallèlement aux refactorisations vers SwiftUI, Combine et des architectures modernes, atteignant 60 % en quatre ans",
@@ -565,7 +565,7 @@ const variants = [
       { label: "Backend", items: ["Spring Boot", "Hibernate", "Node.js", "PostgreSQL", "MySQL", "Docker"] },
       { label: "Mobile/Web", items: ["iOS SDK", "visionOS SDK", "SwiftUI", "UIKit", "Android SDK", "Angular"] },
       { label: "DevOps", items: ["CI/CD Pipelines", "GitHub Actions", "Fastlane", "Sentry", "LaunchDarkly", "Claude Code"] },
-      { label: "Aussi", items: ["Objective-C", "Oracle", "DB2", "Vagrant", "J2EE"] },
+      { label: "Additionnel", items: ["Objective-C", "Oracle", "DB2", "Vagrant", "J2EE"] },
     ],
     experience: [
       {
