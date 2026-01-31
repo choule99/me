@@ -86,10 +86,8 @@
       "items": [
         "Objective-C",
         "JavaScript",
-        "AngularJS",
         "Oracle",
-        "DB2",
-        "Vagrant"
+        "DB2"
       ]
     }
   ],

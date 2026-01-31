@@ -13,7 +13,7 @@ export const translations = {
     "nav.story": "Story",
 
     // Hero
-    "hero.title": "Full-Stack Developer & Software Architect",
+    "hero.title": "Staff Software Engineer",
     "hero.bio": "Montreal-based software developer with 20+ years of experience across backend systems, mobile platforms, and software architecture. From enterprise Java to iOS, Android, and web — I design and deliver production software across the full stack, with a focus on quality, tooling, and continuous learning.",
     "hero.downloadCv": "Download CV",
     "hero.email": "Email",
@@ -23,13 +23,11 @@ export const translations = {
 
     // Goals
     "goals.badge": "Goals",
-    "goals.p1": "I consider myself a technology enthusiast, and my goal is to develop software solutions that enhance the lives of end users through meticulously designed applications. With deep expertise spanning backend systems and mobile platforms, I love building software of any kind.",
-    "goals.p2": "I am committed to continuously refining my skills by exploring new patterns, paradigms, and technologies. My goal is to consistently enhance my capabilities as a developer, striving to improve upon my performance from the previous week or month.",
-    "goals.p3": "I believe in engaging early with product discovery and design to translate user needs and business goals into clear, testable requirements. I enjoy partnering with product managers and designers to shape scope, validate assumptions with data and prototypes, and propose pragmatic, high-impact solutions that balance technical feasibility, UX quality, and time-to-value. This product-minded approach aligns engineering work with measurable outcomes and reduces risk through iterative delivery.",
-    "goals.p4": "Additionally, I have been fortunate to receive mentorship from exceptional software developers early in my career. In the past 5 to 7 years, I have taken on the role of mentor myself, guiding the next generation of software engineers to enhance their skills and professionalism.",
     "goals.lookingFor": "What I'm Looking For",
     "goals.lookingFor.p1": "I am seeking a company, team, or product to which I can make a long-term commitment. After many years in consulting (prior to Poka), I had the opportunity to work continuously on a single product, which enabled me to make durable technical decisions that would be impractical in short engagements.",
     "goals.lookingFor.p2": "The mindset required by an architect for a multi-year project is entirely different than a project that lasts only for a couple of months, the types of decisions whose impact becomes evident over months or even years.",
+    "goals.approach": "How I Work",
+    "goals.approach.p1": "I engage early with product discovery and design to translate user needs and business goals into clear, testable requirements — partnering with product managers and designers to balance technical feasibility, UX quality, and time-to-value. I also invest in mentorship, having guided junior engineers into independent contributors over the past 5 to 7 years.",
 
     // Projects
     "projects.badge": "Notable Projects",
@@ -154,7 +152,7 @@ export const translations = {
     "nav.story": "Parcours",
 
     // Hero
-    "hero.title": "Développeur Full-Stack & Architecte Logiciel",
+    "hero.title": "Développeur Principal",
     "hero.bio": "Développeur logiciel basé à Montréal avec plus de 20 ans d'expérience en systèmes backend, plateformes mobiles et architecture logicielle. De Java entreprise à iOS, Android et le web — je conçois et livre des logiciels en production sur l'ensemble de la pile technologique, avec un accent sur la qualité, l'outillage et l'apprentissage continu.",
     "hero.downloadCv": "Télécharger le CV",
     "hero.email": "Courriel",
@@ -164,13 +162,11 @@ export const translations = {
 
     // Goals
     "goals.badge": "Objectifs",
-    "goals.p1": "Je me considère comme un passionné de technologie, et mon objectif est de développer des solutions logicielles qui améliorent la vie des utilisateurs finaux grâce à des applications méticuleusement conçues. Avec une expertise approfondie couvrant les systèmes backend et les plateformes mobiles, j'adore construire des logiciels de tout type.",
-    "goals.p2": "Je m'engage à perfectionner continuellement mes compétences en explorant de nouveaux patrons, paradigmes et technologies. Mon objectif est d'améliorer constamment mes capacités en tant que développeur, en cherchant à surpasser mes performances de la semaine ou du mois précédent.",
-    "goals.p3": "Je crois en l'importance de s'engager tôt dans la découverte produit et le design pour traduire les besoins des utilisateurs et les objectifs d'affaires en exigences claires et testables. J'aime collaborer avec les gestionnaires de produit et les designers pour définir la portée, valider les hypothèses avec des données et des prototypes, et proposer des solutions pragmatiques à fort impact qui équilibrent la faisabilité technique, la qualité UX et le délai de mise en valeur. Cette approche orientée produit aligne le travail d'ingénierie avec des résultats mesurables et réduit les risques grâce à une livraison itérative.",
-    "goals.p4": "De plus, j'ai eu la chance de recevoir du mentorat de développeurs logiciels exceptionnels au début de ma carrière. Au cours des 5 à 7 dernières années, j'ai assumé le rôle de mentor moi-même, guidant la prochaine génération d'ingénieurs logiciels pour améliorer leurs compétences et leur professionnalisme.",
     "goals.lookingFor": "Ce que je recherche",
     "goals.lookingFor.p1": "Je recherche une entreprise, une équipe ou un produit auquel je peux m'engager à long terme. Après de nombreuses années en consultation (avant Poka), j'ai eu l'opportunité de travailler continuellement sur un seul produit, ce qui m'a permis de prendre des décisions techniques durables qui seraient impraticables dans des mandats courts.",
     "goals.lookingFor.p2": "L'état d'esprit requis par un architecte pour un projet pluriannuel est entièrement différent de celui d'un projet qui ne dure que quelques mois — le type de décisions dont l'impact ne devient évident qu'après des mois, voire des années.",
+    "goals.approach": "Mon approche",
+    "goals.approach.p1": "Je m'implique tôt dans la découverte produit et le design pour traduire les besoins utilisateurs et les objectifs d'affaires en exigences claires et testables — en collaboration avec les gestionnaires de produit et les designers pour équilibrer faisabilité technique, qualité UX et délai de mise en valeur. J'investis aussi dans le mentorat, ayant guidé des ingénieurs juniors vers l'autonomie au cours des 5 à 7 dernières années.",
 
     // Projects
     "projects.badge": "Projets notables",

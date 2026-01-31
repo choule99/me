@@ -54,9 +54,8 @@ const appleFrameworks = [
 ];
 
 const javaFrameworks = [
-  "Spring Framework", "Spring Boot", "Hibernate", "Apache Tomcat", "Apache Lucene",
-  "Apache Solr", "JBoss", "Liquibase", "Log4j", "Apache Maven", "Apache ActiveMQ",
-  "J2EE", "JUnit", "Mockito"
+  "Spring Framework", "Spring Boot", "Hibernate", "Apache Tomcat",
+  "Apache Maven", "JUnit", "Mockito"
 ];
 
 const androidFrameworks = [
@@ -64,25 +63,25 @@ const androidFrameworks = [
 ];
 
 const webFrameworks = [
-  "BackboneJS", "MarionetteJS", "AngularJS", "Angular", "Bootstrap CSS", "Sass", "GruntJS", "WebPack"
+  "Angular", "Sass", "WebPack"
 ];
 
 const devopsTools = [
-  "Docker", "Vagrant", "CI/CD Pipelines", "GitHub Actions", "Fastlane"
+  "Docker", "CI/CD Pipelines", "GitHub Actions", "Fastlane"
 ];
 
 const databases = ["PostgreSQL", "MySQL", "MariaDB", "SQLite", "Oracle", "DB2"];
 
 const testingTools = [
-  "XCTest", "XCUITest", "Swift Testing", "SwiftyMocky", "Snapshot Testing", "Nimble", "JUnit", "Mockito", "Jasmine", "Mocha", "Jest"
+  "XCTest", "XCUITest", "Swift Testing", "SwiftyMocky", "Snapshot Testing", "Nimble", "JUnit", "Mockito", "Jest"
 ];
 
 const patterns = ["MVVM", "MVC", "KISS", "SOLID", "SRP", "Law of Demeter"];
 
 const tools = [
   "Git", "Apple Xcode", "Apple Instruments", "Apple TestFlight", "Swift Package Manager",
-  "CocoaPods", "IntelliJ IDEA", "VS Code", "Android Studio", "Docker", "Vagrant", "JIRA", "Trello",
-  "Zeplin.io", "Miro", "Excalidraw", "Figma"
+  "IntelliJ IDEA", "VS Code", "Android Studio", "Docker", "JIRA",
+  "Miro", "Excalidraw", "Figma"
 ];
 
 const projects = [
@@ -203,25 +202,17 @@ const thanks = [
   <SectionCard id="goals" gradient>
     <SectionBadge label={t(lang, "goals.badge")} />
     <div class="prose prose-lg max-w-none">
-      <p class="text-gray-700 leading-relaxed mb-6">
-        {t(lang, "goals.p1")}
-      </p>
-      <p class="text-gray-700 leading-relaxed mb-6">
-        {t(lang, "goals.p2")}
-      </p>
-      <p class="text-gray-700 leading-relaxed mb-6">
-        {t(lang, "goals.p3")}
-      </p>
-      <p class="text-gray-700 leading-relaxed mb-6">
-        {t(lang, "goals.p4")}
-      </p>
-
-      <h3 class="text-xl font-semibold text-gray-900 mt-8 mb-4">{t(lang, "goals.lookingFor")}</h3>
+      <h3 class="text-xl font-semibold text-gray-900 mb-4">{t(lang, "goals.lookingFor")}</h3>
       <p class="text-gray-700 leading-relaxed mb-4">
         {t(lang, "goals.lookingFor.p1")}
       </p>
-      <p class="text-gray-700 leading-relaxed">
+      <p class="text-gray-700 leading-relaxed mb-6">
         {t(lang, "goals.lookingFor.p2")}
+      </p>
+
+      <h3 class="text-xl font-semibold text-gray-900 mt-8 mb-4">{t(lang, "goals.approach")}</h3>
+      <p class="text-gray-700 leading-relaxed">
+        {t(lang, "goals.approach.p1")}
       </p>
     </div>
   </SectionCard>

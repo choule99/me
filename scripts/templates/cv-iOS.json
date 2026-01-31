@@ -75,7 +75,6 @@
         "RxSwift",
         "watchOS SDK",
         "macOS SDK",
-        "CocoaPods",
         "Instruments"
       ]
     }

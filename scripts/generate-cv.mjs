@@ -31,7 +31,7 @@ const variants = [
       { label: "DevOps", items: ["CI/CD Pipelines", "GitHub Actions", "Fastlane", "Sentry", "LaunchDarkly"] },
       { label: "Testing", items: ["JUnit", "Mockito", "XCTest", "Swift Testing", "Jest"] },
       { label: "Practices", items: ["REST API Design", "MVVM", "SOLID", "Software Architecture", "Claude Code"] },
-      { label: "Additional", items: ["Objective-C", "JavaScript", "AngularJS", "Oracle", "DB2", "Vagrant"] },
+      { label: "Additional", items: ["Objective-C", "JavaScript", "Oracle", "DB2"] },
     ],
     experience: [
       {
@@ -128,7 +128,7 @@ const variants = [
       { label: "Testing", items: ["XCTest", "XCUITest", "Swift Testing", "Snapshot Testing"] },
       { label: "DevOps", items: ["Fastlane", "GitHub Actions", "Swift Package Manager", "TestFlight", "Sentry", "LaunchDarkly"] },
       { label: "Practices", items: ["MVVM", "SOLID", "REST API Design", "Mobile UX Design", "Software Architecture", "Claude Code"] },
-      { label: "Additional", items: ["Objective-C", "RxSwift", "watchOS SDK", "macOS SDK", "CocoaPods", "Instruments"] },
+      { label: "Additional", items: ["Objective-C", "RxSwift", "watchOS SDK", "macOS SDK", "Instruments"] },
     ],
     experience: [
       {
@@ -228,7 +228,7 @@ const variants = [
       { label: "Backend", items: ["Spring Boot", "Hibernate", "Node.js", "PostgreSQL", "MySQL", "Docker"] },
       { label: "Mobile/Web", items: ["iOS SDK", "visionOS SDK", "SwiftUI", "UIKit", "Android SDK", "Angular"] },
       { label: "DevOps", items: ["CI/CD Pipelines", "GitHub Actions", "Fastlane", "Sentry", "LaunchDarkly", "Claude Code"] },
-      { label: "Additional", items: ["Objective-C", "Oracle", "DB2", "Vagrant", "J2EE"] },
+      { label: "Additional", items: ["Objective-C", "Oracle", "DB2"] },
     ],
     experience: [
       {
@@ -344,7 +344,7 @@ const variants = [
       { label: "DevOps", items: ["CI/CD Pipelines", "GitHub Actions", "Fastlane", "Sentry", "LaunchDarkly"] },
       { label: "Tests", items: ["JUnit", "Mockito", "XCTest", "Swift Testing", "Jest"] },
       { label: "Pratiques", items: ["REST API Design", "MVVM", "SOLID", "Software Architecture", "Claude Code"] },
-      { label: "Additionnel", items: ["Objective-C", "JavaScript", "AngularJS", "Oracle", "DB2", "Vagrant"] },
+      { label: "Additionnel", items: ["Objective-C", "JavaScript", "Oracle", "DB2"] },
     ],
     experience: [
       {
@@ -453,7 +453,7 @@ const variants = [
       { label: "Tests", items: ["XCTest", "XCUITest", "Swift Testing", "Snapshot Testing"] },
       { label: "DevOps", items: ["Fastlane", "GitHub Actions", "Swift Package Manager", "TestFlight", "Sentry", "LaunchDarkly"] },
       { label: "Pratiques", items: ["MVVM", "SOLID", "REST API Design", "Mobile UX Design", "Software Architecture", "Claude Code"] },
-      { label: "Additionnel", items: ["Objective-C", "RxSwift", "watchOS SDK", "macOS SDK", "CocoaPods", "Instruments"] },
+      { label: "Additionnel", items: ["Objective-C", "RxSwift", "watchOS SDK", "macOS SDK", "Instruments"] },
     ],
     experience: [
       {
@@ -565,7 +565,7 @@ const variants = [
       { label: "Backend", items: ["Spring Boot", "Hibernate", "Node.js", "PostgreSQL", "MySQL", "Docker"] },
       { label: "Mobile/Web", items: ["iOS SDK", "visionOS SDK", "SwiftUI", "UIKit", "Android SDK", "Angular"] },
       { label: "DevOps", items: ["CI/CD Pipelines", "GitHub Actions", "Fastlane", "Sentry", "LaunchDarkly", "Claude Code"] },
-      { label: "Additionnel", items: ["Objective-C", "Oracle", "DB2", "Vagrant", "J2EE"] },
+      { label: "Additionnel", items: ["Objective-C", "Oracle", "DB2"] },
     ],
     experience: [
       {
