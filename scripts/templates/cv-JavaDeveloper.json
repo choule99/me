@@ -1,0 +1,179 @@
+{
+  "name": "Claude Houle",
+  "title": "Senior Java Developer & Backend Architect",
+  "email": "claude.houle@gmail.com",
+  "web": "choule99.github.io/me",
+  "location": "Montreal, QC",
+  "summary": "Backend developer with 21+ years of experience building enterprise Java systems, microservices architectures, and high-throughput data platforms. Deep expertise in Spring ecosystem, database optimization, and distributed systems. Proven track record delivering mission-critical backends for financial services, travel, and manufacturing — with a focus on reliability, scalability, and team leadership.",
+  "accomplishments": [
+    "Architected and delivered the Ibiza travel platform rebuild at Accovia — Java/Spring/Hibernate backend serving major travel operators, delivered on time after critical client recovery",
+    "Built backend services for 8D Technologies' Solstice platform — Java system processing real-time events from Bixi bike-sharing kiosks deployed across cities worldwide",
+    "Designed backend architecture for CAE's pilot training platform at Spiria — Spring Boot APIs, data modeling, and integration strategies supporting aviation compliance requirements",
+    "Built core infrastructure services at Mediagrif adopted across multiple e-commerce product teams — reusable data access layers, service components, and API patterns"
+  ],
+  "skills": [
+    {
+      "label": "Languages",
+      "items": [
+        "Java",
+        "Kotlin",
+        "SQL",
+        "TypeScript",
+        "Python"
+      ]
+    },
+    {
+      "label": "Backend",
+      "items": [
+        "Spring Boot",
+        "Spring Security",
+        "Hibernate/JPA",
+        "REST APIs",
+        "Microservices",
+        "Node.js"
+      ]
+    },
+    {
+      "label": "Data",
+      "items": [
+        "PostgreSQL",
+        "MySQL",
+        "Oracle",
+        "DB2",
+        "Redis",
+        "ActiveMQ"
+      ]
+    },
+    {
+      "label": "DevOps",
+      "items": [
+        "Docker",
+        "Kubernetes",
+        "CI/CD Pipelines",
+        "Jenkins",
+        "GitLab CI",
+        "GitHub Actions"
+      ]
+    },
+    {
+      "label": "Architecture",
+      "items": [
+        "Domain-Driven Design",
+        "CQRS",
+        "Event Sourcing",
+        "API Design",
+        "System Integration"
+      ]
+    },
+    {
+      "label": "Testing",
+      "items": [
+        "JUnit",
+        "Mockito",
+        "Integration Testing",
+        "TDD",
+        "Contract Testing"
+      ]
+    },
+    {
+      "label": "Practices",
+      "items": [
+        "SOLID",
+        "Clean Architecture",
+        "Code Reviews",
+        "Technical Documentation",
+        "Claude Code"
+      ]
+    },
+    {
+      "label": "Additional",
+      "items": [
+        "Swift",
+        "Angular",
+        "iOS SDK",
+        "z/OS",
+        "Mainframe Migration"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Poka Inc.",
+      "title": "Architect, Lead iOS, Lead VisionOS",
+      "dates": "Oct 2021 — Present",
+      "description": "Connected worker platform with 200,000+ DAU — architecting backend integrations and API contracts for mobile clients.",
+      "bullets": [
+        "Designed API contracts and data synchronization strategies between mobile clients and backend services, ensuring reliability at scale",
+        "Established engineering standards and code review practices across the development team, improving code quality and consistency",
+        "Collaborated with backend teams on service architecture decisions, bringing mobile perspective to API design discussions",
+        "Onboarded 20 developers with a custom training curriculum covering architecture patterns and best practices, productive within 3 months"
+      ]
+    },
+    {
+      "company": "Appcom",
+      "title": "Lead Mobile Developer",
+      "dates": "Nov 2019 — Oct 2021",
+      "description": "Mobile development studio — led technical architecture and API integration across 15+ client projects.",
+      "bullets": [
+        "Designed shared component libraries and architectural patterns adopted across multiple project teams",
+        "Led API integration efforts with various backend systems, establishing patterns for error handling, caching, and offline support",
+        "Mentored developers through code reviews and knowledge-sharing sessions on architecture and design patterns"
+      ]
+    },
+    {
+      "company": "Spiria Digital",
+      "title": "Software Architect, Senior Developer",
+      "dates": "Nov 2013 — Nov 2019",
+      "description": "Custom software agency — led solution architecture for enterprise client engagements.",
+      "bullets": [
+        "Owned solution architecture for client engagements; translated business requirements into API contracts, data models, and integration strategies that guided development teams",
+        "CAE PreStudy: designed backend architecture with Spring Boot, RESTful APIs, and data persistence layer for an aviation pilot training platform",
+        "Acosta SLTouch: architected Node.js backend services and data aggregation pipelines for retail analytics platform",
+        "Skillable: delivered backend services for a Progressive Web App micro-learning platform using TypeScript and Node.js"
+      ]
+    },
+    {
+      "company": "8D Technologies",
+      "title": "Back-End Java Developer → iOS Developer",
+      "dates": "Oct 2009 — Oct 2013",
+      "description": "Software and hardware for bike-sharing and automated parking — backend systems supporting city-wide deployments.",
+      "bullets": [
+        "Built backend Java services for the Solstice bike-sharing suite — transaction processing, station management, and real-time availability APIs",
+        "Designed data pipelines handling high-volume telemetry from solar-powered POS stations across London and New York City deployments",
+        "Transitioned to iOS development, bringing backend architecture expertise that bridged system layers and improved API design"
+      ]
+    },
+    {
+      "company": "Accovia",
+      "title": "Back-End Java Developer — Architecture Team",
+      "dates": "Oct 2007 — Oct 2009",
+      "description": "Travel industry platform — core member of the architecture team on a critical platform rebuild.",
+      "bullets": [
+        "Joined the core Architecture Team on the Ibiza Project after a critical client recovery; helped rebuild the travel platform from the ground up with Java, Spring, and Hibernate",
+        "Designed service layer architecture, data access patterns, and transaction management strategies for high-throughput booking operations",
+        "Delivered the platform on time and on budget, restoring client confidence and establishing foundation for future growth"
+      ]
+    },
+    {
+      "company": "Compuware Montreal",
+      "title": "Java Consultant — Morgan Stanley",
+      "dates": "Oct 2005 — Oct 2007",
+      "description": "Enterprise Java consultant — assigned to a major financial services modernization project.",
+      "bullets": [
+        "Assigned to Morgan Stanley's Libra project to migrate legacy mainframe systems to Java services on Linux with DB2",
+        "Developed Java services within stringent financial compliance requirements and enterprise security standards",
+        "Coordinated within a globally distributed team across New York, Budapest, Tokyo, and Vancouver"
+      ]
+    },
+    {
+      "company": "Mediagrif",
+      "title": "Java Developer — Infrastructure Team",
+      "dates": "May 2003 — Oct 2005",
+      "description": "E-commerce platform company — member of the core infrastructure team.",
+      "bullets": [
+        "Built core backend services, reusable data access layers, and service components adopted by multiple e-commerce product teams",
+        "Designed and implemented shared infrastructure patterns that standardized database access and transaction handling across the organization"
+      ]
+    }
+  ]
+}
