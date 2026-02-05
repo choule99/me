@@ -16,7 +16,7 @@ const variants = [
     web: "choule99.github.io/me",
 
     location: "Montreal, QC",
-    summary: "Software developer with 21+ years of experience across backend systems, mobile platforms, and web applications. Proven ability to architect and deliver production software spanning the full stack — from Spring Boot backends and Angular frontends to native iOS and Android clients — with a focus on quality, mentorship, and continuous improvement.",
+    summary: "Software developer with 23+ years of experience across backend systems, mobile platforms, and web applications. Proven ability to architect and deliver production software spanning the full stack — from Spring Boot backends and Angular frontends to native iOS and Android clients — with a focus on quality, mentorship, and continuous improvement.",
     accomplishments: [
       "Led a production iOS app serving 200,000+ DAU with 99.999% crash-free rate across a 450K-line Swift codebase",
       "Architected full-stack solutions at Spiria spanning Spring backends, Angular frontends, and native iOS — including CAE's aviation pilot training platform",
@@ -44,7 +44,7 @@ const variants = [
           "Faced slow, manual releases; built a CI/CD pipeline on MacStadium that improved build speeds by 50% and increased deployments from 1/week to 4/day",
           "Needed to scale the team fast; onboarded 20 Sri Lankan developers with a custom training curriculum, making them productive within 3 months",
           "Tackled low test coverage (30%); drove incremental testing alongside refactors, reaching 60% coverage over four years",
-          "Adopted AI-assisted tools (Claude, Warp.dev) into the iOS team workflow, reducing coding time by 10%",
+          "Adopted AI-assisted tools (Claude) into the iOS team workflow, reducing coding time by 10%",
         ],
       },
       {
@@ -85,7 +85,7 @@ const variants = [
         title: "Back-End Java Developer",
         dates: "Oct 2007 — Oct 2009",
         bullets: [
-          "Joined the core Architecture Team on the Ibiza Project after a critical client recovery; helped rebuild the platform from the ground up with Java, Spring, and Hibernate, delivering on time and on budget",
+          "Architecture Team member on Ibiza Project — rebuilt travel platform with Java/Spring/Hibernate after critical client recovery",
         ],
       },
       {
@@ -93,7 +93,7 @@ const variants = [
         title: "Java Consultant — Morgan Stanley",
         dates: "Oct 2005 — Oct 2007",
         bullets: [
-          "Assigned to Morgan Stanley's Libra project to migrate legacy mainframe systems to Java services on Linux with DB2; worked within a globally distributed team across New York, Budapest, Tokyo, and Vancouver",
+          "Migrated legacy mainframe systems to Java services on the Libra project; globally distributed team (NY, Budapest, Tokyo, Vancouver)",
         ],
       },
       {
@@ -101,7 +101,7 @@ const variants = [
         title: "Java Developer",
         dates: "May 2003 — Oct 2005",
         bullets: [
-          "Joined the Software Infrastructure team; built core services, reusable components, and data access layers adopted by multiple e-commerce product teams",
+          "Built core services and reusable components on the Software Infrastructure team for e-commerce products",
         ],
       },
     ],
@@ -114,13 +114,13 @@ const variants = [
     web: "choule99.github.io/me",
 
     location: "Montreal, QC",
-    summary: "iOS developer with 15+ years on Apple platforms and 21+ years total in software development. I specialize in building reliable, scalable mobile products — from architecting shared component libraries to leading distributed teams. Passionate about code quality, CI/CD automation, and adopting emerging technologies like visionOS.",
+    summary: "iOS developer with 15+ years on Apple platforms and 23+ years total in software development. I specialize in building reliable, scalable mobile products — from architecting shared libraries to leading distributed teams. Passionate about code quality, CI/CD automation, and emerging technologies like visionOS, I turn technical visions into concrete, user-centered solutions.",
     accomplishments: [
-      "Stabilized a 450,000-line Swift codebase serving 200,000+ DAU — drove crash-free rate to 99.999% and release cadence from 1/week to 4/day",
-      "Built and shipped a visionOS-native app; secured a Vision Pro Dev Kit for Poka following an Apple review — launched as the 1st Connected Worker Solution on the visionOS App Store",
-      "Automated App Store deployments end-to-end, increasing release cadence from 1/week to 4/day and CI build speeds by 50%",
-      "Onboarded 20 Sri Lankan developers with a custom training curriculum — team productive within 3 months",
-      "Built a shared iOS component library at Appcom that standardized patterns across 15+ client projects and accelerated delivery",
+      "Stabilized a 450,000-line Swift codebase (200,000 DAU): Achieved 99.999% crash-free session rate and accelerated release cadence from 1/week to 4/day.",
+      "Built and shipped a visionOS-native app selected by Apple for a Vision Pro Dev Kit; launched as the 1st Connected Worker Solution on the visionOS App Store.",
+      "Automated App Store deployments end-to-end: Increased release cadence from 1/week to 4/day and accelerated CI build times by 50%.",
+      "Fast-tracked onboarding of 20 developers (Sri Lanka) via custom training curriculum — team operational within 3 months.",
+      "Designed a shared iOS component library, standardizing practices and accelerating delivery across 15+ client projects.",
     ],
     skills: [
       { label: "Languages", items: ["Swift", "Kotlin", "Java", "TypeScript", "SQL"] },
@@ -142,7 +142,7 @@ const variants = [
           "Faced slow, manual releases; built a CI/CD pipeline on MacStadium that improved build speeds by 50% and increased deployments from 1/week to 4/day",
           "Tackled low test coverage (30%); led an incremental testing initiative alongside refactors to SwiftUI, Combine, and modern architectures, reaching 60% over four years",
           "Needed to scale the team fast; onboarded 20 Sri Lankan developers with a custom training curriculum, making them productive within 3 months",
-          "Adopted AI-assisted tools (Claude, Warp.dev) into the iOS team workflow, reducing coding time by 10%",
+          "Adopted AI-assisted tools (Claude) into the iOS team workflow, reducing coding time by 10%",
         ],
       },
       {
@@ -185,7 +185,7 @@ const variants = [
         title: "Back-End Java Developer",
         dates: "Oct 2007 — Oct 2009",
         bullets: [
-          "Joined the Architecture Team on the Ibiza Project after a critical client recovery; helped rebuild the platform from the ground up with Java, Spring, and Hibernate, delivering on time and on budget",
+          "Architecture Team member on Ibiza Project — rebuilt travel platform with Java/Spring/Hibernate after critical client recovery",
         ],
       },
       {
@@ -193,7 +193,7 @@ const variants = [
         title: "Java Consultant",
         dates: "Oct 2005 — Oct 2007",
         bullets: [
-          "Assigned to Morgan Stanley's Libra project to migrate legacy mainframe systems to Java services; worked within a globally distributed team across New York, Budapest, Tokyo, and Vancouver",
+          "Morgan Stanley Libra project — migrated mainframe systems to Java; globally distributed team",
         ],
       },
       {
@@ -201,7 +201,7 @@ const variants = [
         title: "Java Developer",
         dates: "May 2003 — Oct 2005",
         bullets: [
-          "Joined the Software Infrastructure team; built core services and reusable components adopted by multiple e-commerce product teams",
+          "Built core services and reusable components on the Software Infrastructure team for e-commerce products",
         ],
       },
     ],
@@ -214,7 +214,7 @@ const variants = [
     web: "choule99.github.io/me",
 
     location: "Montreal, QC",
-    summary: "Software architect with 21+ years of hands-on experience designing and delivering systems across backend, mobile, and web. Proven leadership in solution architecture, team transformation, mentorship, and cross-functional collaboration. Combines deep technical breadth with a product-minded approach to align engineering with business outcomes.",
+    summary: "Software architect with 23+ years of hands-on experience designing and delivering systems across backend, mobile, and web. Proven leadership in solution architecture, team transformation, mentorship, and cross-functional collaboration. Combines deep technical breadth with a product-minded approach to align engineering with business outcomes.",
     accomplishments: [
       "Transformed an 8-person iOS team into a high-performing unit — crash-free rate to 99.999%, deployments from 1/week to 4/day, build speeds improved 50%",
       "Onboarded and integrated 20 Sri Lankan developers — designed training curriculum and built collaborative culture across time zones, productive within 3 months",
@@ -284,8 +284,7 @@ const variants = [
         title: "Back-End Java Developer — Architecture Team",
         dates: "Oct 2007 — Oct 2009",
         bullets: [
-          "Joined the core Architecture Team on the Ibiza Project after a critical client recovery; helped rebuild the platform from the ground up with Java, Spring, and Hibernate, delivering on time and on budget",
-          "Contributed to performance optimization and service orchestration across the backend layer",
+          "Rebuilt Ibiza travel platform with Java/Spring/Hibernate after critical client recovery; performance optimization and service orchestration",
         ],
       },
       {
@@ -293,7 +292,7 @@ const variants = [
         title: "Java Consultant — Morgan Stanley",
         dates: "Oct 2005 — Oct 2007",
         bullets: [
-          "Assigned to the Libra project to migrate legacy mainframe systems to Java services on Linux within stringent financial compliance requirements; coordinated within a globally distributed team across New York, Budapest, Tokyo, and Vancouver",
+          "Libra project — migrated mainframe to Java under financial compliance requirements; globally distributed team",
         ],
       },
       {
@@ -301,7 +300,7 @@ const variants = [
         title: "Java Developer",
         dates: "May 2003 — Oct 2005",
         bullets: [
-          "Joined the Software Infrastructure team; built core services and reusable components adopted by multiple e-commerce product teams",
+          "Built core services and reusable components on the Software Infrastructure team for e-commerce products",
         ],
       },
     ],
@@ -315,7 +314,7 @@ const variants = [
     web: "choule99.github.io/me",
 
     location: "Montreal, QC",
-    summary: "Backend developer with 21+ years of experience building enterprise Java systems, microservices architectures, and high-throughput data platforms. Deep expertise in Spring ecosystem, database optimization, and distributed systems. Proven track record delivering mission-critical backends for financial services, travel, and manufacturing — with a focus on reliability, scalability, and team leadership.",
+    summary: "Backend developer with 23+ years of experience building enterprise Java systems, microservices architectures, and high-throughput data platforms. Deep expertise in Spring ecosystem, database optimization, and distributed systems. Proven track record delivering mission-critical backends for financial services, travel, and manufacturing — with a focus on reliability, scalability, and team leadership.",
     accomplishments: [
       "Architected and delivered the Ibiza travel platform rebuild at Accovia — Java/Spring/Hibernate backend serving major travel operators, delivered on time after critical client recovery",
       "Built backend services for 8D Technologies' Solstice platform — Java system processing real-time events from Bixi bike-sharing kiosks deployed across cities worldwide",
@@ -383,32 +382,24 @@ const variants = [
         company: "Accovia",
         title: "Back-End Java Developer — Architecture Team",
         dates: "Oct 2007 — Oct 2009",
-        description: "Travel industry platform — core member of the architecture team on a critical platform rebuild.",
         bullets: [
-          "Joined the core Architecture Team on the Ibiza Project after a critical client recovery; helped rebuild the travel platform from the ground up with Java, Spring, and Hibernate",
-          "Designed service layer architecture, data access patterns, and transaction management strategies for high-throughput booking operations",
-          "Delivered the platform on time and on budget, restoring client confidence and establishing foundation for future growth",
+          "Rebuilt Ibiza travel platform with Java/Spring/Hibernate after critical client recovery — service architecture, data access patterns, on-time delivery",
         ],
       },
       {
         company: "Compuware Montreal",
         title: "Java Consultant — Morgan Stanley",
         dates: "Oct 2005 — Oct 2007",
-        description: "Enterprise Java consultant — assigned to a major financial services modernization project.",
         bullets: [
-          "Assigned to Morgan Stanley's Libra project to migrate legacy mainframe systems to Java services on Linux with DB2",
-          "Developed Java services within stringent financial compliance requirements and enterprise security standards",
-          "Coordinated within a globally distributed team across New York, Budapest, Tokyo, and Vancouver",
+          "Libra project — migrated mainframe to Java/DB2 under financial compliance requirements; globally distributed team",
         ],
       },
       {
         company: "Mediagrif",
         title: "Java Developer — Infrastructure Team",
         dates: "May 2003 — Oct 2005",
-        description: "E-commerce platform company — member of the core infrastructure team.",
         bullets: [
-          "Built core backend services, reusable data access layers, and service components adopted by multiple e-commerce product teams",
-          "Designed and implemented shared infrastructure patterns that standardized database access and transaction handling across the organization",
+          "Built core backend services and shared infrastructure patterns adopted by multiple e-commerce product teams",
         ],
       },
     ],
@@ -433,10 +424,11 @@ const variants = [
     education: {
       degree: "Techniques de l'informatique",
       school: "Cégep Édouard-Montpetit, Longueuil, QC",
-      dates: "Sept 2000 — Mai 2003",
+      dates: "2003",
       description: "Diplôme d'études collégiales (DEC) de trois ans couvrant le C, C++, Java, SQL, Linux et l'informatique appliquée.",
+      capstone: "Projet de fin d'études : Réalisation technique d'un site Internet (e-commerce) pour une PME.",
     },
-    summary: "Développeur backend avec plus de 21 ans d'expérience dans la construction de systèmes Java d'entreprise, d'architectures microservices et de plateformes de données à haut débit. Expertise approfondie de l'écosystème Spring, de l'optimisation de bases de données et des systèmes distribués. Bilan éprouvé dans la livraison de backends critiques pour les services financiers, le voyage et la fabrication — avec un accent sur la fiabilité, la mise à l'échelle et le leadership d'équipe.",
+    summary: "Développeur backend avec plus de 23 ans d'expérience dans la construction de systèmes Java d'entreprise, d'architectures microservices et de plateformes de données à haut débit. Expertise approfondie de l'écosystème Spring, de l'optimisation de bases de données et des systèmes distribués. Bilan éprouvé dans la livraison de backends critiques pour les services financiers, le voyage et la fabrication — avec un accent sur la fiabilité, la mise à l'échelle et le leadership d'équipe.",
     accomplishments: [
       "Conçu et livré la reconstruction de la plateforme de voyage Ibiza chez Accovia — backend Java/Spring/Hibernate servant les principaux opérateurs de voyage, livré à temps après un redressement client critique",
       "Construit les services backend de la plateforme Solstice de 8D Technologies — système Java traitant les événements en temps réel des kiosques de vélo-partage Bixi déployés dans des villes à travers le monde",
@@ -504,32 +496,24 @@ const variants = [
         company: "Accovia",
         title: "Développeur Java back-end — Équipe d'architecture",
         dates: "Oct 2007 — Oct 2009",
-        description: "Plateforme de l'industrie du voyage — membre clé de l'équipe d'architecture sur une reconstruction critique de plateforme.",
         bullets: [
-          "Intégré l'équipe d'architecture du projet Ibiza après un redressement client critique ; contribué à reconstruire la plateforme de voyage de zéro avec Java, Spring et Hibernate",
-          "Conçu l'architecture de la couche de services, les patterns d'accès aux données et les stratégies de gestion des transactions pour les opérations de réservation à haut débit",
-          "Livré la plateforme dans les délais et le budget, restaurant la confiance du client et établissant les fondations pour la croissance future",
+          "Reconstruit la plateforme de voyage Ibiza avec Java/Spring/Hibernate après redressement client — architecture de services, patterns d'accès aux données",
         ],
       },
       {
         company: "Compuware Montréal",
         title: "Consultant Java — Morgan Stanley",
         dates: "Oct 2005 — Oct 2007",
-        description: "Consultant Java d'entreprise — affecté à un projet majeur de modernisation des services financiers.",
         bullets: [
-          "Affecté au projet Libra de Morgan Stanley pour migrer des systèmes mainframe legacy vers des services Java sur Linux avec DB2",
-          "Développé des services Java dans le respect d'exigences strictes de conformité financière et de standards de sécurité d'entreprise",
-          "Coordonné au sein d'une équipe distribuée à travers New York, Budapest, Tokyo et Vancouver",
+          "Projet Libra — migration mainframe vers Java/DB2 sous exigences de conformité financière ; équipe distribuée mondialement",
         ],
       },
       {
         company: "Mediagrif",
         title: "Développeur Java — Équipe d'infrastructure",
         dates: "Mai 2003 — Oct 2005",
-        description: "Entreprise de plateforme e-commerce — membre de l'équipe d'infrastructure de base.",
         bullets: [
-          "Construit les services backend de base, les couches d'accès aux données réutilisables et les composants de service adoptés par plusieurs équipes de produits e-commerce",
-          "Conçu et implémenté des patterns d'infrastructure partagés qui ont standardisé l'accès aux bases de données et la gestion des transactions à travers l'organisation",
+          "Construit les services backend de base et patterns d'infrastructure partagés adoptés par plusieurs équipes e-commerce",
         ],
       },
     ],
@@ -551,10 +535,11 @@ const variants = [
     education: {
       degree: "Techniques de l'informatique",
       school: "Cégep Édouard-Montpetit, Longueuil, QC",
-      dates: "Sept 2000 — Mai 2003",
+      dates: "2003",
       description: "Diplôme d'études collégiales (DEC) de trois ans couvrant le C, C++, Java, SQL, Linux et l'informatique appliquée.",
+      capstone: "Projet de fin d'études : Réalisation technique d'un site Internet (e-commerce) pour une PME.",
     },
-    summary: "Développeur logiciel avec plus de 21 ans d'expérience en systèmes backend, plateformes mobiles et applications web. Capacité éprouvée à concevoir et livrer des logiciels de production couvrant l'ensemble de la pile technologique — des backends Spring Boot et frontends Angular aux clients natifs iOS et Android — avec un accent sur la qualité, le mentorat et l'amélioration continue.",
+    summary: "Développeur logiciel avec plus de 23 ans d'expérience en systèmes backend, plateformes mobiles et applications web. Capacité éprouvée à concevoir et livrer des logiciels de production couvrant l'ensemble de la pile technologique — des backends Spring Boot et frontends Angular aux clients natifs iOS et Android — avec un accent sur la qualité, le mentorat et l'amélioration continue.",
     accomplishments: [
       "Dirigé une application iOS en production servant plus de 200 000 utilisateurs actifs quotidiens avec un taux sans plantage de 99,999 % sur une base de code Swift de 450K lignes",
       "Conçu des solutions full-stack chez Spiria couvrant des backends Spring, des frontends Angular et du iOS natif — incluant la plateforme de formation des pilotes d'aviation de CAE",
@@ -582,7 +567,7 @@ const variants = [
           "Face à des mises en production lentes et manuelles ; construit un pipeline CI/CD sur MacStadium qui a amélioré la vitesse de compilation de 50 % et augmenté les déploiements de 1/semaine à 4/jour",
           "Besoin de faire croître l'équipe rapidement ; intégré 20 développeurs sri-lankais avec un programme de formation sur mesure, les rendant productifs en 3 mois",
           "Confronté à une faible couverture de tests (30 %) ; mené une initiative de tests incrémentale parallèlement aux refactorisations, atteignant 60 % en quatre ans",
-          "Adopté des outils assistés par IA (Claude, Warp.dev) dans le flux de travail de l'équipe iOS, réduisant le temps de développement de 10 %",
+          "Adopté des outils assistés par IA (Claude) dans le flux de travail de l'équipe iOS, réduisant le temps de développement de 10 %",
         ],
       },
       {
@@ -623,7 +608,7 @@ const variants = [
         title: "Développeur Java back-end",
         dates: "Oct 2007 — Oct 2009",
         bullets: [
-          "Intégré l'équipe d'architecture du projet Ibiza après un redressement client critique ; contribué à reconstruire la plateforme de zéro avec Java, Spring et Hibernate, livrant dans les délais et le budget",
+          "Équipe d'architecture du projet Ibiza — reconstruit la plateforme de voyage avec Java/Spring/Hibernate après redressement client",
         ],
       },
       {
@@ -631,7 +616,7 @@ const variants = [
         title: "Consultant Java — Morgan Stanley",
         dates: "Oct 2005 — Oct 2007",
         bullets: [
-          "Affecté au projet Libra de Morgan Stanley pour migrer des systèmes mainframe legacy vers des services Java sur Linux avec DB2 ; travaillé au sein d'une équipe distribuée à travers New York, Budapest, Tokyo et Vancouver",
+          "Projet Libra — migration mainframe vers Java/DB2 ; équipe distribuée mondialement",
         ],
       },
       {
@@ -639,7 +624,7 @@ const variants = [
         title: "Développeur Java",
         dates: "Mai 2003 — Oct 2005",
         bullets: [
-          "Intégré l'équipe d'infrastructure logicielle ; construit des services de base, des composants réutilisables et des couches d'accès aux données adoptés par plusieurs équipes de produits e-commerce",
+          "Construit les services de base et composants réutilisables sur l'équipe d'infrastructure pour produits e-commerce",
         ],
       },
     ],
@@ -661,16 +646,17 @@ const variants = [
     education: {
       degree: "Techniques de l'informatique",
       school: "Cégep Édouard-Montpetit, Longueuil, QC",
-      dates: "Sept 2000 — Mai 2003",
+      dates: "2003",
       description: "Diplôme d'études collégiales (DEC) de trois ans couvrant le C, C++, Java, SQL, Linux et l'informatique appliquée.",
+      capstone: "Projet de fin d'études : Réalisation technique d'un site Internet (e-commerce) pour une PME.",
     },
-    summary: "Développeur iOS avec plus de 15 ans sur les plateformes Apple et plus de 21 ans d'expérience totale en développement logiciel. Je me spécialise dans la création de produits mobiles fiables et évolutifs — de l'architecture de bibliothèques de composants partagés à la direction d'équipes distribuées. Passionné par la qualité du code, l'automatisation CI/CD et l'adoption de technologies émergentes comme visionOS.",
+    summary: "Développeur iOS avec plus de 15 ans sur les plateformes Apple et totalisant plus de 23 ans d'expérience en développement logiciel. Je me spécialise dans la création de produits mobiles fiables et évolutifs — de l'architecture de bibliothèques partagées au pilotage technique d'équipes distribuées. Passionné par la qualité du code, l'automatisation CI/CD et l'adoption de technologies émergentes comme visionOS, je transforme les visions technologiques en solutions concrètes, durables et centrées sur l'utilisateur.",
     accomplishments: [
-      "Stabilisé une base de code Swift de 450 000 lignes servant plus de 200 000 utilisateurs actifs quotidiens — porté le taux sans plantage à 99,999 % et la cadence de publication de 1/semaine à 4/jour",
-      "Construit et livré une application native visionOS ; obtenu un Vision Pro Dev Kit pour Poka suite à une revue Apple — lancée comme la 1re solution pour travailleurs connectés sur l'App Store visionOS",
-      "Automatisé les déploiements App Store de bout en bout, augmentant la cadence de publication de 1/semaine à 4/jour et la vitesse de compilation CI de 50 %",
-      "Intégré 20 développeurs sri-lankais avec un programme de formation sur mesure — équipe productive en 3 mois",
-      "Construit une bibliothèque de composants iOS partagée chez Appcom qui a standardisé les pratiques sur plus de 15 projets clients et accéléré les livraisons",
+      "Stabilisé une base de code Swift de 450 000 lignes (200 000 DAU) : Atteint un taux de sessions sans incident de 99,999 % et accéléré la cadence de mise en production de 1/semaine à 4/jour.",
+      "Conçu et livré une application native visionOS sélectionnée par Apple pour l'obtention d'un Vision Pro Dev Kit ; lancée en tant que 1re solution pour travailleurs connectés sur l'App Store visionOS.",
+      "Automatisé les déploiements App Store de bout en bout : Augmentation de la cadence de mise en production de 1/semaine à 4/jour et accélération de la compilation CI de 50 %.",
+      "Accéléré la montée en compétence de 20 développeurs (Sri Lanka) via un programme de formation sur mesure — équipe opérationnelle en 3 mois.",
+      "Conçu une bibliothèque de composants iOS partagée, standardisant les pratiques et accélérant la livraison de plus de 15 projets clients.",
     ],
     skills: [
       { label: "Langages", items: ["Swift", "Kotlin", "Java", "TypeScript", "SQL"] },
@@ -692,7 +678,7 @@ const variants = [
           "Face à des mises en production lentes et manuelles ; construit un pipeline CI/CD sur MacStadium qui a amélioré la vitesse de compilation de 50 % et augmenté les déploiements de 1/semaine à 4/jour",
           "Confronté à une faible couverture de tests (30 %) ; mené une initiative de tests incrémentale parallèlement aux refactorisations vers SwiftUI, Combine et des architectures modernes, atteignant 60 % en quatre ans",
           "Besoin de faire croître l'équipe rapidement ; intégré 20 développeurs sri-lankais avec un programme de formation sur mesure, les rendant productifs en 3 mois",
-          "Adopté des outils assistés par IA (Claude, Warp.dev) dans le flux de travail de l'équipe iOS, réduisant le temps de développement de 10 %",
+          "Adopté des outils assistés par IA (Claude) dans le flux de travail de l'équipe iOS, réduisant le temps de développement de 10 %",
         ],
       },
       {
@@ -735,7 +721,7 @@ const variants = [
         title: "Développeur Java back-end",
         dates: "Oct 2007 — Oct 2009",
         bullets: [
-          "Intégré l'équipe d'architecture du projet Ibiza après un redressement client critique ; contribué à reconstruire la plateforme de zéro avec Java, Spring et Hibernate, livrant dans les délais et le budget",
+          "Équipe d'architecture du projet Ibiza — reconstruit la plateforme de voyage avec Java/Spring/Hibernate après redressement client",
         ],
       },
       {
@@ -743,7 +729,7 @@ const variants = [
         title: "Consultant Java",
         dates: "Oct 2005 — Oct 2007",
         bullets: [
-          "Affecté au projet Libra de Morgan Stanley pour migrer des systèmes mainframe legacy vers des services Java ; travaillé au sein d'une équipe distribuée à travers New York, Budapest, Tokyo et Vancouver",
+          "Projet Libra (Morgan Stanley) — migration mainframe vers Java ; équipe distribuée mondialement",
         ],
       },
       {
@@ -751,7 +737,7 @@ const variants = [
         title: "Développeur Java",
         dates: "Mai 2003 — Oct 2005",
         bullets: [
-          "Intégré l'équipe d'infrastructure logicielle ; construit des services de base et des composants réutilisables adoptés par plusieurs équipes de produits e-commerce",
+          "Construit les services de base et composants réutilisables sur l'équipe d'infrastructure pour produits e-commerce",
         ],
       },
     ],
@@ -773,10 +759,11 @@ const variants = [
     education: {
       degree: "Techniques de l'informatique",
       school: "Cégep Édouard-Montpetit, Longueuil, QC",
-      dates: "Sept 2000 — Mai 2003",
+      dates: "2003",
       description: "Diplôme d'études collégiales (DEC) de trois ans couvrant le C, C++, Java, SQL, Linux et l'informatique appliquée.",
+      capstone: "Projet de fin d'études : Réalisation technique d'un site Internet (e-commerce) pour une PME.",
     },
-    summary: "Architecte logiciel avec plus de 21 ans d'expérience pratique dans la conception et la livraison de systèmes backend, mobiles et web. Leadership éprouvé en architecture de solutions, transformation d'équipes, mentorat et collaboration interfonctionnelle. Combine une vaste expertise technique avec une approche orientée produit pour aligner l'ingénierie avec les objectifs d'affaires.",
+    summary: "Architecte logiciel avec plus de 23 ans d'expérience pratique dans la conception et la livraison de systèmes backend, mobiles et web. Leadership éprouvé en architecture de solutions, transformation d'équipes, mentorat et collaboration interfonctionnelle. Combine une vaste expertise technique avec une approche orientée produit pour aligner l'ingénierie avec les objectifs d'affaires.",
     accomplishments: [
       "Transformé une équipe iOS de 8 personnes en une unité hautement performante — taux sans plantage à 99,999 %, déploiements de 1/semaine à 4/jour, vitesse de compilation améliorée de 50 %",
       "Intégré 20 développeurs sri-lankais — conçu un programme de formation et bâti une culture collaborative à travers les fuseaux horaires, productifs en 3 mois",
@@ -846,8 +833,7 @@ const variants = [
         title: "Développeur Java back-end — Équipe d'architecture",
         dates: "Oct 2007 — Oct 2009",
         bullets: [
-          "Intégré l'équipe d'architecture du projet Ibiza après un redressement client critique ; contribué à reconstruire la plateforme de zéro avec Java, Spring et Hibernate, livrant dans les délais et le budget",
-          "Contribué à l'optimisation de la performance et à l'orchestration des services sur la couche backend",
+          "Reconstruit la plateforme de voyage Ibiza avec Java/Spring/Hibernate après redressement client ; optimisation de la performance et orchestration des services",
         ],
       },
       {
@@ -855,7 +841,7 @@ const variants = [
         title: "Consultant Java — Morgan Stanley",
         dates: "Oct 2005 — Oct 2007",
         bullets: [
-          "Affecté au projet Libra pour migrer des systèmes mainframe legacy vers des services Java sur Linux dans le respect d'exigences strictes de conformité financière ; coordonné au sein d'une équipe distribuée à travers New York, Budapest, Tokyo et Vancouver",
+          "Projet Libra — migration mainframe vers Java sous exigences de conformité financière ; équipe distribuée mondialement",
         ],
       },
       {
@@ -863,7 +849,7 @@ const variants = [
         title: "Développeur Java",
         dates: "Mai 2003 — Oct 2005",
         bullets: [
-          "Intégré l'équipe d'infrastructure logicielle ; construit des services de base et des composants réutilisables adoptés par plusieurs équipes de produits e-commerce",
+          "Construit les services de base et composants réutilisables sur l'équipe d'infrastructure pour produits e-commerce",
         ],
       },
     ],
@@ -885,7 +871,7 @@ for (const variant of variants) {
 
   console.log(`Generating CV-${variant.id}.pdf...`);
   try {
-    execSync(`typst compile --root "${ROOT}" --input data-file="cv-${variant.id}.json" --input photo="../../docs/img/profile.jpg" "${templatePath}" "${outputFile}"`, {
+    execSync(`typst compile --root "${ROOT}" --input data-file="cv-${variant.id}.json" "${templatePath}" "${outputFile}"`, {
       stdio: 'inherit',
     });
     console.log(`  ✓ ${outputFile}`);

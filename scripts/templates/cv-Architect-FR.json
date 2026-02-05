@@ -14,10 +14,11 @@
   "education": {
     "degree": "Techniques de l'informatique",
     "school": "Cégep Édouard-Montpetit, Longueuil, QC",
-    "dates": "Sept 2000 — Mai 2003",
-    "description": "Diplôme d'études collégiales (DEC) de trois ans couvrant le C, C++, Java, SQL, Linux et l'informatique appliquée."
+    "dates": "2003",
+    "description": "Diplôme d'études collégiales (DEC) de trois ans couvrant le C, C++, Java, SQL, Linux et l'informatique appliquée.",
+    "capstone": "Projet de fin d'études : Réalisation technique d'un site Internet (e-commerce) pour une PME."
   },
-  "summary": "Architecte logiciel avec plus de 21 ans d'expérience pratique dans la conception et la livraison de systèmes backend, mobiles et web. Leadership éprouvé en architecture de solutions, transformation d'équipes, mentorat et collaboration interfonctionnelle. Combine une vaste expertise technique avec une approche orientée produit pour aligner l'ingénierie avec les objectifs d'affaires.",
+  "summary": "Architecte logiciel avec plus de 23 ans d'expérience pratique dans la conception et la livraison de systèmes backend, mobiles et web. Leadership éprouvé en architecture de solutions, transformation d'équipes, mentorat et collaboration interfonctionnelle. Combine une vaste expertise technique avec une approche orientée produit pour aligner l'ingénierie avec les objectifs d'affaires.",
   "accomplishments": [
     "Transformé une équipe iOS de 8 personnes en une unité hautement performante — taux sans plantage à 99,999 %, déploiements de 1/semaine à 4/jour, vitesse de compilation améliorée de 50 %",
     "Intégré 20 développeurs sri-lankais — conçu un programme de formation et bâti une culture collaborative à travers les fuseaux horaires, productifs en 3 mois",
@@ -152,8 +153,7 @@
       "title": "Développeur Java back-end — Équipe d'architecture",
       "dates": "Oct 2007 — Oct 2009",
       "bullets": [
-        "Intégré l'équipe d'architecture du projet Ibiza après un redressement client critique ; contribué à reconstruire la plateforme de zéro avec Java, Spring et Hibernate, livrant dans les délais et le budget",
-        "Contribué à l'optimisation de la performance et à l'orchestration des services sur la couche backend"
+        "Reconstruit la plateforme de voyage Ibiza avec Java/Spring/Hibernate après redressement client ; optimisation de la performance et orchestration des services"
       ]
     },
     {
@@ -161,7 +161,7 @@
       "title": "Consultant Java — Morgan Stanley",
       "dates": "Oct 2005 — Oct 2007",
       "bullets": [
-        "Affecté au projet Libra pour migrer des systèmes mainframe legacy vers des services Java sur Linux dans le respect d'exigences strictes de conformité financière ; coordonné au sein d'une équipe distribuée à travers New York, Budapest, Tokyo et Vancouver"
+        "Projet Libra — migration mainframe vers Java sous exigences de conformité financière ; équipe distribuée mondialement"
       ]
     },
     {
@@ -169,7 +169,7 @@
       "title": "Développeur Java",
       "dates": "Mai 2003 — Oct 2005",
       "bullets": [
-        "Intégré l'équipe d'infrastructure logicielle ; construit des services de base et des composants réutilisables adoptés par plusieurs équipes de produits e-commerce"
+        "Construit les services de base et composants réutilisables sur l'équipe d'infrastructure pour produits e-commerce"
       ]
     }
   ]

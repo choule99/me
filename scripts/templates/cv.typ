@@ -20,20 +20,28 @@
     inset: (x: 24pt + 0.5in, top: 22pt, bottom: 16pt),
     fill: accent,
   )[
-    #grid(
-      columns: (60pt, 1fr),
-      column-gutter: 14pt,
-      {
-        if photo-path != none {
-          box(
-            clip: true,
-            radius: 6pt,
-            width: 60pt,
-            height: 60pt,
-            image(photo-path, width: 60pt),
-          )
-        }
-      },
+    #if photo-path != none {
+      grid(
+        columns: (60pt, 1fr),
+        column-gutter: 14pt,
+        box(
+          clip: true,
+          radius: 6pt,
+          width: 60pt,
+          height: 60pt,
+          image(photo-path, width: 60pt),
+        ),
+        [
+          #text(size: 20pt, weight: "bold", fill: white, tracking: 0.5pt, data.name)
+          #v(-2pt)
+          #text(size: 11pt, fill: warm, weight: "medium", data.title)
+          #v(1pt)
+          #text(size: 8pt, fill: rgb("#b0c4d8"))[
+            #data.email #h(6pt) | #h(6pt) #data.location #h(6pt) | #h(6pt) #data.web
+          ]
+        ],
+      )
+    } else {
       [
         #text(size: 20pt, weight: "bold", fill: white, tracking: 0.5pt, data.name)
         #v(-2pt)
@@ -42,8 +50,8 @@
         #text(size: 8pt, fill: rgb("#b0c4d8"))[
           #data.email #h(6pt) | #h(6pt) #data.location #h(6pt) | #h(6pt) #data.web
         ]
-      ],
-    )
+      ]
+    }
   ]
 ]
 
@@ -166,8 +174,9 @@
 #let edu = data.at("education", default: (
   degree: "Computer Science Technology",
   school: "Cégep Édouard-Montpetit, Longueuil, QC",
-  dates: "Sept 2000 — May 2003",
-  description: "Three-year practice-oriented diploma covering C, C++, Java, SQL, Linux, and applied computing — comparable to a U.S. associate degree in computer science.",
+  dates: "2003",
+  description: "Three-year practice-oriented diploma covering C, C++, Java, SQL, Linux, and applied computing.",
+  capstone: "Capstone project: End-to-end development of an e-commerce website for an SMB.",
 ))
 #section-heading(s-education)
 
@@ -183,4 +192,8 @@
   )
   #v(1pt)
   #text(size: 8.5pt, edu.description)
+  #if edu.at("capstone", default: none) != none {
+    v(1pt)
+    text(size: 8.5pt, style: "italic", edu.capstone)
+  }
 ]

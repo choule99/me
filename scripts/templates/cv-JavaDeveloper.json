@@ -4,7 +4,7 @@
   "email": "claude.houle@gmail.com",
   "web": "choule99.github.io/me",
   "location": "Montreal, QC",
-  "summary": "Backend developer with 21+ years of experience building enterprise Java systems, microservices architectures, and high-throughput data platforms. Deep expertise in Spring ecosystem, database optimization, and distributed systems. Proven track record delivering mission-critical backends for financial services, travel, and manufacturing — with a focus on reliability, scalability, and team leadership.",
+  "summary": "Backend developer with 23+ years of experience building enterprise Java systems, microservices architectures, and high-throughput data platforms. Deep expertise in Spring ecosystem, database optimization, and distributed systems. Proven track record delivering mission-critical backends for financial services, travel, and manufacturing — with a focus on reliability, scalability, and team leadership.",
   "accomplishments": [
     "Architected and delivered the Ibiza travel platform rebuild at Accovia — Java/Spring/Hibernate backend serving major travel operators, delivered on time after critical client recovery",
     "Built backend services for 8D Technologies' Solstice platform — Java system processing real-time events from Bixi bike-sharing kiosks deployed across cities worldwide",
@@ -147,32 +147,24 @@
       "company": "Accovia",
       "title": "Back-End Java Developer — Architecture Team",
       "dates": "Oct 2007 — Oct 2009",
-      "description": "Travel industry platform — core member of the architecture team on a critical platform rebuild.",
       "bullets": [
-        "Joined the core Architecture Team on the Ibiza Project after a critical client recovery; helped rebuild the travel platform from the ground up with Java, Spring, and Hibernate",
-        "Designed service layer architecture, data access patterns, and transaction management strategies for high-throughput booking operations",
-        "Delivered the platform on time and on budget, restoring client confidence and establishing foundation for future growth"
+        "Rebuilt Ibiza travel platform with Java/Spring/Hibernate after critical client recovery — service architecture, data access patterns, on-time delivery"
       ]
     },
     {
       "company": "Compuware Montreal",
       "title": "Java Consultant — Morgan Stanley",
       "dates": "Oct 2005 — Oct 2007",
-      "description": "Enterprise Java consultant — assigned to a major financial services modernization project.",
       "bullets": [
-        "Assigned to Morgan Stanley's Libra project to migrate legacy mainframe systems to Java services on Linux with DB2",
-        "Developed Java services within stringent financial compliance requirements and enterprise security standards",
-        "Coordinated within a globally distributed team across New York, Budapest, Tokyo, and Vancouver"
+        "Libra project — migrated mainframe to Java/DB2 under financial compliance requirements; globally distributed team"
       ]
     },
     {
       "company": "Mediagrif",
       "title": "Java Developer — Infrastructure Team",
       "dates": "May 2003 — Oct 2005",
-      "description": "E-commerce platform company — member of the core infrastructure team.",
       "bullets": [
-        "Built core backend services, reusable data access layers, and service components adopted by multiple e-commerce product teams",
-        "Designed and implemented shared infrastructure patterns that standardized database access and transaction handling across the organization"
+        "Built core backend services and shared infrastructure patterns adopted by multiple e-commerce product teams"
       ]
     }
   ]

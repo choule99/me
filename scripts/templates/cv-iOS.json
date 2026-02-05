@@ -4,13 +4,13 @@
   "email": "claude.houle@gmail.com",
   "web": "choule99.github.io/me",
   "location": "Montreal, QC",
-  "summary": "iOS developer with 15+ years on Apple platforms and 21+ years total in software development. I specialize in building reliable, scalable mobile products — from architecting shared component libraries to leading distributed teams. Passionate about code quality, CI/CD automation, and adopting emerging technologies like visionOS.",
+  "summary": "iOS developer with 15+ years on Apple platforms and 23+ years total in software development. I specialize in building reliable, scalable mobile products — from architecting shared libraries to leading distributed teams. Passionate about code quality, CI/CD automation, and emerging technologies like visionOS, I turn technical visions into concrete, user-centered solutions.",
   "accomplishments": [
-    "Stabilized a 450,000-line Swift codebase serving 200,000+ DAU — drove crash-free rate to 99.999% and release cadence from 1/week to 4/day",
-    "Built and shipped a visionOS-native app; secured a Vision Pro Dev Kit for Poka following an Apple review — launched as the 1st Connected Worker Solution on the visionOS App Store",
-    "Automated App Store deployments end-to-end, increasing release cadence from 1/week to 4/day and CI build speeds by 50%",
-    "Onboarded 20 Sri Lankan developers with a custom training curriculum — team productive within 3 months",
-    "Built a shared iOS component library at Appcom that standardized patterns across 15+ client projects and accelerated delivery"
+    "Stabilized a 450,000-line Swift codebase (200,000 DAU): Achieved 99.999% crash-free session rate and accelerated release cadence from 1/week to 4/day.",
+    "Built and shipped a visionOS-native app selected by Apple for a Vision Pro Dev Kit; launched as the 1st Connected Worker Solution on the visionOS App Store.",
+    "Automated App Store deployments end-to-end: Increased release cadence from 1/week to 4/day and accelerated CI build times by 50%.",
+    "Fast-tracked onboarding of 20 developers (Sri Lanka) via custom training curriculum — team operational within 3 months.",
+    "Designed a shared iOS component library, standardizing practices and accelerating delivery across 15+ client projects."
   ],
   "skills": [
     {
@@ -91,7 +91,7 @@
         "Faced slow, manual releases; built a CI/CD pipeline on MacStadium that improved build speeds by 50% and increased deployments from 1/week to 4/day",
         "Tackled low test coverage (30%); led an incremental testing initiative alongside refactors to SwiftUI, Combine, and modern architectures, reaching 60% over four years",
         "Needed to scale the team fast; onboarded 20 Sri Lankan developers with a custom training curriculum, making them productive within 3 months",
-        "Adopted AI-assisted tools (Claude, Warp.dev) into the iOS team workflow, reducing coding time by 10%"
+        "Adopted AI-assisted tools (Claude) into the iOS team workflow, reducing coding time by 10%"
       ]
     },
     {
@@ -134,7 +134,7 @@
       "title": "Back-End Java Developer",
       "dates": "Oct 2007 — Oct 2009",
       "bullets": [
-        "Joined the Architecture Team on the Ibiza Project after a critical client recovery; helped rebuild the platform from the ground up with Java, Spring, and Hibernate, delivering on time and on budget"
+        "Architecture Team member on Ibiza Project — rebuilt travel platform with Java/Spring/Hibernate after critical client recovery"
       ]
     },
     {
@@ -142,7 +142,7 @@
       "title": "Java Consultant",
       "dates": "Oct 2005 — Oct 2007",
       "bullets": [
-        "Assigned to Morgan Stanley's Libra project to migrate legacy mainframe systems to Java services; worked within a globally distributed team across New York, Budapest, Tokyo, and Vancouver"
+        "Morgan Stanley Libra project — migrated mainframe systems to Java; globally distributed team"
       ]
     },
     {
@@ -150,7 +150,7 @@
       "title": "Java Developer",
       "dates": "May 2003 — Oct 2005",
       "bullets": [
-        "Joined the Software Infrastructure team; built core services and reusable components adopted by multiple e-commerce product teams"
+        "Built core services and reusable components on the Software Infrastructure team for e-commerce products"
       ]
     }
   ]

@@ -14,10 +14,11 @@
   "education": {
     "degree": "Techniques de l'informatique",
     "school": "Cégep Édouard-Montpetit, Longueuil, QC",
-    "dates": "Sept 2000 — Mai 2003",
-    "description": "Diplôme d'études collégiales (DEC) de trois ans couvrant le C, C++, Java, SQL, Linux et l'informatique appliquée."
+    "dates": "2003",
+    "description": "Diplôme d'études collégiales (DEC) de trois ans couvrant le C, C++, Java, SQL, Linux et l'informatique appliquée.",
+    "capstone": "Projet de fin d'études : Réalisation technique d'un site Internet (e-commerce) pour une PME."
   },
-  "summary": "Développeur backend avec plus de 21 ans d'expérience dans la construction de systèmes Java d'entreprise, d'architectures microservices et de plateformes de données à haut débit. Expertise approfondie de l'écosystème Spring, de l'optimisation de bases de données et des systèmes distribués. Bilan éprouvé dans la livraison de backends critiques pour les services financiers, le voyage et la fabrication — avec un accent sur la fiabilité, la mise à l'échelle et le leadership d'équipe.",
+  "summary": "Développeur backend avec plus de 23 ans d'expérience dans la construction de systèmes Java d'entreprise, d'architectures microservices et de plateformes de données à haut débit. Expertise approfondie de l'écosystème Spring, de l'optimisation de bases de données et des systèmes distribués. Bilan éprouvé dans la livraison de backends critiques pour les services financiers, le voyage et la fabrication — avec un accent sur la fiabilité, la mise à l'échelle et le leadership d'équipe.",
   "accomplishments": [
     "Conçu et livré la reconstruction de la plateforme de voyage Ibiza chez Accovia — backend Java/Spring/Hibernate servant les principaux opérateurs de voyage, livré à temps après un redressement client critique",
     "Construit les services backend de la plateforme Solstice de 8D Technologies — système Java traitant les événements en temps réel des kiosques de vélo-partage Bixi déployés dans des villes à travers le monde",
@@ -160,32 +161,24 @@
       "company": "Accovia",
       "title": "Développeur Java back-end — Équipe d'architecture",
       "dates": "Oct 2007 — Oct 2009",
-      "description": "Plateforme de l'industrie du voyage — membre clé de l'équipe d'architecture sur une reconstruction critique de plateforme.",
       "bullets": [
-        "Intégré l'équipe d'architecture du projet Ibiza après un redressement client critique ; contribué à reconstruire la plateforme de voyage de zéro avec Java, Spring et Hibernate",
-        "Conçu l'architecture de la couche de services, les patterns d'accès aux données et les stratégies de gestion des transactions pour les opérations de réservation à haut débit",
-        "Livré la plateforme dans les délais et le budget, restaurant la confiance du client et établissant les fondations pour la croissance future"
+        "Reconstruit la plateforme de voyage Ibiza avec Java/Spring/Hibernate après redressement client — architecture de services, patterns d'accès aux données"
       ]
     },
     {
       "company": "Compuware Montréal",
       "title": "Consultant Java — Morgan Stanley",
       "dates": "Oct 2005 — Oct 2007",
-      "description": "Consultant Java d'entreprise — affecté à un projet majeur de modernisation des services financiers.",
       "bullets": [
-        "Affecté au projet Libra de Morgan Stanley pour migrer des systèmes mainframe legacy vers des services Java sur Linux avec DB2",
-        "Développé des services Java dans le respect d'exigences strictes de conformité financière et de standards de sécurité d'entreprise",
-        "Coordonné au sein d'une équipe distribuée à travers New York, Budapest, Tokyo et Vancouver"
+        "Projet Libra — migration mainframe vers Java/DB2 sous exigences de conformité financière ; équipe distribuée mondialement"
       ]
     },
     {
       "company": "Mediagrif",
       "title": "Développeur Java — Équipe d'infrastructure",
       "dates": "Mai 2003 — Oct 2005",
-      "description": "Entreprise de plateforme e-commerce — membre de l'équipe d'infrastructure de base.",
       "bullets": [
-        "Construit les services backend de base, les couches d'accès aux données réutilisables et les composants de service adoptés par plusieurs équipes de produits e-commerce",
-        "Conçu et implémenté des patterns d'infrastructure partagés qui ont standardisé l'accès aux bases de données et la gestion des transactions à travers l'organisation"
+        "Construit les services backend de base et patterns d'infrastructure partagés adoptés par plusieurs équipes e-commerce"
       ]
     }
   ]

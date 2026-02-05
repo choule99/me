@@ -14,16 +14,17 @@
   "education": {
     "degree": "Techniques de l'informatique",
     "school": "Cégep Édouard-Montpetit, Longueuil, QC",
-    "dates": "Sept 2000 — Mai 2003",
-    "description": "Diplôme d'études collégiales (DEC) de trois ans couvrant le C, C++, Java, SQL, Linux et l'informatique appliquée."
+    "dates": "2003",
+    "description": "Diplôme d'études collégiales (DEC) de trois ans couvrant le C, C++, Java, SQL, Linux et l'informatique appliquée.",
+    "capstone": "Projet de fin d'études : Réalisation technique d'un site Internet (e-commerce) pour une PME."
   },
-  "summary": "Développeur iOS avec plus de 15 ans sur les plateformes Apple et plus de 21 ans d'expérience totale en développement logiciel. Je me spécialise dans la création de produits mobiles fiables et évolutifs — de l'architecture de bibliothèques de composants partagés à la direction d'équipes distribuées. Passionné par la qualité du code, l'automatisation CI/CD et l'adoption de technologies émergentes comme visionOS.",
+  "summary": "Développeur iOS avec plus de 15 ans sur les plateformes Apple et totalisant plus de 23 ans d'expérience en développement logiciel. Je me spécialise dans la création de produits mobiles fiables et évolutifs — de l'architecture de bibliothèques partagées au pilotage technique d'équipes distribuées. Passionné par la qualité du code, l'automatisation CI/CD et l'adoption de technologies émergentes comme visionOS, je transforme les visions technologiques en solutions concrètes, durables et centrées sur l'utilisateur.",
   "accomplishments": [
-    "Stabilisé une base de code Swift de 450 000 lignes servant plus de 200 000 utilisateurs actifs quotidiens — porté le taux sans plantage à 99,999 % et la cadence de publication de 1/semaine à 4/jour",
-    "Construit et livré une application native visionOS ; obtenu un Vision Pro Dev Kit pour Poka suite à une revue Apple — lancée comme la 1re solution pour travailleurs connectés sur l'App Store visionOS",
-    "Automatisé les déploiements App Store de bout en bout, augmentant la cadence de publication de 1/semaine à 4/jour et la vitesse de compilation CI de 50 %",
-    "Intégré 20 développeurs sri-lankais avec un programme de formation sur mesure — équipe productive en 3 mois",
-    "Construit une bibliothèque de composants iOS partagée chez Appcom qui a standardisé les pratiques sur plus de 15 projets clients et accéléré les livraisons"
+    "Stabilisé une base de code Swift de 450 000 lignes (200 000 DAU) : Atteint un taux de sessions sans incident de 99,999 % et accéléré la cadence de mise en production de 1/semaine à 4/jour.",
+    "Conçu et livré une application native visionOS sélectionnée par Apple pour l'obtention d'un Vision Pro Dev Kit ; lancée en tant que 1re solution pour travailleurs connectés sur l'App Store visionOS.",
+    "Automatisé les déploiements App Store de bout en bout : Augmentation de la cadence de mise en production de 1/semaine à 4/jour et accélération de la compilation CI de 50 %.",
+    "Accéléré la montée en compétence de 20 développeurs (Sri Lanka) via un programme de formation sur mesure — équipe opérationnelle en 3 mois.",
+    "Conçu une bibliothèque de composants iOS partagée, standardisant les pratiques et accélérant la livraison de plus de 15 projets clients."
   ],
   "skills": [
     {
@@ -104,7 +105,7 @@
         "Face à des mises en production lentes et manuelles ; construit un pipeline CI/CD sur MacStadium qui a amélioré la vitesse de compilation de 50 % et augmenté les déploiements de 1/semaine à 4/jour",
         "Confronté à une faible couverture de tests (30 %) ; mené une initiative de tests incrémentale parallèlement aux refactorisations vers SwiftUI, Combine et des architectures modernes, atteignant 60 % en quatre ans",
         "Besoin de faire croître l'équipe rapidement ; intégré 20 développeurs sri-lankais avec un programme de formation sur mesure, les rendant productifs en 3 mois",
-        "Adopté des outils assistés par IA (Claude, Warp.dev) dans le flux de travail de l'équipe iOS, réduisant le temps de développement de 10 %"
+        "Adopté des outils assistés par IA (Claude) dans le flux de travail de l'équipe iOS, réduisant le temps de développement de 10 %"
       ]
     },
     {
@@ -147,7 +148,7 @@
       "title": "Développeur Java back-end",
       "dates": "Oct 2007 — Oct 2009",
       "bullets": [
-        "Intégré l'équipe d'architecture du projet Ibiza après un redressement client critique ; contribué à reconstruire la plateforme de zéro avec Java, Spring et Hibernate, livrant dans les délais et le budget"
+        "Équipe d'architecture du projet Ibiza — reconstruit la plateforme de voyage avec Java/Spring/Hibernate après redressement client"
       ]
     },
     {
@@ -155,7 +156,7 @@
       "title": "Consultant Java",
       "dates": "Oct 2005 — Oct 2007",
       "bullets": [
-        "Affecté au projet Libra de Morgan Stanley pour migrer des systèmes mainframe legacy vers des services Java ; travaillé au sein d'une équipe distribuée à travers New York, Budapest, Tokyo et Vancouver"
+        "Projet Libra (Morgan Stanley) — migration mainframe vers Java ; équipe distribuée mondialement"
       ]
     },
     {
@@ -163,7 +164,7 @@
       "title": "Développeur Java",
       "dates": "Mai 2003 — Oct 2005",
       "bullets": [
-        "Intégré l'équipe d'infrastructure logicielle ; construit des services de base et des composants réutilisables adoptés par plusieurs équipes de produits e-commerce"
+        "Construit les services de base et composants réutilisables sur l'équipe d'infrastructure pour produits e-commerce"
       ]
     }
   ]

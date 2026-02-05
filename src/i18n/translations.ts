@@ -2,7 +2,7 @@ export const translations = {
   en: {
     // Meta
     "meta.title": "Claude Houle - iOS Developer & Mobile Architect",
-    "meta.description": "20+ years of software development experience. Lead iOS Developer, visionOS Developer, and Mobile Architect based in Montreal.",
+    "meta.description": "23+ years of software development experience. Lead iOS Developer, visionOS Developer, and Mobile Architect based in Montreal.",
 
     // Nav
     "nav.goals": "Goals",
@@ -14,12 +14,12 @@ export const translations = {
 
     // Hero
     "hero.title": "Staff Software Engineer",
-    "hero.bio": "Montreal-based software developer with 20+ years of experience across backend systems, mobile platforms, and software architecture. From enterprise Java to iOS, Android, and web — I design and deliver production software across the full stack, with a focus on quality, tooling, and continuous learning.",
+    "hero.bio": "Montreal-based software developer with 23+ years of experience across backend systems, mobile platforms, and software architecture. From enterprise Java to iOS, Android, and web — I design and deliver production software across the full stack, with a focus on quality, tooling, and continuous learning.",
     "hero.downloadCv": "Download CV",
     "hero.email": "Email",
 
     // Welcome
-    "welcome.text": "I personally find it very difficult to convey 20+ years of experience with only a 2-page resume and a 30-minute phone screen. This digital resume is my solution to that problem. I sincerely hope this page will give you better insights into who I am and what motivates me.",
+    "welcome.text": "I personally find it very difficult to convey 23+ years of experience with only a 2-page resume and a 30-minute phone screen. This digital resume is my solution to that problem. I sincerely hope this page will give you better insights into who I am and what motivates me.",
 
     // Goals
     "goals.badge": "Goals",
@@ -153,12 +153,12 @@ export const translations = {
 
     // Hero
     "hero.title": "Développeur Principal",
-    "hero.bio": "Développeur logiciel basé à Montréal avec plus de 20 ans d'expérience en systèmes backend, plateformes mobiles et architecture logicielle. De Java entreprise à iOS, Android et le web — je conçois et livre des logiciels en production sur l'ensemble de la pile technologique, avec un accent sur la qualité, l'outillage et l'apprentissage continu.",
+    "hero.bio": "Développeur logiciel basé à Montréal avec plus de 23 ans d'expérience en systèmes backend, plateformes mobiles et architecture logicielle. De Java entreprise à iOS, Android et le web — je conçois et livre des logiciels en production sur l'ensemble de la pile technologique, avec un accent sur la qualité, l'outillage et l'apprentissage continu.",
     "hero.downloadCv": "Télécharger le CV",
     "hero.email": "Courriel",
 
     // Welcome
-    "welcome.text": "Je trouve personnellement très difficile de transmettre plus de 20 ans d'expérience avec seulement un CV de 2 pages et un appel téléphonique de 30 minutes. Ce CV numérique est ma solution à ce problème. J'espère sincèrement que cette page vous donnera un meilleur aperçu de qui je suis et de ce qui me motive.",
+    "welcome.text": "Je trouve personnellement très difficile de transmettre plus de 23 ans d'expérience avec seulement un CV de 2 pages et un appel téléphonique de 30 minutes. Ce CV numérique est ma solution à ce problème. J'espère sincèrement que cette page vous donnera un meilleur aperçu de qui je suis et de ce qui me motive.",
 
     // Goals
     "goals.badge": "Objectifs",

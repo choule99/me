@@ -14,10 +14,11 @@
   "education": {
     "degree": "Techniques de l'informatique",
     "school": "Cégep Édouard-Montpetit, Longueuil, QC",
-    "dates": "Sept 2000 — Mai 2003",
-    "description": "Diplôme d'études collégiales (DEC) de trois ans couvrant le C, C++, Java, SQL, Linux et l'informatique appliquée."
+    "dates": "2003",
+    "description": "Diplôme d'études collégiales (DEC) de trois ans couvrant le C, C++, Java, SQL, Linux et l'informatique appliquée.",
+    "capstone": "Projet de fin d'études : Réalisation technique d'un site Internet (e-commerce) pour une PME."
   },
-  "summary": "Développeur logiciel avec plus de 21 ans d'expérience en systèmes backend, plateformes mobiles et applications web. Capacité éprouvée à concevoir et livrer des logiciels de production couvrant l'ensemble de la pile technologique — des backends Spring Boot et frontends Angular aux clients natifs iOS et Android — avec un accent sur la qualité, le mentorat et l'amélioration continue.",
+  "summary": "Développeur logiciel avec plus de 23 ans d'expérience en systèmes backend, plateformes mobiles et applications web. Capacité éprouvée à concevoir et livrer des logiciels de production couvrant l'ensemble de la pile technologique — des backends Spring Boot et frontends Angular aux clients natifs iOS et Android — avec un accent sur la qualité, le mentorat et l'amélioration continue.",
   "accomplishments": [
     "Dirigé une application iOS en production servant plus de 200 000 utilisateurs actifs quotidiens avec un taux sans plantage de 99,999 % sur une base de code Swift de 450K lignes",
     "Conçu des solutions full-stack chez Spiria couvrant des backends Spring, des frontends Angular et du iOS natif — incluant la plateforme de formation des pilotes d'aviation de CAE",
@@ -115,7 +116,7 @@
         "Face à des mises en production lentes et manuelles ; construit un pipeline CI/CD sur MacStadium qui a amélioré la vitesse de compilation de 50 % et augmenté les déploiements de 1/semaine à 4/jour",
         "Besoin de faire croître l'équipe rapidement ; intégré 20 développeurs sri-lankais avec un programme de formation sur mesure, les rendant productifs en 3 mois",
         "Confronté à une faible couverture de tests (30 %) ; mené une initiative de tests incrémentale parallèlement aux refactorisations, atteignant 60 % en quatre ans",
-        "Adopté des outils assistés par IA (Claude, Warp.dev) dans le flux de travail de l'équipe iOS, réduisant le temps de développement de 10 %"
+        "Adopté des outils assistés par IA (Claude) dans le flux de travail de l'équipe iOS, réduisant le temps de développement de 10 %"
       ]
     },
     {
@@ -156,7 +157,7 @@
       "title": "Développeur Java back-end",
       "dates": "Oct 2007 — Oct 2009",
       "bullets": [
-        "Intégré l'équipe d'architecture du projet Ibiza après un redressement client critique ; contribué à reconstruire la plateforme de zéro avec Java, Spring et Hibernate, livrant dans les délais et le budget"
+        "Équipe d'architecture du projet Ibiza — reconstruit la plateforme de voyage avec Java/Spring/Hibernate après redressement client"
       ]
     },
     {
@@ -164,7 +165,7 @@
       "title": "Consultant Java — Morgan Stanley",
       "dates": "Oct 2005 — Oct 2007",
       "bullets": [
-        "Affecté au projet Libra de Morgan Stanley pour migrer des systèmes mainframe legacy vers des services Java sur Linux avec DB2 ; travaillé au sein d'une équipe distribuée à travers New York, Budapest, Tokyo et Vancouver"
+        "Projet Libra — migration mainframe vers Java/DB2 ; équipe distribuée mondialement"
       ]
     },
     {
@@ -172,7 +173,7 @@
       "title": "Développeur Java",
       "dates": "Mai 2003 — Oct 2005",
       "bullets": [
-        "Intégré l'équipe d'infrastructure logicielle ; construit des services de base, des composants réutilisables et des couches d'accès aux données adoptés par plusieurs équipes de produits e-commerce"
+        "Construit les services de base et composants réutilisables sur l'équipe d'infrastructure pour produits e-commerce"
       ]
     }
   ]
