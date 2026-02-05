@@ -4,7 +4,7 @@
   "email": "claude.houle@gmail.com",
   "web": "choule99.github.io/me",
   "location": "Montreal, QC",
-  "summary": "iOS developer with 15+ years on Apple platforms and 21+ years total in software development. From stabilizing a 450,000-line Swift codebase at 99.999% crash-free to shipping a day-one visionOS App Store launch, I build mobile products that deliver measurable gains in reliability, release cadence, and user adoption.",
+  "summary": "iOS developer with 15+ years on Apple platforms and 21+ years total in software development. I specialize in building reliable, scalable mobile products — from architecting shared component libraries to leading distributed teams. Passionate about code quality, CI/CD automation, and adopting emerging technologies like visionOS.",
   "accomplishments": [
     "Stabilized a 450,000-line Swift codebase serving 200,000+ DAU — drove crash-free rate to 99.999% and release cadence from 1/week to 4/day",
     "Built and shipped a visionOS-native app; secured a Vision Pro Dev Kit for Poka following an Apple review — launched as the 1st Connected Worker Solution on the visionOS App Store",

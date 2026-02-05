@@ -114,7 +114,7 @@ const variants = [
     web: "choule99.github.io/me",
 
     location: "Montreal, QC",
-    summary: "iOS developer with 15+ years on Apple platforms and 21+ years total in software development. From stabilizing a 450,000-line Swift codebase at 99.999% crash-free to shipping a day-one visionOS App Store launch, I build mobile products that deliver measurable gains in reliability, release cadence, and user adoption.",
+    summary: "iOS developer with 15+ years on Apple platforms and 21+ years total in software development. I specialize in building reliable, scalable mobile products — from architecting shared component libraries to leading distributed teams. Passionate about code quality, CI/CD automation, and adopting emerging technologies like visionOS.",
     accomplishments: [
       "Stabilized a 450,000-line Swift codebase serving 200,000+ DAU — drove crash-free rate to 99.999% and release cadence from 1/week to 4/day",
       "Built and shipped a visionOS-native app; secured a Vision Pro Dev Kit for Poka following an Apple review — launched as the 1st Connected Worker Solution on the visionOS App Store",
@@ -664,7 +664,7 @@ const variants = [
       dates: "Sept 2000 — Mai 2003",
       description: "Diplôme d'études collégiales (DEC) de trois ans couvrant le C, C++, Java, SQL, Linux et l'informatique appliquée.",
     },
-    summary: "Développeur iOS avec plus de 15 ans sur les plateformes Apple et plus de 21 ans d'expérience totale en développement logiciel. De la stabilisation d'une base de code Swift de 450 000 lignes à 99,999 % sans plantage au lancement dès le jour un sur l'App Store visionOS, je construis des produits mobiles qui livrent des gains mesurables en fiabilité, cadence de publication et adoption utilisateur.",
+    summary: "Développeur iOS avec plus de 15 ans sur les plateformes Apple et plus de 21 ans d'expérience totale en développement logiciel. Je me spécialise dans la création de produits mobiles fiables et évolutifs — de l'architecture de bibliothèques de composants partagés à la direction d'équipes distribuées. Passionné par la qualité du code, l'automatisation CI/CD et l'adoption de technologies émergentes comme visionOS.",
     accomplishments: [
       "Stabilisé une base de code Swift de 450 000 lignes servant plus de 200 000 utilisateurs actifs quotidiens — porté le taux sans plantage à 99,999 % et la cadence de publication de 1/semaine à 4/jour",
       "Construit et livré une application native visionOS ; obtenu un Vision Pro Dev Kit pour Poka suite à une revue Apple — lancée comme la 1re solution pour travailleurs connectés sur l'App Store visionOS",
