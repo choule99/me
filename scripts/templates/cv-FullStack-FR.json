@@ -21,7 +21,8 @@
   "summary": "Développeur logiciel avec plus de 23 ans d'expérience en systèmes backend, plateformes mobiles et applications web. Capacité éprouvée à concevoir et livrer des logiciels de production couvrant l'ensemble de la pile technologique — des backends Spring Boot et frontends Angular aux clients natifs iOS et Android — avec un accent sur la qualité, le mentorat et l'amélioration continue.",
   "accomplishments": [
     "Dirigé une application iOS en production servant plus de 200 000 utilisateurs actifs quotidiens avec un taux sans plantage de 99,999 % sur une base de code Swift de 450K lignes",
-    "Conçu des solutions full-stack chez Spiria couvrant des backends Spring, des frontends Angular et du iOS natif — incluant la plateforme de formation des pilotes d'aviation de CAE",
+    "Conçu des solutions full-stack chez Spiria : plateforme de formation des pilotes de CAE (Spring/Angular/iOS) et plateforme d'analytique de détail Acosta (Node.js/BackboneJS)",
+    "Dirigé le développement complet d'une application native visionOS — 1re solution pour travailleurs connectés sur l'App Store visionOS, obtention d'un Apple Vision Pro Dev Kit",
     "Intégré un pipeline CI/CD améliorant la vitesse de compilation de 50 % et augmentant les déploiements de 1/semaine à 4/jour grâce à l'automatisation complète de l'App Store",
     "Doublé la couverture de tests (30 % → 60 %) sur quatre ans grâce à une croissance disciplinée et incrémentale parallèlement à la modernisation de la base de code"
   ],
@@ -47,8 +48,7 @@
         "Hibernate",
         "Node.js",
         "PostgreSQL",
-        "MySQL",
-        "Docker"
+        "MySQL"
       ]
     },
     {
@@ -67,6 +67,16 @@
         "visionOS SDK",
         "Android SDK",
         "Combine"
+      ]
+    },
+    {
+      "label": "Architecture",
+      "items": [
+        "REST API Design",
+        "MVVM",
+        "SOLID",
+        "Microservices",
+        "Clean Architecture"
       ]
     },
     {
@@ -100,16 +110,6 @@
     },
     {
       "section": "Leadership & Méthodologies"
-    },
-    {
-      "label": "Architecture",
-      "items": [
-        "REST API Design",
-        "MVVM",
-        "SOLID",
-        "Microservices",
-        "Clean Architecture"
-      ]
     },
     {
       "label": "Méthodes",

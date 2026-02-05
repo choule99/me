@@ -7,7 +7,8 @@
   "summary": "Software developer with 23+ years of experience across backend systems, mobile platforms, and web applications. Proven ability to architect and deliver production software spanning the full stack — from Spring Boot backends and Angular frontends to native iOS and Android clients — with a focus on quality, mentorship, and continuous improvement.",
   "accomplishments": [
     "Led a production iOS app serving 200,000+ DAU with 99.999% crash-free rate across a 450K-line Swift codebase",
-    "Architected full-stack solutions at Spiria spanning Spring backends, Angular frontends, and native iOS — including CAE's aviation pilot training platform",
+    "Architected full-stack solutions at Spiria: CAE's pilot training platform (Spring/Angular/iOS) and Acosta's retail analytics platform (Node.js/BackboneJS)",
+    "Led end-to-end development of a visionOS-native app — 1st Connected Worker Solution on the visionOS App Store, securing an Apple Vision Pro Dev Kit",
     "Integrated CI/CD pipeline improving build speeds by 50% and increasing deployments from 1/week to 4/day through full App Store automation",
     "Doubled test coverage (30% → 60%) over four years through disciplined, incremental growth alongside codebase modernization"
   ],
@@ -33,8 +34,7 @@
         "Hibernate",
         "Node.js",
         "PostgreSQL",
-        "MySQL",
-        "Docker"
+        "MySQL"
       ]
     },
     {
@@ -53,6 +53,16 @@
         "visionOS SDK",
         "Android SDK",
         "Combine"
+      ]
+    },
+    {
+      "label": "Architecture",
+      "items": [
+        "REST API Design",
+        "MVVM",
+        "SOLID",
+        "Microservices",
+        "Clean Architecture"
       ]
     },
     {
@@ -86,16 +96,6 @@
     },
     {
       "section": "Leadership & Methodologies"
-    },
-    {
-      "label": "Architecture",
-      "items": [
-        "REST API Design",
-        "MVVM",
-        "SOLID",
-        "Microservices",
-        "Clean Architecture"
-      ]
     },
     {
       "label": "Methods",
