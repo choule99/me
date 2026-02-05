@@ -9,7 +9,7 @@
     "accomplishments": "Réalisations clés",
     "skills": "Compétences techniques",
     "experience": "Expérience professionnelle",
-    "education": "Formation"
+    "education": "Formation Académique"
   },
   "education": {
     "degree": "Techniques de l'informatique",
@@ -27,9 +27,12 @@
   ],
   "skills": [
     {
+      "section": "Expertise Backend"
+    },
+    {
       "label": "Langages",
       "items": [
-        "Java",
+        "Java (expert)",
         "Kotlin",
         "SQL",
         "TypeScript",
@@ -37,14 +40,13 @@
       ]
     },
     {
-      "label": "Backend",
+      "label": "Frameworks",
       "items": [
         "Spring Boot",
         "Spring Security",
         "Hibernate/JPA",
         "REST APIs",
-        "Microservices",
-        "Node.js"
+        "Microservices"
       ]
     },
     {
@@ -59,15 +61,7 @@
       ]
     },
     {
-      "label": "DevOps",
-      "items": [
-        "Docker",
-        "Kubernetes",
-        "CI/CD Pipelines",
-        "Jenkins",
-        "GitLab CI",
-        "GitHub Actions"
-      ]
+      "section": "Architecture & DevOps"
     },
     {
       "label": "Architecture",
@@ -77,6 +71,16 @@
         "Event Sourcing",
         "API Design",
         "System Integration"
+      ]
+    },
+    {
+      "label": "CI/CD",
+      "items": [
+        "Docker",
+        "Kubernetes",
+        "Jenkins",
+        "GitLab CI",
+        "GitHub Actions"
       ]
     },
     {
@@ -90,23 +94,35 @@
       ]
     },
     {
-      "label": "Pratiques",
+      "label": "IA Générative",
       "items": [
-        "SOLID",
-        "Clean Architecture",
-        "Code Reviews",
-        "Technical Documentation",
-        "Claude Code"
+        "Claude (accélération code & tests)"
       ]
     },
     {
-      "label": "Additionnel",
+      "section": "Leadership & Méthodologies"
+    },
+    {
+      "label": "Leadership",
       "items": [
-        "Swift",
-        "Angular",
-        "iOS SDK",
-        "z/OS",
-        "Migration Mainframe"
+        "Mentorat",
+        "Code Reviews",
+        "Documentation technique",
+        "Onboarding"
+      ]
+    },
+    {
+      "label": "Méthodes",
+      "items": [
+        "Agile (Scrum/Kanban)",
+        "TDD",
+        "Intégration continue"
+      ]
+    },
+    {
+      "label": "Langues",
+      "items": [
+        "Français et Anglais (parfaitement bilingue)"
       ]
     }
   ],
@@ -114,71 +130,71 @@
     {
       "company": "Poka Inc.",
       "title": "Architecte, Lead iOS, Lead VisionOS",
-      "dates": "Oct 2021 — Présent",
-      "description": "Plateforme pour travailleurs connectés avec plus de 200 000 utilisateurs actifs quotidiens — conception des intégrations backend et des contrats d'API pour les clients mobiles.",
+      "dates": "2021 — Présent",
+      "description": "Architecte technique d'une plateforme pour travailleurs connectés servant plus de 200 000 utilisateurs actifs quotidiens. Conception des intégrations backend, contrats d'API et stratégies de synchronisation pour les clients mobiles.",
       "bullets": [
-        "Conçu les contrats d'API et les stratégies de synchronisation des données entre les clients mobiles et les services backend, assurant la fiabilité à grande échelle",
-        "Établi les standards d'ingénierie et les pratiques de revue de code au sein de l'équipe de développement, améliorant la qualité et la cohérence du code",
-        "Collaboré avec les équipes backend sur les décisions d'architecture de services, apportant la perspective mobile aux discussions de conception d'API",
-        "Intégré 20 développeurs avec un programme de formation sur mesure couvrant les patterns d'architecture et les meilleures pratiques, productifs en 3 mois"
+        "Conception API : Élaboration des contrats d'API et stratégies de synchronisation des données entre clients mobiles et services backend — fiabilité à grande échelle",
+        "Standards d'ingénierie : Mise en place des pratiques de revue de code et standards au sein de l'équipe, améliorant qualité et cohérence",
+        "Collaboration backend : Participation aux décisions d'architecture de services, apportant la perspective mobile à la conception des API",
+        "Intégration d'équipe : Formation de 20 développeurs avec programme sur mesure couvrant patterns d'architecture et meilleures pratiques — opérationnels en 3 mois"
       ]
     },
     {
       "company": "Appcom",
       "title": "Lead développeur mobile",
-      "dates": "Nov 2019 — Oct 2021",
-      "description": "Studio de développement mobile — direction de l'architecture technique et de l'intégration API sur plus de 15 projets clients.",
+      "dates": "2019 — 2021",
+      "description": "Direction de l'architecture technique et de l'intégration API sur plus de 15 projets clients dans les secteurs de la santé, des médias et du commerce de détail.",
       "bullets": [
-        "Conçu des bibliothèques de composants partagés et des patterns architecturaux adoptés par plusieurs équipes de projet",
-        "Dirigé les efforts d'intégration API avec divers systèmes backend, établissant des patterns pour la gestion des erreurs, la mise en cache et le support hors ligne",
-        "Mentoré les développeurs par des revues de code et des sessions de partage de connaissances sur l'architecture et les patterns de conception"
+        "Bibliothèques de composants : Conception de bibliothèques partagées et patterns architecturaux adoptés par plusieurs équipes de projet",
+        "Intégration API : Direction des efforts d'intégration avec divers systèmes backend — patterns de gestion d'erreurs, mise en cache et support hors ligne",
+        "Mentorat technique : Accompagnement des développeurs via revues de code et sessions de partage de connaissances sur l'architecture"
       ]
     },
     {
       "company": "Spiria Digital",
       "title": "Architecte logiciel, Développeur sénior",
-      "dates": "Nov 2013 — Nov 2019",
-      "description": "Agence de logiciels sur mesure — direction de l'architecture de solutions pour des engagements clients d'entreprise.",
+      "dates": "2013 — 2019",
+      "description": "Architecte de solutions pour engagements clients d'entreprise. Direction de l'architecture backend, contrats d'API et modélisation de données pour systèmes multi-tiers complexes.",
       "bullets": [
-        "Responsable de l'architecture de solutions pour les engagements clients ; traduit les exigences d'affaires en contrats d'API, modèles de données et stratégies d'intégration guidant les équipes de développement",
-        "CAE PreStudy : conçu l'architecture backend avec Spring Boot, APIs RESTful et couche de persistance des données pour une plateforme de formation des pilotes d'aviation",
-        "Acosta SLTouch : conçu l'architecture des services backend Node.js et des pipelines d'agrégation de données pour une plateforme d'analytique de vente au détail",
-        "Skillable : livré les services backend pour une plateforme de micro-apprentissage Progressive Web App avec TypeScript et Node.js"
+        "CAE PreStudy : Architecture backend avec Spring Boot, APIs RESTful et couche de persistance pour plateforme de formation des pilotes d'aviation",
+        "Acosta SLTouch : Architecture des services backend Node.js et pipelines d'agrégation de données pour plateforme d'analytique de détail",
+        "Skillable : Livraison des services backend pour plateforme de micro-apprentissage Progressive Web App avec TypeScript et Node.js",
+        "Architecture de solutions : Traduction des exigences d'affaires en contrats d'API, modèles de données et stratégies d'intégration"
       ]
     },
     {
       "company": "8D Technologies",
       "title": "Développeur Java back-end → Développeur iOS",
-      "dates": "Oct 2009 — Oct 2013",
-      "description": "Logiciels et matériel pour le vélo-partage et le stationnement automatisé — systèmes backend supportant des déploiements à l'échelle de la ville.",
+      "dates": "2009 — 2013",
+      "description": "Ingénieur backend pour systèmes de mobilité urbaine (Bixi). Construction de services Java traitant les événements en temps réel des kiosques de vélo-partage déployés dans les grandes villes.",
       "bullets": [
-        "Construit les services backend Java pour la suite de vélo-partage Solstice — traitement des transactions, gestion des stations et APIs de disponibilité en temps réel",
-        "Conçu les pipelines de données gérant la télémétrie à haut volume des stations de point de vente solaires à travers les déploiements de Londres et New York",
-        "Transitionné vers le développement iOS, apportant une expertise en architecture backend qui a fait le pont entre les couches du système et amélioré la conception des API"
+        "Services backend : Construction des services Java pour Solstice — traitement des transactions, gestion des stations, APIs de disponibilité en temps réel",
+        "Pipelines de données : Conception des pipelines gérant la télémétrie à haut volume des stations de point de vente solaires (Londres, New York)",
+        "Transition full-stack : Passage au développement iOS, apportant l'expertise backend pour améliorer la conception des API"
       ]
     },
     {
       "company": "Accovia",
       "title": "Développeur Java back-end — Équipe d'architecture",
-      "dates": "Oct 2007 — Oct 2009",
+      "dates": "2007 — 2009",
       "bullets": [
-        "Reconstruit la plateforme de voyage Ibiza avec Java/Spring/Hibernate après redressement client — architecture de services, patterns d'accès aux données"
+        "Reconstruction de plateforme : Reconstruction de la plateforme de voyage Ibiza avec Java/Spring/Hibernate après redressement client — architecture de services, patterns d'accès aux données"
       ]
     },
     {
       "company": "Compuware Montréal",
-      "title": "Consultant Java — Morgan Stanley",
-      "dates": "Oct 2005 — Oct 2007",
+      "title": "Consultant Java (Morgan Stanley)",
+      "dates": "2005 — 2007",
       "bullets": [
-        "Projet Libra — migration mainframe vers Java/DB2 sous exigences de conformité financière ; équipe distribuée mondialement"
+        "Migration mainframe : Projet Libra — migration mainframe vers Java/DB2 sous exigences de conformité financière ; équipe distribuée mondialement"
       ]
     },
     {
       "company": "Mediagrif",
       "title": "Développeur Java — Équipe d'infrastructure",
-      "dates": "Mai 2003 — Oct 2005",
+      "dates": "2003 — 2005",
       "bullets": [
-        "Construit les services backend de base et patterns d'infrastructure partagés adoptés par plusieurs équipes e-commerce"
+        "Services de base : Construction des services backend et patterns d'infrastructure partagés adoptés par plusieurs équipes e-commerce"
       ]
     }
   ]

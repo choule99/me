@@ -9,7 +9,7 @@
     "accomplishments": "Réalisations clés",
     "skills": "Compétences techniques",
     "experience": "Expérience professionnelle",
-    "education": "Formation"
+    "education": "Formation Académique"
   },
   "education": {
     "degree": "Techniques de l'informatique",
@@ -21,11 +21,14 @@
   "summary": "Architecte logiciel avec plus de 23 ans d'expérience pratique dans la conception et la livraison de systèmes backend, mobiles et web. Leadership éprouvé en architecture de solutions, transformation d'équipes, mentorat et collaboration interfonctionnelle. Combine une vaste expertise technique avec une approche orientée produit pour aligner l'ingénierie avec les objectifs d'affaires.",
   "accomplishments": [
     "Transformé une équipe iOS de 8 personnes en une unité hautement performante — taux sans plantage à 99,999 %, déploiements de 1/semaine à 4/jour, vitesse de compilation améliorée de 50 %",
-    "Intégré 20 développeurs sri-lankais — conçu un programme de formation et bâti une culture collaborative à travers les fuseaux horaires, productifs en 3 mois",
+    "Intégré 20 développeurs à l'international — conçu un programme de formation et bâti une culture collaborative à travers les fuseaux horaires, productifs en 3 mois",
     "Conçu la plateforme de formation des pilotes de CAE de bout en bout : backend Spring, frontend Angular et client iOS natif",
     "Livré la reconstruction de la plateforme Ibiza d'Accovia dans les délais et le budget après un redressement client critique — en tant que membre de l'équipe d'architecture"
   ],
   "skills": [
+    {
+      "section": "Architecture & Design"
+    },
     {
       "label": "Architecture",
       "items": [
@@ -37,14 +40,17 @@
       ]
     },
     {
-      "label": "Leadership",
+      "label": "Patterns",
       "items": [
-        "Team Mentorship",
-        "Code Reviews",
-        "Technical Discovery",
-        "Cross-functional Collaboration",
-        "Onboarding"
+        "Microservices",
+        "Event-Driven",
+        "CQRS",
+        "Clean Architecture",
+        "SOLID"
       ]
+    },
+    {
+      "section": "Stack Technique"
     },
     {
       "label": "Langages",
@@ -74,28 +80,50 @@
         "iOS SDK",
         "visionOS SDK",
         "SwiftUI",
-        "UIKit",
         "Android SDK",
         "Angular"
       ]
     },
     {
-      "label": "DevOps",
+      "section": "Leadership & DevOps"
+    },
+    {
+      "label": "Leadership",
       "items": [
-        "CI/CD Pipelines",
-        "GitHub Actions",
-        "Fastlane",
-        "Sentry",
-        "LaunchDarkly",
-        "Claude Code"
+        "Mentorat d'équipe",
+        "Code Reviews",
+        "Découverte technique",
+        "Onboarding"
       ]
     },
     {
-      "label": "Additionnel",
+      "label": "CI/CD",
       "items": [
-        "Objective-C",
-        "Oracle",
-        "DB2"
+        "GitHub Actions",
+        "Fastlane",
+        "Jenkins",
+        "Docker",
+        "Kubernetes"
+      ]
+    },
+    {
+      "label": "IA Générative",
+      "items": [
+        "Claude (accélération code & tests)"
+      ]
+    },
+    {
+      "label": "Méthodes",
+      "items": [
+        "Agile (Scrum/Kanban)",
+        "TDD",
+        "Intégration continue"
+      ]
+    },
+    {
+      "label": "Langues",
+      "items": [
+        "Français et Anglais (parfaitement bilingue)"
       ]
     }
   ],
@@ -103,73 +131,73 @@
     {
       "company": "Poka Inc.",
       "title": "Architecte, Lead iOS, Lead VisionOS",
-      "dates": "Oct 2021 — Présent",
-      "description": "Plateforme pour travailleurs connectés — plus de 200 000 utilisateurs actifs quotidiens, base de code Swift de 450 000 lignes, 99,999 % sans plantage.",
+      "dates": "2021 — Présent",
+      "description": "Architecte technique d'une plateforme pour travailleurs connectés servant plus de 200 000 utilisateurs actifs quotidiens. Direction de l'évolution architecturale, transformation d'équipe et alignement interfonctionnel sur une base de code de 450K lignes.",
       "bullets": [
-        "Amélioré la stabilité de la base de code ; introduit des outils internes, des bibliothèques réutilisables et des pratiques standardisées — atteint un taux sans plantage de 99,999 %",
-        "Besoin de faire croître l'équipe rapidement ; intégré 20 développeurs sri-lankais avec un programme de formation sur mesure et des revues de code inter-fuseaux horaires, les rendant productifs en 3 mois",
-        "Comblé les écarts entre l'ingénierie, la gestion de produit et le design UX ; établi des flux de collaboration alignant les solutions techniques avec les objectifs d'affaires",
-        "Face à des mises en production lentes et manuelles ; automatisé les déploiements App Store de bout en bout, augmentant la cadence de 1/semaine à 4/jour et améliorant la vitesse de compilation CI de 50 %",
-        "Confronté à une faible couverture de tests (30 %) ; mené une initiative de tests incrémentale parallèlement à la modernisation architecturale, atteignant 60 % en quatre ans"
+        "Leadership architectural : Introduction d'outils internes, bibliothèques réutilisables et pratiques standardisées — stabilité portée à 99,999 %",
+        "Montée en compétence : Intégration de 20 développeurs à l'international avec programme de formation sur mesure et revues de code inter-fuseaux — opérationnels en 3 mois",
+        "Alignement interfonctionnel : Création de ponts entre ingénierie, gestion de produit et design UX ; établissement de flux de collaboration alignant solutions techniques et objectifs d'affaires",
+        "Architecture CI/CD : Automatisation complète des déploiements App Store ; cadence portée de 1/semaine à 4/jour, compilation accélérée de 50 %",
+        "Qualité logicielle : Couverture de tests portée de 30 % à 60 % en quatre ans via initiative incrémentale parallèle à la modernisation architecturale"
       ]
     },
     {
       "company": "Appcom",
       "title": "Lead développeur mobile",
-      "dates": "Nov 2019 — Oct 2021",
-      "description": "Studio de développement mobile — direction de l'équipe iOS sur plus de 15 projets clients.",
+      "dates": "2019 — 2021",
+      "description": "Direction de l'architecture technique et du développement d'équipe sur plus de 15 projets clients dans les secteurs de la santé, des médias et du commerce de détail.",
       "bullets": [
-        "Conçu un framework iOS partagé utilisé sur plus de 15 projets clients ; réduction de la duplication de code et de l'effort de développement de 50 %",
-        "Identifié des lacunes de communication entre les équipes ; établi des processus et outils de collaboration qui ont amélioré l'alignement avec la gestion de produit et le design UX",
-        "Investi dans la croissance de l'équipe par le mentorat et des sessions de partage de connaissances, développant les ingénieurs juniors en contributeurs autonomes"
+        "Standardisation technique : Conception d'un framework iOS partagé pour 15+ projets clients — réduction de 50 % de la duplication et de l'effort de développement",
+        "Amélioration des processus : Identification des lacunes de communication ; établissement de processus et outils améliorant l'alignement avec produit et UX",
+        "Développement d'équipe : Investissement dans le mentorat et sessions de partage de connaissances, développant les juniors en contributeurs autonomes"
       ]
     },
     {
       "company": "Spiria Digital",
       "title": "Architecte logiciel, Développeur sénior",
-      "dates": "Nov 2013 — Nov 2019",
-      "description": "Agence de logiciels sur mesure — responsable de l'architecture initiale et de son évolution selon les exigences clients.",
+      "dates": "2013 — 2019",
+      "description": "Architecte de solutions responsable de la conception initiale et de l'évolution des architectures selon les exigences clients d'entreprise. Direction de la découverte technique, analyse des exigences et livraison.",
       "bullets": [
-        "Responsable de l'architecture de solutions pour les engagements clients ; mené l'analyse des exigences, la découverte technique, et produit des contrats d'API, modèles de données et stratégies d'intégration guidant les équipes de développement",
-        "CAE PreStudy : conçu l'architecture de bout en bout couvrant un backend Spring, un frontend Angular et un client iOS pour une plateforme de formation des pilotes d'aviation",
-        "Produit des artéfacts d'architecture couvrant les considérations de sécurité, les approches de mise à l'échelle et les topologies de déploiement pour chaque engagement",
-        "Défini les standards d'ingénierie et mentoré les développeurs sur plusieurs équipes de projet, élevant la qualité globale du code",
-        "Acosta SLTouch : conçu l'architecture d'un framework mobile hybride pour l'analytique de vente au détail avec BackboneJS et Node.js"
+        "Architecture de solutions : Direction de l'analyse des exigences, découverte technique ; production des contrats d'API, modèles de données et stratégies d'intégration",
+        "CAE PreStudy : Conception de l'architecture de bout en bout — backend Spring, frontend Angular et client iOS pour formation des pilotes d'aviation",
+        "Artéfacts d'architecture : Production de documentation couvrant sécurité, approches de mise à l'échelle et topologies de déploiement",
+        "Standards d'ingénierie : Définition des standards et mentorat des développeurs sur plusieurs équipes, élevant la qualité globale du code",
+        "Acosta SLTouch : Architecture d'un framework mobile hybride pour l'analytique de détail avec BackboneJS et Node.js"
       ]
     },
     {
       "company": "8D Technologies",
       "title": "Développeur Java back-end → Développeur iOS",
-      "dates": "Oct 2009 — Oct 2013",
-      "description": "Logiciels et matériel pour le vélo-partage et le stationnement automatisé — solutions pionnières pour la mobilité urbaine.",
+      "dates": "2009 — 2013",
+      "description": "Pionnier de l'architecture pour la mobilité urbaine (Bixi) au sein d'une équipe alliant logiciel et matériel. Conception de systèmes pour déploiements à l'échelle des villes sous contraintes réelles.",
       "bullets": [
-        "Commencé dans l'équipe backend Java pour la suite de vélo-partage Solstice ; transitionné vers iOS, apportant une expertise backend qui a fait le pont entre les couches d'architecture du système",
-        "Confronté à des contraintes de connectivité et de performance ; conçu des solutions pour des déploiements à l'échelle de la ville à Londres et New York",
-        "Pionnier du tout premier système de réalité augmentée pour trouver des vélos en libre-service en combinant le flux caméra en direct avec les données Core Location"
+        "Architecture système : Démarrage dans l'équipe backend Java ; transition vers iOS avec expertise backend créant un pont entre les couches d'architecture",
+        "Solutions de scalabilité : Conception de solutions pour les contraintes de connectivité et performance des déploiements de Londres et New York",
+        "Innovation AR : Pionnier du premier système de réalité augmentée pour localiser les vélos (flux caméra + Core Location)"
       ]
     },
     {
       "company": "Accovia",
       "title": "Développeur Java back-end — Équipe d'architecture",
-      "dates": "Oct 2007 — Oct 2009",
+      "dates": "2007 — 2009",
       "bullets": [
-        "Reconstruit la plateforme de voyage Ibiza avec Java/Spring/Hibernate après redressement client ; optimisation de la performance et orchestration des services"
+        "Architecture de plateforme : Reconstruction de la plateforme de voyage Ibiza avec Java/Spring/Hibernate après redressement client — optimisation performance et orchestration de services"
       ]
     },
     {
       "company": "Compuware Montréal",
-      "title": "Consultant Java — Morgan Stanley",
-      "dates": "Oct 2005 — Oct 2007",
+      "title": "Consultant Java (Morgan Stanley)",
+      "dates": "2005 — 2007",
       "bullets": [
-        "Projet Libra — migration mainframe vers Java sous exigences de conformité financière ; équipe distribuée mondialement"
+        "Architecture de migration : Projet Libra — migration mainframe vers Java sous exigences de conformité financière ; équipe distribuée mondialement"
       ]
     },
     {
       "company": "Mediagrif",
       "title": "Développeur Java",
-      "dates": "Mai 2003 — Oct 2005",
+      "dates": "2003 — 2005",
       "bullets": [
-        "Construit les services de base et composants réutilisables sur l'équipe d'infrastructure pour produits e-commerce"
+        "Architecture d'infrastructure : Construction des services de base et composants réutilisables pour produits e-commerce"
       ]
     }
   ]

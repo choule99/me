@@ -9,73 +9,103 @@
     "Stabilized a 450,000-line Swift codebase (200,000 DAU): Achieved 99.999% crash-free session rate and accelerated release cadence from 1/week to 4/day.",
     "Built and shipped a visionOS-native app selected by Apple for a Vision Pro Dev Kit; launched as the 1st Connected Worker Solution on the visionOS App Store.",
     "Automated App Store deployments end-to-end: Increased release cadence from 1/week to 4/day and accelerated CI build times by 50%.",
-    "Fast-tracked onboarding of 20 developers (Sri Lanka) via custom training curriculum — team operational within 3 months.",
+    "Fast-tracked onboarding of 20 developers internationally via custom training curriculum — team operational within 3 months.",
     "Designed a shared iOS component library, standardizing practices and accelerating delivery across 15+ client projects."
   ],
   "skills": [
     {
+      "section": "iOS & Apple Expertise"
+    },
+    {
       "label": "Languages",
       "items": [
-        "Swift",
-        "Kotlin",
-        "Java",
-        "TypeScript",
-        "SQL"
+        "Swift (expert)",
+        "SwiftUI",
+        "Combine",
+        "Objective-C (legacy)"
       ]
     },
     {
-      "label": "Apple",
+      "label": "Frameworks",
       "items": [
-        "iOS SDK",
-        "visionOS SDK",
-        "SwiftUI",
-        "UIKit",
-        "Combine",
+        "visionOS",
+        "ARKit",
         "Core Data",
-        "SwiftData",
         "Core Location",
+        "MapKit",
         "AVFoundation"
       ]
     },
     {
-      "label": "Testing",
+      "label": "Architecture",
       "items": [
-        "XCTest",
-        "XCUITest",
-        "Swift Testing",
-        "Snapshot Testing"
+        "Modular Architecture",
+        "MVVM",
+        "Clean Architecture",
+        "Design Patterns",
+        "SOLID"
       ]
     },
     {
-      "label": "DevOps",
+      "label": "Concurrency",
+      "items": [
+        "Swift Concurrency (Async/Await)",
+        "GCD"
+      ]
+    },
+    {
+      "section": "Tooling & DevOps"
+    },
+    {
+      "label": "CI/CD",
       "items": [
         "Fastlane",
         "GitHub Actions",
-        "Swift Package Manager",
-        "TestFlight",
+        "Xcode Cloud",
+        "MacStadium",
+        "Jenkins"
+      ]
+    },
+    {
+      "label": "Tools",
+      "items": [
+        "Xcode",
+        "Instruments (Profiling)",
+        "Firebase",
         "Sentry",
-        "LaunchDarkly"
+        "Git"
       ]
     },
     {
-      "label": "Practices",
+      "label": "Gen AI",
       "items": [
-        "MVVM",
-        "SOLID",
-        "REST API Design",
-        "Mobile UX Design",
-        "Software Architecture",
-        "Claude Code"
+        "Claude integration (code & test acceleration)"
       ]
     },
     {
-      "label": "Additional",
+      "section": "Leadership & Methodologies"
+    },
+    {
+      "label": "Leadership",
       "items": [
-        "Objective-C",
-        "RxSwift",
-        "watchOS SDK",
-        "macOS SDK",
-        "Instruments"
+        "Mentorship",
+        "Code Review",
+        "Code Standardization",
+        "Technical Recruiting"
+      ]
+    },
+    {
+      "label": "Methods",
+      "items": [
+        "Agile (Scrum/Kanban)",
+        "TDD",
+        "Continuous Integration"
+      ]
+    },
+    {
+      "label": "Spoken",
+      "items": [
+        "French and English (fully bilingual)"
       ]
     }
   ],
@@ -83,74 +113,72 @@
     {
       "company": "Poka Inc.",
       "title": "Architect, Lead iOS, Lead VisionOS",
-      "dates": "Oct 2021 — Present",
-      "description": "Connected worker platform — 200,000+ DAU, 450,000 lines of Swift + 55,000 lines legacy Obj-C, 99.999% crash-free.",
+      "dates": "2021 — Present",
+      "description": "Architect and technical leader for a leading connected worker platform serving 200,000+ daily active users. Driving evolution toward modern architectures (SwiftUI, Combine) while maintaining legacy systems (Obj-C), ensuring critical stability at 99.999%.",
       "bullets": [
-        "Built and shipped a visionOS-native app; presented it to Apple, secured a Vision Pro Dev Kit for Poka, and launched the 1st Connected Worker Solution on the visionOS App Store",
-        "Improved codebase stability; implemented refactoring practices and quality processes — achieved 99.999% crash-free rate",
-        "Faced slow, manual releases; built a CI/CD pipeline on MacStadium that improved build speeds by 50% and increased deployments from 1/week to 4/day",
-        "Tackled low test coverage (30%); led an incremental testing initiative alongside refactors to SwiftUI, Combine, and modern architectures, reaching 60% over four years",
-        "Needed to scale the team fast; onboarded 20 Sri Lankan developers with a custom training curriculum, making them productive within 3 months",
-        "Adopted AI-assisted tools (Claude) into the iOS team workflow, reducing coding time by 25%"
+        "visionOS Innovation: Led end-to-end development of the 1st industrial solution on the visionOS App Store (secured Vision Pro Dev Kit after Apple review)",
+        "Operational Excellence: Major refactoring effort that raised stability to 99.999% crash-free and doubled test coverage (30% to 60%)",
+        "CI/CD Performance: Migrated pipeline to MacStadium, accelerating builds by 50% and enabling 4 daily releases (up from 1/week)",
+        "Team Leadership: Recruited and trained a distributed team of 20 developers internationally — operational within 3 months",
+        "AI Integration: Optimized workflows through adoption of generative AI tools (Claude), reducing development time by 25%"
       ]
     },
     {
       "company": "Appcom",
       "title": "Lead Mobile Developer",
-      "dates": "Nov 2019 — Oct 2021",
-      "description": "Mobile development studio — led iOS team across 15+ client projects in retail, healthcare, media, and mobility.",
+      "dates": "2019 — 2021",
+      "description": "Responsible for delivering mobile solutions for major clients in healthcare, media, and retail. Led the technical team through complete software development cycles for brands like Metro, Super C, and Le Devoir.",
       "bullets": [
-        "Designed shared iOS framework for use across 15+ client projects; reduced code duplication and development effort by 50%",
-        "Led the team in adopting a new development methodology; accelerated delivery cycles and improved quality — increased client satisfaction by 40%",
-        "Owned CI/CD pipelines on MacStadium; automated App Store deployments and release processes across all client apps",
-        "Mentored junior developers through 1:1 sessions and organized lunch-and-learns to foster continuous learning"
+        "Technical Standardization: Designed a shared iOS framework, optimizing delivery and consistency across 15+ client projects",
+        "Major Deliveries: Technical leadership for flagship applications (Metro & Moi, Biodome de Montreal, AbbVie) from design to deployment",
+        "Automation: Implemented and managed CI/CD pipelines (MacStadium) for the entire client portfolio, industrializing release processes",
+        "Mentorship: Coached junior developers and led knowledge-sharing sessions (lunch-and-learns) to raise overall technical proficiency"
       ]
     },
     {
       "company": "Spiria Digital",
       "title": "Senior iOS Developer, Architect",
-      "dates": "Nov 2013 — Nov 2019",
-      "description": "Custom software agency — responsible for creating initial architecture and evolving it with client requirements.",
+      "dates": "2013 — 2019",
+      "description": "Architect responsible for designing and evolving custom mobile solutions for major clients. Led the technical aspects of critical projects from requirements definition through go-to-market.",
       "bullets": [
-        "CAE PreStudy: took the project from requirements through delivery, building a native iOS app for aviation pilot training end-to-end",
-        "Payfare (DiDi/Lyft): developed iOS and Android clients for an early payment platform serving gig economy drivers",
-        "BookJane: built an iOS app for healthcare workforce management",
-        "Acosta SLTouch, Skillable: delivered hybrid and PWA solutions across the full stack for retail analytics and micro-learning"
+        "CAE PreStudy: End-to-end architecture and development of a native iOS application for high-performance aviation pilot training",
+        "Payfare (DiDi/Lyft): Developed mobile clients for a real-time payment platform serving mobility and transportation players (gig economy)",
+        "Cross-platform Solutions: Delivered diverse applications (healthcare, retail analytics, micro-learning) using native and hybrid technologies based on business needs"
       ]
     },
     {
       "company": "8D Technologies",
       "title": "iOS Developer",
-      "dates": "Oct 2009 — Oct 2013",
-      "description": "Software and hardware for bike-sharing systems — pioneering mobile development for urban mobility.",
+      "dates": "2009 — 2013",
+      "description": "Pioneer in mobile development for urban mobility (Bixi) within a team combining software and hardware. Worked on large-scale systems under real-world urban connectivity constraints.",
       "bullets": [
-        "Developed the Spotcycle and Solstice iOS apps for bike-sharing, supporting city-wide deployments in London and New York City",
-        "Pioneered the first-ever Augmented Reality bike-sharing finder by combining live camera feed with Core Location data",
-        "Solved for unreliable connectivity across entire cities — early mobile engineering under real-world constraints"
+        "International Deployment: Developed Spotcycle and Solstice apps (bike-sharing), successfully deployed in London and New York",
+        "Augmented Reality Innovation: Designed one of the first AR systems for locating shared bikes, combining video feed with geospatial data (Core Location)",
+        "Network Optimization: Solved complex data synchronization challenges in offline or limited connectivity environments"
       ]
     },
     {
       "company": "Accovia",
       "title": "Back-End Java Developer",
-      "dates": "Oct 2007 — Oct 2009",
+      "dates": "2007 — 2009",
       "bullets": [
-        "Architecture Team member on Ibiza Project — rebuilt travel platform with Java/Spring/Hibernate after critical client recovery"
+        "Contributed to the recovery and complete rebuild of the Ibiza platform (Java, Spring, Hibernate) following critical client issues"
       ]
     },
     {
       "company": "Compuware Montreal",
-      "title": "Java Consultant",
-      "dates": "Oct 2005 — Oct 2007",
+      "title": "Java Consultant (Morgan Stanley)",
+      "dates": "2005 — 2007",
       "bullets": [
-        "Morgan Stanley Libra project — migrated mainframe systems to Java; globally distributed team"
+        "Migrated legacy mainframe systems to Java services within a globally distributed team (New York, Budapest, Tokyo)"
       ]
     },
     {
       "company": "Mediagrif",
       "title": "Java Developer",
-      "dates": "May 2003 — Oct 2005",
+      "dates": "2003 — 2005",
       "bullets": [
-        "Built core services and reusable components on the Software Infrastructure team for e-commerce products"
+        "Developed infrastructure services and reusable components for e-commerce platforms"
       ]
     }
   ]

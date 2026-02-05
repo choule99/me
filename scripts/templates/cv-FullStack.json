@@ -13,6 +13,9 @@
   ],
   "skills": [
     {
+      "section": "Technical Expertise"
+    },
+    {
       "label": "Languages",
       "items": [
         "Java",
@@ -38,6 +41,7 @@
       "label": "Frontend",
       "items": [
         "Angular",
+        "React",
         "SwiftUI",
         "UIKit"
       ]
@@ -52,13 +56,16 @@
       ]
     },
     {
-      "label": "DevOps",
+      "section": "DevOps & Tools"
+    },
+    {
+      "label": "CI/CD",
       "items": [
-        "CI/CD Pipelines",
         "GitHub Actions",
         "Fastlane",
-        "Sentry",
-        "LaunchDarkly"
+        "Jenkins",
+        "Docker",
+        "Kubernetes"
       ]
     },
     {
@@ -72,22 +79,36 @@
       ]
     },
     {
-      "label": "Practices",
+      "label": "Gen AI",
+      "items": [
+        "Claude integration (code & test acceleration)"
+      ]
+    },
+    {
+      "section": "Leadership & Methodologies"
+    },
+    {
+      "label": "Architecture",
       "items": [
         "REST API Design",
         "MVVM",
         "SOLID",
-        "Software Architecture",
-        "Claude Code"
+        "Microservices",
+        "Clean Architecture"
       ]
     },
     {
-      "label": "Additional",
+      "label": "Methods",
       "items": [
-        "Objective-C",
-        "JavaScript",
-        "Oracle",
-        "DB2"
+        "Agile (Scrum/Kanban)",
+        "TDD",
+        "Continuous Integration"
+      ]
+    },
+    {
+      "label": "Spoken",
+      "items": [
+        "French and English (fully bilingual)"
       ]
     }
   ],
@@ -95,71 +116,72 @@
     {
       "company": "Poka Inc.",
       "title": "Architect, Lead iOS, Lead VisionOS",
-      "dates": "Oct 2021 — Present",
-      "description": "Connected worker platform with 200,000+ DAU helping manufacturers improve productivity and knowledge sharing on the factory floor.",
+      "dates": "2021 — Present",
+      "description": "Technical leader for a connected worker platform serving 200,000+ DAU. Driving full-stack evolution across mobile clients and backend integrations while ensuring 99.999% stability.",
       "bullets": [
-        "Improved stability of a 450K-line codebase; introduced internal tools, reusable libraries, and standardized practices — achieved 99.999% crash-free rate",
-        "Faced slow, manual releases; built a CI/CD pipeline on MacStadium that improved build speeds by 50% and increased deployments from 1/week to 4/day",
-        "Needed to scale the team fast; onboarded 20 Sri Lankan developers with a custom training curriculum, making them productive within 3 months",
-        "Tackled low test coverage (30%); drove incremental testing alongside refactors, reaching 60% coverage over four years",
-        "Adopted AI-assisted tools (Claude) into the iOS team workflow, reducing coding time by 25%"
+        "Operational Excellence: Major refactoring of 450K-line codebase — raised stability to 99.999% crash-free and doubled test coverage (30% to 60%)",
+        "CI/CD Performance: Migrated pipeline to MacStadium, accelerating builds by 50% and enabling 4 daily releases (up from 1/week)",
+        "Team Leadership: Recruited and trained a distributed team of 20 developers internationally — operational within 3 months",
+        "AI Integration: Optimized workflows through adoption of generative AI tools (Claude), reducing development time by 25%"
       ]
     },
     {
       "company": "Appcom",
       "title": "Lead Mobile Developer",
-      "dates": "Nov 2019 — Oct 2021",
-      "description": "Mobile development studio developing and maintaining applications for clients across retail, healthcare, media, and mobility.",
+      "dates": "2019 — 2021",
+      "description": "Led technical delivery of mobile solutions for major clients in healthcare, media, and retail. Managed full development cycles for brands like Metro, Super C, and Le Devoir.",
       "bullets": [
-        "Designed shared iOS framework for use across 15+ client projects; reduced code duplication and development effort by 50%",
-        "Led the team in adopting a new development methodology; accelerated delivery cycles and improved quality — increased client satisfaction by 40%"
+        "Technical Standardization: Designed shared iOS framework for 15+ client projects — reduced code duplication and development effort by 50%",
+        "Major Deliveries: Technical leadership for flagship applications (Metro & Moi, Biodome de Montreal, AbbVie) from design to deployment",
+        "Automation: Implemented CI/CD pipelines (MacStadium) for the entire client portfolio, industrializing release processes",
+        "Mentorship: Coached junior developers and led knowledge-sharing sessions to raise overall technical proficiency"
       ]
     },
     {
       "company": "Spiria Digital",
       "title": "Software Architect, Senior Developer",
-      "dates": "Nov 2013 — Nov 2019",
-      "description": "Custom software agency — led solution architecture across multi-platform client engagements.",
+      "dates": "2013 — 2019",
+      "description": "Solution architect for custom software engagements spanning backend, frontend, and mobile. Led technical discovery, architecture design, and delivery for enterprise clients.",
       "bullets": [
-        "Owned solution architecture for client engagements; translated business requirements into API contracts, data models, and integration strategies that guided development teams",
-        "CAE PreStudy: designed end-to-end architecture spanning Spring backend, Angular frontend, and native iOS for an aviation pilot training platform",
-        "Acosta SLTouch: built a hybrid mobile app and framework for retail analytics using BackboneJS/MarionetteJS and Node.js",
-        "Skillable: delivered a Progressive Web App for micro-learning using Angular and TypeScript"
+        "CAE PreStudy: Designed end-to-end architecture spanning Spring backend, Angular frontend, and native iOS for aviation pilot training",
+        "Acosta SLTouch: Built hybrid mobile app and framework for retail analytics using BackboneJS/MarionetteJS and Node.js",
+        "Skillable: Delivered Progressive Web App for micro-learning using Angular and TypeScript",
+        "Solution Architecture: Translated business requirements into API contracts, data models, and integration strategies"
       ]
     },
     {
       "company": "8D Technologies",
       "title": "Back-End Java Developer → iOS Developer",
-      "dates": "Oct 2009 — Oct 2013",
-      "description": "Software and hardware for bike-sharing and automated parking systems, including solar-powered POS stations and backend platforms.",
+      "dates": "2009 — 2013",
+      "description": "Pioneer in urban mobility software (Bixi) within a team combining hardware and software. Built backend systems and mobile clients for city-wide deployments.",
       "bullets": [
-        "Started on the backend Java team for the Solstice bike-sharing suite; transitioned to iOS, bringing backend expertise that bridged system layers",
-        "Developed the Spotcycle and Solstice iOS apps, supporting city-wide deployments in London and New York City",
-        "Pioneered the first-ever Augmented Reality bike-sharing finder by combining live camera feed with Core Location data"
+        "Full-Stack Transition: Started on backend Java team for Solstice bike-sharing suite; transitioned to iOS bringing backend expertise",
+        "International Deployment: Developed Spotcycle and Solstice apps, deployed successfully in London and New York City",
+        "AR Innovation: Pioneered first-ever Augmented Reality bike-sharing finder combining live camera feed with Core Location data"
       ]
     },
     {
       "company": "Accovia",
       "title": "Back-End Java Developer",
-      "dates": "Oct 2007 — Oct 2009",
+      "dates": "2007 — 2009",
       "bullets": [
-        "Architecture Team member on Ibiza Project — rebuilt travel platform with Java/Spring/Hibernate after critical client recovery"
+        "Platform Recovery: Architecture Team member on Ibiza Project — rebuilt travel platform with Java/Spring/Hibernate after critical client recovery"
       ]
     },
     {
       "company": "Compuware Montreal",
-      "title": "Java Consultant — Morgan Stanley",
-      "dates": "Oct 2005 — Oct 2007",
+      "title": "Java Consultant (Morgan Stanley)",
+      "dates": "2005 — 2007",
       "bullets": [
-        "Migrated legacy mainframe systems to Java services on the Libra project; globally distributed team (NY, Budapest, Tokyo, Vancouver)"
+        "Mainframe Migration: Migrated legacy systems to Java services on Libra project; globally distributed team (NY, Budapest, Tokyo)"
       ]
     },
     {
       "company": "Mediagrif",
       "title": "Java Developer",
-      "dates": "May 2003 — Oct 2005",
+      "dates": "2003 — 2005",
       "bullets": [
-        "Built core services and reusable components on the Software Infrastructure team for e-commerce products"
+        "Infrastructure Services: Built core services and reusable components on Software Infrastructure team for e-commerce products"
       ]
     }
   ]

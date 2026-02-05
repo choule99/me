@@ -1,26 +1,29 @@
 ---
 company: "Appcom"
-title: "Développeur mobile principal"
-dates: "Septembre 2019 - Septembre 2021"
+title: "Lead développeur mobile"
+dates: "2019 - 2021"
 order: 2
 lang: "fr"
-description: "Appcom est un studio de développement basé à Longueuil, Québec, spécialisé dans les applications mobiles et web pour les entreprises de l'écosystème numérique régional."
+description: "Direction de l'architecture technique et du développement d'équipe sur plus de 15 projets clients dans les secteurs de la santé, des médias et du commerce de détail."
 ---
 
 ### Réalisations clés
 
-**Framework de développement partagé** — Inspiré par les pratiques des grands studios mobiles, j'ai conçu et implémenté une bibliothèque iOS partagée de composants rigoureusement documentés et testés unitairement pour accélérer la livraison de fonctionnalités sur plusieurs projets. Ce framework a standardisé les patrons, réduit la duplication, diminué les coûts de développement et amélioré le délai de mise en marché tout en maintenant la qualité.
+**Standardisation technique** — Conception d'un framework iOS partagé pour 15+ projets clients — réduction de 50 % de la duplication de code et de l'effort de développement. Ce framework a standardisé les patrons, diminué les coûts et amélioré le délai de mise en marché tout en maintenant la qualité.
+
+**Livraisons d'envergure** — Leadership technique des applications principales (Metro & Moi, Biodôme de Montréal, AbbVie) de la conception au déploiement, gérant des cycles complets de développement pour des marques majeures du commerce de détail, de la santé et des médias.
+
+**Amélioration des processus** — Identification des lacunes de communication entre les équipes ; établissement de processus et outils améliorant l'alignement avec produit et UX.
+
+**Développement d'équipe** — Investissement dans le mentorat et sessions de partage de connaissances, développant les juniors en contributeurs autonomes.
 
 ### Responsabilités
 
-- Direction de l'équipe mobile sur plusieurs mandats clients, couvrant la planification, le développement, les revues de code, la documentation et la gestion des mises en production
+- Direction de l'équipe mobile sur plusieurs mandats clients, couvrant planification, développement, revues de code, documentation et gestion des mises en production
 - Recherche et développement sur les capacités émergentes d'iOS et les patrons architecturaux
-- Établissement de processus d'équipe et d'outils de collaboration pour améliorer la communication avec la gestion de produit et le design UX
-- Mentorat individuel, revues de code et rétroaction pour soutenir la croissance et la performance
-- Organisation de sessions « lunch-and-learn » récurrentes pour promouvoir le partage de connaissances
-- Construction d'outils et de modèles de développement internes pour augmenter la productivité et la cohérence
+- Construction d'outils et modèles de développement internes pour augmenter productivité et cohérence
 - Gestion des pipelines CI/CD hébergés sur MacStadium
-- Responsabilité des déploiements automatisés sur l'App Store et des processus de mise en production
+- Responsabilité des déploiements automatisés sur l'App Store et processus de mise en production
 
 ### Portfolio clients
 
@@ -32,7 +35,7 @@ En tant que studio de développement mobile, j'ai contribué à de nombreux proj
 - **AbbVie Maviret** — Pharmaceutique
 - **WKND / BLVD Radio** — Divertissement en direct
 - **Le Devoir** — Nouvelles et médias
-- **Biodome de Montréal** — Tourisme
+- **Biodôme de Montréal** — Tourisme
 - **Christies Luxury Art** — Enchères
 - **BeautéStar** — Commerce de détail
 - **MPN Genie** — Soins de santé

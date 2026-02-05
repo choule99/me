@@ -9,7 +9,7 @@
     "accomplishments": "Réalisations clés",
     "skills": "Compétences techniques",
     "experience": "Expérience professionnelle",
-    "education": "Formation"
+    "education": "Formation Académique"
   },
   "education": {
     "degree": "Techniques de l'informatique",
@@ -23,73 +23,103 @@
     "Stabilisé une base de code Swift de 450 000 lignes (200 000 DAU) : Atteint un taux de sessions sans incident de 99,999 % et accéléré la cadence de mise en production de 1/semaine à 4/jour.",
     "Conçu et livré une application native visionOS sélectionnée par Apple pour l'obtention d'un Vision Pro Dev Kit ; lancée en tant que 1re solution pour travailleurs connectés sur l'App Store visionOS.",
     "Automatisé les déploiements App Store de bout en bout : Augmentation de la cadence de mise en production de 1/semaine à 4/jour et accélération de la compilation CI de 50 %.",
-    "Accéléré la montée en compétence de 20 développeurs (Sri Lanka) via un programme de formation sur mesure — équipe opérationnelle en 3 mois.",
+    "Accéléré la montée en compétence de 20 développeurs à l'international via un programme de formation sur mesure — équipe opérationnelle en 3 mois.",
     "Conçu une bibliothèque de composants iOS partagée, standardisant les pratiques et accélérant la livraison de plus de 15 projets clients."
   ],
   "skills": [
     {
+      "section": "Expertise iOS & Apple"
+    },
+    {
       "label": "Langages",
       "items": [
-        "Swift",
-        "Kotlin",
-        "Java",
-        "TypeScript",
-        "SQL"
+        "Swift (expert)",
+        "SwiftUI",
+        "Combine",
+        "Objective-C (legacy)"
       ]
     },
     {
-      "label": "Apple",
+      "label": "Frameworks",
       "items": [
-        "iOS SDK",
-        "visionOS SDK",
-        "SwiftUI",
-        "UIKit",
-        "Combine",
+        "visionOS",
+        "ARKit",
         "Core Data",
-        "SwiftData",
         "Core Location",
+        "MapKit",
         "AVFoundation"
       ]
     },
     {
-      "label": "Tests",
+      "label": "Architecture",
       "items": [
-        "XCTest",
-        "XCUITest",
-        "Swift Testing",
-        "Snapshot Testing"
+        "Modular Architecture",
+        "MVVM",
+        "Clean Architecture",
+        "Design Patterns",
+        "SOLID"
       ]
     },
     {
-      "label": "DevOps",
+      "label": "Concurrence",
+      "items": [
+        "Swift Concurrency (Async/Await)",
+        "GCD"
+      ]
+    },
+    {
+      "section": "Outillage & DevOps"
+    },
+    {
+      "label": "CI/CD",
       "items": [
         "Fastlane",
         "GitHub Actions",
-        "Swift Package Manager",
-        "TestFlight",
+        "Xcode Cloud",
+        "MacStadium",
+        "Jenkins"
+      ]
+    },
+    {
+      "label": "Outils",
+      "items": [
+        "Xcode",
+        "Instruments (Profiling)",
+        "Firebase",
         "Sentry",
-        "LaunchDarkly"
+        "Git"
       ]
     },
     {
-      "label": "Pratiques",
+      "label": "IA Générative",
       "items": [
-        "MVVM",
-        "SOLID",
-        "REST API Design",
-        "Mobile UX Design",
-        "Software Architecture",
-        "Claude Code"
+        "Claude (accélération code & tests)"
       ]
     },
     {
-      "label": "Additionnel",
+      "section": "Leadership & Méthodologies"
+    },
+    {
+      "label": "Leadership",
       "items": [
-        "Objective-C",
-        "RxSwift",
-        "watchOS SDK",
-        "macOS SDK",
-        "Instruments"
+        "Mentorat",
+        "Code Review",
+        "Standardisation de code",
+        "Recrutement technique"
+      ]
+    },
+    {
+      "label": "Méthodes",
+      "items": [
+        "Agile (Scrum/Kanban)",
+        "TDD",
+        "Intégration continue"
+      ]
+    },
+    {
+      "label": "Langues",
+      "items": [
+        "Français et Anglais (parfaitement bilingue)"
       ]
     }
   ],
@@ -97,74 +127,72 @@
     {
       "company": "Poka Inc.",
       "title": "Architecte, Lead iOS, Lead VisionOS",
-      "dates": "Oct 2021 — Présent",
-      "description": "Plateforme pour travailleurs connectés — plus de 200 000 utilisateurs actifs quotidiens, 450 000 lignes de Swift + 55 000 lignes legacy Obj-C, 99,999 % sans plantage.",
+      "dates": "2021 — Présent",
+      "description": "Architecte et leader technique d'une plateforme de référence pour travailleurs connectés servant quotidiennement plus de 200 000 utilisateurs actifs. J'assure l'évolution vers des architectures modernes (SwiftUI, Combine) et la maintenance du legacy (Obj-C), tout en garantissant une stabilité critique de 99,999 %.",
       "bullets": [
-        "Construit et livré une application native visionOS ; présentée à Apple, obtenu un Vision Pro Dev Kit pour Poka, et lancé la 1re solution pour travailleurs connectés sur l'App Store visionOS",
-        "Amélioré la stabilité de la base de code ; mis en place des pratiques de refactorisation et des processus qualité — atteint un taux sans plantage de 99,999 %",
-        "Face à des mises en production lentes et manuelles ; construit un pipeline CI/CD sur MacStadium qui a amélioré la vitesse de compilation de 50 % et augmenté les déploiements de 1/semaine à 4/jour",
-        "Confronté à une faible couverture de tests (30 %) ; mené une initiative de tests incrémentale parallèlement aux refactorisations vers SwiftUI, Combine et des architectures modernes, atteignant 60 % en quatre ans",
-        "Besoin de faire croître l'équipe rapidement ; intégré 20 développeurs sri-lankais avec un programme de formation sur mesure, les rendant productifs en 3 mois",
-        "Adopté des outils assistés par IA (Claude) dans le flux de travail de l'équipe iOS, réduisant le temps de développement de 25 %"
+        "Innovation visionOS : Encadrement complet du développement de la 1re solution industrielle sur l'App Store visionOS (obtention du Vision Pro Dev Kit après revue par Apple)",
+        "Excellence opérationnelle : Refactorisation majeure ayant augmenté le taux de stabilité à 99,999 % et doublé la couverture de tests (de 30 % à 60 %)",
+        "Performance CI/CD : Migration du pipeline sur MacStadium, accélérant la compilation de 50 % et permettant de passer de 1 à 4 mises en production quotidiennes",
+        "Leadership d'équipe : Recrutement et formation sur mesure d'une équipe distribuée de 20 développeurs à l'international, opérationnelle en seulement 3 mois",
+        "Intégration de l'IA : Optimisation des flux de travail via l'adoption d'outils d'IA générative (Claude), réduisant le temps de développement de 25 %"
       ]
     },
     {
       "company": "Appcom",
       "title": "Lead développeur mobile",
-      "dates": "Nov 2019 — Oct 2021",
-      "description": "Studio de développement mobile — direction de l'équipe iOS sur plus de 15 projets clients dans le commerce de détail, la santé, les médias et la mobilité.",
+      "dates": "2019 — 2021",
+      "description": "Responsable de la livraison de solutions mobiles pour des clients de grande envergure dans les secteurs de la santé, des médias et du commerce de détail. J'ai dirigé l'équipe technique à travers des cycles complets de développement logiciel pour des marques comme Metro, Super C et Le Devoir.",
       "bullets": [
-        "Conçu un framework iOS partagé utilisé sur plus de 15 projets clients ; réduction de la duplication de code et de l'effort de développement de 50 %",
-        "Dirigé l'adoption d'une nouvelle méthodologie de développement ; accéléré les cycles de livraison et amélioré la qualité — augmentation de la satisfaction client de 40 %",
-        "Responsable des pipelines CI/CD sur MacStadium ; automatisé les déploiements App Store et les processus de mise en production pour toutes les applications clients",
-        "Mentoré les développeurs juniors par des sessions individuelles et organisé des lunch-and-learns pour favoriser l'apprentissage continu"
+        "Standardisation technique : Conception d'un framework iOS partagé, optimisant la livraison et la cohérence sur plus de 15 projets clients",
+        "Livraisons d'envergure : Leadership technique des applications principales (Metro & Moi, Biodôme de Montréal, AbbVie) de la conception au déploiement",
+        "Automatisation : Mise en place et gestion des pipelines CI/CD (MacStadium) pour l'ensemble du portfolio client, industrialisant les processus de mise en production",
+        "Mentorat : Accompagnement de développeurs juniors et animation de sessions de partage de connaissances (lunch-and-learns) pour élever le niveau technique global"
       ]
     },
     {
       "company": "Spiria Digital",
       "title": "Développeur iOS sénior, Architecte",
-      "dates": "Nov 2013 — Nov 2019",
-      "description": "Agence de logiciels sur mesure — responsable de la création de l'architecture initiale et de son évolution selon les exigences clients.",
+      "dates": "2013 — 2019",
+      "description": "Architecte responsable de la conception et de l'évolution de solutions mobiles sur mesure pour des clients d'envergure. J'ai piloté l'aspect technique de projets critiques, de la définition des exigences jusqu'à la mise en marché.",
       "bullets": [
-        "CAE PreStudy : pris le projet des exigences jusqu'à la livraison, construisant une application iOS native pour la formation des pilotes d'aviation de bout en bout",
-        "Payfare (DiDi/Lyft) : développé les clients iOS et Android pour une plateforme de paiement anticipé servant les chauffeurs de l'économie à la demande",
-        "BookJane : construit une application iOS pour la gestion de la main-d'œuvre en santé",
-        "Acosta SLTouch, Skillable : livré des solutions hybrides et PWA sur l'ensemble de la pile pour l'analytique de vente au détail et le micro-apprentissage"
+        "CAE PreStudy : Architecture et développement de bout en bout d'une application native iOS destinée à la formation haute performance des pilotes d'aviation",
+        "Payfare (DiDi/Lyft) : Développement des clients mobiles pour une plateforme de paiement en temps réel pour les acteurs des services de mobilité et de transport (économie collaborative)",
+        "Solutions multiplateformes : Livraison d'applications variées (santé, analytique de détail, micro-apprentissage) utilisant des technologies natives et hybrides selon les besoins d'affaires"
       ]
     },
     {
       "company": "8D Technologies",
       "title": "Développeur iOS",
-      "dates": "Oct 2009 — Oct 2013",
-      "description": "Logiciels et matériel pour le vélo-partage — développement mobile pionnier pour la mobilité urbaine.",
+      "dates": "2009 — 2013",
+      "description": "Pionnier du développement mobile pour la mobilité urbaine (Bixi) au sein d'une équipe alliant logiciel et matériel. Travail sur des systèmes à grande échelle sous des contraintes réelles de connectivité urbaine.",
       "bullets": [
-        "Développé les applications iOS Spotcycle et Solstice pour le vélo-partage, supportant des déploiements à l'échelle de la ville à Londres et New York",
-        "Pionnier du tout premier système de réalité augmentée pour trouver des vélos en libre-service en combinant le flux caméra en direct avec les données Core Location",
-        "Résolu les problèmes de connectivité peu fiable à travers des villes entières — ingénierie mobile pionnière sous des contraintes réelles"
+        "Déploiement international : Développement des applications Spotcycle et Solstice (vélo-partage), déployées avec succès à Londres et New York",
+        "Innovation en Réalité Augmentée (AR) : Conception d'un des premiers systèmes de Réalité Augmentée pour la localisation de vélos en libre-service, combinant flux vidéo et données géospatiales (Core Location)",
+        "Optimisation réseau : Résolution de défis complexes de synchronisation de données en mode hors-ligne ou connectivité limitée"
       ]
     },
     {
       "company": "Accovia",
       "title": "Développeur Java back-end",
-      "dates": "Oct 2007 — Oct 2009",
+      "dates": "2007 — 2009",
       "bullets": [
-        "Équipe d'architecture du projet Ibiza — reconstruit la plateforme de voyage avec Java/Spring/Hibernate après redressement client"
+        "Contribution au redressement et à la reconstruction complète de la plateforme Ibiza (Java, Spring, Hibernate) suite à des enjeux clients critiques"
       ]
     },
     {
       "company": "Compuware Montréal",
-      "title": "Consultant Java",
-      "dates": "Oct 2005 — Oct 2007",
+      "title": "Consultant Java (Morgan Stanley)",
+      "dates": "2005 — 2007",
       "bullets": [
-        "Projet Libra (Morgan Stanley) — migration mainframe vers Java ; équipe distribuée mondialement"
+        "Migration de systèmes mainframe legacy vers des services Java au sein d'une équipe distribuée mondialement (New York, Budapest, Tokyo)"
       ]
     },
     {
       "company": "Mediagrif",
       "title": "Développeur Java",
-      "dates": "Mai 2003 — Oct 2005",
+      "dates": "2003 — 2005",
       "bullets": [
-        "Construit les services de base et composants réutilisables sur l'équipe d'infrastructure pour produits e-commerce"
+        "Développement de services d'infrastructure et de composants réutilisables pour des plateformes de commerce électronique"
       ]
     }
   ]

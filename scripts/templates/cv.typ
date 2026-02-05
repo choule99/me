@@ -17,7 +17,7 @@
 #pad(top: -0.5in, x: -0.5in)[
   #block(
     width: 100% + 1in,
-    inset: (x: 24pt + 0.5in, top: 22pt, bottom: 16pt),
+    inset: (x: 0.5in + 4pt, top: 22pt, bottom: 16pt),
     fill: accent,
   )[
     #if photo-path != none {
@@ -112,22 +112,34 @@
 
 #padded[
   #for (i, group) in data.skills.enumerate() {
-    grid(
-      columns: (74pt, 1fr),
-      column-gutter: 6pt,
-      text(weight: "bold", size: 8pt, fill: accent, group.label),
-      {
-        for item in group.items {
-          skill-tag(item)
-          h(2pt)
-        }
-      },
-    )
-    if i < data.skills.len() - 1 {
-      v(2.5pt)
+    if group.at("section", default: none) != none {
+      // Sub-header for skill groups
+      if i > 0 { v(3pt) }
+      text(weight: "bold", size: 8.5pt, fill: accent, group.section)
+      v(1.5pt)
+    } else {
+      // Regular skill row (indented)
+      pad(left: 8pt)[
+        #grid(
+          columns: (70pt, 1fr),
+          column-gutter: 6pt,
+          text(weight: "medium", size: 8pt, fill: text-secondary, group.label),
+          {
+            for item in group.items {
+              skill-tag(item)
+              h(2pt)
+            }
+          },
+        )
+      ]
+      if i < data.skills.len() - 1 {
+        v(1.5pt)
+      }
     }
   }
 ]
+
+#pagebreak()
 
 // ── Experience ──
 #section-heading(s-experience)
@@ -162,9 +174,7 @@
     }
   ]
 
-  if i == 0 {
-    pagebreak()
-  } else if i < data.experience.len() - 1 {
+  if i < data.experience.len() - 1 {
     line(start: (4pt, 0pt), length: 100% - 8pt, stroke: 0.3pt + rgb("#e0e0e0"))
     v(3pt)
   }

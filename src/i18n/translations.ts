@@ -1,8 +1,8 @@
 export const translations = {
   en: {
     // Meta
-    "meta.title": "Claude Houle - iOS Developer & Mobile Architect",
-    "meta.description": "23+ years of software development experience. Lead iOS Developer, visionOS Developer, and Mobile Architect based in Montreal.",
+    "meta.title": "Claude Houle - Software Architect & Technical Leader",
+    "meta.description": "23+ years of hands-on experience designing and delivering systems across backend, mobile, and web. Proven leadership in solution architecture, team transformation, and cross-functional collaboration.",
 
     // Nav
     "nav.goals": "Goals",
@@ -13,8 +13,8 @@ export const translations = {
     "nav.story": "Story",
 
     // Hero
-    "hero.title": "Staff Software Engineer",
-    "hero.bio": "Montreal-based software developer with 23+ years of experience across backend systems, mobile platforms, and software architecture. From enterprise Java to iOS, Android, and web — I design and deliver production software across the full stack, with a focus on quality, tooling, and continuous learning.",
+    "hero.title": "Software Architect & Technical Leader",
+    "hero.bio": "Software architect with 23+ years of hands-on experience designing and delivering systems across backend, mobile, and web. Proven leadership in solution architecture, team transformation, mentorship, and cross-functional collaboration. I combine deep technical breadth with a product-minded approach to align engineering with business outcomes.",
     "hero.downloadCv": "Download CV",
     "hero.email": "Email",
 
@@ -24,19 +24,19 @@ export const translations = {
     // Goals
     "goals.badge": "Goals",
     "goals.lookingFor": "What I'm Looking For",
-    "goals.lookingFor.p1": "I am seeking a company, team, or product to which I can make a long-term commitment. After many years in consulting (prior to Poka), I had the opportunity to work continuously on a single product, which enabled me to make durable technical decisions that would be impractical in short engagements.",
-    "goals.lookingFor.p2": "The mindset required by an architect for a multi-year project is entirely different than a project that lasts only for a couple of months, the types of decisions whose impact becomes evident over months or even years.",
+    "goals.lookingFor.p1": "I am seeking a company, team, or product to which I can make a long-term commitment. After many years in consulting (prior to Poka), I had the opportunity to work continuously on a single product, enabling durable technical decisions that would be impractical in short engagements.",
+    "goals.lookingFor.p2": "The architectural mindset required for a multi-year project is entirely different from short-term engagements — the types of decisions whose impact becomes evident over months or even years.",
     "goals.approach": "How I Work",
-    "goals.approach.p1": "I engage early with product discovery and design to translate user needs and business goals into clear, testable requirements — partnering with product managers and designers to balance technical feasibility, UX quality, and time-to-value. I also invest in mentorship, having guided junior engineers into independent contributors over the past 5 to 7 years.",
+    "goals.approach.p1": "I engage early with product discovery and design to translate user needs and business goals into clear, testable requirements — partnering with product managers and designers to balance technical feasibility, UX quality, and time-to-value. I invest heavily in mentorship, having guided junior engineers into independent contributors and scaled teams across time zones.",
 
     // Projects
-    "projects.badge": "Notable Projects",
-    "projects.poka.title": "Poka for visionOS",
-    "projects.poka.description": "Built and shipped a visionOS-native application that pushed the SDK limits. Secured a Vision Pro Dev Kit for Poka following an Apple review and launched on day one of the visionOS App Store.",
-    "projects.cae.title": "CAE PreStudy",
-    "projects.cae.description": "End-to-end architecture and development of a pilot training application at Spiria, spanning backend services, web frontend, and iOS client — a full-stack engagement from requirements through delivery.",
-    "projects.srilanka.title": "Sri Lankan Team Expansion",
-    "projects.srilanka.description": "Led onboarding and integration of a development team in Sri Lanka. Designed training programs, supervised through code reviews, and built collaborative culture across time zones.",
+    "projects.badge": "Key Accomplishments",
+    "projects.poka.title": "Team Transformation at Poka",
+    "projects.poka.description": "Transformed an 8-person iOS team into a high-performing unit — crash-free rate to 99.999%, deployments from 1/week to 4/day, build speeds improved by 50%. Introduced internal tools, reusable libraries, and standardized practices.",
+    "projects.cae.title": "CAE Pilot Training Platform",
+    "projects.cae.description": "Architected CAE's pilot training platform end-to-end at Spiria: Spring backend, Angular frontend, and native iOS client — from requirements analysis through go-to-market delivery.",
+    "projects.srilanka.title": "Global Team Scaling",
+    "projects.srilanka.description": "Onboarded and integrated 20 developers internationally — designed training curriculum and built collaborative culture across time zones. Team operational within 3 months.",
 
     // Tech
     "tech.badge": "Technologies",
@@ -71,7 +71,7 @@ export const translations = {
     "tech.ai": "AI",
     "tech.aiP1": "I'm excited by AI's potential to transform software engineering. Developers won't disappear - we'll be even more essential to steer AI toward robust, ethical, and maintainable solutions. The discipline is changing rapidly, enabling greater productivity and new kinds of creativity that weren't feasible before.",
     "tech.claudeCode": "Claude Code",
-    "tech.claudeCodeDesc": "Claude Code is my current choice for agentic workflows, with flexible custom commands, MCPs, and sub-agents that enable flows not easily replicated in other IDE integrations.",
+    "tech.claudeCodeDesc": "Claude Code is my current choice for agentic workflows, with flexible custom commands, MCPs, and sub-agents that enable flows not easily replicated in other IDE integrations. At Poka, adoption of Claude reduced development time by 25%.",
     "tech.aiTasks": "AI-Assisted Tasks",
     "tech.aiTasksDesc": "Tasks historically difficult to justify due to low ROI can now be completed efficiently: modernizing legacy codebases, generating API layers, maintaining documentation, generating unit tests, and refactoring tightly coupled code.",
 
@@ -140,8 +140,8 @@ export const translations = {
 
   fr: {
     // Meta
-    "meta.title": "Claude Houle - Développeur iOS & Architecte Mobile",
-    "meta.description": "Plus de 20 ans d'expérience en développement logiciel. Développeur iOS principal, développeur visionOS et architecte mobile basé à Montréal.",
+    "meta.title": "Claude Houle - Architecte Logiciel & Leader Technique",
+    "meta.description": "Plus de 23 ans d'expérience pratique dans la conception et la livraison de systèmes backend, mobiles et web. Leadership éprouvé en architecture de solutions, transformation d'équipes et collaboration interfonctionnelle.",
 
     // Nav
     "nav.goals": "Objectifs",
@@ -152,8 +152,8 @@ export const translations = {
     "nav.story": "Parcours",
 
     // Hero
-    "hero.title": "Développeur Principal",
-    "hero.bio": "Développeur logiciel basé à Montréal avec plus de 23 ans d'expérience en systèmes backend, plateformes mobiles et architecture logicielle. De Java entreprise à iOS, Android et le web — je conçois et livre des logiciels en production sur l'ensemble de la pile technologique, avec un accent sur la qualité, l'outillage et l'apprentissage continu.",
+    "hero.title": "Architecte Logiciel & Leader Technique",
+    "hero.bio": "Architecte logiciel avec plus de 23 ans d'expérience pratique dans la conception et la livraison de systèmes backend, mobiles et web. Leadership éprouvé en architecture de solutions, transformation d'équipes, mentorat et collaboration interfonctionnelle. Je combine une vaste expertise technique avec une approche orientée produit pour aligner l'ingénierie avec les objectifs d'affaires.",
     "hero.downloadCv": "Télécharger le CV",
     "hero.email": "Courriel",
 
@@ -163,19 +163,19 @@ export const translations = {
     // Goals
     "goals.badge": "Objectifs",
     "goals.lookingFor": "Ce que je recherche",
-    "goals.lookingFor.p1": "Je recherche une entreprise, une équipe ou un produit auquel je peux m'engager à long terme. Après de nombreuses années en consultation (avant Poka), j'ai eu l'opportunité de travailler continuellement sur un seul produit, ce qui m'a permis de prendre des décisions techniques durables qui seraient impraticables dans des mandats courts.",
-    "goals.lookingFor.p2": "L'état d'esprit requis par un architecte pour un projet pluriannuel est entièrement différent de celui d'un projet qui ne dure que quelques mois — le type de décisions dont l'impact ne devient évident qu'après des mois, voire des années.",
+    "goals.lookingFor.p1": "Je recherche une entreprise, une équipe ou un produit auquel je peux m'engager à long terme. Après de nombreuses années en consultation (avant Poka), j'ai eu l'opportunité de travailler continuellement sur un seul produit, permettant des décisions techniques durables qui seraient impraticables dans des mandats courts.",
+    "goals.lookingFor.p2": "L'état d'esprit architectural requis pour un projet pluriannuel est entièrement différent des engagements courts — le type de décisions dont l'impact ne devient évident qu'après des mois, voire des années.",
     "goals.approach": "Mon approche",
-    "goals.approach.p1": "Je m'implique tôt dans la découverte produit et le design pour traduire les besoins utilisateurs et les objectifs d'affaires en exigences claires et testables — en collaboration avec les gestionnaires de produit et les designers pour équilibrer faisabilité technique, qualité UX et délai de mise en valeur. J'investis aussi dans le mentorat, ayant guidé des ingénieurs juniors vers l'autonomie au cours des 5 à 7 dernières années.",
+    "goals.approach.p1": "Je m'implique tôt dans la découverte produit et le design pour traduire les besoins utilisateurs et objectifs d'affaires en exigences claires et testables — en collaboration avec les gestionnaires de produit et designers pour équilibrer faisabilité technique, qualité UX et délai de mise en valeur. J'investis fortement dans le mentorat, ayant guidé des ingénieurs juniors vers l'autonomie et élargi des équipes à travers les fuseaux horaires.",
 
     // Projects
-    "projects.badge": "Projets notables",
-    "projects.poka.title": "Poka pour visionOS",
-    "projects.poka.description": "Construit et livré une application native visionOS repoussant les limites du SDK. Obtenu un Vision Pro Dev Kit pour Poka suite à une revue Apple, avec lancement dès le premier jour de l'App Store visionOS.",
-    "projects.cae.title": "CAE PreStudy",
-    "projects.cae.description": "Architecture et développement de bout en bout d'une application de formation de pilotes chez Spiria, couvrant les services backend, le frontend web et le client iOS — un mandat full-stack des exigences jusqu'à la livraison.",
-    "projects.srilanka.title": "Expansion de l'équipe au Sri Lanka",
-    "projects.srilanka.description": "Direction de l'intégration d'une équipe de développement au Sri Lanka. Conception de programmes de formation, supervision par revues de code et construction d'une culture collaborative à travers les fuseaux horaires.",
+    "projects.badge": "Réalisations clés",
+    "projects.poka.title": "Transformation d'équipe chez Poka",
+    "projects.poka.description": "Transformation d'une équipe iOS de 8 personnes en unité hautement performante — taux sans plantage à 99,999 %, déploiements de 1/semaine à 4/jour, compilation accélérée de 50 %. Introduction d'outils internes, bibliothèques réutilisables et pratiques standardisées.",
+    "projects.cae.title": "Plateforme de formation CAE",
+    "projects.cae.description": "Architecture de bout en bout de la plateforme de formation des pilotes de CAE chez Spiria : backend Spring, frontend Angular et client iOS natif — de l'analyse des exigences jusqu'à la mise en marché.",
+    "projects.srilanka.title": "Expansion d'équipe internationale",
+    "projects.srilanka.description": "Intégration de 20 développeurs à l'international — conception du programme de formation et construction d'une culture collaborative à travers les fuseaux horaires. Équipe opérationnelle en 3 mois.",
 
     // Tech
     "tech.badge": "Technologies",
@@ -210,7 +210,7 @@ export const translations = {
     "tech.ai": "IA",
     "tech.aiP1": "Je suis enthousiaste face au potentiel de l'IA pour transformer le génie logiciel. Les développeurs ne disparaîtront pas — nous serons encore plus essentiels pour orienter l'IA vers des solutions robustes, éthiques et maintenables. La discipline évolue rapidement, permettant une plus grande productivité et de nouveaux types de créativité qui n'étaient pas réalisables auparavant.",
     "tech.claudeCode": "Claude Code",
-    "tech.claudeCodeDesc": "Claude Code est mon choix actuel pour les flux de travail agentiques, avec des commandes personnalisées flexibles, des MCP et des sous-agents permettant des flux difficilement reproductibles dans d'autres intégrations IDE.",
+    "tech.claudeCodeDesc": "Claude Code est mon choix actuel pour les flux de travail agentiques, avec des commandes personnalisées flexibles, des MCP et des sous-agents permettant des flux difficilement reproductibles dans d'autres intégrations IDE. Chez Poka, l'adoption de Claude a réduit le temps de développement de 25 %.",
     "tech.aiTasks": "Tâches assistées par l'IA",
     "tech.aiTasksDesc": "Des tâches historiquement difficiles à justifier en raison d'un faible retour sur investissement peuvent désormais être réalisées efficacement : modernisation de bases de code héritées, génération de couches API, maintenance de documentation, génération de tests unitaires et refactorisation de code fortement couplé.",
 

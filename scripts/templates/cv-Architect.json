@@ -7,11 +7,14 @@
   "summary": "Software architect with 23+ years of hands-on experience designing and delivering systems across backend, mobile, and web. Proven leadership in solution architecture, team transformation, mentorship, and cross-functional collaboration. Combines deep technical breadth with a product-minded approach to align engineering with business outcomes.",
   "accomplishments": [
     "Transformed an 8-person iOS team into a high-performing unit — crash-free rate to 99.999%, deployments from 1/week to 4/day, build speeds improved 50%",
-    "Onboarded and integrated 20 Sri Lankan developers — designed training curriculum and built collaborative culture across time zones, productive within 3 months",
+    "Onboarded and integrated 20 developers internationally — designed training curriculum and built collaborative culture across time zones, productive within 3 months",
     "Architected CAE's pilot training platform end-to-end: Spring backend, Angular frontend, and native iOS client",
     "Delivered the Accovia Ibiza platform rebuild on time and on budget after a critical client recovery — as a member of the core Architecture Team"
   ],
   "skills": [
+    {
+      "section": "Architecture & Design"
+    },
     {
       "label": "Architecture",
       "items": [
@@ -23,14 +26,17 @@
       ]
     },
     {
-      "label": "Leadership",
+      "label": "Patterns",
       "items": [
-        "Team Mentorship",
-        "Code Reviews",
-        "Technical Discovery",
-        "Cross-functional Collaboration",
-        "Onboarding"
+        "Microservices",
+        "Event-Driven",
+        "CQRS",
+        "Clean Architecture",
+        "SOLID"
       ]
+    },
+    {
+      "section": "Technical Stack"
     },
     {
       "label": "Languages",
@@ -60,28 +66,50 @@
         "iOS SDK",
         "visionOS SDK",
         "SwiftUI",
-        "UIKit",
         "Android SDK",
         "Angular"
       ]
     },
     {
-      "label": "DevOps",
+      "section": "Leadership & DevOps"
+    },
+    {
+      "label": "Leadership",
       "items": [
-        "CI/CD Pipelines",
-        "GitHub Actions",
-        "Fastlane",
-        "Sentry",
-        "LaunchDarkly",
-        "Claude Code"
+        "Team Mentorship",
+        "Code Reviews",
+        "Technical Discovery",
+        "Onboarding"
       ]
     },
     {
-      "label": "Additional",
+      "label": "CI/CD",
       "items": [
-        "Objective-C",
-        "Oracle",
-        "DB2"
+        "GitHub Actions",
+        "Fastlane",
+        "Jenkins",
+        "Docker",
+        "Kubernetes"
+      ]
+    },
+    {
+      "label": "Gen AI",
+      "items": [
+        "Claude integration (code & test acceleration)"
+      ]
+    },
+    {
+      "label": "Methods",
+      "items": [
+        "Agile (Scrum/Kanban)",
+        "TDD",
+        "Continuous Integration"
+      ]
+    },
+    {
+      "label": "Spoken",
+      "items": [
+        "French and English (fully bilingual)"
       ]
     }
   ],
@@ -89,73 +117,73 @@
     {
       "company": "Poka Inc.",
       "title": "Architect, Lead iOS, Lead VisionOS",
-      "dates": "Oct 2021 — Present",
-      "description": "Connected worker platform — 200,000+ DAU, 450,000-line Swift codebase, 99.999% crash-free.",
+      "dates": "2021 — Present",
+      "description": "Technical architect for a connected worker platform serving 200,000+ DAU. Leading architectural evolution, team transformation, and cross-functional alignment across a 450K-line codebase.",
       "bullets": [
-        "Improved codebase stability; introduced internal tools, reusable libraries, and standardized practices — achieved 99.999% crash-free rate",
-        "Needed to scale the team fast; onboarded 20 Sri Lankan developers with a custom training curriculum and cross-timezone code reviews, making them productive within 3 months",
-        "Bridged gaps between engineering, Product Management, and UX Design; established collaboration workflows that aligned technical solutions with business goals",
-        "Faced slow, manual releases; automated App Store deployments end-to-end, increasing cadence from 1/week to 4/day and improving CI build speeds by 50%",
-        "Tackled low test coverage (30%); drove incremental testing alongside architectural modernization, reaching 60% over four years"
+        "Architecture Leadership: Introduced internal tools, reusable libraries, and standardized practices — achieved 99.999% crash-free rate",
+        "Team Scaling: Onboarded 20 developers internationally with custom training curriculum and cross-timezone code reviews — operational within 3 months",
+        "Cross-functional Alignment: Bridged engineering, Product Management, and UX Design; established collaboration workflows aligning technical solutions with business goals",
+        "CI/CD Architecture: Automated App Store deployments end-to-end; increased release cadence from 1/week to 4/day, improved build speeds by 50%",
+        "Quality Engineering: Increased test coverage from 30% to 60% over four years through incremental testing alongside architectural modernization"
       ]
     },
     {
       "company": "Appcom",
       "title": "Lead Mobile Developer",
-      "dates": "Nov 2019 — Oct 2021",
-      "description": "Mobile development studio — led iOS team across 15+ client projects.",
+      "dates": "2019 — 2021",
+      "description": "Led technical architecture and team development across 15+ client projects in healthcare, media, and retail sectors.",
       "bullets": [
-        "Designed shared iOS framework for use across 15+ client projects; reduced code duplication and development effort by 50%",
-        "Identified communication gaps between teams; established processes and collaboration tools that improved alignment with product management and UX design",
-        "Invested in team growth through mentorship and knowledge-sharing sessions, developing junior engineers into independent contributors"
+        "Technical Standardization: Designed shared iOS framework for 15+ client projects — reduced code duplication and development effort by 50%",
+        "Process Improvement: Identified communication gaps between teams; established processes and tools improving alignment with product and UX",
+        "Team Development: Invested in mentorship and knowledge-sharing sessions, developing junior engineers into independent contributors"
       ]
     },
     {
       "company": "Spiria Digital",
       "title": "Software Architect, Senior Developer",
-      "dates": "Nov 2013 — Nov 2019",
-      "description": "Custom software agency — responsible for initial architecture and evolving it with client requirements.",
+      "dates": "2013 — 2019",
+      "description": "Solution architect responsible for initial architecture design and evolution across enterprise client engagements. Led technical discovery, requirements analysis, and delivery.",
       "bullets": [
-        "Owned solution architecture for client engagements; led requirements analysis, technical discovery, and produced API contracts, data models, and integration strategies that guided development teams",
-        "CAE PreStudy: designed end-to-end architecture spanning Spring backend, Angular frontend, and iOS client for an aviation pilot training platform",
-        "Produced architecture artifacts covering security considerations, scalability approaches, and deployment topologies for each engagement",
-        "Defined engineering standards and mentored developers across multiple project teams, raising overall code quality",
-        "Acosta SLTouch: architected a hybrid mobile framework for retail analytics using BackboneJS and Node.js"
+        "Solution Architecture: Led requirements analysis, technical discovery, and produced API contracts, data models, and integration strategies",
+        "CAE PreStudy: Designed end-to-end architecture spanning Spring backend, Angular frontend, and iOS client for aviation pilot training",
+        "Architecture Artifacts: Produced documentation covering security considerations, scalability approaches, and deployment topologies",
+        "Engineering Standards: Defined standards and mentored developers across multiple project teams, raising overall code quality",
+        "Acosta SLTouch: Architected hybrid mobile framework for retail analytics using BackboneJS and Node.js"
       ]
     },
     {
       "company": "8D Technologies",
       "title": "Back-End Java Developer → iOS Developer",
-      "dates": "Oct 2009 — Oct 2013",
-      "description": "Software and hardware for bike-sharing and automated parking — pioneering urban mobility solutions.",
+      "dates": "2009 — 2013",
+      "description": "Pioneer in urban mobility architecture (Bixi) within a team combining hardware and software. Designed systems for city-wide deployments under real-world constraints.",
       "bullets": [
-        "Started on the backend Java team for the Solstice bike-sharing suite; transitioned to iOS, bringing backend expertise that bridged system architecture across layers",
-        "Faced challenging connectivity and performance constraints; engineered solutions for city-wide deployments in London and New York City",
-        "Pioneered the first-ever Augmented Reality bike-sharing finder by combining live camera feed with Core Location data"
+        "System Architecture: Started on backend Java team; transitioned to iOS bringing backend expertise that bridged system architecture across layers",
+        "Scalability Solutions: Engineered solutions for challenging connectivity and performance constraints in London and NYC deployments",
+        "AR Innovation: Pioneered first-ever Augmented Reality bike-sharing finder combining live camera feed with Core Location data"
       ]
     },
     {
       "company": "Accovia",
       "title": "Back-End Java Developer — Architecture Team",
-      "dates": "Oct 2007 — Oct 2009",
+      "dates": "2007 — 2009",
       "bullets": [
-        "Rebuilt Ibiza travel platform with Java/Spring/Hibernate after critical client recovery; performance optimization and service orchestration"
+        "Platform Architecture: Rebuilt Ibiza travel platform with Java/Spring/Hibernate after critical client recovery — performance optimization and service orchestration"
       ]
     },
     {
       "company": "Compuware Montreal",
-      "title": "Java Consultant — Morgan Stanley",
-      "dates": "Oct 2005 — Oct 2007",
+      "title": "Java Consultant (Morgan Stanley)",
+      "dates": "2005 — 2007",
       "bullets": [
-        "Libra project — migrated mainframe to Java under financial compliance requirements; globally distributed team"
+        "Migration Architecture: Libra project — migrated mainframe to Java under financial compliance requirements; globally distributed team"
       ]
     },
     {
       "company": "Mediagrif",
       "title": "Java Developer",
-      "dates": "May 2003 — Oct 2005",
+      "dates": "2003 — 2005",
       "bullets": [
-        "Built core services and reusable components on the Software Infrastructure team for e-commerce products"
+        "Infrastructure Architecture: Built core services and reusable components on Software Infrastructure team for e-commerce products"
       ]
     }
   ]

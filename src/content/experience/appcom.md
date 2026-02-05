@@ -1,22 +1,25 @@
 ---
 company: "Appcom"
 title: "Lead Mobile Developer"
-dates: "September 2019 - September 2021"
+dates: "2019 - 2021"
 order: 2
-description: "Appcom is a development studio based in Longueuil, Quebec, specializing in mobile and web applications for businesses across the regional digital ecosystem."
+description: "Led technical architecture and team development across 15+ client projects in healthcare, media, and retail sectors."
 ---
 
 ### Key Achievements
 
-**Shared Development Framework** — Inspired by practices at larger mobile studios, designed and implemented a shared iOS library of rigorously documented and unit-tested components to accelerate feature delivery across multiple projects. This framework standardized patterns, reduced duplication, lowered development costs, and improved time-to-market while maintaining quality.
+**Technical Standardization** — Designed shared iOS framework for 15+ client projects — reduced code duplication and development effort by 50%. This framework standardized patterns, lowered development costs, and improved time-to-market while maintaining quality.
+
+**Major Deliveries** — Technical leadership for flagship applications (Metro & Moi, Biodome de Montreal, AbbVie) from design to deployment, managing complete software development cycles for major retail, healthcare, and media brands.
+
+**Process Improvement** — Identified communication gaps between teams; established processes and collaboration tools that improved alignment with product management and UX design.
+
+**Team Development** — Invested in mentorship and knowledge-sharing sessions, developing junior engineers into independent contributors.
 
 ### Responsibilities
 
 - Led the mobile team across multiple client engagements, spanning planning, development, code review, documentation, and release management
 - Conducted R&D on emerging iOS capabilities and architectural patterns
-- Established team processes and collaboration tools to improve communication with product management and UX design
-- Provided 1:1 mentorship, code reviews, and feedback to support growth and performance
-- Organized recurring lunch-and-learn sessions to promote knowledge sharing
 - Built internal developer tools and templates to increase productivity and consistency
 - Managed CI/CD pipelines hosted on MacStadium
 - Owned automated App Store deployments and release processes
