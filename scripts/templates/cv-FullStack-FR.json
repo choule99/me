@@ -112,11 +112,11 @@
       "dates": "Oct 2021 — Présent",
       "description": "Plateforme pour travailleurs connectés avec plus de 200 000 utilisateurs actifs quotidiens aidant les manufacturiers à améliorer la productivité et le partage des connaissances en usine.",
       "bullets": [
-        "Hérité d'une base de code fragile de 450K lignes avec des plantages fréquents ; introduit des outils internes, des bibliothèques réutilisables et des pratiques standardisées qui ont porté le taux sans plantage à 99,999 %",
+        "Amélioré la stabilité d'une base de code de 450K lignes ; introduit des outils internes, des bibliothèques réutilisables et des pratiques standardisées — atteint un taux sans plantage de 99,999 %",
         "Face à des mises en production lentes et manuelles ; construit un pipeline CI/CD sur MacStadium qui a amélioré la vitesse de compilation de 50 % et augmenté les déploiements de 1/semaine à 4/jour",
         "Besoin de faire croître l'équipe rapidement ; intégré 20 développeurs sri-lankais avec un programme de formation sur mesure, les rendant productifs en 3 mois",
         "Confronté à une faible couverture de tests (30 %) ; mené une initiative de tests incrémentale parallèlement aux refactorisations, atteignant 60 % en quatre ans",
-        "Adopté des outils assistés par IA (Claude) dans le flux de travail de l'équipe iOS, réduisant le temps de développement de 10 %"
+        "Adopté des outils assistés par IA (Claude) dans le flux de travail de l'équipe iOS, réduisant le temps de développement de 25 %"
       ]
     },
     {
@@ -125,8 +125,8 @@
       "dates": "Nov 2019 — Oct 2021",
       "description": "Studio de développement mobile développant et maintenant des applications pour des clients dans le commerce de détail, la santé, les médias et la mobilité.",
       "bullets": [
-        "Géré plus de 15 projets clients simultanés avec des efforts dupliqués entre les équipes ; conçu un framework iOS partagé de composants documentés et testés qui a réduit la duplication et amélioré le délai de mise en marché",
-        "Dirigé l'équipe iOS à travers des cycles de vie complets — planification, développement, revue de code et mise en production — pour Metro & Moi, Super C, FoodBasics, AbbVie, Le Devoir, Biodôme de Montréal, Christies, TaxiCoop et autres"
+        "Conçu un framework iOS partagé utilisé sur plus de 15 projets clients ; réduction de la duplication de code et de l'effort de développement de 50 %",
+        "Dirigé l'adoption d'une nouvelle méthodologie de développement ; accéléré les cycles de livraison et amélioré la qualité — augmentation de la satisfaction client de 40 %"
       ]
     },
     {

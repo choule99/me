@@ -92,7 +92,7 @@
       "dates": "Oct 2021 — Present",
       "description": "Connected worker platform — 200,000+ DAU, 450,000-line Swift codebase, 99.999% crash-free.",
       "bullets": [
-        "Inherited a fragile codebase with frequent crashes; introduced internal tools, reusable libraries, and standardized practices that raised the crash-free rate to 99.999%",
+        "Improved codebase stability; introduced internal tools, reusable libraries, and standardized practices — achieved 99.999% crash-free rate",
         "Needed to scale the team fast; onboarded 20 Sri Lankan developers with a custom training curriculum and cross-timezone code reviews, making them productive within 3 months",
         "Bridged gaps between engineering, Product Management, and UX Design; established collaboration workflows that aligned technical solutions with business goals",
         "Faced slow, manual releases; automated App Store deployments end-to-end, increasing cadence from 1/week to 4/day and improving CI build speeds by 50%",
@@ -105,7 +105,7 @@
       "dates": "Nov 2019 — Oct 2021",
       "description": "Mobile development studio — led iOS team across 15+ client projects.",
       "bullets": [
-        "Found duplicated effort across 15+ client projects; designed a shared iOS framework that standardized patterns, reduced duplication, and improved time-to-market",
+        "Designed shared iOS framework for use across 15+ client projects; reduced code duplication and development effort by 50%",
         "Identified communication gaps between teams; established processes and collaboration tools that improved alignment with product management and UX design",
         "Invested in team growth through mentorship and knowledge-sharing sessions, developing junior engineers into independent contributors"
       ]

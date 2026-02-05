@@ -106,7 +106,7 @@
       "dates": "Oct 2021 — Présent",
       "description": "Plateforme pour travailleurs connectés — plus de 200 000 utilisateurs actifs quotidiens, base de code Swift de 450 000 lignes, 99,999 % sans plantage.",
       "bullets": [
-        "Hérité d'une base de code fragile avec des plantages fréquents ; introduit des outils internes, des bibliothèques réutilisables et des pratiques standardisées qui ont porté le taux sans plantage à 99,999 %",
+        "Amélioré la stabilité de la base de code ; introduit des outils internes, des bibliothèques réutilisables et des pratiques standardisées — atteint un taux sans plantage de 99,999 %",
         "Besoin de faire croître l'équipe rapidement ; intégré 20 développeurs sri-lankais avec un programme de formation sur mesure et des revues de code inter-fuseaux horaires, les rendant productifs en 3 mois",
         "Comblé les écarts entre l'ingénierie, la gestion de produit et le design UX ; établi des flux de collaboration alignant les solutions techniques avec les objectifs d'affaires",
         "Face à des mises en production lentes et manuelles ; automatisé les déploiements App Store de bout en bout, augmentant la cadence de 1/semaine à 4/jour et améliorant la vitesse de compilation CI de 50 %",
@@ -119,7 +119,7 @@
       "dates": "Nov 2019 — Oct 2021",
       "description": "Studio de développement mobile — direction de l'équipe iOS sur plus de 15 projets clients.",
       "bullets": [
-        "Constaté des efforts dupliqués sur plus de 15 projets clients ; conçu un framework iOS partagé qui a standardisé les pratiques, réduit la duplication et amélioré le délai de mise en marché",
+        "Conçu un framework iOS partagé utilisé sur plus de 15 projets clients ; réduction de la duplication de code et de l'effort de développement de 50 %",
         "Identifié des lacunes de communication entre les équipes ; établi des processus et outils de collaboration qui ont amélioré l'alignement avec la gestion de produit et le design UX",
         "Investi dans la croissance de l'équipe par le mentorat et des sessions de partage de connaissances, développant les ingénieurs juniors en contributeurs autonomes"
       ]

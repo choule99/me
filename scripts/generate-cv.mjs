@@ -40,11 +40,11 @@ const variants = [
         dates: "Oct 2021 — Present",
         description: "Connected worker platform with 200,000+ DAU helping manufacturers improve productivity and knowledge sharing on the factory floor.",
         bullets: [
-          "Inherited a fragile 450K-line codebase with frequent crashes; introduced internal tools, reusable libraries, and standardized practices that raised the crash-free rate to 99.999%",
+          "Improved stability of a 450K-line codebase; introduced internal tools, reusable libraries, and standardized practices — achieved 99.999% crash-free rate",
           "Faced slow, manual releases; built a CI/CD pipeline on MacStadium that improved build speeds by 50% and increased deployments from 1/week to 4/day",
           "Needed to scale the team fast; onboarded 20 Sri Lankan developers with a custom training curriculum, making them productive within 3 months",
           "Tackled low test coverage (30%); drove incremental testing alongside refactors, reaching 60% coverage over four years",
-          "Adopted AI-assisted tools (Claude) into the iOS team workflow, reducing coding time by 10%",
+          "Adopted AI-assisted tools (Claude) into the iOS team workflow, reducing coding time by 25%",
         ],
       },
       {
@@ -53,8 +53,8 @@ const variants = [
         dates: "Nov 2019 — Oct 2021",
         description: "Mobile development studio developing and maintaining applications for clients across retail, healthcare, media, and mobility.",
         bullets: [
-          "Managed 15+ concurrent client projects with duplicated effort across teams; designed a shared iOS framework of documented, unit-tested components that reduced duplication and improved time-to-market",
-          "Led the iOS team through full project lifecycles — planning, development, code review, and release — for Metro & Moi, Super C, FoodBasics, AbbVie, Le Devoir, Biodome de Montreal, Christies, TaxiCoop, and others",
+          "Designed shared iOS framework for use across 15+ client projects; reduced code duplication and development effort by 50%",
+          "Led the team in adopting a new development methodology; accelerated delivery cycles and improved quality — increased client satisfaction by 40%",
         ],
       },
       {
@@ -138,11 +138,11 @@ const variants = [
         description: "Connected worker platform — 200,000+ DAU, 450,000 lines of Swift + 55,000 lines legacy Obj-C, 99.999% crash-free.",
         bullets: [
           "Built and shipped a visionOS-native app; presented it to Apple, secured a Vision Pro Dev Kit for Poka, and launched the 1st Connected Worker Solution on the visionOS App Store",
-          "Inherited a fragile codebase with frequent crashes; implemented refactoring practices and quality processes that raised the crash-free rate to 99.999%",
+          "Improved codebase stability; implemented refactoring practices and quality processes — achieved 99.999% crash-free rate",
           "Faced slow, manual releases; built a CI/CD pipeline on MacStadium that improved build speeds by 50% and increased deployments from 1/week to 4/day",
           "Tackled low test coverage (30%); led an incremental testing initiative alongside refactors to SwiftUI, Combine, and modern architectures, reaching 60% over four years",
           "Needed to scale the team fast; onboarded 20 Sri Lankan developers with a custom training curriculum, making them productive within 3 months",
-          "Adopted AI-assisted tools (Claude) into the iOS team workflow, reducing coding time by 10%",
+          "Adopted AI-assisted tools (Claude) into the iOS team workflow, reducing coding time by 25%",
         ],
       },
       {
@@ -151,8 +151,8 @@ const variants = [
         dates: "Nov 2019 — Oct 2021",
         description: "Mobile development studio — led iOS team across 15+ client projects in retail, healthcare, media, and mobility.",
         bullets: [
-          "Found duplicated effort across 15+ client projects; designed a shared iOS framework of documented, unit-tested components that standardized patterns and accelerated delivery",
-          "Led the mobile team through full project lifecycles for Metro & Moi, Super C, FoodBasics, AbbVie, Le Devoir, Biodome de Montreal, Christies, TaxiCoop, and others",
+          "Designed shared iOS framework for use across 15+ client projects; reduced code duplication and development effort by 50%",
+          "Led the team in adopting a new development methodology; accelerated delivery cycles and improved quality — increased client satisfaction by 40%",
           "Owned CI/CD pipelines on MacStadium; automated App Store deployments and release processes across all client apps",
           "Mentored junior developers through 1:1 sessions and organized lunch-and-learns to foster continuous learning",
         ],
@@ -237,7 +237,7 @@ const variants = [
         dates: "Oct 2021 — Present",
         description: "Connected worker platform — 200,000+ DAU, 450,000-line Swift codebase, 99.999% crash-free.",
         bullets: [
-          "Inherited a fragile codebase with frequent crashes; introduced internal tools, reusable libraries, and standardized practices that raised the crash-free rate to 99.999%",
+          "Improved codebase stability; introduced internal tools, reusable libraries, and standardized practices — achieved 99.999% crash-free rate",
           "Needed to scale the team fast; onboarded 20 Sri Lankan developers with a custom training curriculum and cross-timezone code reviews, making them productive within 3 months",
           "Bridged gaps between engineering, Product Management, and UX Design; established collaboration workflows that aligned technical solutions with business goals",
           "Faced slow, manual releases; automated App Store deployments end-to-end, increasing cadence from 1/week to 4/day and improving CI build speeds by 50%",
@@ -250,7 +250,7 @@ const variants = [
         dates: "Nov 2019 — Oct 2021",
         description: "Mobile development studio — led iOS team across 15+ client projects.",
         bullets: [
-          "Found duplicated effort across 15+ client projects; designed a shared iOS framework that standardized patterns, reduced duplication, and improved time-to-market",
+          "Designed shared iOS framework for use across 15+ client projects; reduced code duplication and development effort by 50%",
           "Identified communication gaps between teams; established processes and collaboration tools that improved alignment with product management and UX design",
           "Invested in team growth through mentorship and knowledge-sharing sessions, developing junior engineers into independent contributors",
         ],
@@ -563,11 +563,11 @@ const variants = [
         dates: "Oct 2021 — Présent",
         description: "Plateforme pour travailleurs connectés avec plus de 200 000 utilisateurs actifs quotidiens aidant les manufacturiers à améliorer la productivité et le partage des connaissances en usine.",
         bullets: [
-          "Hérité d'une base de code fragile de 450K lignes avec des plantages fréquents ; introduit des outils internes, des bibliothèques réutilisables et des pratiques standardisées qui ont porté le taux sans plantage à 99,999 %",
+          "Amélioré la stabilité d'une base de code de 450K lignes ; introduit des outils internes, des bibliothèques réutilisables et des pratiques standardisées — atteint un taux sans plantage de 99,999 %",
           "Face à des mises en production lentes et manuelles ; construit un pipeline CI/CD sur MacStadium qui a amélioré la vitesse de compilation de 50 % et augmenté les déploiements de 1/semaine à 4/jour",
           "Besoin de faire croître l'équipe rapidement ; intégré 20 développeurs sri-lankais avec un programme de formation sur mesure, les rendant productifs en 3 mois",
           "Confronté à une faible couverture de tests (30 %) ; mené une initiative de tests incrémentale parallèlement aux refactorisations, atteignant 60 % en quatre ans",
-          "Adopté des outils assistés par IA (Claude) dans le flux de travail de l'équipe iOS, réduisant le temps de développement de 10 %",
+          "Adopté des outils assistés par IA (Claude) dans le flux de travail de l'équipe iOS, réduisant le temps de développement de 25 %",
         ],
       },
       {
@@ -576,8 +576,8 @@ const variants = [
         dates: "Nov 2019 — Oct 2021",
         description: "Studio de développement mobile développant et maintenant des applications pour des clients dans le commerce de détail, la santé, les médias et la mobilité.",
         bullets: [
-          "Géré plus de 15 projets clients simultanés avec des efforts dupliqués entre les équipes ; conçu un framework iOS partagé de composants documentés et testés qui a réduit la duplication et amélioré le délai de mise en marché",
-          "Dirigé l'équipe iOS à travers des cycles de vie complets — planification, développement, revue de code et mise en production — pour Metro & Moi, Super C, FoodBasics, AbbVie, Le Devoir, Biodôme de Montréal, Christies, TaxiCoop et autres",
+          "Conçu un framework iOS partagé utilisé sur plus de 15 projets clients ; réduction de la duplication de code et de l'effort de développement de 50 %",
+          "Dirigé l'adoption d'une nouvelle méthodologie de développement ; accéléré les cycles de livraison et amélioré la qualité — augmentation de la satisfaction client de 40 %",
         ],
       },
       {
@@ -674,11 +674,11 @@ const variants = [
         description: "Plateforme pour travailleurs connectés — plus de 200 000 utilisateurs actifs quotidiens, 450 000 lignes de Swift + 55 000 lignes legacy Obj-C, 99,999 % sans plantage.",
         bullets: [
           "Construit et livré une application native visionOS ; présentée à Apple, obtenu un Vision Pro Dev Kit pour Poka, et lancé la 1re solution pour travailleurs connectés sur l'App Store visionOS",
-          "Hérité d'une base de code fragile avec des plantages fréquents ; mis en place des pratiques de refactorisation et des processus qualité qui ont porté le taux sans plantage à 99,999 %",
+          "Amélioré la stabilité de la base de code ; mis en place des pratiques de refactorisation et des processus qualité — atteint un taux sans plantage de 99,999 %",
           "Face à des mises en production lentes et manuelles ; construit un pipeline CI/CD sur MacStadium qui a amélioré la vitesse de compilation de 50 % et augmenté les déploiements de 1/semaine à 4/jour",
           "Confronté à une faible couverture de tests (30 %) ; mené une initiative de tests incrémentale parallèlement aux refactorisations vers SwiftUI, Combine et des architectures modernes, atteignant 60 % en quatre ans",
           "Besoin de faire croître l'équipe rapidement ; intégré 20 développeurs sri-lankais avec un programme de formation sur mesure, les rendant productifs en 3 mois",
-          "Adopté des outils assistés par IA (Claude) dans le flux de travail de l'équipe iOS, réduisant le temps de développement de 10 %",
+          "Adopté des outils assistés par IA (Claude) dans le flux de travail de l'équipe iOS, réduisant le temps de développement de 25 %",
         ],
       },
       {
@@ -687,8 +687,8 @@ const variants = [
         dates: "Nov 2019 — Oct 2021",
         description: "Studio de développement mobile — direction de l'équipe iOS sur plus de 15 projets clients dans le commerce de détail, la santé, les médias et la mobilité.",
         bullets: [
-          "Constaté des efforts dupliqués sur plus de 15 projets clients ; conçu un framework iOS partagé de composants documentés et testés qui a standardisé les pratiques et accéléré les livraisons",
-          "Dirigé l'équipe mobile à travers des cycles de vie complets pour Metro & Moi, Super C, FoodBasics, AbbVie, Le Devoir, Biodôme de Montréal, Christies, TaxiCoop et autres",
+          "Conçu un framework iOS partagé utilisé sur plus de 15 projets clients ; réduction de la duplication de code et de l'effort de développement de 50 %",
+          "Dirigé l'adoption d'une nouvelle méthodologie de développement ; accéléré les cycles de livraison et amélioré la qualité — augmentation de la satisfaction client de 40 %",
           "Responsable des pipelines CI/CD sur MacStadium ; automatisé les déploiements App Store et les processus de mise en production pour toutes les applications clients",
           "Mentoré les développeurs juniors par des sessions individuelles et organisé des lunch-and-learns pour favoriser l'apprentissage continu",
         ],
@@ -786,7 +786,7 @@ const variants = [
         dates: "Oct 2021 — Présent",
         description: "Plateforme pour travailleurs connectés — plus de 200 000 utilisateurs actifs quotidiens, base de code Swift de 450 000 lignes, 99,999 % sans plantage.",
         bullets: [
-          "Hérité d'une base de code fragile avec des plantages fréquents ; introduit des outils internes, des bibliothèques réutilisables et des pratiques standardisées qui ont porté le taux sans plantage à 99,999 %",
+          "Amélioré la stabilité de la base de code ; introduit des outils internes, des bibliothèques réutilisables et des pratiques standardisées — atteint un taux sans plantage de 99,999 %",
           "Besoin de faire croître l'équipe rapidement ; intégré 20 développeurs sri-lankais avec un programme de formation sur mesure et des revues de code inter-fuseaux horaires, les rendant productifs en 3 mois",
           "Comblé les écarts entre l'ingénierie, la gestion de produit et le design UX ; établi des flux de collaboration alignant les solutions techniques avec les objectifs d'affaires",
           "Face à des mises en production lentes et manuelles ; automatisé les déploiements App Store de bout en bout, augmentant la cadence de 1/semaine à 4/jour et améliorant la vitesse de compilation CI de 50 %",
@@ -799,7 +799,7 @@ const variants = [
         dates: "Nov 2019 — Oct 2021",
         description: "Studio de développement mobile — direction de l'équipe iOS sur plus de 15 projets clients.",
         bullets: [
-          "Constaté des efforts dupliqués sur plus de 15 projets clients ; conçu un framework iOS partagé qui a standardisé les pratiques, réduit la duplication et amélioré le délai de mise en marché",
+          "Conçu un framework iOS partagé utilisé sur plus de 15 projets clients ; réduction de la duplication de code et de l'effort de développement de 50 %",
           "Identifié des lacunes de communication entre les équipes ; établi des processus et outils de collaboration qui ont amélioré l'alignement avec la gestion de produit et le design UX",
           "Investi dans la croissance de l'équipe par le mentorat et des sessions de partage de connaissances, développant les ingénieurs juniors en contributeurs autonomes",
         ],

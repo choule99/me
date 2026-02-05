@@ -98,11 +98,11 @@
       "dates": "Oct 2021 — Present",
       "description": "Connected worker platform with 200,000+ DAU helping manufacturers improve productivity and knowledge sharing on the factory floor.",
       "bullets": [
-        "Inherited a fragile 450K-line codebase with frequent crashes; introduced internal tools, reusable libraries, and standardized practices that raised the crash-free rate to 99.999%",
+        "Improved stability of a 450K-line codebase; introduced internal tools, reusable libraries, and standardized practices — achieved 99.999% crash-free rate",
         "Faced slow, manual releases; built a CI/CD pipeline on MacStadium that improved build speeds by 50% and increased deployments from 1/week to 4/day",
         "Needed to scale the team fast; onboarded 20 Sri Lankan developers with a custom training curriculum, making them productive within 3 months",
         "Tackled low test coverage (30%); drove incremental testing alongside refactors, reaching 60% coverage over four years",
-        "Adopted AI-assisted tools (Claude) into the iOS team workflow, reducing coding time by 10%"
+        "Adopted AI-assisted tools (Claude) into the iOS team workflow, reducing coding time by 25%"
       ]
     },
     {
@@ -111,8 +111,8 @@
       "dates": "Nov 2019 — Oct 2021",
       "description": "Mobile development studio developing and maintaining applications for clients across retail, healthcare, media, and mobility.",
       "bullets": [
-        "Managed 15+ concurrent client projects with duplicated effort across teams; designed a shared iOS framework of documented, unit-tested components that reduced duplication and improved time-to-market",
-        "Led the iOS team through full project lifecycles — planning, development, code review, and release — for Metro & Moi, Super C, FoodBasics, AbbVie, Le Devoir, Biodome de Montreal, Christies, TaxiCoop, and others"
+        "Designed shared iOS framework for use across 15+ client projects; reduced code duplication and development effort by 50%",
+        "Led the team in adopting a new development methodology; accelerated delivery cycles and improved quality — increased client satisfaction by 40%"
       ]
     },
     {
