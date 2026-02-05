@@ -1,82 +1,16 @@
 // CV Template for Claude Houle — Modern Design
 
 #let data = json(sys.inputs.at("data-file"))
-#let photo-path = sys.inputs.at("photo", default: none)
 
 #set document(title: data.name + " — " + data.title)
-#set page(paper: "us-letter", margin: (top: 0.5in, bottom: 0.4in, left: 0.5in, right: 0.5in))
-#set text(font: "Helvetica Neue", size: 9pt, fill: rgb("#2d2d2d"))
-#set par(justify: true, leading: 0.5em)
+#set page(paper: "us-letter", margin: (top: 0.45in, bottom: 0.38in, left: 0.5in, right: 0.5in))
+#set text(font: "Helvetica Neue", size: 11pt, fill: rgb("#2d2d2d"))
+#set par(justify: true, leading: 0.6em)
 
+// ── Color Palette ──
 #let accent = rgb("#1a3a5c")
-#let accent-light = rgb("#e8eef4")
-#let warm = rgb("#d4a853")
 #let text-secondary = rgb("#555555")
-
-// ── Header Banner (bleeds into margins on page 1) ──
-#pad(top: -0.5in, x: -0.5in)[
-  #block(
-    width: 100% + 1in,
-    inset: (x: 0.5in + 4pt, top: 22pt, bottom: 16pt),
-    fill: accent,
-  )[
-    #if photo-path != none {
-      grid(
-        columns: (60pt, 1fr),
-        column-gutter: 14pt,
-        box(
-          clip: true,
-          radius: 6pt,
-          width: 60pt,
-          height: 60pt,
-          image(photo-path, width: 60pt),
-        ),
-        [
-          #text(size: 20pt, weight: "bold", fill: white, tracking: 0.5pt, data.name)
-          #v(-2pt)
-          #text(size: 11pt, fill: warm, weight: "medium", data.title)
-          #v(1pt)
-          #text(size: 8pt, fill: rgb("#b0c4d8"))[
-            #data.email #h(6pt) | #h(6pt) #data.location #h(6pt) | #h(6pt) #data.web
-          ]
-        ],
-      )
-    } else {
-      [
-        #text(size: 20pt, weight: "bold", fill: white, tracking: 0.5pt, data.name)
-        #v(-2pt)
-        #text(size: 11pt, fill: warm, weight: "medium", data.title)
-        #v(1pt)
-        #text(size: 8pt, fill: rgb("#b0c4d8"))[
-          #data.email #h(6pt) | #h(6pt) #data.location #h(6pt) | #h(6pt) #data.web
-        ]
-      ]
-    }
-  ]
-]
-
-#v(4pt)
-
-// ── Helpers ──
-#let section-heading(title) = {
-  v(5pt)
-  block(width: 100%, inset: (x: 6pt, y: 3pt), fill: accent-light, radius: 3pt)[
-    #text(size: 10pt, weight: "bold", fill: accent, tracking: 0.8pt, upper(title))
-  ]
-  v(3pt)
-}
-
-#let skill-tag(label) = {
-  box(
-    inset: (x: 4pt, y: 2pt),
-    radius: 3pt,
-    fill: rgb("#f0f0f0"),
-    stroke: 0.4pt + rgb("#d0d0d0"),
-    text(size: 7.5pt, fill: rgb("#333333"), label),
-  )
-}
-
-#let padded(body) = pad(x: 4pt, body)
+#let text-light = rgb("#777777")
 
 // ── Section heading labels (with English fallbacks) ──
 #let sections = data.at("sections", default: (:))
@@ -86,97 +20,121 @@
 #let s-experience = sections.at("experience", default: "Professional Experience")
 #let s-education = sections.at("education", default: "Education")
 
+// ── Helpers ──
+
+#let section-heading(title) = {
+  v(16pt)
+  block(breakable: false)[
+    #text(size: 13pt, weight: "bold", fill: accent, title)
+    #v(-4pt)
+    #line(length: 40pt, stroke: 2.5pt + accent)
+  ]
+  v(2pt)
+}
+
+#let skill-tag(label) = {
+  text(size: 9pt, fill: rgb("#333333"), label)
+}
+
+#let bullet-item(content) = {
+  grid(
+    columns: (12pt, 1fr),
+    gutter: 0pt,
+    align(center + top, text(size: 8pt, fill: accent, "●")),
+    text(size: 10pt, content),
+  )
+  v(0.5pt)
+}
+
+// ── Header ──
+#block(breakable: false)[
+  #text(size: 27pt, weight: "bold", fill: accent, data.name)
+  #v(-8pt)
+  #text(size: 14pt, fill: text-secondary, data.title)
+  #v(-1pt)
+  #text(size: 10pt, fill: text-light)[
+    #data.email #h(5pt) #sym.bullet #h(5pt) #data.location #h(5pt) #sym.bullet #h(5pt) #data.web
+  ]
+  #v(2pt)
+  #line(length: 100%, stroke: 3pt + accent)
+]
+
+#v(2pt)
+
 // ── Summary ──
 #section-heading(s-profile)
-#padded[
-  #text(size: 9pt, fill: text-secondary, style: "italic", data.summary)
-]
+#text(size: 10.5pt, fill: text-secondary, style: "italic", data.summary)
 
 // ── Accomplishments ──
 #section-heading(s-accomplishments)
 
-#padded[
-  #for item in data.accomplishments {
-    grid(
-      columns: (12pt, 1fr),
-      gutter: 0pt,
-      align(center, text(size: 8pt, fill: warm, "-")),
-      text(size: 8.5pt, item),
-    )
-    v(1pt)
-  }
-]
+#for item in data.accomplishments {
+  bullet-item(item)
+  v(1pt)
+}
 
 // ── Skills ──
 #section-heading(s-skills)
 
-#padded[
-  #for (i, group) in data.skills.enumerate() {
-    if group.at("section", default: none) != none {
-      // Sub-header for skill groups
-      if i > 0 { v(3pt) }
-      text(weight: "bold", size: 8.5pt, fill: accent, group.section)
-      v(1.5pt)
+#{
+  set par(leading: 0.25em, spacing: 0.7em)
+  for entry in data.skills {
+    if entry.at("section", default: none) != none {
+      v(6pt)
+      text(weight: "bold", size: 10pt, fill: accent, entry.section)
+      v(1pt)
     } else {
-      // Regular skill row (indented)
-      pad(left: 8pt)[
-        #grid(
-          columns: (70pt, 1fr),
-          column-gutter: 6pt,
-          text(weight: "medium", size: 8pt, fill: text-secondary, group.label),
-          {
-            for item in group.items {
-              skill-tag(item)
+      grid(
+        columns: (80pt, 1fr),
+        column-gutter: 4pt,
+        align(right, text(weight: "medium", size: 9pt, fill: text-secondary, entry.label + ":")),
+        {
+          for (j, item) in entry.items.enumerate() {
+            skill-tag(item)
+            if j < entry.items.len() - 1 {
+              text(size: 9pt, fill: text-light, ",")
               h(2pt)
             }
-          },
-        )
-      ]
-      if i < data.skills.len() - 1 {
-        v(1.5pt)
-      }
-    }
-  }
-]
-
-#pagebreak()
-
-// ── Experience ──
-#section-heading(s-experience)
-
-#for (i, exp) in data.experience.enumerate() {
-  padded[
-    #grid(
-      columns: (1fr, auto),
-      [
-        #text(weight: "bold", size: 10pt, fill: accent, exp.company)
-        #h(6pt)
-        #text(size: 8.5pt, fill: text-secondary, style: "italic", exp.title)
-      ],
-      align(right, text(size: 8.5pt, fill: text-secondary, weight: "medium", exp.dates)),
-    )
-
-    #if exp.at("description", default: none) != none {
-      v(0.5pt)
-      text(size: 8pt, fill: text-secondary, exp.description)
-    }
-
-    #v(1.5pt)
-
-    #for bullet in exp.bullets {
-      grid(
-        columns: (12pt, 1fr),
-        gutter: 0pt,
-        align(center, text(size: 8pt, fill: warm, "-")),
-        text(size: 8.5pt, bullet),
+          }
+        },
       )
       v(0.5pt)
     }
-  ]
+  }
+}
 
-  if i < data.experience.len() - 1 {
-    line(start: (4pt, 0pt), length: 100% - 8pt, stroke: 0.3pt + rgb("#e0e0e0"))
-    v(3pt)
+// ── Experience ──
+// Group heading with first entry to prevent orphaned heading
+#{
+  section-heading(s-experience)
+
+  for (i, exp) in data.experience.enumerate() {
+    block(breakable: false, inset: (left: 8pt), stroke: (left: 3pt + accent))[
+      #grid(
+        columns: (1fr, auto),
+        [
+          #text(weight: "bold", size: 12pt, fill: accent, exp.company)
+        ],
+        align(right, text(size: 10pt, fill: text-light, weight: "medium", exp.dates)),
+      )
+      #v(-2pt)
+      #text(size: 10.5pt, weight: "medium", fill: text-secondary, exp.title)
+
+      #if exp.at("description", default: none) != none {
+        v(2pt)
+        text(size: 10pt, fill: text-secondary, exp.description)
+      }
+
+      #v(2pt)
+
+      #for bullet in exp.bullets {
+        bullet-item(bullet)
+      }
+    ]
+
+    if i < data.experience.len() - 1 {
+      v(6pt)
+    }
   }
 }
 
@@ -190,20 +148,20 @@
 ))
 #section-heading(s-education)
 
-#padded[
+#block(breakable: false, inset: (left: 8pt), stroke: (left: 3pt + accent))[
   #grid(
     columns: (1fr, auto),
     [
-      #text(weight: "bold", size: 10pt, fill: accent, edu.degree)
+      #text(weight: "bold", size: 12pt, fill: accent, edu.degree)
       #h(6pt)
-      #text(style: "italic", size: 8.5pt, fill: text-secondary, edu.school)
+      #text(style: "italic", size: 10pt, fill: text-secondary, edu.school)
     ],
-    align(right, text(size: 8.5pt, fill: text-secondary, weight: "medium", edu.dates)),
+    align(right, text(size: 10pt, fill: text-light, weight: "medium", edu.dates)),
   )
   #v(1pt)
-  #text(size: 8.5pt, edu.description)
+  #text(size: 10pt, edu.description)
   #if edu.at("capstone", default: none) != none {
     v(1pt)
-    text(size: 8.5pt, style: "italic", edu.capstone)
+    text(size: 10pt, style: "italic", edu.capstone)
   }
 ]
