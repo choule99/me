@@ -4,6 +4,7 @@
   "email": "claude.houle@gmail.com",
   "web": "choule99.github.io/me",
   "location": "Montréal, QC",
+  "phone": "450.723.3075",
   "sections": {
     "profile": "Profil",
     "accomplishments": "Réalisations clés",
@@ -12,11 +13,11 @@
     "education": "Formation Académique"
   },
   "education": {
-    "degree": "Techniques de l'informatique",
-    "school": "Cégep Édouard-Montpetit, Longueuil, QC",
+    "degree": "Technique de l'informatique",
+    "school": "Collège Édouard-Montpetit, Longueuil",
     "dates": "2003",
     "description": "Diplôme d'études collégiales (DEC) de trois ans couvrant le C, C++, Java, SQL, Linux et l'informatique appliquée.",
-    "capstone": "Projet de fin d'études : Réalisation technique d'un site Internet (e-commerce) pour une PME."
+    "capstone": "Projet de fin d'études : Réalisation technique d'un site Internet (e-commerce) pour une entreprise."
   },
   "summary": "Développeur backend avec plus de 23 ans d'expérience dans la construction de systèmes Java d'entreprise, d'architectures microservices et de plateformes de données à haut débit. Expertise approfondie de l'écosystème Spring, de l'optimisation de bases de données et des systèmes distribués. Bilan éprouvé dans la livraison de backends critiques pour les services financiers, le voyage et la fabrication — avec un accent sur la fiabilité, la mise à l'échelle et le leadership d'équipe.",
   "accomplishments": [

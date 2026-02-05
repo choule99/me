@@ -4,6 +4,7 @@
   "email": "claude.houle@gmail.com",
   "web": "choule99.github.io/me",
   "location": "Montreal, QC",
+  "phone": "450.723.3075",
   "summary": "iOS developer with 15+ years on Apple platforms and 23+ years total in software development. I specialize in building reliable, scalable mobile products — from architecting shared libraries to leading distributed teams. Passionate about code quality, CI/CD automation, and emerging technologies like visionOS, I turn technical visions into concrete, user-centered solutions.",
   "accomplishments": [
     "Stabilized a 450,000-line Swift codebase (200,000 DAU): Achieved 99.999% crash-free session rate and accelerated release cadence from 1/week to 4/day.",
@@ -112,7 +113,7 @@
   "experience": [
     {
       "company": "Poka Inc.",
-      "title": "Architect, Lead iOS, Lead VisionOS",
+      "title": "Architect, Lead iOS & VisionOS",
       "dates": "2021 — Present",
       "description": "Architect and technical leader for a leading connected worker platform serving 200,000+ daily active users. Driving evolution toward modern architectures (SwiftUI, Combine) while maintaining legacy systems (Obj-C), ensuring critical stability at 99.999%.",
       "bullets": [
@@ -120,7 +121,7 @@
         "Operational Excellence: Major refactoring effort that raised stability to 99.999% crash-free and doubled test coverage (30% to 60%)",
         "CI/CD Performance: Migrated pipeline to MacStadium, accelerating builds by 50% and enabling 4 daily releases (up from 1/week)",
         "Team Leadership: Recruited and trained a distributed team of 20 developers internationally — operational within 3 months",
-        "AI Integration: Optimized workflows through adoption of generative AI tools (Claude), reducing development time by 25%"
+        "AI Integration: Optimized workflows through adoption of generative AI tools (Claude, Warp), reducing development time by 10%"
       ]
     },
     {
@@ -137,7 +138,7 @@
     },
     {
       "company": "Spiria Digital",
-      "title": "Senior iOS Developer, Architect",
+      "title": "Senior iOS Developer & Architect",
       "dates": "2013 — 2019",
       "description": "Architect responsible for designing and evolving custom mobile solutions for major clients. Led the technical aspects of critical projects from requirements definition through go-to-market.",
       "bullets": [

@@ -1,6 +1,6 @@
 ---
 company: "Poka.io"
-title: "Architecte, Lead iOS, Lead VisionOS"
+title: "Architecte, Lead iOS & VisionOS"
 dates: "2021 - Présent"
 order: 1
 lang: "fr"
@@ -28,4 +28,4 @@ Poka est une plateforme de travailleur connecté comptant plus de 200 000 utilis
 - Mentorat individuel, revues de code et accompagnement de développement de carrière
 - Organisation de sessions « lunch-and-learn » récurrentes pour favoriser l'apprentissage continu
 - Construction d'outils et modèles de développement internes pour améliorer productivité et cohérence
-- Intégration d'outils assistés par IA (Claude) dans le flux de travail, réduisant le temps de développement de 25 %
+- Intégration d'outils assistés par IA (Claude, Warp) dans le flux de travail, réduisant le temps de développement de 10 %

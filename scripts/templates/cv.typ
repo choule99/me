@@ -53,7 +53,7 @@
   #text(size: 14pt, fill: text-secondary, data.title)
   #v(-1pt)
   #text(size: 10pt, fill: text-light)[
-    #data.email #h(5pt) #sym.bullet #h(5pt) #data.location #h(5pt) #sym.bullet #h(5pt) #data.web
+    #data.email #h(5pt) #sym.bullet #h(5pt) #data.phone #h(5pt) #sym.bullet #h(5pt) #data.location #h(5pt) #sym.bullet #h(5pt) #data.web
   ]
   #v(2pt)
   #line(length: 100%, stroke: 3pt + accent)

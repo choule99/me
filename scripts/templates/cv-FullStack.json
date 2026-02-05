@@ -4,6 +4,7 @@
   "email": "claude.houle@gmail.com",
   "web": "choule99.github.io/me",
   "location": "Montreal, QC",
+  "phone": "450.723.3075",
   "summary": "Software developer with 23+ years of experience across backend systems, mobile platforms, and web applications. Proven ability to architect and deliver production software spanning the full stack — from Spring Boot backends and Angular frontends to native iOS and Android clients — with a focus on quality, mentorship, and continuous improvement.",
   "accomplishments": [
     "Led a production iOS app serving 200,000+ DAU with 99.999% crash-free rate across a 450K-line Swift codebase",
@@ -115,14 +116,14 @@
   "experience": [
     {
       "company": "Poka Inc.",
-      "title": "Architect, Lead iOS, Lead VisionOS",
+      "title": "Architect, Lead iOS & VisionOS",
       "dates": "2021 — Present",
       "description": "Technical leader for a connected worker platform serving 200,000+ DAU. Driving full-stack evolution across mobile clients and backend integrations while ensuring 99.999% stability.",
       "bullets": [
         "Operational Excellence: Major refactoring of 450K-line codebase — raised stability to 99.999% crash-free and doubled test coverage (30% to 60%)",
         "CI/CD Performance: Migrated pipeline to MacStadium, accelerating builds by 50% and enabling 4 daily releases (up from 1/week)",
         "Team Leadership: Recruited and trained a distributed team of 20 developers internationally — operational within 3 months",
-        "AI Integration: Optimized workflows through adoption of generative AI tools (Claude), reducing development time by 25%"
+        "AI Integration: Optimized workflows through adoption of generative AI tools (Claude, Warp), reducing development time by 10%"
       ]
     },
     {

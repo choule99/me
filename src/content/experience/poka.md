@@ -1,6 +1,6 @@
 ---
 company: "Poka.io"
-title: "Architect, Lead iOS, Lead VisionOS"
+title: "Architect, Lead iOS & VisionOS"
 dates: "2021 - Present"
 order: 1
 description: "Technical architect for a connected worker platform serving 200,000+ DAU. Leading architectural evolution, team transformation, and cross-functional alignment across a 450K-line codebase."
@@ -27,4 +27,4 @@ Poka is a connected worker platform with over 200,000 daily active users that he
 - Provided 1:1 mentorship, code reviews, and career-development guidance
 - Organized recurring lunch-and-learn sessions to foster continuous learning
 - Built internal developer tools and templates to boost productivity and consistency
-- Integrated AI-assisted tools (Claude) into the team workflow, reducing development time by 25%
+- Integrated AI-assisted tools (Claude, Warp) into the team workflow, reducing development time by 10%

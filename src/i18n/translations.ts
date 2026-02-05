@@ -71,7 +71,7 @@ export const translations = {
     "tech.ai": "AI",
     "tech.aiP1": "I'm excited by AI's potential to transform software engineering. Developers won't disappear - we'll be even more essential to steer AI toward robust, ethical, and maintainable solutions. The discipline is changing rapidly, enabling greater productivity and new kinds of creativity that weren't feasible before.",
     "tech.claudeCode": "Claude Code",
-    "tech.claudeCodeDesc": "Claude Code is my current choice for agentic workflows, with flexible custom commands, MCPs, and sub-agents that enable flows not easily replicated in other IDE integrations. At Poka, adoption of Claude reduced development time by 25%.",
+    "tech.claudeCodeDesc": "Claude Code is my current choice for agentic workflows, with flexible custom commands, MCPs, and sub-agents that enable flows not easily replicated in other IDE integrations. At Poka, adoption of Claude reduced development time by 10%.",
     "tech.aiTasks": "AI-Assisted Tasks",
     "tech.aiTasksDesc": "Tasks historically difficult to justify due to low ROI can now be completed efficiently: modernizing legacy codebases, generating API layers, maintaining documentation, generating unit tests, and refactoring tightly coupled code.",
 
@@ -210,7 +210,7 @@ export const translations = {
     "tech.ai": "IA",
     "tech.aiP1": "Je suis enthousiaste face au potentiel de l'IA pour transformer le génie logiciel. Les développeurs ne disparaîtront pas — nous serons encore plus essentiels pour orienter l'IA vers des solutions robustes, éthiques et maintenables. La discipline évolue rapidement, permettant une plus grande productivité et de nouveaux types de créativité qui n'étaient pas réalisables auparavant.",
     "tech.claudeCode": "Claude Code",
-    "tech.claudeCodeDesc": "Claude Code est mon choix actuel pour les flux de travail agentiques, avec des commandes personnalisées flexibles, des MCP et des sous-agents permettant des flux difficilement reproductibles dans d'autres intégrations IDE. Chez Poka, l'adoption de Claude a réduit le temps de développement de 25 %.",
+    "tech.claudeCodeDesc": "Claude Code est mon choix actuel pour les flux de travail agentiques, avec des commandes personnalisées flexibles, des MCP et des sous-agents permettant des flux difficilement reproductibles dans d'autres intégrations IDE. Chez Poka, l'adoption de Claude a réduit le temps de développement de 10 %.",
     "tech.aiTasks": "Tâches assistées par l'IA",
     "tech.aiTasksDesc": "Des tâches historiquement difficiles à justifier en raison d'un faible retour sur investissement peuvent désormais être réalisées efficacement : modernisation de bases de code héritées, génération de couches API, maintenance de documentation, génération de tests unitaires et refactorisation de code fortement couplé.",
 

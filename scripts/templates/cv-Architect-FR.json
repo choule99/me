@@ -4,6 +4,7 @@
   "email": "claude.houle@gmail.com",
   "web": "choule99.github.io/me",
   "location": "Montréal, QC",
+  "phone": "450.723.3075",
   "sections": {
     "profile": "Profil",
     "accomplishments": "Réalisations clés",
@@ -12,11 +13,11 @@
     "education": "Formation Académique"
   },
   "education": {
-    "degree": "Techniques de l'informatique",
-    "school": "Cégep Édouard-Montpetit, Longueuil, QC",
+    "degree": "Technique de l'informatique",
+    "school": "Collège Édouard-Montpetit, Longueuil",
     "dates": "2003",
     "description": "Diplôme d'études collégiales (DEC) de trois ans couvrant le C, C++, Java, SQL, Linux et l'informatique appliquée.",
-    "capstone": "Projet de fin d'études : Réalisation technique d'un site Internet (e-commerce) pour une PME."
+    "capstone": "Projet de fin d'études : Réalisation technique d'un site Internet (e-commerce) pour une entreprise."
   },
   "summary": "Architecte logiciel avec plus de 23 ans d'expérience pratique dans la conception et la livraison de systèmes backend, mobiles et web. Leadership éprouvé en architecture de solutions, transformation d'équipes, mentorat et collaboration interfonctionnelle. Combine une vaste expertise technique avec une approche orientée produit pour aligner l'ingénierie avec les objectifs d'affaires.",
   "accomplishments": [
@@ -131,7 +132,7 @@
   "experience": [
     {
       "company": "Poka Inc.",
-      "title": "Architecte, Lead iOS, Lead VisionOS",
+      "title": "Architecte, Lead iOS & VisionOS",
       "dates": "2021 — Présent",
       "description": "Architecte technique d'une plateforme pour travailleurs connectés servant plus de 200 000 utilisateurs actifs quotidiens. Direction de l'évolution architecturale, transformation d'équipe et alignement interfonctionnel sur une base de code de 450K lignes.",
       "bullets": [

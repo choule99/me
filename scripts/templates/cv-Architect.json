@@ -4,6 +4,7 @@
   "email": "claude.houle@gmail.com",
   "web": "choule99.github.io/me",
   "location": "Montreal, QC",
+  "phone": "450.723.3075",
   "summary": "Software architect with 23+ years of hands-on experience designing and delivering systems across backend, mobile, and web. Proven leadership in solution architecture, team transformation, mentorship, and cross-functional collaboration. Combines deep technical breadth with a product-minded approach to align engineering with business outcomes.",
   "accomplishments": [
     "Transformed an 8-person iOS team into a high-performing unit — crash-free rate to 99.999%, deployments from 1/week to 4/day, build speeds improved 50%",
@@ -117,7 +118,7 @@
   "experience": [
     {
       "company": "Poka Inc.",
-      "title": "Architect, Lead iOS, Lead VisionOS",
+      "title": "Architect, Lead iOS & VisionOS",
       "dates": "2021 — Present",
       "description": "Technical architect for a connected worker platform serving 200,000+ DAU. Leading architectural evolution, team transformation, and cross-functional alignment across a 450K-line codebase.",
       "bullets": [

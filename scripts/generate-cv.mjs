@@ -16,6 +16,7 @@ const variants = [
     web: "choule99.github.io/me",
 
     location: "Montreal, QC",
+    phone: "450.723.3075",
     summary: "Software developer with 23+ years of experience across backend systems, mobile platforms, and web applications. Proven ability to architect and deliver production software spanning the full stack — from Spring Boot backends and Angular frontends to native iOS and Android clients — with a focus on quality, mentorship, and continuous improvement.",
     accomplishments: [
       "Led a production iOS app serving 200,000+ DAU with 99.999% crash-free rate across a 450K-line Swift codebase",
@@ -42,14 +43,14 @@ const variants = [
     experience: [
       {
         company: "Poka Inc.",
-        title: "Architect, Lead iOS, Lead VisionOS",
+        title: "Architect, Lead iOS & VisionOS",
         dates: "2021 — Present",
         description: "Technical leader for a connected worker platform serving 200,000+ DAU. Driving full-stack evolution across mobile clients and backend integrations while ensuring 99.999% stability.",
         bullets: [
           "Operational Excellence: Major refactoring of 450K-line codebase — raised stability to 99.999% crash-free and doubled test coverage (30% to 60%)",
           "CI/CD Performance: Migrated pipeline to MacStadium, accelerating builds by 50% and enabling 4 daily releases (up from 1/week)",
           "Team Leadership: Recruited and trained a distributed team of 20 developers internationally — operational within 3 months",
-          "AI Integration: Optimized workflows through adoption of generative AI tools (Claude), reducing development time by 25%",
+          "AI Integration: Optimized workflows through adoption of generative AI tools (Claude, Warp), reducing development time by 10%",
         ],
       },
       {
@@ -121,6 +122,7 @@ const variants = [
     web: "choule99.github.io/me",
 
     location: "Montreal, QC",
+    phone: "450.723.3075",
     summary: "iOS developer with 15+ years on Apple platforms and 23+ years total in software development. I specialize in building reliable, scalable mobile products — from architecting shared libraries to leading distributed teams. Passionate about code quality, CI/CD automation, and emerging technologies like visionOS, I turn technical visions into concrete, user-centered solutions.",
     accomplishments: [
       "Stabilized a 450,000-line Swift codebase (200,000 DAU): Achieved 99.999% crash-free session rate and accelerated release cadence from 1/week to 4/day.",
@@ -147,7 +149,7 @@ const variants = [
     experience: [
       {
         company: "Poka Inc.",
-        title: "Architect, Lead iOS, Lead VisionOS",
+        title: "Architect, Lead iOS & VisionOS",
         dates: "2021 — Present",
         description: "Architect and technical leader for a leading connected worker platform serving 200,000+ daily active users. Driving evolution toward modern architectures (SwiftUI, Combine) while maintaining legacy systems (Obj-C), ensuring critical stability at 99.999%.",
         bullets: [
@@ -155,7 +157,7 @@ const variants = [
           "Operational Excellence: Major refactoring effort that raised stability to 99.999% crash-free and doubled test coverage (30% to 60%)",
           "CI/CD Performance: Migrated pipeline to MacStadium, accelerating builds by 50% and enabling 4 daily releases (up from 1/week)",
           "Team Leadership: Recruited and trained a distributed team of 20 developers internationally — operational within 3 months",
-          "AI Integration: Optimized workflows through adoption of generative AI tools (Claude), reducing development time by 25%",
+          "AI Integration: Optimized workflows through adoption of generative AI tools (Claude, Warp), reducing development time by 10%",
         ],
       },
       {
@@ -172,7 +174,7 @@ const variants = [
       },
       {
         company: "Spiria Digital",
-        title: "Senior iOS Developer, Architect",
+        title: "Senior iOS Developer & Architect",
         dates: "2013 — 2019",
         description: "Architect responsible for designing and evolving custom mobile solutions for major clients. Led the technical aspects of critical projects from requirements definition through go-to-market.",
         bullets: [
@@ -226,6 +228,7 @@ const variants = [
     web: "choule99.github.io/me",
 
     location: "Montreal, QC",
+    phone: "450.723.3075",
     summary: "Software architect with 23+ years of hands-on experience designing and delivering systems across backend, mobile, and web. Proven leadership in solution architecture, team transformation, mentorship, and cross-functional collaboration. Combines deep technical breadth with a product-minded approach to align engineering with business outcomes.",
     accomplishments: [
       "Transformed an 8-person iOS team into a high-performing unit — crash-free rate to 99.999%, deployments from 1/week to 4/day, build speeds improved 50%",
@@ -252,7 +255,7 @@ const variants = [
     experience: [
       {
         company: "Poka Inc.",
-        title: "Architect, Lead iOS, Lead VisionOS",
+        title: "Architect, Lead iOS & VisionOS",
         dates: "2021 — Present",
         description: "Technical architect for a connected worker platform serving 200,000+ DAU. Leading architectural evolution, team transformation, and cross-functional alignment across a 450K-line codebase.",
         bullets: [
@@ -333,6 +336,7 @@ const variants = [
     web: "choule99.github.io/me",
 
     location: "Montreal, QC",
+    phone: "450.723.3075",
     summary: "Backend developer with 23+ years of experience building enterprise Java systems, microservices architectures, and high-throughput data platforms. Deep expertise in Spring ecosystem, database optimization, and distributed systems. Proven track record delivering mission-critical backends for financial services, travel, and manufacturing — with a focus on reliability, scalability, and team leadership.",
     accomplishments: [
       "Architected and delivered the Ibiza travel platform rebuild at Accovia — Java/Spring/Hibernate backend serving major travel operators, delivered on time after critical client recovery",
@@ -438,6 +442,7 @@ const variants = [
     email: "claude.houle@gmail.com",
     web: "choule99.github.io/me",
     location: "Montréal, QC",
+    phone: "450.723.3075",
     sections: {
       profile: "Profil",
       accomplishments: "Réalisations clés",
@@ -446,11 +451,11 @@ const variants = [
       education: "Formation Académique",
     },
     education: {
-      degree: "Techniques de l'informatique",
-      school: "Cégep Édouard-Montpetit, Longueuil, QC",
+      degree: "Technique de l'informatique",
+      school: "Collège Édouard-Montpetit, Longueuil",
       dates: "2003",
       description: "Diplôme d'études collégiales (DEC) de trois ans couvrant le C, C++, Java, SQL, Linux et l'informatique appliquée.",
-      capstone: "Projet de fin d'études : Réalisation technique d'un site Internet (e-commerce) pour une PME.",
+      capstone: "Projet de fin d'études : Réalisation technique d'un site Internet (e-commerce) pour une entreprise.",
     },
     summary: "Développeur backend avec plus de 23 ans d'expérience dans la construction de systèmes Java d'entreprise, d'architectures microservices et de plateformes de données à haut débit. Expertise approfondie de l'écosystème Spring, de l'optimisation de bases de données et des systèmes distribués. Bilan éprouvé dans la livraison de backends critiques pour les services financiers, le voyage et la fabrication — avec un accent sur la fiabilité, la mise à l'échelle et le leadership d'équipe.",
     accomplishments: [
@@ -554,6 +559,7 @@ const variants = [
     email: "claude.houle@gmail.com",
     web: "choule99.github.io/me",
     location: "Montréal, QC",
+    phone: "450.723.3075",
     sections: {
       profile: "Profil",
       accomplishments: "Réalisations clés",
@@ -562,11 +568,11 @@ const variants = [
       education: "Formation Académique",
     },
     education: {
-      degree: "Techniques de l'informatique",
-      school: "Cégep Édouard-Montpetit, Longueuil, QC",
+      degree: "Technique de l'informatique",
+      school: "Collège Édouard-Montpetit, Longueuil",
       dates: "2003",
       description: "Diplôme d'études collégiales (DEC) de trois ans couvrant le C, C++, Java, SQL, Linux et l'informatique appliquée.",
-      capstone: "Projet de fin d'études : Réalisation technique d'un site Internet (e-commerce) pour une PME.",
+      capstone: "Projet de fin d'études : Réalisation technique d'un site Internet (e-commerce) pour une entreprise.",
     },
     summary: "Développeur logiciel avec plus de 23 ans d'expérience en systèmes backend, plateformes mobiles et applications web. Capacité éprouvée à concevoir et livrer des logiciels de production couvrant l'ensemble de la pile technologique — des backends Spring Boot et frontends Angular aux clients natifs iOS et Android — avec un accent sur la qualité, le mentorat et l'amélioration continue.",
     accomplishments: [
@@ -594,14 +600,14 @@ const variants = [
     experience: [
       {
         company: "Poka Inc.",
-        title: "Architecte, Lead iOS, Lead VisionOS",
+        title: "Architecte, Lead iOS & VisionOS",
         dates: "2021 — Présent",
         description: "Leader technique d'une plateforme pour travailleurs connectés servant plus de 200 000 utilisateurs actifs quotidiens. Pilotage de l'évolution full-stack des clients mobiles et intégrations backend, garantissant une stabilité de 99,999 %.",
         bullets: [
           "Excellence opérationnelle : Refactorisation majeure d'une base de code de 450K lignes — stabilité portée à 99,999 % et couverture de tests doublée (30 % à 60 %)",
           "Performance CI/CD : Migration du pipeline sur MacStadium, accélérant la compilation de 50 % et permettant 4 mises en production quotidiennes (vs 1/semaine)",
           "Leadership d'équipe : Recrutement et formation d'une équipe distribuée de 20 développeurs à l'international — opérationnelle en 3 mois",
-          "Intégration de l'IA : Optimisation des flux de travail via adoption d'outils d'IA générative (Claude), réduisant le temps de développement de 25 %",
+          "Intégration de l'IA : Optimisation des flux de travail via adoption d'outils d'IA générative (Claude, Warp), réduisant le temps de développement de 10 %",
         ],
       },
       {
@@ -672,6 +678,7 @@ const variants = [
     email: "claude.houle@gmail.com",
     web: "choule99.github.io/me",
     location: "Montréal, QC",
+    phone: "450.723.3075",
     sections: {
       profile: "Profil",
       accomplishments: "Réalisations clés",
@@ -680,11 +687,11 @@ const variants = [
       education: "Formation Académique",
     },
     education: {
-      degree: "Techniques de l'informatique",
-      school: "Cégep Édouard-Montpetit, Longueuil, QC",
+      degree: "Technique de l'informatique",
+      school: "Collège Édouard-Montpetit, Longueuil",
       dates: "2003",
       description: "Diplôme d'études collégiales (DEC) de trois ans couvrant le C, C++, Java, SQL, Linux et l'informatique appliquée.",
-      capstone: "Projet de fin d'études : Réalisation technique d'un site Internet (e-commerce) pour une PME.",
+      capstone: "Projet de fin d'études : Réalisation technique d'un site Internet (e-commerce) pour une entreprise.",
     },
     summary: "Développeur iOS avec plus de 15 ans sur les plateformes Apple et totalisant plus de 23 ans d'expérience en développement logiciel. Je me spécialise dans la création de produits mobiles fiables et évolutifs — de l'architecture de bibliothèques partagées au pilotage technique d'équipes distribuées. Passionné par la qualité du code, l'automatisation CI/CD et l'adoption de technologies émergentes comme visionOS, je transforme les visions technologiques en solutions concrètes, durables et centrées sur l'utilisateur.",
     accomplishments: [
@@ -712,7 +719,7 @@ const variants = [
     experience: [
       {
         company: "Poka Inc.",
-        title: "Architecte, Lead iOS, Lead VisionOS",
+        title: "Architecte, Lead iOS & VisionOS",
         dates: "2021 — Présent",
         description: "Architecte et leader technique d'une plateforme de référence pour travailleurs connectés servant quotidiennement plus de 200 000 utilisateurs actifs. J'assure l'évolution vers des architectures modernes (SwiftUI, Combine) et la maintenance du legacy (Obj-C), tout en garantissant une stabilité critique de 99,999 %.",
         bullets: [
@@ -720,7 +727,7 @@ const variants = [
           "Excellence opérationnelle : Refactorisation majeure ayant augmenté le taux de stabilité à 99,999 % et doublé la couverture de tests (de 30 % à 60 %)",
           "Performance CI/CD : Migration du pipeline sur MacStadium, accélérant la compilation de 50 % et permettant de passer de 1 à 4 mises en production quotidiennes",
           "Leadership d'équipe : Recrutement et formation sur mesure d'une équipe distribuée de 20 développeurs à l'international, opérationnelle en seulement 3 mois",
-          "Intégration de l'IA : Optimisation des flux de travail via l'adoption d'outils d'IA générative (Claude), réduisant le temps de développement de 25 %",
+          "Intégration de l'IA : Optimisation des flux de travail via l'adoption d'outils d'IA générative (Claude, Warp), réduisant le temps de développement de 10 %",
         ],
       },
       {
@@ -737,7 +744,7 @@ const variants = [
       },
       {
         company: "Spiria Digital",
-        title: "Développeur iOS sénior, Architecte",
+        title: "Développeur iOS sénior & Architecte",
         dates: "2013 — 2019",
         description: "Architecte responsable de la conception et de l'évolution de solutions mobiles sur mesure pour des clients d'envergure. J'ai piloté l'aspect technique de projets critiques, de la définition des exigences jusqu'à la mise en marché.",
         bullets: [
@@ -790,6 +797,7 @@ const variants = [
     email: "claude.houle@gmail.com",
     web: "choule99.github.io/me",
     location: "Montréal, QC",
+    phone: "450.723.3075",
     sections: {
       profile: "Profil",
       accomplishments: "Réalisations clés",
@@ -798,11 +806,11 @@ const variants = [
       education: "Formation Académique",
     },
     education: {
-      degree: "Techniques de l'informatique",
-      school: "Cégep Édouard-Montpetit, Longueuil, QC",
+      degree: "Technique de l'informatique",
+      school: "Collège Édouard-Montpetit, Longueuil",
       dates: "2003",
       description: "Diplôme d'études collégiales (DEC) de trois ans couvrant le C, C++, Java, SQL, Linux et l'informatique appliquée.",
-      capstone: "Projet de fin d'études : Réalisation technique d'un site Internet (e-commerce) pour une PME.",
+      capstone: "Projet de fin d'études : Réalisation technique d'un site Internet (e-commerce) pour une entreprise.",
     },
     summary: "Architecte logiciel avec plus de 23 ans d'expérience pratique dans la conception et la livraison de systèmes backend, mobiles et web. Leadership éprouvé en architecture de solutions, transformation d'équipes, mentorat et collaboration interfonctionnelle. Combine une vaste expertise technique avec une approche orientée produit pour aligner l'ingénierie avec les objectifs d'affaires.",
     accomplishments: [
@@ -830,7 +838,7 @@ const variants = [
     experience: [
       {
         company: "Poka Inc.",
-        title: "Architecte, Lead iOS, Lead VisionOS",
+        title: "Architecte, Lead iOS & VisionOS",
         dates: "2021 — Présent",
         description: "Architecte technique d'une plateforme pour travailleurs connectés servant plus de 200 000 utilisateurs actifs quotidiens. Direction de l'évolution architecturale, transformation d'équipe et alignement interfonctionnel sur une base de code de 450K lignes.",
         bullets: [

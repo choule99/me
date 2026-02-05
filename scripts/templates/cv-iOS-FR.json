@@ -4,6 +4,7 @@
   "email": "claude.houle@gmail.com",
   "web": "choule99.github.io/me",
   "location": "Montréal, QC",
+  "phone": "450.723.3075",
   "sections": {
     "profile": "Profil",
     "accomplishments": "Réalisations clés",
@@ -12,11 +13,11 @@
     "education": "Formation Académique"
   },
   "education": {
-    "degree": "Techniques de l'informatique",
-    "school": "Cégep Édouard-Montpetit, Longueuil, QC",
+    "degree": "Technique de l'informatique",
+    "school": "Collège Édouard-Montpetit, Longueuil",
     "dates": "2003",
     "description": "Diplôme d'études collégiales (DEC) de trois ans couvrant le C, C++, Java, SQL, Linux et l'informatique appliquée.",
-    "capstone": "Projet de fin d'études : Réalisation technique d'un site Internet (e-commerce) pour une PME."
+    "capstone": "Projet de fin d'études : Réalisation technique d'un site Internet (e-commerce) pour une entreprise."
   },
   "summary": "Développeur iOS avec plus de 15 ans sur les plateformes Apple et totalisant plus de 23 ans d'expérience en développement logiciel. Je me spécialise dans la création de produits mobiles fiables et évolutifs — de l'architecture de bibliothèques partagées au pilotage technique d'équipes distribuées. Passionné par la qualité du code, l'automatisation CI/CD et l'adoption de technologies émergentes comme visionOS, je transforme les visions technologiques en solutions concrètes, durables et centrées sur l'utilisateur.",
   "accomplishments": [
@@ -126,7 +127,7 @@
   "experience": [
     {
       "company": "Poka Inc.",
-      "title": "Architecte, Lead iOS, Lead VisionOS",
+      "title": "Architecte, Lead iOS & VisionOS",
       "dates": "2021 — Présent",
       "description": "Architecte et leader technique d'une plateforme de référence pour travailleurs connectés servant quotidiennement plus de 200 000 utilisateurs actifs. J'assure l'évolution vers des architectures modernes (SwiftUI, Combine) et la maintenance du legacy (Obj-C), tout en garantissant une stabilité critique de 99,999 %.",
       "bullets": [
@@ -134,7 +135,7 @@
         "Excellence opérationnelle : Refactorisation majeure ayant augmenté le taux de stabilité à 99,999 % et doublé la couverture de tests (de 30 % à 60 %)",
         "Performance CI/CD : Migration du pipeline sur MacStadium, accélérant la compilation de 50 % et permettant de passer de 1 à 4 mises en production quotidiennes",
         "Leadership d'équipe : Recrutement et formation sur mesure d'une équipe distribuée de 20 développeurs à l'international, opérationnelle en seulement 3 mois",
-        "Intégration de l'IA : Optimisation des flux de travail via l'adoption d'outils d'IA générative (Claude), réduisant le temps de développement de 25 %"
+        "Intégration de l'IA : Optimisation des flux de travail via l'adoption d'outils d'IA générative (Claude, Warp), réduisant le temps de développement de 10 %"
       ]
     },
     {
@@ -151,7 +152,7 @@
     },
     {
       "company": "Spiria Digital",
-      "title": "Développeur iOS sénior, Architecte",
+      "title": "Développeur iOS sénior & Architecte",
       "dates": "2013 — 2019",
       "description": "Architecte responsable de la conception et de l'évolution de solutions mobiles sur mesure pour des clients d'envergure. J'ai piloté l'aspect technique de projets critiques, de la définition des exigences jusqu'à la mise en marché.",
       "bullets": [

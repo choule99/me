@@ -4,6 +4,7 @@
   "email": "claude.houle@gmail.com",
   "web": "choule99.github.io/me",
   "location": "Montréal, QC",
+  "phone": "450.723.3075",
   "sections": {
     "profile": "Profil",
     "accomplishments": "Réalisations clés",
@@ -12,11 +13,11 @@
     "education": "Formation Académique"
   },
   "education": {
-    "degree": "Techniques de l'informatique",
-    "school": "Cégep Édouard-Montpetit, Longueuil, QC",
+    "degree": "Technique de l'informatique",
+    "school": "Collège Édouard-Montpetit, Longueuil",
     "dates": "2003",
     "description": "Diplôme d'études collégiales (DEC) de trois ans couvrant le C, C++, Java, SQL, Linux et l'informatique appliquée.",
-    "capstone": "Projet de fin d'études : Réalisation technique d'un site Internet (e-commerce) pour une PME."
+    "capstone": "Projet de fin d'études : Réalisation technique d'un site Internet (e-commerce) pour une entreprise."
   },
   "summary": "Développeur logiciel avec plus de 23 ans d'expérience en systèmes backend, plateformes mobiles et applications web. Capacité éprouvée à concevoir et livrer des logiciels de production couvrant l'ensemble de la pile technologique — des backends Spring Boot et frontends Angular aux clients natifs iOS et Android — avec un accent sur la qualité, le mentorat et l'amélioration continue.",
   "accomplishments": [
@@ -129,14 +130,14 @@
   "experience": [
     {
       "company": "Poka Inc.",
-      "title": "Architecte, Lead iOS, Lead VisionOS",
+      "title": "Architecte, Lead iOS & VisionOS",
       "dates": "2021 — Présent",
       "description": "Leader technique d'une plateforme pour travailleurs connectés servant plus de 200 000 utilisateurs actifs quotidiens. Pilotage de l'évolution full-stack des clients mobiles et intégrations backend, garantissant une stabilité de 99,999 %.",
       "bullets": [
         "Excellence opérationnelle : Refactorisation majeure d'une base de code de 450K lignes — stabilité portée à 99,999 % et couverture de tests doublée (30 % à 60 %)",
         "Performance CI/CD : Migration du pipeline sur MacStadium, accélérant la compilation de 50 % et permettant 4 mises en production quotidiennes (vs 1/semaine)",
         "Leadership d'équipe : Recrutement et formation d'une équipe distribuée de 20 développeurs à l'international — opérationnelle en 3 mois",
-        "Intégration de l'IA : Optimisation des flux de travail via adoption d'outils d'IA générative (Claude), réduisant le temps de développement de 25 %"
+        "Intégration de l'IA : Optimisation des flux de travail via adoption d'outils d'IA générative (Claude, Warp), réduisant le temps de développement de 10 %"
       ]
     },
     {
