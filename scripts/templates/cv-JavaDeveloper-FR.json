@@ -129,13 +129,13 @@
   "experience": [
     {
       "company": "Poka Inc.",
-      "title": "Architecte, Lead iOS, Lead VisionOS",
+      "title": "Architecte technique",
       "dates": "2021 — Présent",
-      "description": "Architecte technique d'une plateforme pour travailleurs connectés servant plus de 200 000 utilisateurs actifs quotidiens. Conception des intégrations backend, contrats d'API et stratégies de synchronisation pour les clients mobiles.",
+      "description": "Architecte technique d'une plateforme pour travailleurs connectés servant plus de 200 000 utilisateurs actifs quotidiens. Conception des contrats d'API REST et stratégies de synchronisation reliant les équipes frontend et backend.",
       "bullets": [
-        "Conception API : Élaboration des contrats d'API et stratégies de synchronisation des données entre clients mobiles et services backend — fiabilité à grande échelle",
-        "Standards d'ingénierie : Mise en place des pratiques de revue de code et standards au sein de l'équipe, améliorant qualité et cohérence",
-        "Collaboration backend : Participation aux décisions d'architecture de services, apportant la perspective mobile à la conception des API",
+        "Architecture API : Conception des contrats d'API REST assurant l'interopérabilité entre clients mobiles et microservices backend — adoptés comme standard par les équipes frontend et backend",
+        "Standards inter-équipes : Établissement de standards d'ingénierie partagés, pratiques de revue de code et conventions d'API à travers les équipes frontend et backend",
+        "Synchronisation de données : Architecture des stratégies de synchronisation pour clients mobiles offline-first — cohérence et fiabilité à travers services distribués",
         "Intégration d'équipe : Formation de 20 développeurs avec programme sur mesure couvrant patterns d'architecture et meilleures pratiques — opérationnels en 3 mois"
       ]
     },
@@ -166,10 +166,10 @@
       "company": "8D Technologies",
       "title": "Développeur Java back-end → Développeur iOS",
       "dates": "2009 — 2013",
-      "description": "Ingénieur backend pour systèmes de mobilité urbaine (Bixi). Construction de services Java traitant les événements en temps réel des kiosques de vélo-partage déployés dans les grandes villes.",
+      "description": "Ingénieur backend pour systèmes de mobilité urbaine (Bixi). Construction de services Java événementiels traitant les données en temps réel des kiosques de vélo-partage déployés dans les grandes villes.",
       "bullets": [
-        "Services backend : Construction des services Java pour Solstice — traitement des transactions, gestion des stations, APIs de disponibilité en temps réel",
-        "Pipelines de données : Conception des pipelines gérant la télémétrie à haut volume des stations de point de vente solaires (Londres, New York)",
+        "Services événementiels : Construction des services Java pour Solstice avec architecture événementielle — traitement transactionnel en temps réel, gestion d'état des stations et APIs de disponibilité",
+        "Pipelines de données : Conception de pipelines à haut débit traitant la télémétrie des kiosques solaires (Londres, New York) — event sourcing pour le suivi d'état et de disponibilité des stations",
         "Transition full-stack : Passage au développement iOS, apportant l'expertise backend pour améliorer la conception des API"
       ]
     },
@@ -186,7 +186,7 @@
       "title": "Consultant Java (Morgan Stanley)",
       "dates": "2005 — 2007",
       "bullets": [
-        "Migration mainframe : Projet Libra — migration mainframe vers Java/DB2 sous exigences de conformité financière ; équipe distribuée mondialement"
+        "Migration mainframe : Projet Libra — migration du traitement batch COBOL et pipelines de données vers Java/DB2 avec patterns d'intégration événementiels ; conformité financière, équipe distribuée mondialement"
       ]
     },
     {

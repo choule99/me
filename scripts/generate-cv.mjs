@@ -236,7 +236,7 @@ const variants = [
     ],
     skills: [
       { section: "Architecture & Design" },
-      { label: "Architecture", items: ["Solution Architecture", "API Design", "System Integration", "Data Modeling", "Distributed Systems"] },
+      { label: "Disciplines", items: ["Solution Architecture", "API Design", "System Integration", "Data Modeling", "Distributed Systems"] },
       { label: "Patterns", items: ["Microservices", "Event-Driven", "CQRS", "Clean Architecture", "SOLID"] },
       { section: "Technical Stack" },
       { label: "Languages", items: ["Java", "Swift", "Kotlin", "TypeScript", "SQL", "Python"] },
@@ -358,13 +358,13 @@ const variants = [
     experience: [
       {
         company: "Poka Inc.",
-        title: "Architect, Lead iOS, Lead VisionOS",
+        title: "Technical Architect",
         dates: "2021 — Present",
-        description: "Technical architect for a connected worker platform serving 200,000+ DAU. Designing backend integrations, API contracts, and data synchronization strategies for mobile clients.",
+        description: "Technical architect for a connected worker platform serving 200,000+ DAU. Designed REST API contracts and data synchronization strategies bridging frontend and backend teams.",
         bullets: [
-          "API Design: Designed API contracts and data synchronization strategies between mobile clients and backend services — ensuring reliability at scale",
-          "Engineering Standards: Established code review practices and engineering standards across the development team, improving quality and consistency",
-          "Backend Collaboration: Collaborated with backend teams on service architecture decisions, bringing mobile perspective to API design",
+          "API Architecture: Designed REST API contracts enabling seamless interoperability between mobile clients and backend microservices — adopted as the standard across frontend and backend teams",
+          "Cross-Team Standards: Established shared engineering standards, code review practices, and API conventions across frontend and backend development teams",
+          "Data Synchronization: Architected data sync strategies for offline-first mobile clients — ensuring consistency and reliability across distributed services",
           "Team Onboarding: Trained 20 developers with custom curriculum covering architecture patterns and best practices — operational within 3 months",
         ],
       },
@@ -395,10 +395,10 @@ const variants = [
         company: "8D Technologies",
         title: "Back-End Java Developer → iOS Developer",
         dates: "2009 — 2013",
-        description: "Backend engineer for urban mobility systems (Bixi). Built Java services processing real-time events from bike-sharing kiosks deployed across major cities.",
+        description: "Backend engineer for urban mobility systems (Bixi). Built event-driven Java services processing real-time data from bike-sharing kiosks deployed across major cities.",
         bullets: [
-          "Backend Services: Built Java services for Solstice bike-sharing — transaction processing, station management, real-time availability APIs",
-          "Data Pipelines: Designed pipelines handling high-volume telemetry from solar-powered POS stations across London and NYC deployments",
+          "Event-Driven Services: Built Java services for Solstice using event-driven architecture — real-time transaction processing, station state management, and availability APIs",
+          "Data Pipelines: Designed high-throughput pipelines processing telemetry from solar-powered POS kiosks (London, NYC) — event sourcing for station state tracking and availability",
           "Full-Stack Transition: Transitioned to iOS development, bringing backend expertise that bridged system layers and improved API design",
         ],
       },
@@ -415,7 +415,7 @@ const variants = [
         title: "Java Consultant (Morgan Stanley)",
         dates: "2005 — 2007",
         bullets: [
-          "Mainframe Migration: Libra project — migrated mainframe to Java/DB2 under financial compliance requirements; globally distributed team",
+          "Mainframe Migration: Libra project — migrated COBOL batch processing and data pipelines to Java/DB2 with event-driven integration patterns; financial compliance, globally distributed team",
         ],
       },
       {
@@ -477,13 +477,13 @@ const variants = [
     experience: [
       {
         company: "Poka Inc.",
-        title: "Architecte, Lead iOS, Lead VisionOS",
+        title: "Architecte technique",
         dates: "2021 — Présent",
-        description: "Architecte technique d'une plateforme pour travailleurs connectés servant plus de 200 000 utilisateurs actifs quotidiens. Conception des intégrations backend, contrats d'API et stratégies de synchronisation pour les clients mobiles.",
+        description: "Architecte technique d'une plateforme pour travailleurs connectés servant plus de 200 000 utilisateurs actifs quotidiens. Conception des contrats d'API REST et stratégies de synchronisation reliant les équipes frontend et backend.",
         bullets: [
-          "Conception API : Élaboration des contrats d'API et stratégies de synchronisation des données entre clients mobiles et services backend — fiabilité à grande échelle",
-          "Standards d'ingénierie : Mise en place des pratiques de revue de code et standards au sein de l'équipe, améliorant qualité et cohérence",
-          "Collaboration backend : Participation aux décisions d'architecture de services, apportant la perspective mobile à la conception des API",
+          "Architecture API : Conception des contrats d'API REST assurant l'interopérabilité entre clients mobiles et microservices backend — adoptés comme standard par les équipes frontend et backend",
+          "Standards inter-équipes : Établissement de standards d'ingénierie partagés, pratiques de revue de code et conventions d'API à travers les équipes frontend et backend",
+          "Synchronisation de données : Architecture des stratégies de synchronisation pour clients mobiles offline-first — cohérence et fiabilité à travers services distribués",
           "Intégration d'équipe : Formation de 20 développeurs avec programme sur mesure couvrant patterns d'architecture et meilleures pratiques — opérationnels en 3 mois",
         ],
       },
@@ -514,10 +514,10 @@ const variants = [
         company: "8D Technologies",
         title: "Développeur Java back-end → Développeur iOS",
         dates: "2009 — 2013",
-        description: "Ingénieur backend pour systèmes de mobilité urbaine (Bixi). Construction de services Java traitant les événements en temps réel des kiosques de vélo-partage déployés dans les grandes villes.",
+        description: "Ingénieur backend pour systèmes de mobilité urbaine (Bixi). Construction de services Java événementiels traitant les données en temps réel des kiosques de vélo-partage déployés dans les grandes villes.",
         bullets: [
-          "Services backend : Construction des services Java pour Solstice — traitement des transactions, gestion des stations, APIs de disponibilité en temps réel",
-          "Pipelines de données : Conception des pipelines gérant la télémétrie à haut volume des stations de point de vente solaires (Londres, New York)",
+          "Services événementiels : Construction des services Java pour Solstice avec architecture événementielle — traitement transactionnel en temps réel, gestion d'état des stations et APIs de disponibilité",
+          "Pipelines de données : Conception de pipelines à haut débit traitant la télémétrie des kiosques solaires (Londres, New York) — event sourcing pour le suivi d'état et de disponibilité des stations",
           "Transition full-stack : Passage au développement iOS, apportant l'expertise backend pour améliorer la conception des API",
         ],
       },
@@ -534,7 +534,7 @@ const variants = [
         title: "Consultant Java (Morgan Stanley)",
         dates: "2005 — 2007",
         bullets: [
-          "Migration mainframe : Projet Libra — migration mainframe vers Java/DB2 sous exigences de conformité financière ; équipe distribuée mondialement",
+          "Migration mainframe : Projet Libra — migration du traitement batch COBOL et pipelines de données vers Java/DB2 avec patterns d'intégration événementiels ; conformité financière, équipe distribuée mondialement",
         ],
       },
       {
@@ -814,7 +814,7 @@ const variants = [
     ],
     skills: [
       { section: "Architecture & Design" },
-      { label: "Architecture", items: ["Solution Architecture", "API Design", "System Integration", "Data Modeling", "Distributed Systems"] },
+      { label: "Disciplines", items: ["Solution Architecture", "API Design", "System Integration", "Data Modeling", "Distributed Systems"] },
       { label: "Patterns", items: ["Microservices", "Event-Driven", "CQRS", "Clean Architecture", "SOLID"] },
       { section: "Stack Technique" },
       { label: "Langages", items: ["Java", "Swift", "Kotlin", "TypeScript", "SQL", "Python"] },

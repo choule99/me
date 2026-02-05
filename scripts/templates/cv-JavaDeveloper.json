@@ -115,13 +115,13 @@
   "experience": [
     {
       "company": "Poka Inc.",
-      "title": "Architect, Lead iOS, Lead VisionOS",
+      "title": "Technical Architect",
       "dates": "2021 — Present",
-      "description": "Technical architect for a connected worker platform serving 200,000+ DAU. Designing backend integrations, API contracts, and data synchronization strategies for mobile clients.",
+      "description": "Technical architect for a connected worker platform serving 200,000+ DAU. Designed REST API contracts and data synchronization strategies bridging frontend and backend teams.",
       "bullets": [
-        "API Design: Designed API contracts and data synchronization strategies between mobile clients and backend services — ensuring reliability at scale",
-        "Engineering Standards: Established code review practices and engineering standards across the development team, improving quality and consistency",
-        "Backend Collaboration: Collaborated with backend teams on service architecture decisions, bringing mobile perspective to API design",
+        "API Architecture: Designed REST API contracts enabling seamless interoperability between mobile clients and backend microservices — adopted as the standard across frontend and backend teams",
+        "Cross-Team Standards: Established shared engineering standards, code review practices, and API conventions across frontend and backend development teams",
+        "Data Synchronization: Architected data sync strategies for offline-first mobile clients — ensuring consistency and reliability across distributed services",
         "Team Onboarding: Trained 20 developers with custom curriculum covering architecture patterns and best practices — operational within 3 months"
       ]
     },
@@ -152,10 +152,10 @@
       "company": "8D Technologies",
       "title": "Back-End Java Developer → iOS Developer",
       "dates": "2009 — 2013",
-      "description": "Backend engineer for urban mobility systems (Bixi). Built Java services processing real-time events from bike-sharing kiosks deployed across major cities.",
+      "description": "Backend engineer for urban mobility systems (Bixi). Built event-driven Java services processing real-time data from bike-sharing kiosks deployed across major cities.",
       "bullets": [
-        "Backend Services: Built Java services for Solstice bike-sharing — transaction processing, station management, real-time availability APIs",
-        "Data Pipelines: Designed pipelines handling high-volume telemetry from solar-powered POS stations across London and NYC deployments",
+        "Event-Driven Services: Built Java services for Solstice using event-driven architecture — real-time transaction processing, station state management, and availability APIs",
+        "Data Pipelines: Designed high-throughput pipelines processing telemetry from solar-powered POS kiosks (London, NYC) — event sourcing for station state tracking and availability",
         "Full-Stack Transition: Transitioned to iOS development, bringing backend expertise that bridged system layers and improved API design"
       ]
     },
@@ -172,7 +172,7 @@
       "title": "Java Consultant (Morgan Stanley)",
       "dates": "2005 — 2007",
       "bullets": [
-        "Mainframe Migration: Libra project — migrated mainframe to Java/DB2 under financial compliance requirements; globally distributed team"
+        "Mainframe Migration: Libra project — migrated COBOL batch processing and data pipelines to Java/DB2 with event-driven integration patterns; financial compliance, globally distributed team"
       ]
     },
     {
