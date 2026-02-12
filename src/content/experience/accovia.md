@@ -1,9 +1,9 @@
 ---
 company: "Accovia"
-title: "Back-End Java Developer — Architecture Team"
+title: "Senior Back-End Java Developer"
 dates: "2007 - 2009"
 order: 5
-description: "Architecture Team member on the Ibiza Project — rebuilt travel platform with Java/Spring/Hibernate after critical client recovery."
+description: "Senior developer on the Ibiza Project — rebuilt travel platform with Java/Spring/Hibernate after critical client recovery."
 ---
 
 ### Key Achievement

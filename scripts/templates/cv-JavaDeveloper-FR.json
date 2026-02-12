@@ -1,6 +1,6 @@
 {
   "name": "Claude Houle",
-  "title": "Développeur Java sénior & Architecte backend",
+  "title": "Développeur Java sénior & Ingénieur backend",
   "email": "claude.houle@gmail.com",
   "web": "choule99.github.io/me",
   "location": "Montréal, QC",
@@ -16,10 +16,10 @@
     "degree": "Technique de l'informatique",
     "school": "Collège Édouard-Montpetit, Longueuil",
     "dates": "2003",
-    "description": "Diplôme d'études collégiales (DEC) de trois ans couvrant le C, C++, Java, SQL, Linux et l'informatique appliquée.",
+    "description": "Diplôme d'études collégiales (DEC) de trois ans couvrant le C, C++, JavaScript, SQL, Linux et l'informatique appliquée.",
     "capstone": "Projet de fin d'études : Réalisation technique d'un site Internet (e-commerce) pour une entreprise."
   },
-  "summary": "Développeur backend avec plus de 23 ans d'expérience dans la construction de systèmes Java d'entreprise, d'architectures microservices et de plateformes de données à haut débit. Expertise approfondie de l'écosystème Spring, de l'optimisation de bases de données et des systèmes distribués. Bilan éprouvé dans la livraison de backends critiques pour les services financiers, le voyage et la fabrication — avec un accent sur la fiabilité, la mise à l'échelle et le leadership d'équipe.",
+  "summary": "Ingénieur backend sénior avec une expérience approfondie dans la construction de systèmes Java d'entreprise, d'architectures microservices et de plateformes de données à haut débit. Accent marqué sur la fiabilité, la stabilité, les tests et une architecture pragmatique à travers l'écosystème Spring et les systèmes distribués.",
   "accomplishments": [
     "Conçu et livré la reconstruction de la plateforme de voyage Ibiza chez Accovia — backend Java/Spring/Hibernate servant les principaux opérateurs de voyage, livré à temps après un redressement client critique",
     "Construit les services backend de la plateforme Solstice de 8D Technologies — système Java traitant les événements en temps réel des kiosques de vélo-partage Bixi déployés dans des villes à travers le monde",
@@ -130,14 +130,14 @@
   "experience": [
     {
       "company": "Poka Inc.",
-      "title": "Architecte technique",
+      "title": "Lead développeur",
       "dates": "2021 — Présent",
-      "description": "Architecte technique d'une plateforme pour travailleurs connectés servant plus de 200 000 utilisateurs actifs quotidiens. Conception des contrats d'API REST et stratégies de synchronisation reliant les équipes frontend et backend.",
+      "description": "Développeur sénior d'une plateforme pour travailleurs connectés servant plus de 200 000 utilisateurs actifs quotidiens. Conception des contrats d'API REST et stratégies de synchronisation reliant les équipes frontend et backend.",
       "bullets": [
         "Architecture API : Conception des contrats d'API REST assurant l'interopérabilité entre clients mobiles et microservices backend — adoptés comme standard par les équipes frontend et backend",
         "Standards inter-équipes : Établissement de standards d'ingénierie partagés, pratiques de revue de code et conventions d'API à travers les équipes frontend et backend",
         "Synchronisation de données : Architecture des stratégies de synchronisation pour clients mobiles offline-first — cohérence et fiabilité à travers services distribués",
-        "Intégration d'équipe : Formation de 20 développeurs avec programme sur mesure couvrant patterns d'architecture et meilleures pratiques — opérationnels en 3 mois"
+        "Mentorat technique : Mentorat technique et formation sur les patterns d'architecture et meilleures pratiques pour 20 développeurs — opérationnels en 3 mois"
       ]
     },
     {
@@ -153,9 +153,9 @@
     },
     {
       "company": "Spiria Digital",
-      "title": "Architecte logiciel, Développeur sénior",
+      "title": "Développeur logiciel sénior",
       "dates": "2013 — 2019",
-      "description": "Architecte de solutions pour engagements clients d'entreprise. Direction de l'architecture backend, contrats d'API et modélisation de données pour systèmes multi-tiers complexes.",
+      "description": "Développeur sénior pour engagements clients d'entreprise. Direction de l'architecture backend, contrats d'API et modélisation de données pour systèmes multi-tiers complexes.",
       "bullets": [
         "CAE PreStudy : Architecture backend avec Spring Boot, APIs RESTful et couche de persistance pour plateforme de formation des pilotes d'aviation",
         "Acosta SLTouch : Architecture des services backend Node.js et pipelines d'agrégation de données pour plateforme d'analytique de détail",
@@ -192,7 +192,7 @@
     },
     {
       "company": "Mediagrif",
-      "title": "Développeur Java — Équipe d'infrastructure",
+      "title": "Développeur Java",
       "dates": "2003 — 2005",
       "bullets": [
         "Services de base : Construction des services backend et patterns d'infrastructure partagés adoptés par plusieurs équipes e-commerce"

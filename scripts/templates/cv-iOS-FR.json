@@ -1,6 +1,6 @@
 {
   "name": "Claude Houle",
-  "title": "Lead développeur iOS & Architecte mobile",
+  "title": "Développeur iOS sénior",
   "email": "claude.houle@gmail.com",
   "web": "choule99.github.io/me",
   "location": "Montréal, QC",
@@ -16,15 +16,15 @@
     "degree": "Technique de l'informatique",
     "school": "Collège Édouard-Montpetit, Longueuil",
     "dates": "2003",
-    "description": "Diplôme d'études collégiales (DEC) de trois ans couvrant le C, C++, Java, SQL, Linux et l'informatique appliquée.",
+    "description": "Diplôme d'études collégiales (DEC) de trois ans couvrant le C, C++, JavaScript, SQL, Linux et l'informatique appliquée.",
     "capstone": "Projet de fin d'études : Réalisation technique d'un site Internet (e-commerce) pour une entreprise."
   },
-  "summary": "Développeur iOS avec plus de 15 ans sur les plateformes Apple et totalisant plus de 23 ans d'expérience en développement logiciel. Je me spécialise dans la création de produits mobiles fiables et évolutifs — de l'architecture de bibliothèques partagées au pilotage technique d'équipes distribuées. Passionné par la qualité du code, l'automatisation CI/CD et l'adoption de technologies émergentes comme visionOS, je transforme les visions technologiques en solutions concrètes, durables et centrées sur l'utilisateur.",
+  "summary": "Ingénieur iOS sénior avec une expérience approfondie dans la création de produits mobiles fiables et évolutifs sur les plateformes Apple. Passionné par la qualité du code, l'automatisation CI/CD et les technologies émergentes comme visionOS, avec un accent marqué sur la stabilité, les tests et une architecture pragmatique.",
   "accomplishments": [
     "Stabilisé une base de code Swift de 450 000 lignes (200 000 DAU) : Atteint un taux de sessions sans incident de 99,999 % et accéléré la cadence de mise en production de 1/semaine à 4/jour.",
     "Conçu et livré une application native visionOS sélectionnée par Apple pour l'obtention d'un Vision Pro Dev Kit ; lancée en tant que 1re solution pour travailleurs connectés sur l'App Store visionOS.",
     "Automatisé les déploiements App Store de bout en bout : Augmentation de la cadence de mise en production de 1/semaine à 4/jour et accélération de la compilation CI de 50 %.",
-    "Accéléré la montée en compétence de 20 développeurs à l'international via un programme de formation sur mesure — équipe opérationnelle en 3 mois.",
+    "Mentorat technique et revues de code pour 20 développeurs intégrés à l'international — équipe opérationnelle en 3 mois.",
     "Conçu une bibliothèque de composants iOS partagée, standardisant les pratiques et accélérant la livraison de plus de 15 projets clients."
   ],
   "skills": [
@@ -105,8 +105,7 @@
       "items": [
         "Mentorat",
         "Code Review",
-        "Standardisation de code",
-        "Recrutement technique"
+        "Standardisation de code"
       ]
     },
     {
@@ -127,14 +126,14 @@
   "experience": [
     {
       "company": "Poka Inc.",
-      "title": "Architecte, Lead iOS & VisionOS",
+      "title": "Lead développeur, iOS & VisionOS",
       "dates": "2021 — Présent",
-      "description": "Architecte et leader technique d'une plateforme de référence pour travailleurs connectés servant quotidiennement plus de 200 000 utilisateurs actifs. J'assure l'évolution vers des architectures modernes (SwiftUI, Combine) et la maintenance du legacy (Obj-C), tout en garantissant une stabilité critique de 99,999 %.",
+      "description": "Développeur sénior d'une plateforme de référence pour travailleurs connectés servant quotidiennement plus de 200 000 utilisateurs actifs. Pilotage de l'évolution vers des architectures modernes (SwiftUI, Combine) et maintenance du legacy (Obj-C), tout en garantissant une stabilité critique de 99,999 %.",
       "bullets": [
         "Innovation visionOS : Encadrement complet du développement de la 1re solution industrielle sur l'App Store visionOS (obtention du Vision Pro Dev Kit après revue par Apple)",
         "Excellence opérationnelle : Refactorisation majeure ayant augmenté le taux de stabilité à 99,999 % et doublé la couverture de tests (de 30 % à 60 %)",
         "Performance CI/CD : Migration du pipeline sur MacStadium, accélérant la compilation de 50 % et permettant de passer de 1 à 4 mises en production quotidiennes",
-        "Leadership d'équipe : Recrutement et formation sur mesure d'une équipe distribuée de 20 développeurs à l'international, opérationnelle en seulement 3 mois",
+        "Mentorat technique : Mentorat technique et revues de code pour une équipe distribuée de 20 développeurs à l'international — opérationnelle en 3 mois",
         "Intégration de l'IA : Optimisation des flux de travail via l'adoption d'outils d'IA générative (Claude, Warp), réduisant le temps de développement de 10 %"
       ]
     },
@@ -152,9 +151,9 @@
     },
     {
       "company": "Spiria Digital",
-      "title": "Développeur iOS sénior & Architecte",
+      "title": "Développeur iOS sénior",
       "dates": "2013 — 2019",
-      "description": "Architecte responsable de la conception et de l'évolution de solutions mobiles sur mesure pour des clients d'envergure. J'ai piloté l'aspect technique de projets critiques, de la définition des exigences jusqu'à la mise en marché.",
+      "description": "Développeur sénior responsable de la conception et de l'évolution de solutions mobiles sur mesure pour des clients d'envergure. Pilotage de l'aspect technique de projets critiques, de la définition des exigences jusqu'à la mise en marché.",
       "bullets": [
         "CAE PreStudy : Architecture et développement de bout en bout d'une application native iOS destinée à la formation haute performance des pilotes d'aviation",
         "Payfare (DiDi/Lyft) : Développement des clients mobiles pour une plateforme de paiement en temps réel pour les acteurs des services de mobilité et de transport (économie collaborative)",
@@ -174,7 +173,7 @@
     },
     {
       "company": "Accovia",
-      "title": "Développeur Java back-end",
+      "title": "Développeur Java back-end sénior",
       "dates": "2007 — 2009",
       "bullets": [
         "Contribution au redressement et à la reconstruction complète de la plateforme Ibiza (Java, Spring, Hibernate) suite à des enjeux clients critiques"

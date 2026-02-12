@@ -1,20 +1,20 @@
 ---
-company: "Poka.io"
-title: "Architect, Lead iOS & VisionOS"
+company: "Poka Inc."
+title: "Lead Developer, iOS & VisionOS"
 dates: "2021 - Present"
 order: 1
-description: "Technical architect for a connected worker platform serving 200,000+ DAU. Leading architectural evolution, team transformation, and cross-functional alignment across a 450K-line codebase."
+description: "Senior developer on a connected worker platform serving 200,000+ DAU. Driving technical evolution, cross-functional alignment, and hands-on contributions across a 450K-line codebase."
 ---
 
 Poka is a connected worker platform with over 200,000 daily active users that helps manufacturers improve productivity and knowledge sharing on the factory floor. The iOS application is supported by a mature, production-grade codebase of 450,000 lines of Swift and 55,000 lines of legacy Objective-C, while consistently maintaining a crash-free session rate above 99.999%.
 
 ### Key Achievements
 
-**Architecture Leadership** — Introduced internal tools, reusable libraries, and standardized practices that transformed an 8-person iOS team into a high-performing unit. These initiatives standardized best practices, accelerated onboarding, and significantly increased throughput — raising stability to 99.999% crash-free.
+**Technical Leadership** — Introduced internal tools, reusable libraries, and standardized practices that transformed an 8-person iOS team into a high-performing unit. These initiatives standardized best practices, accelerated onboarding, and significantly increased throughput — raising stability to 99.999% crash-free.
 
 **visionOS Innovation** — Led end-to-end development of the 1st industrial solution on the visionOS App Store. Initially tasked with porting the existing iOS app, I independently designed and built a visionOS-native application that pushed SDK boundaries. Following a demo to Apple, Poka secured a Vision Pro Dev Kit.
 
-**Team Scaling** — Onboarded 20 developers internationally with custom training curriculum and cross-timezone code reviews — operational within 3 months. Fostered collaborative culture by bridging cultural gaps and promoting mutual understanding.
+**Technical Mentorship** — Provided technical mentorship, training curriculum, and cross-timezone code reviews for 20 developers onboarded internationally — operational within 3 months. Fostered collaborative culture by bridging cultural gaps and promoting mutual understanding.
 
 **Quality Engineering** — Increased test coverage from 30% to 60% over four years through incremental testing alongside architectural modernization and refactors to modern technologies.
 

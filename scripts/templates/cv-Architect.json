@@ -5,11 +5,11 @@
   "web": "choule99.github.io/me",
   "location": "Montreal, QC",
   "phone": "450.723.3075",
-  "summary": "Software architect with 23+ years of hands-on experience designing and delivering systems across backend, mobile, and web. Proven leadership in solution architecture, team transformation, mentorship, and cross-functional collaboration. Combines deep technical breadth with a product-minded approach to align engineering with business outcomes.",
+  "summary": "Senior hands-on software architect with deep experience designing and delivering systems across backend, mobile, and web. Combines technical breadth with a product-minded approach — aligning engineering with business outcomes through pragmatic architecture, mentorship, and cross-functional collaboration.",
   "accomplishments": [
     "Transformed an 8-person iOS team into a high-performing unit — crash-free rate to 99.999%, deployments from 1/week to 4/day, build speeds improved 50%",
     "Led architecture of a visionOS-native app — 1st Connected Worker Solution on the visionOS App Store, securing an Apple Vision Pro Dev Kit",
-    "Onboarded and integrated 20 developers internationally — designed training curriculum and built collaborative culture across time zones, productive within 3 months",
+    "Provided technical mentorship, training curriculum, and code reviews for 20 developers onboarded internationally — productive within 3 months",
     "Architected CAE's pilot training platform end-to-end: Spring backend, Angular frontend, and native iOS client",
     "Delivered the Accovia Ibiza platform rebuild on time and on budget after a critical client recovery — as a member of the core Architecture Team"
   ],
@@ -123,7 +123,7 @@
       "description": "Technical architect for a connected worker platform serving 200,000+ DAU. Leading architectural evolution, team transformation, and cross-functional alignment across a 450K-line codebase.",
       "bullets": [
         "Architecture Leadership: Introduced internal tools, reusable libraries, and standardized practices — achieved 99.999% crash-free rate",
-        "Team Scaling: Onboarded 20 developers internationally with custom training curriculum and cross-timezone code reviews — operational within 3 months",
+        "Technical Mentorship: Provided technical mentorship, training curriculum, and cross-timezone code reviews for 20 developers onboarded internationally — operational within 3 months",
         "Cross-functional Alignment: Bridged engineering, Product Management, and UX Design; established collaboration workflows aligning technical solutions with business goals",
         "CI/CD Architecture: Automated App Store deployments end-to-end; increased release cadence from 1/week to 4/day, improved build speeds by 50%",
         "Quality Engineering: Increased test coverage from 30% to 60% over four years through incremental testing alongside architectural modernization"
@@ -157,7 +157,7 @@
       "company": "8D Technologies",
       "title": "Back-End Java Developer → iOS Developer",
       "dates": "2009 — 2013",
-      "description": "Pioneer in urban mobility architecture (Bixi) within a team combining hardware and software. Designed systems for city-wide deployments under real-world constraints.",
+      "description": "Pioneer in urban mobility software (Bixi) within a team combining hardware and software. Designed systems for city-wide deployments under real-world constraints.",
       "bullets": [
         "System Architecture: Started on backend Java team; transitioned to iOS bringing backend expertise that bridged system architecture across layers",
         "Scalability Solutions: Engineered solutions for challenging connectivity and performance constraints in London and NYC deployments",

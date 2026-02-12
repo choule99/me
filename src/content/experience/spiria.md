@@ -1,9 +1,9 @@
 ---
 company: "Spiria Digital"
-title: "Software Architect, Senior Developer"
+title: "Senior Software Developer"
 dates: "2013 - 2019"
 order: 3
-description: "Solution architect responsible for initial architecture design and evolution across enterprise client engagements. Led technical discovery, requirements analysis, and delivery."
+description: "Senior developer responsible for architecture design and evolution across enterprise client engagements. Led technical discovery, requirements analysis, and delivery."
 ---
 
 ### Key Achievements

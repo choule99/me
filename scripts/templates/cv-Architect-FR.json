@@ -16,14 +16,14 @@
     "degree": "Technique de l'informatique",
     "school": "Collège Édouard-Montpetit, Longueuil",
     "dates": "2003",
-    "description": "Diplôme d'études collégiales (DEC) de trois ans couvrant le C, C++, Java, SQL, Linux et l'informatique appliquée.",
+    "description": "Diplôme d'études collégiales (DEC) de trois ans couvrant le C, C++, JavaScript, SQL, Linux et l'informatique appliquée.",
     "capstone": "Projet de fin d'études : Réalisation technique d'un site Internet (e-commerce) pour une entreprise."
   },
-  "summary": "Architecte logiciel avec plus de 23 ans d'expérience pratique dans la conception et la livraison de systèmes backend, mobiles et web. Leadership éprouvé en architecture de solutions, transformation d'équipes, mentorat et collaboration interfonctionnelle. Combine une vaste expertise technique avec une approche orientée produit pour aligner l'ingénierie avec les objectifs d'affaires.",
+  "summary": "Architecte logiciel sénior avec une expérience approfondie dans la conception et la livraison de systèmes backend, mobiles et web. Combine une vaste expertise technique avec une approche orientée produit — alignant l'ingénierie avec les objectifs d'affaires à travers une architecture pragmatique, le mentorat et la collaboration interfonctionnelle.",
   "accomplishments": [
     "Transformé une équipe iOS de 8 personnes en une unité hautement performante — taux sans plantage à 99,999 %, déploiements de 1/semaine à 4/jour, vitesse de compilation améliorée de 50 %",
     "Dirigé l'architecture d'une application native visionOS — 1re solution pour travailleurs connectés sur l'App Store visionOS, obtention d'un Apple Vision Pro Dev Kit",
-    "Intégré 20 développeurs à l'international — conçu un programme de formation et bâti une culture collaborative à travers les fuseaux horaires, productifs en 3 mois",
+    "Mentorat technique, programme de formation sur mesure et revues de code inter-fuseaux pour 20 développeurs intégrés à l'international — productifs en 3 mois",
     "Conçu la plateforme de formation des pilotes de CAE de bout en bout : backend Spring, frontend Angular et client iOS natif",
     "Livré la reconstruction de la plateforme Ibiza d'Accovia dans les délais et le budget après un redressement client critique — en tant que membre de l'équipe d'architecture"
   ],
@@ -137,7 +137,7 @@
       "description": "Architecte technique d'une plateforme pour travailleurs connectés servant plus de 200 000 utilisateurs actifs quotidiens. Direction de l'évolution architecturale, transformation d'équipe et alignement interfonctionnel sur une base de code de 450K lignes.",
       "bullets": [
         "Leadership architectural : Introduction d'outils internes, bibliothèques réutilisables et pratiques standardisées — stabilité portée à 99,999 %",
-        "Montée en compétence : Intégration de 20 développeurs à l'international avec programme de formation sur mesure et revues de code inter-fuseaux — opérationnels en 3 mois",
+        "Mentorat technique : Mentorat technique, programme de formation sur mesure et revues de code inter-fuseaux pour 20 développeurs intégrés à l'international — opérationnels en 3 mois",
         "Alignement interfonctionnel : Création de ponts entre ingénierie, gestion de produit et design UX ; établissement de flux de collaboration alignant solutions techniques et objectifs d'affaires",
         "Architecture CI/CD : Automatisation complète des déploiements App Store ; cadence portée de 1/semaine à 4/jour, compilation accélérée de 50 %",
         "Qualité logicielle : Couverture de tests portée de 30 % à 60 % en quatre ans via initiative incrémentale parallèle à la modernisation architecturale"
@@ -171,7 +171,7 @@
       "company": "8D Technologies",
       "title": "Développeur Java back-end → Développeur iOS",
       "dates": "2009 — 2013",
-      "description": "Pionnier de l'architecture pour la mobilité urbaine (Bixi) au sein d'une équipe alliant logiciel et matériel. Conception de systèmes pour déploiements à l'échelle des villes sous contraintes réelles.",
+      "description": "Pionnier du logiciel de mobilité urbaine (Bixi) au sein d'une équipe alliant logiciel et matériel. Conception de systèmes pour déploiements à l'échelle des villes sous contraintes réelles.",
       "bullets": [
         "Architecture système : Démarrage dans l'équipe backend Java ; transition vers iOS avec expertise backend créant un pont entre les couches d'architecture",
         "Solutions de scalabilité : Conception de solutions pour les contraintes de connectivité et performance des déploiements de Londres et New York",

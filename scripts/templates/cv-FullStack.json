@@ -1,11 +1,11 @@
 {
   "name": "Claude Houle",
-  "title": "Full-Stack Developer & Software Architect",
+  "title": "Senior Full-Stack Developer",
   "email": "claude.houle@gmail.com",
   "web": "choule99.github.io/me",
   "location": "Montreal, QC",
   "phone": "450.723.3075",
-  "summary": "Software developer with 23+ years of experience across backend systems, mobile platforms, and web applications. Proven ability to architect and deliver production software spanning the full stack — from Spring Boot backends and Angular frontends to native iOS and Android clients — with a focus on quality, mentorship, and continuous improvement.",
+  "summary": "Senior hands-on software engineer with deep experience delivering production-ready software across the full stack — from Spring Boot backends and Angular frontends to native iOS and Android clients. Strong focus on stability, testing, and pragmatic architecture in both enterprise and product environments.",
   "accomplishments": [
     "Led a production iOS app serving 200,000+ DAU with 99.999% crash-free rate across a 450K-line Swift codebase",
     "Architected full-stack solutions at Spiria: CAE's pilot training platform (Spring/Angular/iOS) and Acosta's retail analytics platform (Node.js/BackboneJS)",
@@ -116,13 +116,13 @@
   "experience": [
     {
       "company": "Poka Inc.",
-      "title": "Architect, Lead iOS & VisionOS",
+      "title": "Lead Developer, iOS & VisionOS",
       "dates": "2021 — Present",
-      "description": "Technical leader for a connected worker platform serving 200,000+ DAU. Driving full-stack evolution across mobile clients and backend integrations while ensuring 99.999% stability.",
+      "description": "Senior developer on a connected worker platform serving 200,000+ DAU. Driving full-stack evolution across mobile clients and backend integrations while ensuring 99.999% stability.",
       "bullets": [
         "Operational Excellence: Major refactoring of 450K-line codebase — raised stability to 99.999% crash-free and doubled test coverage (30% to 60%)",
         "CI/CD Performance: Migrated pipeline to MacStadium, accelerating builds by 50% and enabling 4 daily releases (up from 1/week)",
-        "Team Leadership: Recruited and trained a distributed team of 20 developers internationally — operational within 3 months",
+        "Technical Mentorship: Provided technical mentorship and code reviews for a growing distributed team of 20 developers across time zones — operational within 3 months",
         "AI Integration: Optimized workflows through adoption of generative AI tools (Claude, Warp), reducing development time by 10%"
       ]
     },
@@ -140,9 +140,9 @@
     },
     {
       "company": "Spiria Digital",
-      "title": "Software Architect, Senior Developer",
+      "title": "Senior Software Developer",
       "dates": "2013 — 2019",
-      "description": "Solution architect for custom software engagements spanning backend, frontend, and mobile. Led technical discovery, architecture design, and delivery for enterprise clients.",
+      "description": "Senior developer for custom software engagements spanning backend, frontend, and mobile. Led technical discovery, architecture design, and delivery for enterprise clients.",
       "bullets": [
         "CAE PreStudy: Designed end-to-end architecture spanning Spring backend, Angular frontend, and native iOS for aviation pilot training",
         "Acosta SLTouch: Built hybrid mobile app and framework for retail analytics using BackboneJS/MarionetteJS and Node.js",
@@ -163,7 +163,7 @@
     },
     {
       "company": "Accovia",
-      "title": "Back-End Java Developer",
+      "title": "Senior Back-End Java Developer",
       "dates": "2007 — 2009",
       "bullets": [
         "Platform Recovery: Architecture Team member on Ibiza Project — rebuilt travel platform with Java/Spring/Hibernate after critical client recovery"

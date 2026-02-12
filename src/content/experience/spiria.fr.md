@@ -1,10 +1,10 @@
 ---
 company: "Spiria Digital"
-title: "Architecte logiciel, Développeur sénior"
+title: "Développeur logiciel sénior"
 dates: "2013 - 2019"
 order: 3
 lang: "fr"
-description: "Architecte de solutions responsable de la conception initiale et de l'évolution des architectures selon les exigences clients d'entreprise. Direction de la découverte technique, analyse des exigences et livraison."
+description: "Développeur sénior responsable de la conception et de l'évolution des architectures selon les exigences clients d'entreprise. Direction de la découverte technique, analyse des exigences et livraison."
 ---
 
 ### Réalisations clés

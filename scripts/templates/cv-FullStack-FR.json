@@ -1,6 +1,6 @@
 {
   "name": "Claude Houle",
-  "title": "Développeur Full-Stack & Architecte logiciel",
+  "title": "Développeur Full-Stack sénior",
   "email": "claude.houle@gmail.com",
   "web": "choule99.github.io/me",
   "location": "Montréal, QC",
@@ -16,10 +16,10 @@
     "degree": "Technique de l'informatique",
     "school": "Collège Édouard-Montpetit, Longueuil",
     "dates": "2003",
-    "description": "Diplôme d'études collégiales (DEC) de trois ans couvrant le C, C++, Java, SQL, Linux et l'informatique appliquée.",
+    "description": "Diplôme d'études collégiales (DEC) de trois ans couvrant le C, C++, JavaScript, SQL, Linux et l'informatique appliquée.",
     "capstone": "Projet de fin d'études : Réalisation technique d'un site Internet (e-commerce) pour une entreprise."
   },
-  "summary": "Développeur logiciel avec plus de 23 ans d'expérience en systèmes backend, plateformes mobiles et applications web. Capacité éprouvée à concevoir et livrer des logiciels de production couvrant l'ensemble de la pile technologique — des backends Spring Boot et frontends Angular aux clients natifs iOS et Android — avec un accent sur la qualité, le mentorat et l'amélioration continue.",
+  "summary": "Ingénieur logiciel sénior avec une expérience approfondie dans la livraison de logiciels de production sur l'ensemble de la pile — des backends Spring Boot et frontends Angular aux clients natifs iOS et Android. Accent marqué sur la stabilité, les tests et une architecture pragmatique en environnements d'entreprise et produit.",
   "accomplishments": [
     "Dirigé une application iOS en production servant plus de 200 000 utilisateurs actifs quotidiens avec un taux sans plantage de 99,999 % sur une base de code Swift de 450K lignes",
     "Conçu des solutions full-stack chez Spiria : plateforme de formation des pilotes de CAE (Spring/Angular/iOS) et plateforme d'analytique de détail Acosta (Node.js/BackboneJS)",
@@ -130,13 +130,13 @@
   "experience": [
     {
       "company": "Poka Inc.",
-      "title": "Architecte, Lead iOS & VisionOS",
+      "title": "Lead développeur, iOS & VisionOS",
       "dates": "2021 — Présent",
-      "description": "Leader technique d'une plateforme pour travailleurs connectés servant plus de 200 000 utilisateurs actifs quotidiens. Pilotage de l'évolution full-stack des clients mobiles et intégrations backend, garantissant une stabilité de 99,999 %.",
+      "description": "Développeur sénior d'une plateforme pour travailleurs connectés servant plus de 200 000 utilisateurs actifs quotidiens. Pilotage de l'évolution full-stack des clients mobiles et intégrations backend, garantissant une stabilité de 99,999 %.",
       "bullets": [
         "Excellence opérationnelle : Refactorisation majeure d'une base de code de 450K lignes — stabilité portée à 99,999 % et couverture de tests doublée (30 % à 60 %)",
         "Performance CI/CD : Migration du pipeline sur MacStadium, accélérant la compilation de 50 % et permettant 4 mises en production quotidiennes (vs 1/semaine)",
-        "Leadership d'équipe : Recrutement et formation d'une équipe distribuée de 20 développeurs à l'international — opérationnelle en 3 mois",
+        "Mentorat technique : Mentorat technique et revues de code pour une équipe distribuée de 20 développeurs à l'international — opérationnelle en 3 mois",
         "Intégration de l'IA : Optimisation des flux de travail via adoption d'outils d'IA générative (Claude, Warp), réduisant le temps de développement de 10 %"
       ]
     },
@@ -154,9 +154,9 @@
     },
     {
       "company": "Spiria Digital",
-      "title": "Architecte logiciel, Développeur sénior",
+      "title": "Développeur logiciel sénior",
       "dates": "2013 — 2019",
-      "description": "Architecte de solutions pour engagements logiciels sur mesure couvrant backend, frontend et mobile. Direction de la découverte technique, conception d'architecture et livraison pour clients d'entreprise.",
+      "description": "Développeur sénior pour engagements logiciels sur mesure couvrant backend, frontend et mobile. Direction de la découverte technique, conception d'architecture et livraison pour clients d'entreprise.",
       "bullets": [
         "CAE PreStudy : Architecture de bout en bout couvrant backend Spring, frontend Angular et iOS natif pour formation des pilotes d'aviation",
         "Acosta SLTouch : Construction d'une application mobile hybride et framework pour l'analytique de détail avec BackboneJS/MarionetteJS et Node.js",
@@ -177,7 +177,7 @@
     },
     {
       "company": "Accovia",
-      "title": "Développeur Java back-end",
+      "title": "Développeur Java back-end sénior",
       "dates": "2007 — 2009",
       "bullets": [
         "Redressement de plateforme : Membre de l'équipe d'architecture du projet Ibiza — reconstruction de la plateforme de voyage avec Java/Spring/Hibernate après crise client"

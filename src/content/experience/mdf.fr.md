@@ -1,6 +1,6 @@
 ---
 company: "Mediagrif"
-title: "Développeur Java — Équipe d'infrastructure"
+title: "Développeur Java"
 dates: "2003 - 2005"
 order: 7
 lang: "fr"

@@ -104,7 +104,8 @@
 }
 
 // ── Experience ──
-// Group heading with first entry to prevent orphaned heading
+// Always start on the second page
+#pagebreak()
 #{
   section-heading(s-experience)
 

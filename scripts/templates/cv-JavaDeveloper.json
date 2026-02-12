@@ -1,11 +1,11 @@
 {
   "name": "Claude Houle",
-  "title": "Senior Java Developer & Backend Architect",
+  "title": "Senior Java Developer & Backend Engineer",
   "email": "claude.houle@gmail.com",
   "web": "choule99.github.io/me",
   "location": "Montreal, QC",
   "phone": "450.723.3075",
-  "summary": "Backend developer with 23+ years of experience building enterprise Java systems, microservices architectures, and high-throughput data platforms. Deep expertise in Spring ecosystem, database optimization, and distributed systems. Proven track record delivering mission-critical backends for financial services, travel, and manufacturing — with a focus on reliability, scalability, and team leadership.",
+  "summary": "Senior hands-on backend engineer with deep experience building enterprise Java systems, microservices architectures, and high-throughput data platforms. Strong focus on reliability, stability, testing, and pragmatic architecture across the Spring ecosystem and distributed systems.",
   "accomplishments": [
     "Architected and delivered the Ibiza travel platform rebuild at Accovia — Java/Spring/Hibernate backend serving major travel operators, delivered on time after critical client recovery",
     "Built backend services for 8D Technologies' Solstice platform — Java system processing real-time events from Bixi bike-sharing kiosks deployed across cities worldwide",
@@ -116,14 +116,14 @@
   "experience": [
     {
       "company": "Poka Inc.",
-      "title": "Technical Architect",
+      "title": "Lead Developer",
       "dates": "2021 — Present",
-      "description": "Technical architect for a connected worker platform serving 200,000+ DAU. Designed REST API contracts and data synchronization strategies bridging frontend and backend teams.",
+      "description": "Senior developer on a connected worker platform serving 200,000+ DAU. Designed REST API contracts and data synchronization strategies bridging frontend and backend teams.",
       "bullets": [
         "API Architecture: Designed REST API contracts enabling seamless interoperability between mobile clients and backend microservices — adopted as the standard across frontend and backend teams",
         "Cross-Team Standards: Established shared engineering standards, code review practices, and API conventions across frontend and backend development teams",
         "Data Synchronization: Architected data sync strategies for offline-first mobile clients — ensuring consistency and reliability across distributed services",
-        "Team Onboarding: Trained 20 developers with custom curriculum covering architecture patterns and best practices — operational within 3 months"
+        "Technical Mentorship: Provided technical mentorship and training on architecture patterns and best practices for 20 developers — operational within 3 months"
       ]
     },
     {
@@ -139,9 +139,9 @@
     },
     {
       "company": "Spiria Digital",
-      "title": "Software Architect, Senior Developer",
+      "title": "Senior Software Developer",
       "dates": "2013 — 2019",
-      "description": "Solution architect for enterprise client engagements. Led backend architecture design, API contracts, and data modeling for complex multi-tier systems.",
+      "description": "Senior developer for enterprise client engagements. Led backend architecture design, API contracts, and data modeling for complex multi-tier systems.",
       "bullets": [
         "CAE PreStudy: Designed backend architecture with Spring Boot, RESTful APIs, and data persistence layer for aviation pilot training",
         "Acosta SLTouch: Architected Node.js backend services and data aggregation pipelines for retail analytics platform",
@@ -178,7 +178,7 @@
     },
     {
       "company": "Mediagrif",
-      "title": "Java Developer — Infrastructure Team",
+      "title": "Java Developer",
       "dates": "2003 — 2005",
       "bullets": [
         "Core Services: Built core backend services and shared infrastructure patterns adopted by multiple e-commerce product teams"

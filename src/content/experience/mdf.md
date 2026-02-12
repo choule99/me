@@ -1,6 +1,6 @@
 ---
 company: "Mediagrif"
-title: "Java Developer — Infrastructure Team"
+title: "Java Developer"
 dates: "2003 - 2005"
 order: 7
 description: "Infrastructure Architecture: Built core services and reusable components on Software Infrastructure team for e-commerce products."

@@ -11,13 +11,13 @@ const variants = [
   {
     id: "FullStack",
     name: "Claude Houle",
-    title: "Full-Stack Developer & Software Architect",
+    title: "Senior Full-Stack Developer",
     email: "claude.houle@gmail.com",
     web: "choule99.github.io/me",
 
     location: "Montreal, QC",
     phone: "450.723.3075",
-    summary: "Software developer with 23+ years of experience across backend systems, mobile platforms, and web applications. Proven ability to architect and deliver production software spanning the full stack — from Spring Boot backends and Angular frontends to native iOS and Android clients — with a focus on quality, mentorship, and continuous improvement.",
+    summary: "Senior hands-on software engineer with deep experience delivering production-ready software across the full stack — from Spring Boot backends and Angular frontends to native iOS and Android clients. Strong focus on stability, testing, and pragmatic architecture in both enterprise and product environments.",
     accomplishments: [
       "Led a production iOS app serving 200,000+ DAU with 99.999% crash-free rate across a 450K-line Swift codebase",
       "Architected full-stack solutions at Spiria: CAE's pilot training platform (Spring/Angular/iOS) and Acosta's retail analytics platform (Node.js/BackboneJS)",
@@ -43,13 +43,13 @@ const variants = [
     experience: [
       {
         company: "Poka Inc.",
-        title: "Architect, Lead iOS & VisionOS",
+        title: "Lead Developer, iOS & VisionOS",
         dates: "2021 — Present",
-        description: "Technical leader for a connected worker platform serving 200,000+ DAU. Driving full-stack evolution across mobile clients and backend integrations while ensuring 99.999% stability.",
+        description: "Senior developer on a connected worker platform serving 200,000+ DAU. Driving full-stack evolution across mobile clients and backend integrations while ensuring 99.999% stability.",
         bullets: [
           "Operational Excellence: Major refactoring of 450K-line codebase — raised stability to 99.999% crash-free and doubled test coverage (30% to 60%)",
           "CI/CD Performance: Migrated pipeline to MacStadium, accelerating builds by 50% and enabling 4 daily releases (up from 1/week)",
-          "Team Leadership: Recruited and trained a distributed team of 20 developers internationally — operational within 3 months",
+          "Technical Mentorship: Provided technical mentorship and code reviews for a growing distributed team of 20 developers across time zones — operational within 3 months",
           "AI Integration: Optimized workflows through adoption of generative AI tools (Claude, Warp), reducing development time by 10%",
         ],
       },
@@ -67,9 +67,9 @@ const variants = [
       },
       {
         company: "Spiria Digital",
-        title: "Software Architect, Senior Developer",
+        title: "Senior Software Developer",
         dates: "2013 — 2019",
-        description: "Solution architect for custom software engagements spanning backend, frontend, and mobile. Led technical discovery, architecture design, and delivery for enterprise clients.",
+        description: "Senior developer for custom software engagements spanning backend, frontend, and mobile. Led technical discovery, architecture design, and delivery for enterprise clients.",
         bullets: [
           "CAE PreStudy: Designed end-to-end architecture spanning Spring backend, Angular frontend, and native iOS for aviation pilot training",
           "Acosta SLTouch: Built hybrid mobile app and framework for retail analytics using BackboneJS/MarionetteJS and Node.js",
@@ -90,7 +90,7 @@ const variants = [
       },
       {
         company: "Accovia",
-        title: "Back-End Java Developer",
+        title: "Senior Back-End Java Developer",
         dates: "2007 — 2009",
         bullets: [
           "Platform Recovery: Architecture Team member on Ibiza Project — rebuilt travel platform with Java/Spring/Hibernate after critical client recovery",
@@ -117,18 +117,18 @@ const variants = [
   {
     id: "iOS",
     name: "Claude Houle",
-    title: "Lead iOS Developer & Mobile Architect",
+    title: "Senior iOS Developer",
     email: "claude.houle@gmail.com",
     web: "choule99.github.io/me",
 
     location: "Montreal, QC",
     phone: "450.723.3075",
-    summary: "iOS developer with 15+ years on Apple platforms and 23+ years total in software development. I specialize in building reliable, scalable mobile products — from architecting shared libraries to leading distributed teams. Passionate about code quality, CI/CD automation, and emerging technologies like visionOS, I turn technical visions into concrete, user-centered solutions.",
+    summary: "Senior hands-on iOS engineer with deep experience building reliable, scalable mobile products on Apple platforms. Passionate about code quality, CI/CD automation, and emerging technologies like visionOS, with a strong focus on stability, testing, and pragmatic architecture.",
     accomplishments: [
       "Stabilized a 450,000-line Swift codebase (200,000 DAU): Achieved 99.999% crash-free session rate and accelerated release cadence from 1/week to 4/day.",
       "Built and shipped a visionOS-native app selected by Apple for a Vision Pro Dev Kit; launched as the 1st Connected Worker Solution on the visionOS App Store.",
       "Automated App Store deployments end-to-end: Increased release cadence from 1/week to 4/day and accelerated CI build times by 50%.",
-      "Fast-tracked onboarding of 20 developers internationally via custom training curriculum — team operational within 3 months.",
+      "Provided technical mentorship and code reviews for 20 developers onboarded internationally — team operational within 3 months.",
       "Designed a shared iOS component library, standardizing practices and accelerating delivery across 15+ client projects.",
     ],
     skills: [
@@ -142,21 +142,21 @@ const variants = [
       { label: "Tools", items: ["Xcode", "Instruments (Profiling)", "Firebase", "Sentry", "Git"] },
       { label: "Gen AI", items: ["Claude integration (code & test acceleration)"] },
       { section: "Leadership & Methodologies" },
-      { label: "Leadership", items: ["Mentorship", "Code Review", "Code Standardization", "Technical Recruiting"] },
+      { label: "Leadership", items: ["Mentorship", "Code Review", "Code Standardization"] },
       { label: "Methods", items: ["Agile (Scrum/Kanban)", "TDD", "Continuous Integration"] },
       { label: "Spoken", items: ["French and English (fully bilingual)"] },
     ],
     experience: [
       {
         company: "Poka Inc.",
-        title: "Architect, Lead iOS & VisionOS",
+        title: "Lead Developer, iOS & VisionOS",
         dates: "2021 — Present",
-        description: "Architect and technical leader for a leading connected worker platform serving 200,000+ daily active users. Driving evolution toward modern architectures (SwiftUI, Combine) while maintaining legacy systems (Obj-C), ensuring critical stability at 99.999%.",
+        description: "Senior developer on a leading connected worker platform serving 200,000+ daily active users. Driving evolution toward modern architectures (SwiftUI, Combine) while maintaining legacy systems (Obj-C), ensuring critical stability at 99.999%.",
         bullets: [
           "visionOS Innovation: Led end-to-end development of the 1st industrial solution on the visionOS App Store (secured Vision Pro Dev Kit after Apple review)",
           "Operational Excellence: Major refactoring effort that raised stability to 99.999% crash-free and doubled test coverage (30% to 60%)",
           "CI/CD Performance: Migrated pipeline to MacStadium, accelerating builds by 50% and enabling 4 daily releases (up from 1/week)",
-          "Team Leadership: Recruited and trained a distributed team of 20 developers internationally — operational within 3 months",
+          "Technical Mentorship: Provided technical mentorship and code reviews for a growing distributed team of 20 developers across time zones — operational within 3 months",
           "AI Integration: Optimized workflows through adoption of generative AI tools (Claude, Warp), reducing development time by 10%",
         ],
       },
@@ -174,9 +174,9 @@ const variants = [
       },
       {
         company: "Spiria Digital",
-        title: "Senior iOS Developer & Architect",
+        title: "Senior iOS Developer",
         dates: "2013 — 2019",
-        description: "Architect responsible for designing and evolving custom mobile solutions for major clients. Led the technical aspects of critical projects from requirements definition through go-to-market.",
+        description: "Senior developer responsible for designing and evolving custom mobile solutions for major clients. Led the technical aspects of critical projects from requirements definition through go-to-market.",
         bullets: [
           "CAE PreStudy: End-to-end architecture and development of a native iOS application for high-performance aviation pilot training",
           "Payfare (DiDi/Lyft): Developed mobile clients for a real-time payment platform serving mobility and transportation players (gig economy)",
@@ -196,7 +196,7 @@ const variants = [
       },
       {
         company: "Accovia",
-        title: "Back-End Java Developer",
+        title: "Senior Back-End Java Developer",
         dates: "2007 — 2009",
         bullets: [
           "Contributed to the recovery and complete rebuild of the Ibiza platform (Java, Spring, Hibernate) following critical client issues",
@@ -229,11 +229,11 @@ const variants = [
 
     location: "Montreal, QC",
     phone: "450.723.3075",
-    summary: "Software architect with 23+ years of hands-on experience designing and delivering systems across backend, mobile, and web. Proven leadership in solution architecture, team transformation, mentorship, and cross-functional collaboration. Combines deep technical breadth with a product-minded approach to align engineering with business outcomes.",
+    summary: "Senior hands-on software architect with deep experience designing and delivering systems across backend, mobile, and web. Combines technical breadth with a product-minded approach — aligning engineering with business outcomes through pragmatic architecture, mentorship, and cross-functional collaboration.",
     accomplishments: [
       "Transformed an 8-person iOS team into a high-performing unit — crash-free rate to 99.999%, deployments from 1/week to 4/day, build speeds improved 50%",
       "Led architecture of a visionOS-native app — 1st Connected Worker Solution on the visionOS App Store, securing an Apple Vision Pro Dev Kit",
-      "Onboarded and integrated 20 developers internationally — designed training curriculum and built collaborative culture across time zones, productive within 3 months",
+      "Provided technical mentorship, training curriculum, and code reviews for 20 developers onboarded internationally — productive within 3 months",
       "Architected CAE's pilot training platform end-to-end: Spring backend, Angular frontend, and native iOS client",
       "Delivered the Accovia Ibiza platform rebuild on time and on budget after a critical client recovery — as a member of the core Architecture Team",
     ],
@@ -260,7 +260,7 @@ const variants = [
         description: "Technical architect for a connected worker platform serving 200,000+ DAU. Leading architectural evolution, team transformation, and cross-functional alignment across a 450K-line codebase.",
         bullets: [
           "Architecture Leadership: Introduced internal tools, reusable libraries, and standardized practices — achieved 99.999% crash-free rate",
-          "Team Scaling: Onboarded 20 developers internationally with custom training curriculum and cross-timezone code reviews — operational within 3 months",
+          "Technical Mentorship: Provided technical mentorship, training curriculum, and cross-timezone code reviews for 20 developers onboarded internationally — operational within 3 months",
           "Cross-functional Alignment: Bridged engineering, Product Management, and UX Design; established collaboration workflows aligning technical solutions with business goals",
           "CI/CD Architecture: Automated App Store deployments end-to-end; increased release cadence from 1/week to 4/day, improved build speeds by 50%",
           "Quality Engineering: Increased test coverage from 30% to 60% over four years through incremental testing alongside architectural modernization",
@@ -294,7 +294,7 @@ const variants = [
         company: "8D Technologies",
         title: "Back-End Java Developer → iOS Developer",
         dates: "2009 — 2013",
-        description: "Pioneer in urban mobility architecture (Bixi) within a team combining hardware and software. Designed systems for city-wide deployments under real-world constraints.",
+        description: "Pioneer in urban mobility software (Bixi) within a team combining hardware and software. Designed systems for city-wide deployments under real-world constraints.",
         bullets: [
           "System Architecture: Started on backend Java team; transitioned to iOS bringing backend expertise that bridged system architecture across layers",
           "Scalability Solutions: Engineered solutions for challenging connectivity and performance constraints in London and NYC deployments",
@@ -331,13 +331,13 @@ const variants = [
   {
     id: "JavaDeveloper",
     name: "Claude Houle",
-    title: "Senior Java Developer & Backend Architect",
+    title: "Senior Java Developer & Backend Engineer",
     email: "claude.houle@gmail.com",
     web: "choule99.github.io/me",
 
     location: "Montreal, QC",
     phone: "450.723.3075",
-    summary: "Backend developer with 23+ years of experience building enterprise Java systems, microservices architectures, and high-throughput data platforms. Deep expertise in Spring ecosystem, database optimization, and distributed systems. Proven track record delivering mission-critical backends for financial services, travel, and manufacturing — with a focus on reliability, scalability, and team leadership.",
+    summary: "Senior hands-on backend engineer with deep experience building enterprise Java systems, microservices architectures, and high-throughput data platforms. Strong focus on reliability, stability, testing, and pragmatic architecture across the Spring ecosystem and distributed systems.",
     accomplishments: [
       "Architected and delivered the Ibiza travel platform rebuild at Accovia — Java/Spring/Hibernate backend serving major travel operators, delivered on time after critical client recovery",
       "Built backend services for 8D Technologies' Solstice platform — Java system processing real-time events from Bixi bike-sharing kiosks deployed across cities worldwide",
@@ -362,14 +362,14 @@ const variants = [
     experience: [
       {
         company: "Poka Inc.",
-        title: "Technical Architect",
+        title: "Lead Developer",
         dates: "2021 — Present",
-        description: "Technical architect for a connected worker platform serving 200,000+ DAU. Designed REST API contracts and data synchronization strategies bridging frontend and backend teams.",
+        description: "Senior developer on a connected worker platform serving 200,000+ DAU. Designed REST API contracts and data synchronization strategies bridging frontend and backend teams.",
         bullets: [
           "API Architecture: Designed REST API contracts enabling seamless interoperability between mobile clients and backend microservices — adopted as the standard across frontend and backend teams",
           "Cross-Team Standards: Established shared engineering standards, code review practices, and API conventions across frontend and backend development teams",
           "Data Synchronization: Architected data sync strategies for offline-first mobile clients — ensuring consistency and reliability across distributed services",
-          "Team Onboarding: Trained 20 developers with custom curriculum covering architecture patterns and best practices — operational within 3 months",
+          "Technical Mentorship: Provided technical mentorship and training on architecture patterns and best practices for 20 developers — operational within 3 months",
         ],
       },
       {
@@ -385,9 +385,9 @@ const variants = [
       },
       {
         company: "Spiria Digital",
-        title: "Software Architect, Senior Developer",
+        title: "Senior Software Developer",
         dates: "2013 — 2019",
-        description: "Solution architect for enterprise client engagements. Led backend architecture design, API contracts, and data modeling for complex multi-tier systems.",
+        description: "Senior developer for enterprise client engagements. Led backend architecture design, API contracts, and data modeling for complex multi-tier systems.",
         bullets: [
           "CAE PreStudy: Designed backend architecture with Spring Boot, RESTful APIs, and data persistence layer for aviation pilot training",
           "Acosta SLTouch: Architected Node.js backend services and data aggregation pipelines for retail analytics platform",
@@ -424,7 +424,7 @@ const variants = [
       },
       {
         company: "Mediagrif",
-        title: "Java Developer — Infrastructure Team",
+        title: "Java Developer",
         dates: "2003 — 2005",
         bullets: [
           "Core Services: Built core backend services and shared infrastructure patterns adopted by multiple e-commerce product teams",
@@ -438,7 +438,7 @@ const variants = [
   {
     id: "JavaDeveloper-FR",
     name: "Claude Houle",
-    title: "Développeur Java sénior & Architecte backend",
+    title: "Développeur Java sénior & Ingénieur backend",
     email: "claude.houle@gmail.com",
     web: "choule99.github.io/me",
     location: "Montréal, QC",
@@ -454,10 +454,10 @@ const variants = [
       degree: "Technique de l'informatique",
       school: "Collège Édouard-Montpetit, Longueuil",
       dates: "2003",
-      description: "Diplôme d'études collégiales (DEC) de trois ans couvrant le C, C++, Java, SQL, Linux et l'informatique appliquée.",
+      description: "Diplôme d'études collégiales (DEC) de trois ans couvrant le C, C++, JavaScript, SQL, Linux et l'informatique appliquée.",
       capstone: "Projet de fin d'études : Réalisation technique d'un site Internet (e-commerce) pour une entreprise.",
     },
-    summary: "Développeur backend avec plus de 23 ans d'expérience dans la construction de systèmes Java d'entreprise, d'architectures microservices et de plateformes de données à haut débit. Expertise approfondie de l'écosystème Spring, de l'optimisation de bases de données et des systèmes distribués. Bilan éprouvé dans la livraison de backends critiques pour les services financiers, le voyage et la fabrication — avec un accent sur la fiabilité, la mise à l'échelle et le leadership d'équipe.",
+    summary: "Ingénieur backend sénior avec une expérience approfondie dans la construction de systèmes Java d'entreprise, d'architectures microservices et de plateformes de données à haut débit. Accent marqué sur la fiabilité, la stabilité, les tests et une architecture pragmatique à travers l'écosystème Spring et les systèmes distribués.",
     accomplishments: [
       "Conçu et livré la reconstruction de la plateforme de voyage Ibiza chez Accovia — backend Java/Spring/Hibernate servant les principaux opérateurs de voyage, livré à temps après un redressement client critique",
       "Construit les services backend de la plateforme Solstice de 8D Technologies — système Java traitant les événements en temps réel des kiosques de vélo-partage Bixi déployés dans des villes à travers le monde",
@@ -482,14 +482,14 @@ const variants = [
     experience: [
       {
         company: "Poka Inc.",
-        title: "Architecte technique",
+        title: "Lead développeur",
         dates: "2021 — Présent",
-        description: "Architecte technique d'une plateforme pour travailleurs connectés servant plus de 200 000 utilisateurs actifs quotidiens. Conception des contrats d'API REST et stratégies de synchronisation reliant les équipes frontend et backend.",
+        description: "Développeur sénior d'une plateforme pour travailleurs connectés servant plus de 200 000 utilisateurs actifs quotidiens. Conception des contrats d'API REST et stratégies de synchronisation reliant les équipes frontend et backend.",
         bullets: [
           "Architecture API : Conception des contrats d'API REST assurant l'interopérabilité entre clients mobiles et microservices backend — adoptés comme standard par les équipes frontend et backend",
           "Standards inter-équipes : Établissement de standards d'ingénierie partagés, pratiques de revue de code et conventions d'API à travers les équipes frontend et backend",
           "Synchronisation de données : Architecture des stratégies de synchronisation pour clients mobiles offline-first — cohérence et fiabilité à travers services distribués",
-          "Intégration d'équipe : Formation de 20 développeurs avec programme sur mesure couvrant patterns d'architecture et meilleures pratiques — opérationnels en 3 mois",
+          "Mentorat technique : Mentorat technique et formation sur les patterns d'architecture et meilleures pratiques pour 20 développeurs — opérationnels en 3 mois",
         ],
       },
       {
@@ -505,9 +505,9 @@ const variants = [
       },
       {
         company: "Spiria Digital",
-        title: "Architecte logiciel, Développeur sénior",
+        title: "Développeur logiciel sénior",
         dates: "2013 — 2019",
-        description: "Architecte de solutions pour engagements clients d'entreprise. Direction de l'architecture backend, contrats d'API et modélisation de données pour systèmes multi-tiers complexes.",
+        description: "Développeur sénior pour engagements clients d'entreprise. Direction de l'architecture backend, contrats d'API et modélisation de données pour systèmes multi-tiers complexes.",
         bullets: [
           "CAE PreStudy : Architecture backend avec Spring Boot, APIs RESTful et couche de persistance pour plateforme de formation des pilotes d'aviation",
           "Acosta SLTouch : Architecture des services backend Node.js et pipelines d'agrégation de données pour plateforme d'analytique de détail",
@@ -544,7 +544,7 @@ const variants = [
       },
       {
         company: "Mediagrif",
-        title: "Développeur Java — Équipe d'infrastructure",
+        title: "Développeur Java",
         dates: "2003 — 2005",
         bullets: [
           "Services de base : Construction des services backend et patterns d'infrastructure partagés adoptés par plusieurs équipes e-commerce",
@@ -555,7 +555,7 @@ const variants = [
   {
     id: "FullStack-FR",
     name: "Claude Houle",
-    title: "Développeur Full-Stack & Architecte logiciel",
+    title: "Développeur Full-Stack sénior",
     email: "claude.houle@gmail.com",
     web: "choule99.github.io/me",
     location: "Montréal, QC",
@@ -571,10 +571,10 @@ const variants = [
       degree: "Technique de l'informatique",
       school: "Collège Édouard-Montpetit, Longueuil",
       dates: "2003",
-      description: "Diplôme d'études collégiales (DEC) de trois ans couvrant le C, C++, Java, SQL, Linux et l'informatique appliquée.",
+      description: "Diplôme d'études collégiales (DEC) de trois ans couvrant le C, C++, JavaScript, SQL, Linux et l'informatique appliquée.",
       capstone: "Projet de fin d'études : Réalisation technique d'un site Internet (e-commerce) pour une entreprise.",
     },
-    summary: "Développeur logiciel avec plus de 23 ans d'expérience en systèmes backend, plateformes mobiles et applications web. Capacité éprouvée à concevoir et livrer des logiciels de production couvrant l'ensemble de la pile technologique — des backends Spring Boot et frontends Angular aux clients natifs iOS et Android — avec un accent sur la qualité, le mentorat et l'amélioration continue.",
+    summary: "Ingénieur logiciel sénior avec une expérience approfondie dans la livraison de logiciels de production sur l'ensemble de la pile — des backends Spring Boot et frontends Angular aux clients natifs iOS et Android. Accent marqué sur la stabilité, les tests et une architecture pragmatique en environnements d'entreprise et produit.",
     accomplishments: [
       "Dirigé une application iOS en production servant plus de 200 000 utilisateurs actifs quotidiens avec un taux sans plantage de 99,999 % sur une base de code Swift de 450K lignes",
       "Conçu des solutions full-stack chez Spiria : plateforme de formation des pilotes de CAE (Spring/Angular/iOS) et plateforme d'analytique de détail Acosta (Node.js/BackboneJS)",
@@ -600,13 +600,13 @@ const variants = [
     experience: [
       {
         company: "Poka Inc.",
-        title: "Architecte, Lead iOS & VisionOS",
+        title: "Lead développeur, iOS & VisionOS",
         dates: "2021 — Présent",
-        description: "Leader technique d'une plateforme pour travailleurs connectés servant plus de 200 000 utilisateurs actifs quotidiens. Pilotage de l'évolution full-stack des clients mobiles et intégrations backend, garantissant une stabilité de 99,999 %.",
+        description: "Développeur sénior d'une plateforme pour travailleurs connectés servant plus de 200 000 utilisateurs actifs quotidiens. Pilotage de l'évolution full-stack des clients mobiles et intégrations backend, garantissant une stabilité de 99,999 %.",
         bullets: [
           "Excellence opérationnelle : Refactorisation majeure d'une base de code de 450K lignes — stabilité portée à 99,999 % et couverture de tests doublée (30 % à 60 %)",
           "Performance CI/CD : Migration du pipeline sur MacStadium, accélérant la compilation de 50 % et permettant 4 mises en production quotidiennes (vs 1/semaine)",
-          "Leadership d'équipe : Recrutement et formation d'une équipe distribuée de 20 développeurs à l'international — opérationnelle en 3 mois",
+          "Mentorat technique : Mentorat technique et revues de code pour une équipe distribuée de 20 développeurs à l'international — opérationnelle en 3 mois",
           "Intégration de l'IA : Optimisation des flux de travail via adoption d'outils d'IA générative (Claude, Warp), réduisant le temps de développement de 10 %",
         ],
       },
@@ -624,9 +624,9 @@ const variants = [
       },
       {
         company: "Spiria Digital",
-        title: "Architecte logiciel, Développeur sénior",
+        title: "Développeur logiciel sénior",
         dates: "2013 — 2019",
-        description: "Architecte de solutions pour engagements logiciels sur mesure couvrant backend, frontend et mobile. Direction de la découverte technique, conception d'architecture et livraison pour clients d'entreprise.",
+        description: "Développeur sénior pour engagements logiciels sur mesure couvrant backend, frontend et mobile. Direction de la découverte technique, conception d'architecture et livraison pour clients d'entreprise.",
         bullets: [
           "CAE PreStudy : Architecture de bout en bout couvrant backend Spring, frontend Angular et iOS natif pour formation des pilotes d'aviation",
           "Acosta SLTouch : Construction d'une application mobile hybride et framework pour l'analytique de détail avec BackboneJS/MarionetteJS et Node.js",
@@ -647,7 +647,7 @@ const variants = [
       },
       {
         company: "Accovia",
-        title: "Développeur Java back-end",
+        title: "Développeur Java back-end sénior",
         dates: "2007 — 2009",
         bullets: [
           "Redressement de plateforme : Membre de l'équipe d'architecture du projet Ibiza — reconstruction de la plateforme de voyage avec Java/Spring/Hibernate après crise client",
@@ -674,7 +674,7 @@ const variants = [
   {
     id: "iOS-FR",
     name: "Claude Houle",
-    title: "Lead développeur iOS & Architecte mobile",
+    title: "Développeur iOS sénior",
     email: "claude.houle@gmail.com",
     web: "choule99.github.io/me",
     location: "Montréal, QC",
@@ -690,15 +690,15 @@ const variants = [
       degree: "Technique de l'informatique",
       school: "Collège Édouard-Montpetit, Longueuil",
       dates: "2003",
-      description: "Diplôme d'études collégiales (DEC) de trois ans couvrant le C, C++, Java, SQL, Linux et l'informatique appliquée.",
+      description: "Diplôme d'études collégiales (DEC) de trois ans couvrant le C, C++, JavaScript, SQL, Linux et l'informatique appliquée.",
       capstone: "Projet de fin d'études : Réalisation technique d'un site Internet (e-commerce) pour une entreprise.",
     },
-    summary: "Développeur iOS avec plus de 15 ans sur les plateformes Apple et totalisant plus de 23 ans d'expérience en développement logiciel. Je me spécialise dans la création de produits mobiles fiables et évolutifs — de l'architecture de bibliothèques partagées au pilotage technique d'équipes distribuées. Passionné par la qualité du code, l'automatisation CI/CD et l'adoption de technologies émergentes comme visionOS, je transforme les visions technologiques en solutions concrètes, durables et centrées sur l'utilisateur.",
+    summary: "Ingénieur iOS sénior avec une expérience approfondie dans la création de produits mobiles fiables et évolutifs sur les plateformes Apple. Passionné par la qualité du code, l'automatisation CI/CD et les technologies émergentes comme visionOS, avec un accent marqué sur la stabilité, les tests et une architecture pragmatique.",
     accomplishments: [
       "Stabilisé une base de code Swift de 450 000 lignes (200 000 DAU) : Atteint un taux de sessions sans incident de 99,999 % et accéléré la cadence de mise en production de 1/semaine à 4/jour.",
       "Conçu et livré une application native visionOS sélectionnée par Apple pour l'obtention d'un Vision Pro Dev Kit ; lancée en tant que 1re solution pour travailleurs connectés sur l'App Store visionOS.",
       "Automatisé les déploiements App Store de bout en bout : Augmentation de la cadence de mise en production de 1/semaine à 4/jour et accélération de la compilation CI de 50 %.",
-      "Accéléré la montée en compétence de 20 développeurs à l'international via un programme de formation sur mesure — équipe opérationnelle en 3 mois.",
+      "Mentorat technique et revues de code pour 20 développeurs intégrés à l'international — équipe opérationnelle en 3 mois.",
       "Conçu une bibliothèque de composants iOS partagée, standardisant les pratiques et accélérant la livraison de plus de 15 projets clients.",
     ],
     skills: [
@@ -712,21 +712,21 @@ const variants = [
       { label: "Outils", items: ["Xcode", "Instruments (Profiling)", "Firebase", "Sentry", "Git"] },
       { label: "IA Générative", items: ["Claude (accélération code & tests)"] },
       { section: "Leadership & Méthodologies" },
-      { label: "Leadership", items: ["Mentorat", "Code Review", "Standardisation de code", "Recrutement technique"] },
+      { label: "Leadership", items: ["Mentorat", "Code Review", "Standardisation de code"] },
       { label: "Méthodes", items: ["Agile (Scrum/Kanban)", "TDD", "Intégration continue"] },
       { label: "Langues", items: ["Français et Anglais (parfaitement bilingue)"] },
     ],
     experience: [
       {
         company: "Poka Inc.",
-        title: "Architecte, Lead iOS & VisionOS",
+        title: "Lead développeur, iOS & VisionOS",
         dates: "2021 — Présent",
-        description: "Architecte et leader technique d'une plateforme de référence pour travailleurs connectés servant quotidiennement plus de 200 000 utilisateurs actifs. J'assure l'évolution vers des architectures modernes (SwiftUI, Combine) et la maintenance du legacy (Obj-C), tout en garantissant une stabilité critique de 99,999 %.",
+        description: "Développeur sénior d'une plateforme de référence pour travailleurs connectés servant quotidiennement plus de 200 000 utilisateurs actifs. Pilotage de l'évolution vers des architectures modernes (SwiftUI, Combine) et maintenance du legacy (Obj-C), tout en garantissant une stabilité critique de 99,999 %.",
         bullets: [
           "Innovation visionOS : Encadrement complet du développement de la 1re solution industrielle sur l'App Store visionOS (obtention du Vision Pro Dev Kit après revue par Apple)",
           "Excellence opérationnelle : Refactorisation majeure ayant augmenté le taux de stabilité à 99,999 % et doublé la couverture de tests (de 30 % à 60 %)",
           "Performance CI/CD : Migration du pipeline sur MacStadium, accélérant la compilation de 50 % et permettant de passer de 1 à 4 mises en production quotidiennes",
-          "Leadership d'équipe : Recrutement et formation sur mesure d'une équipe distribuée de 20 développeurs à l'international, opérationnelle en seulement 3 mois",
+          "Mentorat technique : Mentorat technique et revues de code pour une équipe distribuée de 20 développeurs à l'international — opérationnelle en 3 mois",
           "Intégration de l'IA : Optimisation des flux de travail via l'adoption d'outils d'IA générative (Claude, Warp), réduisant le temps de développement de 10 %",
         ],
       },
@@ -744,9 +744,9 @@ const variants = [
       },
       {
         company: "Spiria Digital",
-        title: "Développeur iOS sénior & Architecte",
+        title: "Développeur iOS sénior",
         dates: "2013 — 2019",
-        description: "Architecte responsable de la conception et de l'évolution de solutions mobiles sur mesure pour des clients d'envergure. J'ai piloté l'aspect technique de projets critiques, de la définition des exigences jusqu'à la mise en marché.",
+        description: "Développeur sénior responsable de la conception et de l'évolution de solutions mobiles sur mesure pour des clients d'envergure. Pilotage de l'aspect technique de projets critiques, de la définition des exigences jusqu'à la mise en marché.",
         bullets: [
           "CAE PreStudy : Architecture et développement de bout en bout d'une application native iOS destinée à la formation haute performance des pilotes d'aviation",
           "Payfare (DiDi/Lyft) : Développement des clients mobiles pour une plateforme de paiement en temps réel pour les acteurs des services de mobilité et de transport (économie collaborative)",
@@ -766,7 +766,7 @@ const variants = [
       },
       {
         company: "Accovia",
-        title: "Développeur Java back-end",
+        title: "Développeur Java back-end sénior",
         dates: "2007 — 2009",
         bullets: [
           "Contribution au redressement et à la reconstruction complète de la plateforme Ibiza (Java, Spring, Hibernate) suite à des enjeux clients critiques",
@@ -809,14 +809,14 @@ const variants = [
       degree: "Technique de l'informatique",
       school: "Collège Édouard-Montpetit, Longueuil",
       dates: "2003",
-      description: "Diplôme d'études collégiales (DEC) de trois ans couvrant le C, C++, Java, SQL, Linux et l'informatique appliquée.",
+      description: "Diplôme d'études collégiales (DEC) de trois ans couvrant le C, C++, JavaScript, SQL, Linux et l'informatique appliquée.",
       capstone: "Projet de fin d'études : Réalisation technique d'un site Internet (e-commerce) pour une entreprise.",
     },
-    summary: "Architecte logiciel avec plus de 23 ans d'expérience pratique dans la conception et la livraison de systèmes backend, mobiles et web. Leadership éprouvé en architecture de solutions, transformation d'équipes, mentorat et collaboration interfonctionnelle. Combine une vaste expertise technique avec une approche orientée produit pour aligner l'ingénierie avec les objectifs d'affaires.",
+    summary: "Architecte logiciel sénior avec une expérience approfondie dans la conception et la livraison de systèmes backend, mobiles et web. Combine une vaste expertise technique avec une approche orientée produit — alignant l'ingénierie avec les objectifs d'affaires à travers une architecture pragmatique, le mentorat et la collaboration interfonctionnelle.",
     accomplishments: [
       "Transformé une équipe iOS de 8 personnes en une unité hautement performante — taux sans plantage à 99,999 %, déploiements de 1/semaine à 4/jour, vitesse de compilation améliorée de 50 %",
       "Dirigé l'architecture d'une application native visionOS — 1re solution pour travailleurs connectés sur l'App Store visionOS, obtention d'un Apple Vision Pro Dev Kit",
-      "Intégré 20 développeurs à l'international — conçu un programme de formation et bâti une culture collaborative à travers les fuseaux horaires, productifs en 3 mois",
+      "Mentorat technique, programme de formation sur mesure et revues de code inter-fuseaux pour 20 développeurs intégrés à l'international — productifs en 3 mois",
       "Conçu la plateforme de formation des pilotes de CAE de bout en bout : backend Spring, frontend Angular et client iOS natif",
       "Livré la reconstruction de la plateforme Ibiza d'Accovia dans les délais et le budget après un redressement client critique — en tant que membre de l'équipe d'architecture",
     ],
@@ -843,7 +843,7 @@ const variants = [
         description: "Architecte technique d'une plateforme pour travailleurs connectés servant plus de 200 000 utilisateurs actifs quotidiens. Direction de l'évolution architecturale, transformation d'équipe et alignement interfonctionnel sur une base de code de 450K lignes.",
         bullets: [
           "Leadership architectural : Introduction d'outils internes, bibliothèques réutilisables et pratiques standardisées — stabilité portée à 99,999 %",
-          "Montée en compétence : Intégration de 20 développeurs à l'international avec programme de formation sur mesure et revues de code inter-fuseaux — opérationnels en 3 mois",
+          "Mentorat technique : Mentorat technique, programme de formation sur mesure et revues de code inter-fuseaux pour 20 développeurs intégrés à l'international — opérationnels en 3 mois",
           "Alignement interfonctionnel : Création de ponts entre ingénierie, gestion de produit et design UX ; établissement de flux de collaboration alignant solutions techniques et objectifs d'affaires",
           "Architecture CI/CD : Automatisation complète des déploiements App Store ; cadence portée de 1/semaine à 4/jour, compilation accélérée de 50 %",
           "Qualité logicielle : Couverture de tests portée de 30 % à 60 % en quatre ans via initiative incrémentale parallèle à la modernisation architecturale",
@@ -877,7 +877,7 @@ const variants = [
         company: "8D Technologies",
         title: "Développeur Java back-end → Développeur iOS",
         dates: "2009 — 2013",
-        description: "Pionnier de l'architecture pour la mobilité urbaine (Bixi) au sein d'une équipe alliant logiciel et matériel. Conception de systèmes pour déploiements à l'échelle des villes sous contraintes réelles.",
+        description: "Pionnier du logiciel de mobilité urbaine (Bixi) au sein d'une équipe alliant logiciel et matériel. Conception de systèmes pour déploiements à l'échelle des villes sous contraintes réelles.",
         bullets: [
           "Architecture système : Démarrage dans l'équipe backend Java ; transition vers iOS avec expertise backend créant un pont entre les couches d'architecture",
           "Solutions de scalabilité : Conception de solutions pour les contraintes de connectivité et performance des déploiements de Londres et New York",
